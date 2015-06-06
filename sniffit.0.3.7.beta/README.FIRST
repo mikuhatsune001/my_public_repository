@@ -1,0 +1,669 @@
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+*                         Sniffit V.0.3.7 Beta                                *
+#                          By Brecht Claerhout                                #
+*                                                                             *
+#  This program is intended to demonstrate the unsafeness of TCP (currently)  #
+*                 No illegal activities are encouraged!                       *
+#                     Please read the LICENSE file                            #
+*                                                                             *
+#  Sniffit grew a little upon it's original intentions and is now             #
+*  extended for network debugging (UDP, ICMP, netload, etc.)                  *
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+*                          Libpcap library                                    *
+#      This product includes software developed by the Computer Systems       #
+*           Engineering Group at Lawrence Berkeley Laboratory.                *
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+
+0. Introduction, and some stuff you should know.
+        0.1 Credits and contact
+        0.2 Compiling
+        0.3 License	
+1. Programmers notes
+	excuses for my incompetence
+2. Use of the program
+	flags and examples
+3. Extra info on use 
+        3.1 Running interactive mode
+	3.2 Forcing network devices   (*READ*)
+	3.3 Format of the config file
+	3.4 Loglevels
+4. The output
+	4.1 Normal
+	4.2 Logfile
+5. IMPORTANT NOTES, READ!
+	this also!
+
+------------------------------------------------------------------------------
+
+0. Introduction, and some stuff you should know.
+------------------------------------------------
+
+0.3.7 (Beta). It has been a while I know. But this year has been a hell, last 
+year of uni, projects, thesis, .... it didn't stop. Well that is behind us 
+now, the most important thing, is that I'm back working on the program again, 
+and intend to keep on doing it.
+
+I hope you enjoy this beta version. Like always, I removed some bugs. There
+is a new 'logging' feature. It is now possible to record traffic with
+Sniffit and process it later! (it is completely different from te logging
+done in the 0.3.6 version, that is known to some hardcore Sniffit users)
+Please take a minute to skim through the text and read the passages marked
+with a '*', these are the new features.
+(Please read BETA-TESTING)
+
+I use the libpcap library developped at Berkeley Laboratory, for easy 
+porting (Read the licence).
+
+0.1 Credits and contact
+-----------------------
+
+Credits go to (in order of apperance on the Sniffit scene): 
+    Wim Vandeputte <wvdputte@reptile.rug.ac.be>, 
+		   best friend and UNIX guru, for support, testing and
+                   providing me with a WWW site.
+    Godmar Back, for fixing that kernel 1.2.X bug (Sniffit 0.1.X).
+    Peter Kooiman, of Paradigm Systems Technology for providing the
+                   facilities to port Sniffit, and for the endless testing
+                   (although he laughs this away with "no big deal, I
+                   don't need no credits").
+                   Without him, there would have been no ports at all.
+    Brooke Paul, for providing me with an SGI account.
+    Qing Long, for the bash/zsh libpcap/configure script.
+    Guy Gustavson, for giving me a FreeBSD account.
+    Woju <woju@freebsd.ee.ntu.edu.tw>, for the ncurses SunOS/FreeBSD fixing,
+                                       and for his other effords.
+    Amlan Saha <eng40607@nus.sg>, for adding Packet Generation to 
+               Sniffit, and adding other features (not implemented yet).
+               I'm sure that in the near future you will see more of his 
+               work in Sniffit.
+    Shudoh Kazuyuki, for changing getaddrbyname() and improving the 
+                     config-file interpreting.
+    Fyodor <fyodor@dhp.com>, for pointing out the hidious small 
+           fragments problem. 
+    David O'Brien <obrien@nuxi.com>, for netbsd information.
+    everybody, who ever mailed me with sugestions help, etc...
+
+Also a big thanks to my Beta testers (alphabetically, I hope)... 
+    Charles G Stuart      <charles.stuart@juno.com>         IRIX / RedHat LINUX
+    Patrick Schoppenhorst <pschoppe@thumper.indianapolis.sgi.com>          IRIX
+    Shahid Mahmood        <smahmood@hns.com>            Slackware LINUX / SunOS
+    Stephen Hillier       <shillier@tuns.ca>                       RedHat LINUX
+
+    And many others who wish to be anonymous....
+
+Sugestions and comments can be sent to:
+  coder@reptile.rug.ac.be
+
+  Brecht Claerhout
+  Meulebeeksestw. 51
+  8700 Tielt
+  Belgium
+
+The original distribution program can be optained from (my site):
+  http://sniffit.rug.ac.be/sniffit/sniffit.html
+
+MIND YOU: this program is ran as root, and thus could easily contain
+          dangerous trojans. If you get it from the above site you can
+          safely compile and use it.
+          (no trojan versions are discovered yet.. it's just a warning)
+
+0.2 Compiling
+-------------
+
+Just type 'configure' and then 'make' (if configure made it without errors).
+Mind you, you can still modify some things in the 'sn_config.h' file, but 
+by default all sections that can be added on your system are added.
+
+IMPORTANT NOTES:
+  1. This source code has only been tested with GNU versions of make/C 
+     compiler. (i.e. don't come complaining to me if your 'native' system
+     compiler screws up, use GNU!)
+  2. curses IS NOT equal to ncurses.  
+     (ncurses is available at your local sunsite mirror.)
+  3. READ THE FAQ when experiencing problems.
+
+Other stuff....
+make clean  : cleans all directories for a compiling from scratch
+
+0.3 License (this is a copy of the LICENSE file)
+-----------
+
+Sniffit 0.3.7 Copyright (c) 1996-1998 Brecht Claerhout
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+4. Redistribution of source code must be conform with the 'libpcap'
+   copyright conditions, if that library is included.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+1. Programmers notes
+--------------------
+
+I wasn't educated to be a programmer, so I write lousy code. Please forgive
+me. 
+
+Still I note the use of shared memory, with Linux you should take extra 
+care when recompiling your kernel! Answer YES to 'System V IPC 
+(CONFIG_SYSVIPC) [y]'.
+
+2. Use of the program
+---------------------
+
+(The man pages have detailed info on what parameters you can mix)
+(* indicates New Features)
+
+Options:
+ONE of these is required!
+
+  -v                Show version and exit (just added because it's such a
+                    wide spread option)
+  -t <IP nr/name>   tells the sniffer to check out packets GOING TO <IP>
+  -s <IP nr/name>   tells the sniffer to check out packets COMMING FROM <IP>
+                    You can use the '@' wildcard (only IP NUMBERS of course).
+                    e.g. -t 199.145.@
+                         -t 199.14@
+                    mind you -t @ is also a valid option.
+  -i                Interactive mode, overrides all other options
+* -I                Extended Interactive mode, overrides all other options
+*                   Much more fun then -i, watch and enjoy...
+*                   (best viewed in a xterm that is stretched wide...)
+  -c <file>         Use <file> as a config file for Sniffit
+                    See 3.3 for format of the config file.
+
+  NOTE: -t or -s only apply to TCP and UDP  packages, ICMP, IP packages 
+        are ALL interpreted.
+        Also, any selection on ports, -p only applies to TCP, UDP packages.
+
+Parameters for all modes:
+  -F <device>  force sniffit to use a network device 
+	       (READ 3.2 ON THIS SUBJECT, IMPORTANT)
+  -n           Turn  of  IP  checksum  checking. This can show you
+               bogus packets.  (mind you ARP, RARP,  other  non-IP
+               packets  will  show  up bogus too) (compatible with
+               ALL options)
+  -N	       Disables all functions that Sniffit has build in, usefull 
+               for wanting to run ONLY a plugin
+
+Parameters for not running in -i:
+  -b            does both -t and -s, doesn't mather what function you used 
+                (-t or -s)
+  -d            Dump mode, shows the packets on the screen in bytes (not 
+                like tcpdump). For test purposes. (numbers are hex)
+  -a            same of '-d' but outputs ASCII. 
+  -x            Prints extended info on TCP packets (SEQ numbers, ACK, Flags)
+	        Like SEQ, ACK, the flags, etc... (works wit '-a', '-d', '-s', 
+	        '-t', '-b' or on its own.)
+                (Mind you it is always shown on stdout, so not logged when 
+                using '-t', '-s', '-b' without another parameter)
+* -R <file>     Record all traffic in <file>
+*               This file can then be fed to Sniffit with the '-r' option.  
+* -r <file>     This option feeds the recorded <file> to Sniffit. This
+*               option requires the '-F' option with the correct device.
+*               Suppose you log a file on a machine with 'eth0'. When
+*               feeding the logged file to sniffit, you will need to add '-F eth0'
+*               or '-F eth' to the command line.
+*               It doesn't need much explanation that using '-i' or '-I'
+*               in combination with '-r' makes no sense (at this moment).
+  -A <char>     When in logging mode, all non-printable chars will be 
+                replaced by <char>. (see note below 4.The output)
+  -P protocol   specify the protocols examined (default TCP)
+	        possible options currently are: IP, TCP, ICMP, UDP
+	        They can be combined.
+  -p <port>     Logs connections on port <port>, 0 means all ports, default 
+                is 0 (all), look out with that on loaded nets!
+  -l <length>   Ammount of information to log (default 300 bytes). 
+                Length 0 logs everything. (look out with diskspace when 
+                logging everything!)
+  -M <Plugin>   Activate Plugin nr. <Plugin>, for a list on all plugins 
+                compiled in your version, just type 'sniffit'.
+                Read all about Plugins in the PLUGIN-HOWTO (READ IT!)
+
+Parameters with -i,-I:
+  -D <device>   All logging output will be send to that device.
+                It's cool to get the same IRC screen as the guy y'r 
+                sniffing upon ;-)
+
+Parameters with -c:
+* -L <logparam> enable logging with <logparam> as 'loglevel'
+*               'loglevels' were not flexible enough I think, so I changed 
+*               the system to 'logparameters'. 
+*               <logparam> can be a concatenation of any of these words:
+*
+*               raw   : Raw level
+*               norm  : Normal level
+*               telnet: Log passwords (login port 23)
+*               ftp   : Log passwords (ftp port 21)
+*               mail  : Log mailinfo (mail port 25)
+*               e.g 'ftpmailnorm' would be a valid <logparam>
+*               (see '2. The Output' for more info)
+ 
+
+Some examples:
+  Imagine the following setup: 2 hosts on a subnet, one is running the 
+  sniffer (sniffit.com), the otherone is 66.66.66.7 (target.com).
+    1. You want to test if the sniffer is working:
+       sniffit:~/# sniffit -d -p 7 -t 66.66.66.7
+       and in another window:
+       sniffit:~/$ telnet target.com 7
+       you should see the sniffer giving you packets as you telnet to 
+       the 'echo' service. 
+    2. I want to log some passwords from people on 66.66.66.7:
+       sniffit:~/# sniffit -p 23 -t 66.66.66.7
+    3. Root of target.com tells me he gets strange ftp connections and 
+       wants to find out the commands typed:
+       sniffit:~/# sniffit -p 21 -l 0 -t 66.66.66.7
+    4. You want to read all incomming and outgoing mail on target.com:
+       sniffit:~/# sniffit -p 25 -l 0 -b -t 66.66.66.7 &
+       or
+       sniffit:~/# sniffit -p 25 -l 0 -b -s 66.66.66.7 &
+    5. You want to use the menu based interface.
+       sniffit:~/# sniffit -i
+    6. Something is really wrong and you want to see the Control Messages
+       with error codes.
+       sniffit:~/# sniffit -P icmp -b -s 66.66.66.7
+    7. Go wild on scrolling the screen.
+       sniffit:~/# sniffit -P ip -P icmp -P tcp -p 0 -b -a -d -x -s 
+                   66.66.66.7
+       witch is the same as
+       sniffit:~/# sniffit -P ipicmptcp -p 0 -b -a -d -x -s 66.66.66.7
+    8. Log passwords in that way you can read them with 'more 66*'
+       sniffit:~/# sniffit -p 23 -A . -t 66.66.66.7
+       or
+       sniffit:~/# sniffit -p 23 -A ^ -t dummy.net
+    9. This could go on for ever..............
+
+
+
+3. Extra info on use 
+-------------------- 
+
+3.1 Running interactive mode
+----------------------------
+When running in interactive mode:
+
+UP or 'k' : self explanatory
+DOWN or j': self explanatory
+F1 or '1' : Enter a host (enter 'all' for no mask) for packet filtering 
+            (host that sends the packets)
+F2 or '2' : Enter a host (enter 'all' for no mask) for packet filtering.
+            (host that receives the packets)
+F3 or '3' : Enter a port (enter '0' for no mask) for packet filtering.
+            (host that sends the packets)
+F4 or '4' : Enter a port (enter '0' for no mask) for packet filtering.
+            (host that receives the packets)
+F5 or '5' : Start a program 'sniffit_key5' with arguments
+            <from IP> <from port> <to IP> <to port>
+	    If the program doesn't exist, nothing is done. Sniffit should 
+	    be in the same path as sniffit was STARTED FROM (not necessarely 
+	    the path sniffit is stored in) 
+	    This is usefull for interactive connection killing or extra 
+	    monitoring. A little shell script can always transform the 
+            arguments given and pass them on to other programs.
+F6 or '6' : Same as F5 or '5', but with program 'sniffit_key6'
+F7 or '7' : Same as F5 or '5', but with program 'sniffit_key7'
+F8 or '8' : Same as F5 or '5', but with program 'sniffit_key8'
+ENTER     : a window will pop up and log the connection, or the connection 
+            output will be send at a chosen device if you used the '-D' 
+            option.
+'q'       : When in logging mode, stop logging. Otherwise, quit.
+'n'       : Toggle netstatistics. These are sampled at 3 secs, look in 
+            the config.h file to change this (could be needed if y'r 
+            computer is slow).
+'g'       : Generate Packets!
+            Sniffit is now able to generate some trafic load. Currently 
+            this is a 'underdevelloped' feature with very few options, 
+            but it will be expanded a lot...
+ 	    Currently only UDP packets are generated. When pressing 'G' 
+            you will be asked the source/dest IP/port and how much packets 
+            are needed to be transmitted.
+            Packets contain the line: "This Packet was fired with Sniffit!"  
+'r'       : Reset.. clears all current connections from memory and restarts. 
+
+
+3.2 Forcing network devices   (*READ*)
+--------------------------------------
+
+NOTE: the correct name (for sniffit) of a device can be found by running 
+      'ifconfig', 'route', ...
+
+When forcing network devices, sniffit tries to find out what device it is. 
+If sniffit recognises the name, everything is okay. 
+If it does not recognise the name it will set the variable 
+FORCED_HEAD_LENGHTH to the ethernet headlength. The ethernet headlength 
+is the length in bytes of an ethernet packet hearder. 
+So if you have to force a non-ethernet device, that is not recognised by 
+sniffit, make sure you change that headlength correctly in the 'sn_config.h' 
+file.
+
+The -F option was added, because I noticed devicenames can differ from 
+system to system, and because some ppl have multiple devices present.
+When having problems with this option, please think twice before you mail me.
+
+e.g: sniffit -F eth1 -t foobar.com -dx
+ 
+Notice you don't have to add /dev/ (some ppl mentioned me this was not 
+completely clear).
+
+
+3.3 Format of the config file
+-----------------------------
+
+The configfile should have lines with the following format:
+<field1> <field2> <field3> <field4> [<field5>]
+(seperators are spaces (any number of), NO TABS!!!)
+
+Lines that don't match this pattern are discarded, so standard unix
+comments '#' can be used in this file... (this also means that if you
+have a typo there, Sniffit won't report it but just discard the line)
+* Be sure to end the file with a blank line. If you don't do so, the last
+* line of the command file will be ignored.
+
+(read this list, even if you don't get it at first, it will become clear
+in the examples)
+
+<field1> can be:
+   select      : Sniffit will look for packets that match the following
+                 description (other fields)
+   deselect    : Sniffit will ignore packets that match the description
+   logfile     : change the logfile name to <field2> instead of the
+                 default 'sniffit.log'
+
+<field2> can be:
+   from        : Packets FROM the host matching the following desc. are
+                 considered
+   to          : similar, Packets TO the....
+   both        : similar, Packets FROM or TO the....
+   a filename  : as an argument of 'logfile' in <field1>
+
+<field3> can be:
+   host        : The (de)selection criteria involves a hostname.
+   port        : similar, ... a portnumber
+   mhosts      : The (de)selection criteria involves multiple-hosts, like
+                 with the wildcars in 0.3.0, but without the 'x'
+
+<field4> can be:
+*  either a hostname, a portnumber, a service name or a numbet-dot partial 
+*  notation indicating multiple hosts depending on <field3>
+*  (service names like 'ftp' are resolved as the services available 
+*  present on the host that runs Sniffit, and translated into a port nr)
+
+<field5> can be:
+   a portnumber or service name, if <field3> was 'host' or 'mhosts'
+
+
+  Maybe it would have been wise to mention explicitely, that the config-file
+  currently only works with TCP packets.
+ 
+examples:
+
+1. Look at this configuration file:
+        select from host 100.100.12.2
+        select from host 100.100.12.3 1400
+        select to host coder.sniffit.com
+        select both port 23
+    This file would cause Sniffit to give you the packets:
+        a) Send by host 100.100.12.2
+        b) Send by host 100.100.12.3 from port 1400
+        c) Send to coder.sniffit.com
+        d) All packets on our subnet going to or comming from a telnet port.
+
+2. another example:
+        select both mhosts 100.100.12.
+        deselect both port 80
+        select both host enemy.sniffit.com
+    This file would cause Sniffit to give you the packets:
+        a) Send by hosts '100.100.12.*'
+        b) EXCEPT the WWW packets
+        c) BUT showing the WWW packets concerning enemy.sniffit.com
+
+   The config file in interpreted SEQUENTIAL, so mixing up those lines
+   could have unwanted results e.g.:
+        select both mhosts 100.100.12.
+        select both host enemy.sniffit.org
+        deselect both port 80
+    This will give you the packets:
+        a) Send by hosts '100.100.12.*'
+        b) Send from/to enemy.sniffit.org
+        c) deselecting all WWW packets on the subnet
+   So if someone on enemy.sniffit.org is netscaping (assuming his 'target'
+   has his httpd installed on port 80), you would see the packets with
+   the first config file, BUT NOT with the second file, and that could
+   spoil y'r fun when he's surfing to some kinky page.
+
+3. example:
+        select both mhosts 1
+        select both mhosts 2
+        deselect both mhosts 1 80
+        deselect both mhosts 2 80
+   This would show you all subnet trafic excluding WWW trafic
+   (concerning port 80.)
+
+4. example:
+*       select both host target.com 21
+*  and  
+*       select both host target.com ftp
+*  are equal configurations.
+   
+
+NOTE: Everything is DESELECTED by default, so an empty config file will
+      get you nothing.
+
+
+3.4 Loglevels
+-------------
+
+* The system of loglevels was not flexible enough, so I changed it. I expect
+* you will like it more this way.
+*
+* Loglevels are now activated by '-L <logparam>'.
+* The folowing <logparam>'s are valid (concatenation is alowed):
+*
+* 'raw':
+*    Log all SYN, FIN, RST packets. This will give you an overview of
+*    all network (TCP) trafic in a 'RAW' way (a connection starting could
+*    gives you at least 2 SYN packets, etc...).
+*    This is a great way to waste diskspace...
+*    Messages are:
+*                Connection initiated. (SYN)
+*                Connection ending. (FIN)
+*                Connection reset. (RST)
+*
+* 'norm' (levels 10-29)
+*    Same as 'raw', but a bit more intelligent. Unless packets are 
+*    transmitted multiple times because of packet loss, you will
+*    only get 1 notice of a connection starting or ending. (the packet id
+*    will state the host that initiated the connection first)
+* Messages are:
+*                Connection initiated.
+*                Connection closed.
+*
+* 'telnet':
+*    Sniffit will try to catch user and passwords for the telnet login 
+*    on port 23.
+*
+*    NOTE:
+*      We only try to catch the first attempt, so if someone fails the 
+*      first login, you will miss his password.
+*      A '~' in the login and passwords fields can be a nonprintable
+*      character (if in the beginning of a field, probably due to an early
+*      start of registration) or a '~'.
+*      This all makes it sound a little messy, but I 'testdrived' a lot and
+*      was pleased with the results after adding some funky shit (if y'r
+*      interested have a look at in function 'packethandler' in
+*      sniffit.*.c)
+* 
+* 'ftp':
+*    Sniffit will try to catch user and passwords for ftp sessions 
+*    on port 21.
+*
+*    NOTE:
+*      Easy catching. Even multiple tries are registered.
+*
+* 'mail':
+*    Interested in who writes mail to who? Well you get all senders and 
+*    recepients nicely logged with this feature (port 25 mail). 
+
+
+4. The output
+-------------
+
+4.1 Normal
+----------
+
+ - IP header info (not logged, displayed):
+
+   Examples:
+     
+     from 100.100.60.80 to 100.100.69.63
+     IP Packet precedence: Routine   (-T-)
+     FLAGS: -- --     Time to live (secs): 59
+     Protocol (6): TCP
+
+     from 100.100.69.31 to 100.100.69.63
+     IP Packet precedence: Routine   (---)
+     FLAGS: -- --     Time to live (secs): 60
+     Protocol (17): UDP
+
+     from 100.100.69.51 to 100.100.69.63
+     IP Packet precedence: Routine   (---)
+     FLAGS: -- --     Time to live (secs): 255
+     Protocol (1): ICMP
+
+   explanation:
+
+   Precedence can be: 
+     Routine, Priority, Immediate, Flash, Flash override, Critical, 
+     Internetwork Control, Network control
+   The Flags between brackets: (DTR) Delay-Throughput-reliability
+   FLAGS: DF MF    DF=Don't Fragment    MF=More Fragments      
+
+ - TCP Packets (logged or displayed):
+
+   The sniffer logs the data in ascii format. So when logging telnet 
+   connections, you will need to use 'joe' or something else that can 
+   support control chars (look for '-A <char>' below).
+   Telnet 'negotiates' (binary) in the beginning of every connection, and 
+   'catting' a output file, will most of the time show nothing (due to 
+   control chars).
+   Of course when logging mail, there are no problems.
+   The new '-A <char>' takes care of the control characters, that way you 
+   will be able to read the logfiles with 'more', 'vi', etc...
+
+   -a and -d give you raw packets i.e. not unwrapped, on the screen 
+   (nothing is logged), -x gives you more info on the TCP package 
+   (everything is still logged unless using -a or -d mode), 
+   The flags are:
+      U: Urgent pointer significant 
+      A: Acknowledgement is signif (will be shown)
+      P: Push function
+      R: Reset the connection
+      S: Synchronizes sequence numbers
+      F: No more data from sender (end connection) 
+
+  Filenames Created:
+  Imagine a subnet with the hosts 66.66.66.66 and 66.66.66.7, and we 
+  run a sniffer on the first.
+  The sniffer creates the following files:
+    When logging packets TO host 66.66.66.7 (-t 66.66.66.7) files like 
+    77.77.7.7.15000-66.66.66.7.23 are created, when the data CAME FROM 
+    host 77.77.7.7-15000 (with 15000 port used on 77.77.7.7 for that 
+    connection, and received on port 23 of 66.66.66.7)
+
+    When logging packets FROM host 66.66.66.7 (-s 66.66.66.7) files 
+    like 66.66.66.7.15000-77.77.7.7-23 are created, when the data 
+    GOES TO host 77.77.7.7 (with 15000 port used on 66.66.66.7 for 
+    that connection)
+
+
+- ICMP Packets (not logged, displayed):
+
+  On host 100.100.69.63 someone tried 'telnet 100.100.23.23'
+  Suppose this host is unreachable, this could be a possible output:
+
+    ICMP message id: 100.100.69.254 > 100.100.69.63
+      ICMP type: Destination unreachable
+      Error: Host unreachable
+    ICMP message concerned following IP packet:
+    from 100.100.69.63 to 100.100.23.23
+    IP Packet precedence: Routine   (---)
+    FLAGS: -- --     Time to live (secs): 63
+    Protocol (6): TCP
+
+
+- UDP Packets (not logged, displayed)
+
+  You get the package id. When using -d, -a you get the contence of the 
+  package. (pretty basic)
+
+
+4.2 Logfile
+-----------
+
+If you use a configfile (-c) and enable the Logging option a logfile is
+created. Unless you set 'logfile' in the config file, that file will be
+named 'sniffit.log'.
+It will contain lines with the following FIXED format:
+1) Date                       - Connection id.: message
+   e.g. [Mon Aug 19 22:38:56 1996] - 100.100.10.10.1046-110.110.11.11.23:
+        Connection initiated.
+        (conn. init. on the same line as the rest)
+
+2) Except the starting line and the ending line of each session, they are:
+
+   [Mon Aug 19 22:38:51 1996] - Sniffit session started.
+   [Mon Aug 19 22:39:44 1996] - Sniffit session ended.
+
+3) Lines containing other data (future versions), will NOT begin with '['
+   and will have also easily interpretable formats.
+   Other data is e.g. packet contence
+
+I do this because I can imagine (when this is more expanded) that people
+will use their own parsers for these logfiles. Well, if you respect those 3
+rules, your parser will work on all future versions of Sniffit.
+
+
+5. IMPORTANT NOTES, READ!
+-------------------------
+
+First of all, some stuff people who use this program should already know, 
+if you don't, well here ya got it:
+
+Some other notes:
+ 
+  - Sniffers can only be run by ROOT
+  - Sniffers can only log packets that 'travel' on THEIR ethernetcable.
+    So there has to be some host on your subnet involved (either as 
+    sender or receiver).
+  - Working with '-d' or '-a' give you raw packets, they are still 
+    packed in IP, when logging to files, only send data is logged, 
+    the packets are 'unwrapped'.
+  - Sniffers can NORMALY not be detected by outsiders (or outsiders 
+    SHOULD not be able to...).
+    Unfortunately some systems contain bugs that will allow outsiders to 
+    probe your network device for PROMISC mode (which is a good indication 
+    for 'sniffer running')
+  - (LINUX) Your KERNEL should support System V IPC. 
+            If you will use '-i' or '-I'.
+  - (BSD systems) Your KERNEL should have BPF included.
+
+------------------------ Thx for using Sniffit(tm) ---------------------------

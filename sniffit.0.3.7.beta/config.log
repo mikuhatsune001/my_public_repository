@@ -1,0 +1,44 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:548: checking for gcc
+configure:625: checking whether the C compiler (gcc  ) works
+configure:639: gcc -o conftest    conftest.c  1>&5
+configure:659: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:664: checking whether we are using GNU C
+configure:673: gcc -E conftest.c
+configure:688: checking whether gcc accepts -g
+configure:719: checking for main in -lncurses
+configure:734: gcc -o conftest -g -O2   conftest.c -lncurses   1>&5
+/usr/bin/ld: cannot find -lncurses
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 727 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:768: checking for ncurses.h
+configure:818: checking for shmget
+configure:846: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:874: checking for atexit
+configure:902: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:928: checking size of unsigned short int
+configure:947: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:941: warning: incompatible implicit declaration of built-in function 'exit'
+configure:942: warning: format '%d' expects type 'int', but argument 3 has type 'long unsigned int'
+configure:972: checking size of unsigned long int
+configure:991: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:985: warning: incompatible implicit declaration of built-in function 'exit'
+configure:986: warning: format '%d' expects type 'int', but argument 3 has type 'long unsigned int'
+configure:1018: checking size of unsigned int
+configure:1037: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:1031: warning: incompatible implicit declaration of built-in function 'exit'
+configure:1032: warning: format '%d' expects type 'int', but argument 3 has type 'long unsigned int'
+configure:1096: checking host system type
+configure:1117: checking target system type
+configure:1135: checking build system type
