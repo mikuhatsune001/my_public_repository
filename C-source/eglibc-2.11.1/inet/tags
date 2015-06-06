@@ -1,0 +1,1373 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABORT	arpa/telnet.h	55;"	d
+ACCOUNT	ruserpass.c	56;"	d	file:
+ACK	arpa/tftp.h	46;"	d
+ADD_PARAMS	getaliasname.c	26;"	d	file:
+ADD_PARAMS	getaliasname_r.c	26;"	d	file:
+ADD_PARAMS	gethstbyad.c	26;"	d	file:
+ADD_PARAMS	gethstbyad_r.c	27;"	d	file:
+ADD_PARAMS	gethstbynm.c	31;"	d	file:
+ADD_PARAMS	gethstbynm2.c	31;"	d	file:
+ADD_PARAMS	gethstbynm2_r.c	31;"	d	file:
+ADD_PARAMS	gethstbynm_r.c	31;"	d	file:
+ADD_PARAMS	getnetbyad.c	27;"	d	file:
+ADD_PARAMS	getnetbyad_r.c	27;"	d	file:
+ADD_PARAMS	getnetbynm.c	26;"	d	file:
+ADD_PARAMS	getnetbynm_r.c	26;"	d	file:
+ADD_PARAMS	getproto.c	26;"	d	file:
+ADD_PARAMS	getproto_r.c	26;"	d	file:
+ADD_PARAMS	getprtname.c	26;"	d	file:
+ADD_PARAMS	getprtname_r.c	26;"	d	file:
+ADD_PARAMS	getrpcbyname.c	26;"	d	file:
+ADD_PARAMS	getrpcbyname_r.c	26;"	d	file:
+ADD_PARAMS	getrpcbynumber.c	26;"	d	file:
+ADD_PARAMS	getrpcbynumber_r.c	26;"	d	file:
+ADD_PARAMS	getsrvbynm.c	26;"	d	file:
+ADD_PARAMS	getsrvbynm_r.c	26;"	d	file:
+ADD_PARAMS	getsrvbypt.c	26;"	d	file:
+ADD_PARAMS	getsrvbypt_r.c	26;"	d	file:
+ADD_VARIABLES	getaliasname.c	27;"	d	file:
+ADD_VARIABLES	getaliasname_r.c	27;"	d	file:
+ADD_VARIABLES	gethstbyad.c	27;"	d	file:
+ADD_VARIABLES	gethstbyad_r.c	28;"	d	file:
+ADD_VARIABLES	gethstbynm.c	32;"	d	file:
+ADD_VARIABLES	gethstbynm2.c	32;"	d	file:
+ADD_VARIABLES	gethstbynm2_r.c	32;"	d	file:
+ADD_VARIABLES	gethstbynm_r.c	32;"	d	file:
+ADD_VARIABLES	getnetbyad.c	28;"	d	file:
+ADD_VARIABLES	getnetbyad_r.c	28;"	d	file:
+ADD_VARIABLES	getnetbynm.c	27;"	d	file:
+ADD_VARIABLES	getnetbynm_r.c	27;"	d	file:
+ADD_VARIABLES	getproto.c	27;"	d	file:
+ADD_VARIABLES	getproto_r.c	27;"	d	file:
+ADD_VARIABLES	getprtname.c	27;"	d	file:
+ADD_VARIABLES	getprtname_r.c	27;"	d	file:
+ADD_VARIABLES	getrpcbyname.c	27;"	d	file:
+ADD_VARIABLES	getrpcbyname_r.c	27;"	d	file:
+ADD_VARIABLES	getrpcbynumber.c	27;"	d	file:
+ADD_VARIABLES	getrpcbynumber_r.c	27;"	d	file:
+ADD_VARIABLES	getsrvbynm.c	27;"	d	file:
+ADD_VARIABLES	getsrvbynm_r.c	27;"	d	file:
+ADD_VARIABLES	getsrvbypt.c	27;"	d	file:
+ADD_VARIABLES	getsrvbypt_r.c	27;"	d	file:
+ANNOUNCE	protocols/talkd.h	93;"	d
+ANYADDR	protocols/timed.h	42;"	d
+AO	arpa/telnet.h	48;"	d
+AUTHTYPE_CNT	arpa/telnet.h	261;"	d
+AUTHTYPE_KERBEROS_V4	arpa/telnet.h	257;"	d
+AUTHTYPE_KERBEROS_V5	arpa/telnet.h	258;"	d
+AUTHTYPE_MINK	arpa/telnet.h	260;"	d
+AUTHTYPE_NAME	arpa/telnet.h	274;"	d
+AUTHTYPE_NAME_OK	arpa/telnet.h	273;"	d
+AUTHTYPE_NULL	arpa/telnet.h	256;"	d
+AUTHTYPE_SPX	arpa/telnet.h	259;"	d
+AUTHTYPE_TEST	arpa/telnet.h	263;"	d
+AUTH_HOW_MASK	arpa/telnet.h	254;"	d
+AUTH_HOW_MUTUAL	arpa/telnet.h	253;"	d
+AUTH_HOW_ONE_WAY	arpa/telnet.h	252;"	d
+AUTH_WHO_CLIENT	arpa/telnet.h	245;"	d
+AUTH_WHO_MASK	arpa/telnet.h	247;"	d
+AUTH_WHO_SERVER	arpa/telnet.h	246;"	d
+AYT	arpa/telnet.h	47;"	d
+BADADDR	protocols/talkd.h	103;"	d
+BADCTLADDR	protocols/talkd.h	104;"	d
+BADVERSION	protocols/talkd.h	102;"	d
+BLK_BYTECOUNT	arpa/ftp.h	103;"	d
+BLK_EOF	arpa/ftp.h	99;"	d
+BLK_EOR	arpa/ftp.h	98;"	d
+BLK_ERRORS	arpa/ftp.h	100;"	d
+BLK_RESTART	arpa/ftp.h	101;"	d
+BREAK	arpa/telnet.h	50;"	d
+BUFLEN	getaliasent.c	24;"	d	file:
+BUFLEN	getaliasname.c	28;"	d	file:
+BUFLEN	gethstbyad.c	28;"	d	file:
+BUFLEN	gethstbynm.c	33;"	d	file:
+BUFLEN	gethstbynm2.c	33;"	d	file:
+BUFLEN	gethstent.c	24;"	d	file:
+BUFLEN	getnetbyad.c	29;"	d	file:
+BUFLEN	getnetbynm.c	28;"	d	file:
+BUFLEN	getnetent.c	24;"	d	file:
+BUFLEN	getproto.c	28;"	d	file:
+BUFLEN	getprtent.c	24;"	d	file:
+BUFLEN	getprtname.c	28;"	d	file:
+BUFLEN	getrpcbyname.c	28;"	d	file:
+BUFLEN	getrpcbynumber.c	28;"	d	file:
+BUFLEN	getrpcent.c	24;"	d	file:
+BUFLEN	getservent.c	24;"	d	file:
+BUFLEN	getsrvbynm.c	28;"	d	file:
+BUFLEN	getsrvbypt.c	28;"	d	file:
+BUFSIZE	getnetgrent.c	27;"	d	file:
+CFLAGS-either_hton.c	Makefile	/^CFLAGS-either_hton.c = -fexceptions$/;"	m
+CFLAGS-either_ntoh.c	Makefile	/^CFLAGS-either_ntoh.c = -fexceptions$/;"	m
+CFLAGS-getaliasent.c	Makefile	/^CFLAGS-getaliasent.c = -fexceptions$/;"	m
+CFLAGS-getaliasent_r.c	Makefile	/^CFLAGS-getaliasent_r.c = -fexceptions$/;"	m
+CFLAGS-gethstbyad.c	Makefile	/^CFLAGS-gethstbyad.c = -fexceptions$/;"	m
+CFLAGS-gethstbyad_r.c	Makefile	/^CFLAGS-gethstbyad_r.c = -DUSE_NSCD=1 -fexceptions$/;"	m
+CFLAGS-gethstbynm.c	Makefile	/^CFLAGS-gethstbynm.c = -fexceptions$/;"	m
+CFLAGS-gethstbynm2.c	Makefile	/^CFLAGS-gethstbynm2.c = -fexceptions$/;"	m
+CFLAGS-gethstbynm2_r.c	Makefile	/^CFLAGS-gethstbynm2_r.c = -DUSE_NSCD=1 -fexceptions$/;"	m
+CFLAGS-gethstbynm_r.c	Makefile	/^CFLAGS-gethstbynm_r.c = -DUSE_NSCD=1 -fexceptions$/;"	m
+CFLAGS-gethstent.c	Makefile	/^CFLAGS-gethstent.c = -fexceptions$/;"	m
+CFLAGS-gethstent_r.c	Makefile	/^CFLAGS-gethstent_r.c = -fexceptions$/;"	m
+CFLAGS-getnetbyad.c	Makefile	/^CFLAGS-getnetbyad.c = -fexceptions$/;"	m
+CFLAGS-getnetbyad_r.c	Makefile	/^CFLAGS-getnetbyad_r.c = -fexceptions$/;"	m
+CFLAGS-getnetbynm.c	Makefile	/^CFLAGS-getnetbynm.c = -fexceptions$/;"	m
+CFLAGS-getnetbynm_r.c	Makefile	/^CFLAGS-getnetbynm_r.c = -fexceptions$/;"	m
+CFLAGS-getnetent.c	Makefile	/^CFLAGS-getnetent.c = -fexceptions$/;"	m
+CFLAGS-getnetent_r.c	Makefile	/^CFLAGS-getnetent_r.c = -fexceptions$/;"	m
+CFLAGS-getnetgrent.c	Makefile	/^CFLAGS-getnetgrent.c = -fexceptions$/;"	m
+CFLAGS-getnetgrent_r.c	Makefile	/^CFLAGS-getnetgrent_r.c = -fexceptions$/;"	m
+CFLAGS-getprtent.c	Makefile	/^CFLAGS-getprtent.c = -fexceptions$/;"	m
+CFLAGS-getprtent_r.c	Makefile	/^CFLAGS-getprtent_r.c = -fexceptions$/;"	m
+CFLAGS-getrpcent.c	Makefile	/^CFLAGS-getrpcent.c = -fexceptions$/;"	m
+CFLAGS-getrpcent_r.c	Makefile	/^CFLAGS-getrpcent_r.c = -fexceptions$/;"	m
+CFLAGS-getservent.c	Makefile	/^CFLAGS-getservent.c = -fexceptions$/;"	m
+CFLAGS-getservent_r.c	Makefile	/^CFLAGS-getservent_r.c = -fexceptions$/;"	m
+CFLAGS-getsrvbynm_r.c	Makefile	/^CFLAGS-getsrvbynm_r.c = -DUSE_NSCD=1$/;"	m
+CFLAGS-getsrvbypt_r.c	Makefile	/^CFLAGS-getsrvbypt_r.c = -DUSE_NSCD=1$/;"	m
+CFLAGS-rcmd.c	Makefile	/^CFLAGS-rcmd.c = -fexceptions$/;"	m
+CHECK	test-inet6_opt.c	24;"	d	file:
+COMPLETE	arpa/ftp.h	41;"	d
+CONTINUE	arpa/ftp.h	42;"	d
+CTL_MSG	protocols/talkd.h	/^} CTL_MSG;$/;"	t	typeref:struct:__anon8
+CTL_RESPONSE	protocols/talkd.h	/^} CTL_RESPONSE;$/;"	t	typeref:struct:__anon9
+DATA	arpa/tftp.h	45;"	d
+DATABASE_NAME	getaliasent_r.c	27;"	d	file:
+DATABASE_NAME	getaliasname.c	25;"	d	file:
+DATABASE_NAME	getaliasname_r.c	25;"	d	file:
+DATABASE_NAME	gethstbyad.c	25;"	d	file:
+DATABASE_NAME	gethstbyad_r.c	26;"	d	file:
+DATABASE_NAME	gethstbynm.c	30;"	d	file:
+DATABASE_NAME	gethstbynm2.c	30;"	d	file:
+DATABASE_NAME	gethstbynm2_r.c	30;"	d	file:
+DATABASE_NAME	gethstbynm_r.c	30;"	d	file:
+DATABASE_NAME	gethstent_r.c	26;"	d	file:
+DATABASE_NAME	getnetbyad.c	26;"	d	file:
+DATABASE_NAME	getnetbyad_r.c	26;"	d	file:
+DATABASE_NAME	getnetbynm.c	25;"	d	file:
+DATABASE_NAME	getnetbynm_r.c	25;"	d	file:
+DATABASE_NAME	getnetent_r.c	26;"	d	file:
+DATABASE_NAME	getproto.c	25;"	d	file:
+DATABASE_NAME	getproto_r.c	25;"	d	file:
+DATABASE_NAME	getprtent_r.c	26;"	d	file:
+DATABASE_NAME	getprtname.c	25;"	d	file:
+DATABASE_NAME	getprtname_r.c	25;"	d	file:
+DATABASE_NAME	getrpcbyname.c	25;"	d	file:
+DATABASE_NAME	getrpcbyname_r.c	25;"	d	file:
+DATABASE_NAME	getrpcbynumber.c	25;"	d	file:
+DATABASE_NAME	getrpcbynumber_r.c	25;"	d	file:
+DATABASE_NAME	getrpcent_r.c	26;"	d	file:
+DATABASE_NAME	getservent_r.c	26;"	d	file:
+DATABASE_NAME	getsrvbynm.c	25;"	d	file:
+DATABASE_NAME	getsrvbynm_r.c	25;"	d	file:
+DATABASE_NAME	getsrvbypt.c	25;"	d	file:
+DATABASE_NAME	getsrvbypt_r.c	25;"	d	file:
+DB_LOOKUP_FCT	gethstbyad_r.c	51;"	d	file:
+DB_LOOKUP_FCT	gethstbynm2_r.c	44;"	d	file:
+DB_LOOKUP_FCT	gethstbynm_r.c	43;"	d	file:
+DB_LOOKUP_FCT	gethstent_r.c	33;"	d	file:
+DEFAULT	ruserpass.c	53;"	d	file:
+DELETE	protocols/talkd.h	92;"	d
+DM	arpa/telnet.h	51;"	d
+DO	arpa/telnet.h	40;"	d
+DONT	arpa/telnet.h	39;"	d
+EACCESS	arpa/tftp.h	69;"	d
+EBADID	arpa/tftp.h	72;"	d
+EBADOP	arpa/tftp.h	71;"	d
+EC	arpa/telnet.h	46;"	d
+EEXISTS	arpa/tftp.h	73;"	d
+EL	arpa/telnet.h	45;"	d
+ENCRYPT_CNT	arpa/telnet.h	288;"	d
+ENCRYPT_DEC_KEYID	arpa/telnet.h	287;"	d
+ENCRYPT_ENC_KEYID	arpa/telnet.h	286;"	d
+ENCRYPT_END	arpa/telnet.h	283;"	d
+ENCRYPT_IS	arpa/telnet.h	279;"	d
+ENCRYPT_NAME	arpa/telnet.h	311;"	d
+ENCRYPT_NAME_OK	arpa/telnet.h	310;"	d
+ENCRYPT_REPLY	arpa/telnet.h	281;"	d
+ENCRYPT_REQEND	arpa/telnet.h	285;"	d
+ENCRYPT_REQSTART	arpa/telnet.h	284;"	d
+ENCRYPT_START	arpa/telnet.h	282;"	d
+ENCRYPT_SUPPORT	arpa/telnet.h	280;"	d
+ENCTYPE_ANY	arpa/telnet.h	290;"	d
+ENCTYPE_CNT	arpa/telnet.h	293;"	d
+ENCTYPE_DES_CFB64	arpa/telnet.h	291;"	d
+ENCTYPE_DES_OFB64	arpa/telnet.h	292;"	d
+ENCTYPE_NAME	arpa/telnet.h	314;"	d
+ENCTYPE_NAME_OK	arpa/telnet.h	313;"	d
+ENDFUNC_NAME	getaliasent_r.c	26;"	d	file:
+ENDFUNC_NAME	gethstent_r.c	25;"	d	file:
+ENDFUNC_NAME	getnetent_r.c	25;"	d	file:
+ENDFUNC_NAME	getprtent_r.c	25;"	d	file:
+ENDFUNC_NAME	getrpcent_r.c	25;"	d	file:
+ENDFUNC_NAME	getservent_r.c	25;"	d	file:
+ENOSPACE	arpa/tftp.h	70;"	d
+ENOTFOUND	arpa/tftp.h	68;"	d
+ENOUSER	arpa/tftp.h	74;"	d
+ENV_ESC	arpa/telnet.h	235;"	d
+ENV_USERVAR	arpa/telnet.h	236;"	d
+EOR	arpa/telnet.h	54;"	d
+ERROR	arpa/ftp.h	44;"	d
+ERROR	arpa/tftp.h	47;"	d
+EUNDEF	arpa/tftp.h	67;"	d
+EXPIRE_TIME	protocols/routed.h	98;"	d
+FAILED	protocols/talkd.h	98;"	d
+FORM_C	arpa/ftp.h	63;"	d
+FORM_N	arpa/ftp.h	61;"	d
+FORM_T	arpa/ftp.h	62;"	d
+FUNCTION_NAME	getaliasname.c	24;"	d	file:
+FUNCTION_NAME	getaliasname_r.c	24;"	d	file:
+FUNCTION_NAME	gethstbyad.c	24;"	d	file:
+FUNCTION_NAME	gethstbyad_r.c	25;"	d	file:
+FUNCTION_NAME	gethstbynm.c	29;"	d	file:
+FUNCTION_NAME	gethstbynm2.c	29;"	d	file:
+FUNCTION_NAME	gethstbynm2_r.c	29;"	d	file:
+FUNCTION_NAME	gethstbynm_r.c	29;"	d	file:
+FUNCTION_NAME	getnetbyad.c	25;"	d	file:
+FUNCTION_NAME	getnetbyad_r.c	25;"	d	file:
+FUNCTION_NAME	getnetbynm.c	24;"	d	file:
+FUNCTION_NAME	getnetbynm_r.c	24;"	d	file:
+FUNCTION_NAME	getproto.c	24;"	d	file:
+FUNCTION_NAME	getproto_r.c	24;"	d	file:
+FUNCTION_NAME	getprtname.c	24;"	d	file:
+FUNCTION_NAME	getprtname_r.c	24;"	d	file:
+FUNCTION_NAME	getrpcbyname.c	24;"	d	file:
+FUNCTION_NAME	getrpcbyname_r.c	24;"	d	file:
+FUNCTION_NAME	getrpcbynumber.c	24;"	d	file:
+FUNCTION_NAME	getrpcbynumber_r.c	24;"	d	file:
+FUNCTION_NAME	getsrvbynm.c	24;"	d	file:
+FUNCTION_NAME	getsrvbynm_r.c	24;"	d	file:
+FUNCTION_NAME	getsrvbypt.c	24;"	d	file:
+FUNCTION_NAME	getsrvbypt_r.c	24;"	d	file:
+GA	arpa/telnet.h	44;"	d
+GARBAGE_TIME	protocols/routed.h	99;"	d
+GETFUNC_NAME	getaliasent.c	23;"	d	file:
+GETFUNC_NAME	getaliasent_r.c	25;"	d	file:
+GETFUNC_NAME	gethstent.c	23;"	d	file:
+GETFUNC_NAME	gethstent_r.c	24;"	d	file:
+GETFUNC_NAME	getnetent.c	23;"	d	file:
+GETFUNC_NAME	getnetent_r.c	24;"	d	file:
+GETFUNC_NAME	getprtent.c	23;"	d	file:
+GETFUNC_NAME	getprtent_r.c	24;"	d	file:
+GETFUNC_NAME	getrpcent.c	23;"	d	file:
+GETFUNC_NAME	getrpcent_r.c	24;"	d	file:
+GETFUNC_NAME	getservent.c	23;"	d	file:
+GETFUNC_NAME	getservent_r.c	24;"	d	file:
+GROUP_FILTER_SIZE	netinet/in.h	348;"	d
+HANDLE_DIGITS_DOTS	gethstbynm.c	36;"	d	file:
+HANDLE_DIGITS_DOTS	gethstbynm2.c	36;"	d	file:
+HANDLE_DIGITS_DOTS	gethstbynm2_r.c	39;"	d	file:
+HANDLE_DIGITS_DOTS	gethstbynm_r.c	39;"	d	file:
+HAVE_AF	gethstbynm2.c	37;"	d	file:
+HAVE_AF	gethstbynm2_r.c	41;"	d	file:
+HAVE_LOOKUP_BUFFER	gethstbynm2_r.c	40;"	d	file:
+HAVE_LOOKUP_BUFFER	gethstbynm_r.c	40;"	d	file:
+HOPCNT_INFINITY	protocols/routed.h	76;"	d
+IAC	arpa/telnet.h	38;"	d
+ICMP6_DST_UNREACH	netinet/icmp6.h	61;"	d
+ICMP6_DST_UNREACH_ADDR	netinet/icmp6.h	78;"	d
+ICMP6_DST_UNREACH_ADMIN	netinet/icmp6.h	75;"	d
+ICMP6_DST_UNREACH_BEYONDSCOPE	netinet/icmp6.h	77;"	d
+ICMP6_DST_UNREACH_NOPORT	netinet/icmp6.h	79;"	d
+ICMP6_DST_UNREACH_NOROUTE	netinet/icmp6.h	74;"	d
+ICMP6_ECHO_REPLY	netinet/icmp6.h	69;"	d
+ICMP6_ECHO_REQUEST	netinet/icmp6.h	68;"	d
+ICMP6_FILTER	netinet/icmp6.h	27;"	d
+ICMP6_FILTER_BLOCK	netinet/icmp6.h	29;"	d
+ICMP6_FILTER_BLOCKOTHERS	netinet/icmp6.h	31;"	d
+ICMP6_FILTER_PASS	netinet/icmp6.h	30;"	d
+ICMP6_FILTER_PASSONLY	netinet/icmp6.h	32;"	d
+ICMP6_FILTER_SETBLOCK	netinet/icmp6.h	97;"	d
+ICMP6_FILTER_SETBLOCKALL	netinet/icmp6.h	103;"	d
+ICMP6_FILTER_SETPASS	netinet/icmp6.h	94;"	d
+ICMP6_FILTER_SETPASSALL	netinet/icmp6.h	100;"	d
+ICMP6_FILTER_WILLBLOCK	netinet/icmp6.h	91;"	d
+ICMP6_FILTER_WILLPASS	netinet/icmp6.h	88;"	d
+ICMP6_INFOMSG_MASK	netinet/icmp6.h	66;"	d
+ICMP6_PACKET_TOO_BIG	netinet/icmp6.h	62;"	d
+ICMP6_PARAMPROB_HEADER	netinet/icmp6.h	84;"	d
+ICMP6_PARAMPROB_NEXTHEADER	netinet/icmp6.h	85;"	d
+ICMP6_PARAMPROB_OPTION	netinet/icmp6.h	86;"	d
+ICMP6_PARAM_PROB	netinet/icmp6.h	64;"	d
+ICMP6_ROUTER_RENUMBERING	netinet/icmp6.h	247;"	d
+ICMP6_RR_FLAGS_FORCEAPPLY	netinet/icmp6.h	266;"	d
+ICMP6_RR_FLAGS_PREVDONE	netinet/icmp6.h	268;"	d
+ICMP6_RR_FLAGS_REQRESULT	netinet/icmp6.h	265;"	d
+ICMP6_RR_FLAGS_SPECSITE	netinet/icmp6.h	267;"	d
+ICMP6_RR_FLAGS_TEST	netinet/icmp6.h	264;"	d
+ICMP6_RR_PCOUSE_FLAGS_DECRPLTIME	netinet/icmp6.h	304;"	d
+ICMP6_RR_PCOUSE_FLAGS_DECRPLTIME	netinet/icmp6.h	307;"	d
+ICMP6_RR_PCOUSE_FLAGS_DECRVLTIME	netinet/icmp6.h	303;"	d
+ICMP6_RR_PCOUSE_FLAGS_DECRVLTIME	netinet/icmp6.h	306;"	d
+ICMP6_RR_PCOUSE_RAFLAGS_AUTO	netinet/icmp6.h	300;"	d
+ICMP6_RR_PCOUSE_RAFLAGS_ONLINK	netinet/icmp6.h	299;"	d
+ICMP6_RR_RESULT_FLAGS_FORBIDDEN	netinet/icmp6.h	321;"	d
+ICMP6_RR_RESULT_FLAGS_FORBIDDEN	netinet/icmp6.h	324;"	d
+ICMP6_RR_RESULT_FLAGS_OOB	netinet/icmp6.h	320;"	d
+ICMP6_RR_RESULT_FLAGS_OOB	netinet/icmp6.h	323;"	d
+ICMP6_TIME_EXCEEDED	netinet/icmp6.h	63;"	d
+ICMP6_TIME_EXCEED_REASSEMBLY	netinet/icmp6.h	82;"	d
+ICMP6_TIME_EXCEED_TRANSIT	netinet/icmp6.h	81;"	d
+ID	ruserpass.c	58;"	d	file:
+IGMP_AWAKENING_MEMBER	netinet/igmp.h	104;"	d
+IGMP_DELAYING_MEMBER	netinet/igmp.h	100;"	d
+IGMP_DVMRP	netinet/igmp.h	84;"	d
+IGMP_HOST_LEAVE_MESSAGE	netinet/igmp.h	120;"	d
+IGMP_HOST_MEMBERSHIP_QUERY	netinet/igmp.h	117;"	d
+IGMP_HOST_MEMBERSHIP_REPORT	netinet/igmp.h	118;"	d
+IGMP_HOST_NEW_MEMBERSHIP_REPORT	netinet/igmp.h	119;"	d
+IGMP_IDLE_MEMBER	netinet/igmp.h	101;"	d
+IGMP_LAZY_MEMBER	netinet/igmp.h	102;"	d
+IGMP_MAX_HOST_REPORT_DELAY	netinet/igmp.h	91;"	d
+IGMP_MEMBERSHIP_QUERY	netinet/igmp.h	79;"	d
+IGMP_MINLEN	netinet/igmp.h	74;"	d
+IGMP_MTRACE	netinet/igmp.h	89;"	d
+IGMP_MTRACE_RESP	netinet/igmp.h	88;"	d
+IGMP_PIM	netinet/igmp.h	85;"	d
+IGMP_SLEEPING_MEMBER	netinet/igmp.h	103;"	d
+IGMP_TIMER_SCALE	netinet/igmp.h	94;"	d
+IGMP_TRACE	netinet/igmp.h	86;"	d
+IGMP_V1_MEMBERSHIP_REPORT	netinet/igmp.h	80;"	d
+IGMP_V2_LEAVE_GROUP	netinet/igmp.h	82;"	d
+IGMP_V2_MEMBERSHIP_REPORT	netinet/igmp.h	81;"	d
+IGMP_v1_ROUTER	netinet/igmp.h	109;"	d
+IGMP_v2_ROUTER	netinet/igmp.h	110;"	d
+IN6ADDR_ANY_INIT	netinet/in.h	217;"	d
+IN6ADDR_LOOPBACK_INIT	netinet/in.h	218;"	d
+IN6_ARE_ADDR_EQUAL	netinet/in.h	432;"	d
+IN6_IS_ADDR_LINKLOCAL	netinet/in.h	413;"	d
+IN6_IS_ADDR_LOOPBACK	netinet/in.h	405;"	d
+IN6_IS_ADDR_MC_GLOBAL	netinet/in.h	464;"	d
+IN6_IS_ADDR_MC_LINKLOCAL	netinet/in.h	452;"	d
+IN6_IS_ADDR_MC_NODELOCAL	netinet/in.h	448;"	d
+IN6_IS_ADDR_MC_ORGLOCAL	netinet/in.h	460;"	d
+IN6_IS_ADDR_MC_SITELOCAL	netinet/in.h	456;"	d
+IN6_IS_ADDR_MULTICAST	netinet/in.h	411;"	d
+IN6_IS_ADDR_SITELOCAL	netinet/in.h	417;"	d
+IN6_IS_ADDR_UNSPECIFIED	netinet/in.h	399;"	d
+IN6_IS_ADDR_V4COMPAT	netinet/in.h	426;"	d
+IN6_IS_ADDR_V4MAPPED	netinet/in.h	421;"	d
+INADDR_ALLHOSTS_GROUP	netinet/in.h	192;"	d
+INADDR_ALLRTRS_GROUP	netinet/in.h	193;"	d
+INADDR_ANY	netinet/in.h	177;"	d
+INADDR_BROADCAST	netinet/in.h	179;"	d
+INADDR_LOOPBACK	netinet/in.h	187;"	d
+INADDR_MAX_LOCAL_GROUP	netinet/in.h	194;"	d
+INADDR_NONE	netinet/in.h	181;"	d
+INADDR_UNSPEC_GROUP	netinet/in.h	191;"	d
+INET6_ADDRSTRLEN	netinet/in.h	221;"	d
+INET_ADDRSTRLEN	netinet/in.h	220;"	d
+IN_BADCLASS	netinet/in.h	174;"	d
+IN_CLASSA	netinet/in.h	153;"	d
+IN_CLASSA_HOST	netinet/in.h	156;"	d
+IN_CLASSA_MAX	netinet/in.h	157;"	d
+IN_CLASSA_NET	netinet/in.h	154;"	d
+IN_CLASSA_NSHIFT	netinet/in.h	155;"	d
+IN_CLASSB	netinet/in.h	159;"	d
+IN_CLASSB_HOST	netinet/in.h	162;"	d
+IN_CLASSB_MAX	netinet/in.h	163;"	d
+IN_CLASSB_NET	netinet/in.h	160;"	d
+IN_CLASSB_NSHIFT	netinet/in.h	161;"	d
+IN_CLASSC	netinet/in.h	165;"	d
+IN_CLASSC_HOST	netinet/in.h	168;"	d
+IN_CLASSC_NET	netinet/in.h	166;"	d
+IN_CLASSC_NSHIFT	netinet/in.h	167;"	d
+IN_CLASSD	netinet/in.h	170;"	d
+IN_EXPERIMENTAL	netinet/in.h	173;"	d
+IN_LOOPBACKNET	netinet/in.h	184;"	d
+IN_MULTICAST	netinet/in.h	171;"	d
+IP	arpa/telnet.h	49;"	d
+IP6F_MORE_FRAG	netinet/ip6.h	108;"	d
+IP6F_MORE_FRAG	netinet/ip6.h	112;"	d
+IP6F_OFF_MASK	netinet/ip6.h	106;"	d
+IP6F_OFF_MASK	netinet/ip6.h	110;"	d
+IP6F_RESERVED_MASK	netinet/ip6.h	107;"	d
+IP6F_RESERVED_MASK	netinet/ip6.h	111;"	d
+IP6OPT_JUMBO	netinet/ip6.h	137;"	d
+IP6OPT_JUMBO_LEN	netinet/ip6.h	149;"	d
+IP6OPT_NSAP_ADDR	netinet/ip6.h	138;"	d
+IP6OPT_PAD1	netinet/ip6.h	134;"	d
+IP6OPT_PADN	netinet/ip6.h	135;"	d
+IP6OPT_ROUTER_ALERT	netinet/ip6.h	140;"	d
+IP6OPT_TUNNEL_LIMIT	netinet/ip6.h	139;"	d
+IP6OPT_TYPE	netinet/ip6.h	126;"	d
+IP6OPT_TYPE_DISCARD	netinet/ip6.h	128;"	d
+IP6OPT_TYPE_FORCEICMP	netinet/ip6.h	129;"	d
+IP6OPT_TYPE_ICMP	netinet/ip6.h	130;"	d
+IP6OPT_TYPE_MUTABLE	netinet/ip6.h	131;"	d
+IP6OPT_TYPE_SKIP	netinet/ip6.h	127;"	d
+IP6_ALERT_AN	netinet/ip6.h	182;"	d
+IP6_ALERT_AN	netinet/ip6.h	186;"	d
+IP6_ALERT_MLD	netinet/ip6.h	180;"	d
+IP6_ALERT_MLD	netinet/ip6.h	184;"	d
+IP6_ALERT_RSVP	netinet/ip6.h	181;"	d
+IP6_ALERT_RSVP	netinet/ip6.h	185;"	d
+IPPORT_BIFFUDP	netinet/in.h	/^    IPPORT_BIFFUDP = 512,$/;"	e	enum:__anon15
+IPPORT_CMDSERVER	netinet/in.h	/^    IPPORT_CMDSERVER = 514,$/;"	e	enum:__anon15
+IPPORT_DAYTIME	netinet/in.h	/^    IPPORT_DAYTIME = 13,	\/* Time of day service.  *\/$/;"	e	enum:__anon15
+IPPORT_DISCARD	netinet/in.h	/^    IPPORT_DISCARD = 9,		\/* Discard transmissions service.  *\/$/;"	e	enum:__anon15
+IPPORT_ECHO	netinet/in.h	/^    IPPORT_ECHO = 7,		\/* Echo service.  *\/$/;"	e	enum:__anon15
+IPPORT_EFSSERVER	netinet/in.h	/^    IPPORT_EFSSERVER = 520,$/;"	e	enum:__anon15
+IPPORT_EXECSERVER	netinet/in.h	/^    IPPORT_EXECSERVER = 512,	\/* execd service.  *\/$/;"	e	enum:__anon15
+IPPORT_FINGER	netinet/in.h	/^    IPPORT_FINGER = 79,		\/* Finger service.  *\/$/;"	e	enum:__anon15
+IPPORT_FTP	netinet/in.h	/^    IPPORT_FTP = 21,		\/* File Transfer Protocol.  *\/$/;"	e	enum:__anon15
+IPPORT_LOGINSERVER	netinet/in.h	/^    IPPORT_LOGINSERVER = 513,	\/* rlogind service.  *\/$/;"	e	enum:__anon15
+IPPORT_MTP	netinet/in.h	/^    IPPORT_MTP = 57,$/;"	e	enum:__anon15
+IPPORT_NAMESERVER	netinet/in.h	/^    IPPORT_NAMESERVER = 42,	\/* Domain Name Service.  *\/$/;"	e	enum:__anon15
+IPPORT_NETSTAT	netinet/in.h	/^    IPPORT_NETSTAT = 15,	\/* Network status service.  *\/$/;"	e	enum:__anon15
+IPPORT_RESERVED	netinet/in.h	/^    IPPORT_RESERVED = 1024,$/;"	e	enum:__anon15
+IPPORT_RJE	netinet/in.h	/^    IPPORT_RJE = 77,$/;"	e	enum:__anon15
+IPPORT_ROUTESERVER	netinet/in.h	/^    IPPORT_ROUTESERVER = 520,$/;"	e	enum:__anon15
+IPPORT_SMTP	netinet/in.h	/^    IPPORT_SMTP = 25,		\/* Simple Mail Transfer Protocol.  *\/$/;"	e	enum:__anon15
+IPPORT_SUPDUP	netinet/in.h	/^    IPPORT_SUPDUP = 95,		\/* SUPDUP protocol.  *\/$/;"	e	enum:__anon15
+IPPORT_SYSTAT	netinet/in.h	/^    IPPORT_SYSTAT = 11,		\/* System status service.  *\/$/;"	e	enum:__anon15
+IPPORT_TELNET	netinet/in.h	/^    IPPORT_TELNET = 23,		\/* Telnet protocol.  *\/$/;"	e	enum:__anon15
+IPPORT_TFTP	netinet/in.h	/^    IPPORT_TFTP = 69,		\/* Trivial File Transfer Protocol.  *\/$/;"	e	enum:__anon15
+IPPORT_TIMESERVER	netinet/in.h	/^    IPPORT_TIMESERVER = 37,	\/* Timeserver service.  *\/$/;"	e	enum:__anon15
+IPPORT_TTYLINK	netinet/in.h	/^    IPPORT_TTYLINK = 87,$/;"	e	enum:__anon15
+IPPORT_USERRESERVED	netinet/in.h	/^    IPPORT_USERRESERVED = 5000$/;"	e	enum:__anon15
+IPPORT_WHOIS	netinet/in.h	/^    IPPORT_WHOIS = 43,		\/* Internet Whois service.  *\/$/;"	e	enum:__anon15
+IPPORT_WHOSERVER	netinet/in.h	/^    IPPORT_WHOSERVER = 513,$/;"	e	enum:__anon15
+IPPROTO_AH	netinet/in.h	/^    IPPROTO_AH = 51,       \/* authentication header.  *\/$/;"	e	enum:__anon14
+IPPROTO_AH	netinet/in.h	71;"	d
+IPPROTO_COMP	netinet/in.h	/^    IPPROTO_COMP = 108,	   \/* Compression Header Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_COMP	netinet/in.h	85;"	d
+IPPROTO_DCCP	netinet/in.h	/^    IPPROTO_DCCP = 33,	   \/* Datagram Congestion Control Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_DCCP	netinet/in.h	57;"	d
+IPPROTO_DSTOPTS	netinet/in.h	/^    IPPROTO_DSTOPTS = 60,  \/* IPv6 destination options.  *\/$/;"	e	enum:__anon14
+IPPROTO_DSTOPTS	netinet/in.h	77;"	d
+IPPROTO_EGP	netinet/in.h	/^    IPPROTO_EGP = 8,	   \/* Exterior Gateway Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_EGP	netinet/in.h	47;"	d
+IPPROTO_ENCAP	netinet/in.h	/^    IPPROTO_ENCAP = 98,	   \/* Encapsulation Header.  *\/$/;"	e	enum:__anon14
+IPPROTO_ENCAP	netinet/in.h	81;"	d
+IPPROTO_ESP	netinet/in.h	/^    IPPROTO_ESP = 50,      \/* encapsulating security payload.  *\/$/;"	e	enum:__anon14
+IPPROTO_ESP	netinet/in.h	69;"	d
+IPPROTO_FRAGMENT	netinet/in.h	/^    IPPROTO_FRAGMENT = 44, \/* IPv6 fragmentation header.  *\/$/;"	e	enum:__anon14
+IPPROTO_FRAGMENT	netinet/in.h	63;"	d
+IPPROTO_GRE	netinet/in.h	/^    IPPROTO_GRE = 47,	   \/* General Routing Encapsulation.  *\/$/;"	e	enum:__anon14
+IPPROTO_GRE	netinet/in.h	67;"	d
+IPPROTO_HOPOPTS	netinet/in.h	/^    IPPROTO_HOPOPTS = 0,   \/* IPv6 Hop-by-Hop options.  *\/$/;"	e	enum:__anon14
+IPPROTO_HOPOPTS	netinet/in.h	37;"	d
+IPPROTO_ICMP	netinet/in.h	/^    IPPROTO_ICMP = 1,	   \/* Internet Control Message Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_ICMP	netinet/in.h	39;"	d
+IPPROTO_ICMPV6	netinet/in.h	/^    IPPROTO_ICMPV6 = 58,   \/* ICMPv6.  *\/$/;"	e	enum:__anon14
+IPPROTO_ICMPV6	netinet/in.h	73;"	d
+IPPROTO_IDP	netinet/in.h	/^    IPPROTO_IDP = 22,	   \/* XNS IDP protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_IDP	netinet/in.h	53;"	d
+IPPROTO_IGMP	netinet/in.h	/^    IPPROTO_IGMP = 2,	   \/* Internet Group Management Protocol. *\/$/;"	e	enum:__anon14
+IPPROTO_IGMP	netinet/in.h	41;"	d
+IPPROTO_IP	netinet/in.h	/^    IPPROTO_IP = 0,	   \/* Dummy protocol for TCP.  *\/$/;"	e	enum:__anon14
+IPPROTO_IP	netinet/in.h	35;"	d
+IPPROTO_IPIP	netinet/in.h	/^    IPPROTO_IPIP = 4,	   \/* IPIP tunnels (older KA9Q tunnels use 94).  *\/$/;"	e	enum:__anon14
+IPPROTO_IPIP	netinet/in.h	43;"	d
+IPPROTO_IPV6	netinet/in.h	/^    IPPROTO_IPV6 = 41,     \/* IPv6 header.  *\/$/;"	e	enum:__anon14
+IPPROTO_IPV6	netinet/in.h	59;"	d
+IPPROTO_MAX	netinet/in.h	/^    IPPROTO_MAX$/;"	e	enum:__anon14
+IPPROTO_MTP	netinet/in.h	/^    IPPROTO_MTP = 92,	   \/* Multicast Transport Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_MTP	netinet/in.h	79;"	d
+IPPROTO_NONE	netinet/in.h	/^    IPPROTO_NONE = 59,     \/* IPv6 no next header.  *\/$/;"	e	enum:__anon14
+IPPROTO_NONE	netinet/in.h	75;"	d
+IPPROTO_PIM	netinet/in.h	/^    IPPROTO_PIM = 103,	   \/* Protocol Independent Multicast.  *\/$/;"	e	enum:__anon14
+IPPROTO_PIM	netinet/in.h	83;"	d
+IPPROTO_PUP	netinet/in.h	/^    IPPROTO_PUP = 12,	   \/* PUP protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_PUP	netinet/in.h	49;"	d
+IPPROTO_RAW	netinet/in.h	/^    IPPROTO_RAW = 255,	   \/* Raw IP packets.  *\/$/;"	e	enum:__anon14
+IPPROTO_RAW	netinet/in.h	91;"	d
+IPPROTO_ROUTING	netinet/in.h	/^    IPPROTO_ROUTING = 43,  \/* IPv6 routing header.  *\/$/;"	e	enum:__anon14
+IPPROTO_ROUTING	netinet/in.h	61;"	d
+IPPROTO_RSVP	netinet/in.h	/^    IPPROTO_RSVP = 46,	   \/* Reservation Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_RSVP	netinet/in.h	65;"	d
+IPPROTO_SCTP	netinet/in.h	/^    IPPROTO_SCTP = 132,	   \/* Stream Control Transmission Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_SCTP	netinet/in.h	87;"	d
+IPPROTO_TCP	netinet/in.h	/^    IPPROTO_TCP = 6,	   \/* Transmission Control Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_TCP	netinet/in.h	45;"	d
+IPPROTO_TP	netinet/in.h	/^    IPPROTO_TP = 29,	   \/* SO Transport Protocol Class 4.  *\/$/;"	e	enum:__anon14
+IPPROTO_TP	netinet/in.h	55;"	d
+IPPROTO_UDP	netinet/in.h	/^    IPPROTO_UDP = 17,	   \/* User Datagram Protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_UDP	netinet/in.h	51;"	d
+IPPROTO_UDPLITE	netinet/in.h	/^    IPPROTO_UDPLITE = 136, \/* UDP-Lite protocol.  *\/$/;"	e	enum:__anon14
+IPPROTO_UDPLITE	netinet/in.h	89;"	d
+IP_MSFILTER_SIZE	netinet/in.h	327;"	d
+LEAVE_INVITE	protocols/talkd.h	90;"	d
+LFLOW_OFF	arpa/telnet.h	149;"	d
+LFLOW_ON	arpa/telnet.h	150;"	d
+LFLOW_RESTART_ANY	arpa/telnet.h	151;"	d
+LFLOW_RESTART_XON	arpa/telnet.h	152;"	d
+LM_FORWARDMASK	arpa/telnet.h	159;"	d
+LM_MODE	arpa/telnet.h	158;"	d
+LM_SLC	arpa/telnet.h	160;"	d
+LOGIN	ruserpass.c	54;"	d	file:
+LOOKUP_TYPE	getaliasent.c	22;"	d	file:
+LOOKUP_TYPE	getaliasent_r.c	23;"	d	file:
+LOOKUP_TYPE	getaliasname.c	23;"	d	file:
+LOOKUP_TYPE	getaliasname_r.c	23;"	d	file:
+LOOKUP_TYPE	gethstbyad.c	23;"	d	file:
+LOOKUP_TYPE	gethstbyad_r.c	24;"	d	file:
+LOOKUP_TYPE	gethstbynm.c	28;"	d	file:
+LOOKUP_TYPE	gethstbynm2.c	28;"	d	file:
+LOOKUP_TYPE	gethstbynm2_r.c	28;"	d	file:
+LOOKUP_TYPE	gethstbynm_r.c	28;"	d	file:
+LOOKUP_TYPE	gethstent.c	22;"	d	file:
+LOOKUP_TYPE	gethstent_r.c	22;"	d	file:
+LOOKUP_TYPE	getnetbyad.c	24;"	d	file:
+LOOKUP_TYPE	getnetbyad_r.c	24;"	d	file:
+LOOKUP_TYPE	getnetbynm.c	23;"	d	file:
+LOOKUP_TYPE	getnetbynm_r.c	23;"	d	file:
+LOOKUP_TYPE	getnetent.c	22;"	d	file:
+LOOKUP_TYPE	getnetent_r.c	22;"	d	file:
+LOOKUP_TYPE	getproto.c	23;"	d	file:
+LOOKUP_TYPE	getproto_r.c	23;"	d	file:
+LOOKUP_TYPE	getprtent.c	22;"	d	file:
+LOOKUP_TYPE	getprtent_r.c	22;"	d	file:
+LOOKUP_TYPE	getprtname.c	23;"	d	file:
+LOOKUP_TYPE	getprtname_r.c	23;"	d	file:
+LOOKUP_TYPE	getrpcbyname.c	23;"	d	file:
+LOOKUP_TYPE	getrpcbyname_r.c	23;"	d	file:
+LOOKUP_TYPE	getrpcbynumber.c	23;"	d	file:
+LOOKUP_TYPE	getrpcbynumber_r.c	23;"	d	file:
+LOOKUP_TYPE	getrpcent.c	22;"	d	file:
+LOOKUP_TYPE	getrpcent_r.c	22;"	d	file:
+LOOKUP_TYPE	getservent.c	22;"	d	file:
+LOOKUP_TYPE	getservent_r.c	22;"	d	file:
+LOOKUP_TYPE	getsrvbynm.c	23;"	d	file:
+LOOKUP_TYPE	getsrvbynm_r.c	23;"	d	file:
+LOOKUP_TYPE	getsrvbypt.c	23;"	d	file:
+LOOKUP_TYPE	getsrvbypt_r.c	23;"	d	file:
+LOOK_UP	protocols/talkd.h	91;"	d
+MACDEF	ruserpass.c	57;"	d	file:
+MACHINE	ruserpass.c	59;"	d	file:
+MACHINE_UNKNOWN	protocols/talkd.h	99;"	d
+MAXPACKETSIZE	protocols/routed.h	77;"	d
+MAX_LIFE	protocols/talkd.h	109;"	d
+MAX_WAITTIME	protocols/routed.h	96;"	d
+MIN_WAITTIME	protocols/routed.h	95;"	d
+MLD_LISTENER_QUERY	netinet/icmp6.h	70;"	d
+MLD_LISTENER_REDUCTION	netinet/icmp6.h	72;"	d
+MLD_LISTENER_REPORT	netinet/icmp6.h	71;"	d
+MODE_ACK	arpa/telnet.h	164;"	d
+MODE_B	arpa/ftp.h	82;"	d
+MODE_C	arpa/ftp.h	83;"	d
+MODE_ECHO	arpa/telnet.h	172;"	d
+MODE_EDIT	arpa/telnet.h	162;"	d
+MODE_FLOW	arpa/telnet.h	171;"	d
+MODE_FORCE	arpa/telnet.h	175;"	d
+MODE_INBIN	arpa/telnet.h	173;"	d
+MODE_LIT_ECHO	arpa/telnet.h	166;"	d
+MODE_MASK	arpa/telnet.h	168;"	d
+MODE_OUTBIN	arpa/telnet.h	174;"	d
+MODE_S	arpa/ftp.h	81;"	d
+MODE_SOFT_TAB	arpa/telnet.h	165;"	d
+MODE_TRAPSIG	arpa/telnet.h	163;"	d
+NAME_SIZE	protocols/talkd.h	68;"	d
+ND_NA_FLAG_OVERRIDE	netinet/icmp6.h	167;"	d
+ND_NA_FLAG_OVERRIDE	netinet/icmp6.h	171;"	d
+ND_NA_FLAG_ROUTER	netinet/icmp6.h	165;"	d
+ND_NA_FLAG_ROUTER	netinet/icmp6.h	169;"	d
+ND_NA_FLAG_SOLICITED	netinet/icmp6.h	166;"	d
+ND_NA_FLAG_SOLICITED	netinet/icmp6.h	170;"	d
+ND_NEIGHBOR_ADVERT	netinet/icmp6.h	109;"	d
+ND_NEIGHBOR_SOLICIT	netinet/icmp6.h	108;"	d
+ND_OPT_HOME_AGENT_INFO	netinet/icmp6.h	200;"	d
+ND_OPT_MTU	netinet/icmp6.h	198;"	d
+ND_OPT_PI_FLAG_AUTO	netinet/icmp6.h	215;"	d
+ND_OPT_PI_FLAG_ONLINK	netinet/icmp6.h	214;"	d
+ND_OPT_PI_FLAG_RADDR	netinet/icmp6.h	216;"	d
+ND_OPT_PREFIX_INFORMATION	netinet/icmp6.h	196;"	d
+ND_OPT_REDIRECTED_HEADER	netinet/icmp6.h	197;"	d
+ND_OPT_RTR_ADV_INTERVAL	netinet/icmp6.h	199;"	d
+ND_OPT_SOURCE_LINKADDR	netinet/icmp6.h	194;"	d
+ND_OPT_TARGET_LINKADDR	netinet/icmp6.h	195;"	d
+ND_RA_FLAG_HOME_AGENT	netinet/icmp6.h	138;"	d
+ND_RA_FLAG_MANAGED	netinet/icmp6.h	136;"	d
+ND_RA_FLAG_OTHER	netinet/icmp6.h	137;"	d
+ND_REDIRECT	netinet/icmp6.h	110;"	d
+ND_ROUTER_ADVERT	netinet/icmp6.h	107;"	d
+ND_ROUTER_SOLICIT	netinet/icmp6.h	106;"	d
+NEED_H_ERRNO	gethstbyad.c	29;"	d	file:
+NEED_H_ERRNO	gethstbyad_r.c	29;"	d	file:
+NEED_H_ERRNO	gethstbynm.c	34;"	d	file:
+NEED_H_ERRNO	gethstbynm2.c	34;"	d	file:
+NEED_H_ERRNO	gethstbynm2_r.c	33;"	d	file:
+NEED_H_ERRNO	gethstbynm_r.c	33;"	d	file:
+NEED_H_ERRNO	gethstent.c	25;"	d	file:
+NEED_H_ERRNO	gethstent_r.c	29;"	d	file:
+NEED_H_ERRNO	getnetbyad.c	30;"	d	file:
+NEED_H_ERRNO	getnetbyad_r.c	30;"	d	file:
+NEED_H_ERRNO	getnetbynm.c	29;"	d	file:
+NEED_H_ERRNO	getnetbynm_r.c	29;"	d	file:
+NEED_H_ERRNO	getnetent.c	25;"	d	file:
+NEED_H_ERRNO	getnetent_r.c	30;"	d	file:
+NEED__RES	gethstbyad_r.c	30;"	d	file:
+NEED__RES	gethstent_r.c	30;"	d	file:
+NEED__RES	getnetbyad_r.c	29;"	d	file:
+NEED__RES	getnetbynm_r.c	28;"	d	file:
+NEED__RES	getnetent_r.c	29;"	d	file:
+NEED__RES_HCONF	gethstbyad_r.c	31;"	d	file:
+NEED__RES_HCONF	gethstbynm2_r.c	34;"	d	file:
+NEED__RES_HCONF	gethstbynm_r.c	34;"	d	file:
+NEW_ENV_VALUE	arpa/telnet.h	234;"	d
+NEW_ENV_VAR	arpa/telnet.h	233;"	d
+NOP	arpa/telnet.h	52;"	d
+NOT_HERE	protocols/talkd.h	97;"	d
+NSLC	arpa/telnet.h	196;"	d
+NTELOPTS	arpa/telnet.h	121;"	d
+OLD_ENV_VALUE	arpa/telnet.h	232;"	d
+OLD_ENV_VAR	arpa/telnet.h	231;"	d
+OPT_X	test-inet6_opt.c	6;"	d	file:
+OPT_Y	test-inet6_opt.c	7;"	d	file:
+OPT_Z	test-inet6_opt.c	8;"	d	file:
+PASSWD	ruserpass.c	55;"	d	file:
+PERMISSION_DENIED	protocols/talkd.h	100;"	d
+POSTPROCESS	gethstbyad_r.c	43;"	d	file:
+POSTPROCESS	gethstbynm2_r.c	35;"	d	file:
+POSTPROCESS	gethstbynm_r.c	35;"	d	file:
+PRELIM	arpa/ftp.h	40;"	d
+PREPROCESS	gethstbyad_r.c	34;"	d	file:
+REC_EOF	arpa/ftp.h	93;"	d
+REC_EOR	arpa/ftp.h	92;"	d
+REC_ESC	arpa/ftp.h	91;"	d
+RING_WAIT	protocols/talkd.h	111;"	d
+RIPCMD_MAX	protocols/routed.h	70;"	d
+RIPCMD_REQUEST	protocols/routed.h	65;"	d
+RIPCMD_RESPONSE	protocols/routed.h	66;"	d
+RIPCMD_TRACEOFF	protocols/routed.h	68;"	d
+RIPCMD_TRACEON	protocols/routed.h	67;"	d
+RIPVERSION	protocols/routed.h	43;"	d
+RPM_PCO_ADD	netinet/icmp6.h	283;"	d
+RPM_PCO_CHANGE	netinet/icmp6.h	284;"	d
+RPM_PCO_SETGLOBAL	netinet/icmp6.h	285;"	d
+RQ_IFS	ifreq.c	30;"	d	file:
+RRQ	arpa/tftp.h	43;"	d
+SB	arpa/telnet.h	43;"	d
+SE	arpa/telnet.h	53;"	d
+SEGSIZE	arpa/tftp.h	38;"	d
+SETFUNC_NAME	getaliasent_r.c	24;"	d	file:
+SETFUNC_NAME	gethstent_r.c	23;"	d	file:
+SETFUNC_NAME	getnetent_r.c	23;"	d	file:
+SETFUNC_NAME	getprtent_r.c	23;"	d	file:
+SETFUNC_NAME	getrpcent_r.c	23;"	d	file:
+SETFUNC_NAME	getservent_r.c	23;"	d	file:
+SLC_ABORT	arpa/telnet.h	183;"	d
+SLC_ACK	arpa/telnet.h	227;"	d
+SLC_AO	arpa/telnet.h	180;"	d
+SLC_AYT	arpa/telnet.h	181;"	d
+SLC_BRK	arpa/telnet.h	178;"	d
+SLC_CANTCHANGE	arpa/telnet.h	218;"	d
+SLC_DEFAULT	arpa/telnet.h	220;"	d
+SLC_EC	arpa/telnet.h	186;"	d
+SLC_EL	arpa/telnet.h	187;"	d
+SLC_EOF	arpa/telnet.h	184;"	d
+SLC_EOR	arpa/telnet.h	182;"	d
+SLC_EW	arpa/telnet.h	188;"	d
+SLC_FLAGS	arpa/telnet.h	224;"	d
+SLC_FLUSHIN	arpa/telnet.h	228;"	d
+SLC_FLUSHOUT	arpa/telnet.h	229;"	d
+SLC_FORW1	arpa/telnet.h	193;"	d
+SLC_FORW2	arpa/telnet.h	194;"	d
+SLC_FUNC	arpa/telnet.h	223;"	d
+SLC_IP	arpa/telnet.h	179;"	d
+SLC_LEVELBITS	arpa/telnet.h	221;"	d
+SLC_LNEXT	arpa/telnet.h	190;"	d
+SLC_NAME	arpa/telnet.h	215;"	d
+SLC_NAMELIST	arpa/telnet.h	202;"	d
+SLC_NAMES	arpa/telnet.h	211;"	d
+SLC_NAME_OK	arpa/telnet.h	214;"	d
+SLC_NOSUPPORT	arpa/telnet.h	217;"	d
+SLC_RP	arpa/telnet.h	189;"	d
+SLC_SUSP	arpa/telnet.h	185;"	d
+SLC_SYNCH	arpa/telnet.h	177;"	d
+SLC_VALUE	arpa/telnet.h	225;"	d
+SLC_VARIABLE	arpa/telnet.h	219;"	d
+SLC_XOFF	arpa/telnet.h	192;"	d
+SLC_XON	arpa/telnet.h	191;"	d
+STAYOPEN	gethstent_r.c	27;"	d	file:
+STAYOPEN	getnetent_r.c	27;"	d	file:
+STAYOPEN	getprtent_r.c	27;"	d	file:
+STAYOPEN	getrpcent_r.c	27;"	d	file:
+STAYOPEN	getservent_r.c	27;"	d	file:
+STAYOPEN_VAR	gethstent_r.c	28;"	d	file:
+STAYOPEN_VAR	getnetent_r.c	28;"	d	file:
+STAYOPEN_VAR	getprtent_r.c	28;"	d	file:
+STAYOPEN_VAR	getrpcent_r.c	28;"	d	file:
+STAYOPEN_VAR	getservent_r.c	28;"	d	file:
+STRU_F	arpa/ftp.h	71;"	d
+STRU_P	arpa/ftp.h	73;"	d
+STRU_R	arpa/ftp.h	72;"	d
+SUCCESS	protocols/talkd.h	96;"	d
+SUPPLY_INTERVAL	protocols/routed.h	94;"	d
+SUSP	arpa/telnet.h	56;"	d
+SYNCH	arpa/telnet.h	59;"	d
+TALK_VERSION	protocols/talkd.h	87;"	d
+TELCMD	arpa/telnet.h	75;"	d
+TELCMD_FIRST	arpa/telnet.h	71;"	d
+TELCMD_LAST	arpa/telnet.h	72;"	d
+TELCMD_OK	arpa/telnet.h	73;"	d
+TELOPT	arpa/telnet.h	139;"	d
+TELOPT_3270REGIME	arpa/telnet.h	107;"	d
+TELOPT_AUTHENTICATION	arpa/telnet.h	115;"	d
+TELOPT_BINARY	arpa/telnet.h	78;"	d
+TELOPT_BM	arpa/telnet.h	97;"	d
+TELOPT_DET	arpa/telnet.h	98;"	d
+TELOPT_ECHO	arpa/telnet.h	79;"	d
+TELOPT_ENCRYPT	arpa/telnet.h	116;"	d
+TELOPT_EOR	arpa/telnet.h	103;"	d
+TELOPT_EXOPL	arpa/telnet.h	118;"	d
+TELOPT_FIRST	arpa/telnet.h	136;"	d
+TELOPT_LAST	arpa/telnet.h	137;"	d
+TELOPT_LFLOW	arpa/telnet.h	111;"	d
+TELOPT_LINEMODE	arpa/telnet.h	112;"	d
+TELOPT_LOGOUT	arpa/telnet.h	96;"	d
+TELOPT_NAMS	arpa/telnet.h	82;"	d
+TELOPT_NAOCRD	arpa/telnet.h	88;"	d
+TELOPT_NAOFFD	arpa/telnet.h	91;"	d
+TELOPT_NAOHTD	arpa/telnet.h	90;"	d
+TELOPT_NAOHTS	arpa/telnet.h	89;"	d
+TELOPT_NAOL	arpa/telnet.h	86;"	d
+TELOPT_NAOLFD	arpa/telnet.h	94;"	d
+TELOPT_NAOP	arpa/telnet.h	87;"	d
+TELOPT_NAOVTD	arpa/telnet.h	93;"	d
+TELOPT_NAOVTS	arpa/telnet.h	92;"	d
+TELOPT_NAWS	arpa/telnet.h	109;"	d
+TELOPT_NEW_ENVIRON	arpa/telnet.h	117;"	d
+TELOPT_OK	arpa/telnet.h	138;"	d
+TELOPT_OLD_ENVIRON	arpa/telnet.h	114;"	d
+TELOPT_OUTMRK	arpa/telnet.h	105;"	d
+TELOPT_RCP	arpa/telnet.h	80;"	d
+TELOPT_RCTE	arpa/telnet.h	85;"	d
+TELOPT_SGA	arpa/telnet.h	81;"	d
+TELOPT_SNDLOC	arpa/telnet.h	101;"	d
+TELOPT_STATUS	arpa/telnet.h	83;"	d
+TELOPT_SUPDUP	arpa/telnet.h	99;"	d
+TELOPT_SUPDUPOUTPUT	arpa/telnet.h	100;"	d
+TELOPT_TM	arpa/telnet.h	84;"	d
+TELOPT_TSPEED	arpa/telnet.h	110;"	d
+TELOPT_TTYLOC	arpa/telnet.h	106;"	d
+TELOPT_TTYPE	arpa/telnet.h	102;"	d
+TELOPT_TUID	arpa/telnet.h	104;"	d
+TELOPT_X3PAD	arpa/telnet.h	108;"	d
+TELOPT_XASCII	arpa/telnet.h	95;"	d
+TELOPT_XDISPLOC	arpa/telnet.h	113;"	d
+TELQUAL_INFO	arpa/telnet.h	145;"	d
+TELQUAL_IS	arpa/telnet.h	143;"	d
+TELQUAL_NAME	arpa/telnet.h	147;"	d
+TELQUAL_REPLY	arpa/telnet.h	146;"	d
+TELQUAL_SEND	arpa/telnet.h	144;"	d
+TEST	htontest.c	27;"	d	file:
+TEST	htontest.c	33;"	d	file:
+TEST_FUNCTION	bug-if1.c	53;"	d	file:
+TEST_FUNCTION	test-ifaddrs.c	99;"	d	file:
+TEST_FUNCTION	test_ifindex.c	67;"	d	file:
+TEST_FUNCTION	tst-ether_line.c	37;"	d	file:
+TEST_FUNCTION	tst-getni1.c	35;"	d	file:
+TEST_FUNCTION	tst-getni2.c	40;"	d	file:
+TEST_FUNCTION	tst-inet6_rth.c	187;"	d	file:
+TIMER_RATE	protocols/routed.h	92;"	d
+TOK_ACCOUNT_IDX	ruserpass.c	73;"	d	file:
+TOK_DEFAULT_IDX	ruserpass.c	65;"	d	file:
+TOK_LOGIN_IDX	ruserpass.c	67;"	d	file:
+TOK_MACDEF_IDX	ruserpass.c	77;"	d	file:
+TOK_MACHINE_IDX	ruserpass.c	75;"	d	file:
+TOK_PASSWD_IDX	ruserpass.c	71;"	d	file:
+TOK_PASSWORD_IDX	ruserpass.c	69;"	d	file:
+TRANSIENT	arpa/ftp.h	43;"	d
+TSPTYPENUMBER	protocols/timed.h	87;"	d
+TSPVERSION	protocols/timed.h	41;"	d
+TSP_ACCEPT	protocols/timed.h	70;"	d
+TSP_ACK	protocols/timed.h	63;"	d
+TSP_ADJTIME	protocols/timed.h	62;"	d
+TSP_ANY	protocols/timed.h	61;"	d
+TSP_CONFLICT	protocols/timed.h	72;"	d
+TSP_DATE	protocols/timed.h	75;"	d
+TSP_DATEACK	protocols/timed.h	77;"	d
+TSP_DATEREQ	protocols/timed.h	76;"	d
+TSP_ELECTION	protocols/timed.h	69;"	d
+TSP_LOOP	protocols/timed.h	85;"	d
+TSP_MASTERACK	protocols/timed.h	65;"	d
+TSP_MASTERREQ	protocols/timed.h	64;"	d
+TSP_MASTERUP	protocols/timed.h	67;"	d
+TSP_MSITE	protocols/timed.h	80;"	d
+TSP_MSITEREQ	protocols/timed.h	81;"	d
+TSP_QUIT	protocols/timed.h	74;"	d
+TSP_REFUSE	protocols/timed.h	71;"	d
+TSP_RESOLVE	protocols/timed.h	73;"	d
+TSP_SETDATE	protocols/timed.h	83;"	d
+TSP_SETDATEREQ	protocols/timed.h	84;"	d
+TSP_SETTIME	protocols/timed.h	66;"	d
+TSP_SLAVEUP	protocols/timed.h	68;"	d
+TSP_TEST	protocols/timed.h	82;"	d
+TSP_TRACEOFF	protocols/timed.h	79;"	d
+TSP_TRACEON	protocols/timed.h	78;"	d
+TTY_SIZE	protocols/talkd.h	71;"	d
+TYPE_A	arpa/ftp.h	49;"	d
+TYPE_E	arpa/ftp.h	50;"	d
+TYPE_I	arpa/ftp.h	51;"	d
+TYPE_L	arpa/ftp.h	52;"	d
+UNKNOWN_REQUEST	protocols/talkd.h	101;"	d
+WHODTYPE_STATUS	protocols/rwhod.h	62;"	d
+WHODVERSION	protocols/rwhod.h	61;"	d
+WILL	arpa/telnet.h	42;"	d
+WONT	arpa/telnet.h	41;"	d
+WRQ	arpa/tftp.h	44;"	d
+_ALIASES_H	aliases.h	20;"	d
+_ARPA_FTP_H	arpa/ftp.h	33;"	d
+_ARPA_INET_H	arpa/inet.h	20;"	d
+_ARPA_TELNET_H	arpa/telnet.h	33;"	d
+_ARPA_TFTP_H	arpa/tftp.h	33;"	d
+_IFADDRS_H	ifaddrs.h	21;"	d
+_NETGROUP_H	netgroup.h	21;"	d
+_NETINET_ETHER_H	netinet/ether.h	21;"	d
+_NETINET_ICMP6_H	netinet/icmp6.h	20;"	d
+_NETINET_IGMP_H	netinet/igmp.h	20;"	d
+_NETINET_IN_H	netinet/in.h	21;"	d
+_NETINET_IP6_H	netinet/ip6.h	20;"	d
+_PROTOCOLS_ROUTED_H	protocols/routed.h	33;"	d
+_PROTOCOLS_RWHOD_H	protocols/rwhod.h	33;"	d
+_PROTOCOLS_TALKD_H	protocols/talkd.h	33;"	d
+_PROTOCOLS_TIMED_H	protocols/timed.h	33;"	d
+__attribute_deprecated__	netinet/in.h	/^				int __plusy) __THROW __attribute_deprecated__;$/;"	v
+__attribute_deprecated__	netinet/in.h	/^			      int __type) __THROW __attribute_deprecated__;$/;"	v
+__attribute_deprecated__	netinet/in.h	/^     __THROW __attribute_deprecated__;$/;"	v
+__check_pf	check_pf.c	/^__check_pf (bool *seen_ipv4, bool *seen_ipv6,$/;"	f
+__check_rhosts_file	rcmd.c	/^int	__check_rhosts_file = 1;$/;"	v
+__checkhost_sa	rcmd.c	/^__checkhost_sa (struct sockaddr *ra, size_t ralen, char *lhost,$/;"	f	file:
+__h_errno_location	herrno-loc.c	/^__h_errno_location (void)$/;"	f
+__icheckuser	rcmd.c	/^__icheckuser (const char *luser, const char *ruser)$/;"	f	file:
+__ifreq	ifreq.c	/^__ifreq (struct ifreq **ifreqs, int *num_ifs, int sockfd)$/;"	f
+__in6_u	netinet/in.h	/^      } __in6_u;$/;"	m	struct:in6_addr	typeref:union:in6_addr::__anon16
+__internal_setnetgrent_reuse	getnetgrent_r.c	/^__internal_setnetgrent_reuse (const char *group, struct __netgrent *datap,$/;"	f	file:
+__isempty	rcmd.c	/^__isempty (char *p)$/;"	f	file:
+__ivaliduser	rcmd.c	/^__ivaliduser(hostf, raddr, luser, ruser)$/;"	f
+__netgrent	netgroup.h	/^struct __netgrent$/;"	s
+__rcmd_errstr	rcmd.c	/^char	*__rcmd_errstr;$/;"	v
+__socklen_t_defined	arpa/inet.h	28;"	d
+__u6_addr16	netinet/in.h	/^	uint16_t __u6_addr16[8];$/;"	m	union:in6_addr::__anon16
+__u6_addr32	netinet/in.h	/^	uint32_t __u6_addr32[4];$/;"	m	union:in6_addr::__anon16
+__u6_addr8	netinet/in.h	/^	uint8_t	__u6_addr8[16];$/;"	m	union:in6_addr::__anon16
+__validuser2_sa	rcmd.c	/^__validuser2_sa(hostf, ra, ralen, luser, ruser, rhost)$/;"	f	file:
+add_pad	inet6_option.c	/^add_pad (struct cmsghdr *cmsg, int len)$/;"	f	file:
+add_padding	inet6_opt.c	/^add_padding (uint8_t *extbuf, int offset, int npad)$/;"	f	file:
+addr	protocols/talkd.h	/^	struct	osockaddr addr;		\/* old (4.3) style *\/$/;"	m	struct:__anon8	typeref:struct:__anon8::osockaddr
+addr	protocols/talkd.h	/^	struct	osockaddr addr;	\/* address for establishing conversation *\/$/;"	m	struct:__anon9	typeref:struct:__anon9::osockaddr
+addr_string	test-ifaddrs.c	/^addr_string (struct sockaddr *sa, char *buf, size_t size)$/;"	f	file:
+af	rcmd.c	/^	sa_family_t af;$/;"	v
+ahost	rcmd.c	/^	char **ahost;$/;"	v
+alias_local	aliases.h	/^    int alias_local;$/;"	m	struct:aliasent
+alias_members	aliases.h	/^    char **alias_members;$/;"	m	struct:aliasent
+alias_members_len	aliases.h	/^    size_t alias_members_len;$/;"	m	struct:aliasent
+alias_name	aliases.h	/^    char *alias_name;$/;"	m	struct:aliasent
+aliasent	aliases.h	/^struct aliasent$/;"	s
+allocate	getnetgrent.c	/^allocate (void)$/;"	f	file:
+answer	protocols/talkd.h	/^	u_char	answer;		\/* not used *\/$/;"	m	struct:__anon8
+answer	protocols/talkd.h	/^	u_char	answer;		\/* response to request message, see below *\/$/;"	m	struct:__anon9
+authtype_names	arpa/telnet.h	/^char *authtype_names[] = {$/;"	v
+buffer	inet_ntoa.c	/^static __thread char buffer[18];$/;"	v	file:
+cfile	ruserpass.c	/^static	FILE *cfile;$/;"	v	file:
+cmd	rcmd.c	/^	const char *locuser, *remuser, *cmd;$/;"	v
+cmd	rexec.c	/^	const char *name, *pass, *cmd;$/;"	v
+ctl_addr	protocols/talkd.h	/^	struct	osockaddr ctl_addr;	\/* old (4.3) style *\/$/;"	m	struct:__anon8	typeref:struct:__anon8::osockaddr
+cursor	netgroup.h	/^    char *cursor;$/;"	m	union:__netgrent::__anon5
+data	netgroup.h	/^  char *data;$/;"	m	struct:__netgrent
+data_size	netgroup.h	/^  size_t data_size;$/;"	m	struct:__netgrent
+dataset	getnetgrent_r.c	/^static struct __netgrent dataset;$/;"	v	typeref:struct:__netgrent	file:
+decode_inet6_opt	test-inet6_opt.c	/^decode_inet6_opt (void *eb, socklen_t el)$/;"	f
+distribute	Makefile	/^distribute := netgroup.h$/;"	m
+do_test	bug-if1.c	/^do_test (void)$/;"	f	file:
+do_test	test-ifaddrs.c	/^do_test (void)$/;"	f	file:
+do_test	test_ifindex.c	/^do_test (void)$/;"	f	file:
+do_test	tst-ether_line.c	/^do_test (void)$/;"	f	file:
+do_test	tst-getni1.c	/^do_test (void)$/;"	f	file:
+do_test	tst-getni2.c	/^do_test (void)$/;"	f	file:
+do_test	tst-inet6_rth.c	/^do_test (void)$/;"	f	file:
+domain	netgroup.h	/^      const char *domain;$/;"	m	struct:__netgrent::__anon3::__anon4
+encode_inet6_opt	test-inet6_opt.c	/^encode_inet6_opt (socklen_t *elp)$/;"	f	file:
+encrypt_names	arpa/telnet.h	/^char *encrypt_names[] = {$/;"	v
+enctype_names	arpa/telnet.h	/^char *enctype_names[] = {$/;"	v
+endnetgrent_hook	getnetgrent_r.c	/^endnetgrent_hook (struct __netgrent *datap)$/;"	f	file:
+ether_aton	ether_aton.c	/^ether_aton (const char *asc)$/;"	f
+ether_aton_r	ether_aton_r.c	/^ether_aton_r (const char *asc, struct ether_addr *addr)$/;"	f
+ether_hostton	ether_hton.c	/^ether_hostton (const char *hostname, struct ether_addr *addr)$/;"	f
+ether_line	ether_line.c	/^ether_line (const char *line, struct ether_addr *addr, char *hostname)$/;"	f
+ether_ntoa	ether_ntoa.c	/^ether_ntoa (const struct ether_addr *addr)$/;"	f
+ether_ntoa_r	ether_ntoa_r.c	/^ether_ntoa_r (const struct ether_addr *addr, char *buf)$/;"	f
+ether_ntohost	ether_ntoh.c	/^ether_ntohost (char *hostname, const struct ether_addr *addr)$/;"	f
+failures	test-ifaddrs.c	/^static int failures;$/;"	v	file:
+fd2p	rcmd.c	/^	int *fd2p;$/;"	v
+fd2p	rexec.c	/^	int *fd2p;$/;"	v
+first	netgroup.h	/^  int first;$/;"	m	struct:__netgrent
+foo	htontest.c	/^u_int16_t foo = 0x1234;$/;"	v
+formnames	arpa/ftp.h	/^char *formnames[] =  {"0", "Nonprint", "Telnet", "Carriage-control" };$/;"	v
+free_memory	getnetgrent_r.c	/^free_memory (struct __netgrent *data)$/;"	f	file:
+get_opt_end	inet6_option.c	/^get_opt_end (const uint8_t **result, const uint8_t *startp,$/;"	f	file:
+getifaddrs	ifaddrs.c	/^getifaddrs (struct ifaddrs **ifap)$/;"	f
+getipv4sourcefilter	getipv4sourcefilter.c	/^getipv4sourcefilter (int s, struct in_addr interface, struct in_addr group,$/;"	f
+getnameinfo	getnameinfo.c	/^getnameinfo (const struct sockaddr *sa, socklen_t addrlen, char *host,$/;"	f
+getnetgrent	getnetgrent.c	/^getnetgrent (char **hostp, char **userp, char **domainp)$/;"	f
+getsourcefilter	getsourcefilter.c	/^getsourcefilter (int s, uint32_t interface, const struct sockaddr *group,$/;"	f
+gf_fmode	netinet/in.h	/^    uint32_t gf_fmode;$/;"	m	struct:group_filter
+gf_group	netinet/in.h	/^    struct sockaddr_storage gf_group;$/;"	m	struct:group_filter	typeref:struct:group_filter::sockaddr_storage
+gf_interface	netinet/in.h	/^    uint32_t gf_interface;$/;"	m	struct:group_filter
+gf_numsrc	netinet/in.h	/^    uint32_t gf_numsrc;$/;"	m	struct:group_filter
+gf_slist	netinet/in.h	/^    struct sockaddr_storage gf_slist[1];$/;"	m	struct:group_filter	typeref:struct:group_filter::sockaddr_storage
+gr_group	netinet/in.h	/^    struct sockaddr_storage gr_group;$/;"	m	struct:group_req	typeref:struct:group_req::sockaddr_storage
+gr_interface	netinet/in.h	/^    uint32_t gr_interface;$/;"	m	struct:group_req
+group	netgroup.h	/^    const char *group;$/;"	m	union:__netgrent::__anon3
+group_filter	netinet/in.h	/^struct group_filter$/;"	s
+group_req	netinet/in.h	/^struct group_req$/;"	s
+group_source_req	netinet/in.h	/^struct group_source_req$/;"	s
+group_val	netgroup.h	/^  enum { triple_val, group_val } type;$/;"	e	enum:__netgrent::__anon2
+gsr_group	netinet/in.h	/^    struct sockaddr_storage gsr_group;$/;"	m	struct:group_source_req	typeref:struct:group_source_req::sockaddr_storage
+gsr_interface	netinet/in.h	/^    uint32_t gsr_interface;$/;"	m	struct:group_source_req
+gsr_source	netinet/in.h	/^    struct sockaddr_storage gsr_source;$/;"	m	struct:group_source_req	typeref:struct:group_source_req::sockaddr_storage
+h_errno	herrno-loc.c	23;"	d	file:
+h_errno	herrno.c	/^__thread int h_errno;$/;"	v
+h_errno	herrno.c	/^int h_errno __attribute__((section (".bss")));$/;"	v
+h_errno	herrno.c	21;"	d	file:
+h_errno	herrno.c	32;"	d	file:
+headers	Makefile	/^headers	:= netinet\/ether.h netinet\/in.h netinet\/in_systm.h \\$/;"	m
+host	netgroup.h	/^      const char *host;$/;"	m	struct:__netgrent::__anon3::__anon4
+htonl	htonl.c	/^htonl (x)$/;"	f
+htonl	htonl.c	21;"	d	file:
+htonl	netinet/in.h	387;"	d
+htonl	netinet/in.h	393;"	d
+htons	htons.c	/^htons (x)$/;"	f
+htons	htons.c	21;"	d	file:
+htons	netinet/in.h	388;"	d
+htons	netinet/in.h	394;"	d
+icmp6_cksum	netinet/icmp6.h	/^    uint16_t    icmp6_cksum;  \/* checksum field *\/$/;"	m	struct:icmp6_hdr
+icmp6_code	netinet/icmp6.h	/^    uint8_t     icmp6_code;   \/* code field *\/$/;"	m	struct:icmp6_hdr
+icmp6_data16	netinet/icmp6.h	53;"	d
+icmp6_data32	netinet/icmp6.h	52;"	d
+icmp6_data8	netinet/icmp6.h	54;"	d
+icmp6_dataun	netinet/icmp6.h	/^      } icmp6_dataun;$/;"	m	struct:icmp6_hdr	typeref:union:icmp6_hdr::__anon13
+icmp6_filt	netinet/icmp6.h	/^    uint32_t icmp6_filt[8];$/;"	m	struct:icmp6_filter
+icmp6_filter	netinet/icmp6.h	/^struct icmp6_filter$/;"	s
+icmp6_hdr	netinet/icmp6.h	/^struct icmp6_hdr$/;"	s
+icmp6_id	netinet/icmp6.h	57;"	d
+icmp6_maxdelay	netinet/icmp6.h	59;"	d
+icmp6_mtu	netinet/icmp6.h	56;"	d
+icmp6_pptr	netinet/icmp6.h	55;"	d
+icmp6_router_renum	netinet/icmp6.h	/^struct icmp6_router_renum    \/* router renumbering header *\/$/;"	s
+icmp6_seq	netinet/icmp6.h	58;"	d
+icmp6_type	netinet/icmp6.h	/^    uint8_t     icmp6_type;   \/* type field *\/$/;"	m	struct:icmp6_hdr
+icmp6_un_data16	netinet/icmp6.h	/^	uint16_t  icmp6_un_data16[2]; \/* type-specific field *\/$/;"	m	union:icmp6_hdr::__anon13
+icmp6_un_data32	netinet/icmp6.h	/^	uint32_t  icmp6_un_data32[1]; \/* type-specific field *\/$/;"	m	union:icmp6_hdr::__anon13
+icmp6_un_data8	netinet/icmp6.h	/^	uint8_t   icmp6_un_data8[4];  \/* type-specific field *\/$/;"	m	union:icmp6_hdr::__anon13
+id_num	protocols/talkd.h	/^	u_int32_t id_num;	\/* message id *\/$/;"	m	struct:__anon8
+id_num	protocols/talkd.h	/^	u_int32_t id_num;	\/* message id *\/$/;"	m	struct:__anon9
+if_nametoindex	if_index.c	/^if_nametoindex (const char *ifname)$/;"	f
+ifa_addr	ifaddrs.h	/^  struct sockaddr *ifa_addr;	\/* Network address of this interface.  *\/$/;"	m	struct:ifaddrs	typeref:struct:ifaddrs::sockaddr
+ifa_broadaddr	ifaddrs.h	51;"	d
+ifa_data	ifaddrs.h	/^  void *ifa_data;		\/* Address-specific data (may be unused).  *\/$/;"	m	struct:ifaddrs
+ifa_dstaddr	ifaddrs.h	54;"	d
+ifa_flags	ifaddrs.h	/^  unsigned int ifa_flags;	\/* Flags as from SIOCGIFFLAGS ioctl.  *\/$/;"	m	struct:ifaddrs
+ifa_ifu	ifaddrs.h	/^  } ifa_ifu;$/;"	m	struct:ifaddrs	typeref:union:ifaddrs::__anon7
+ifa_name	ifaddrs.h	/^  char *ifa_name;		\/* Name of this network interface.  *\/$/;"	m	struct:ifaddrs
+ifa_netmask	ifaddrs.h	/^  struct sockaddr *ifa_netmask; \/* Netmask of this interface.  *\/$/;"	m	struct:ifaddrs	typeref:struct:ifaddrs::sockaddr
+ifa_next	ifaddrs.h	/^  struct ifaddrs *ifa_next;	\/* Pointer to the next structure.  *\/$/;"	m	struct:ifaddrs	typeref:struct:ifaddrs::ifaddrs
+ifaddrs	ifaddrs.h	/^struct ifaddrs$/;"	s
+ifu_broadaddr	ifaddrs.h	/^    struct sockaddr *ifu_broadaddr; \/* Broadcast address of this interface. *\/$/;"	m	union:ifaddrs::__anon7	typeref:struct:ifaddrs::__anon7::sockaddr
+ifu_dstaddr	ifaddrs.h	/^    struct sockaddr *ifu_dstaddr; \/* Point-to-point destination address.  *\/$/;"	m	union:ifaddrs::__anon7	typeref:struct:ifaddrs::__anon7::sockaddr
+igmp	netinet/igmp.h	/^struct igmp {$/;"	s
+igmp_cksum	netinet/igmp.h	/^  u_int16_t igmp_cksum;           \/* checksum *\/$/;"	m	struct:igmp
+igmp_code	netinet/igmp.h	/^  u_int8_t igmp_code;             \/* routing code *\/$/;"	m	struct:igmp
+igmp_group	netinet/igmp.h	/^  struct in_addr igmp_group;      \/* group address *\/$/;"	m	struct:igmp	typeref:struct:igmp::in_addr
+igmp_type	netinet/igmp.h	/^  u_int8_t igmp_type;             \/* IGMP type *\/$/;"	m	struct:igmp
+imr_interface	netinet/in.h	/^    struct in_addr imr_interface;$/;"	m	struct:ip_mreq	typeref:struct:ip_mreq::in_addr
+imr_interface	netinet/in.h	/^    struct in_addr imr_interface;$/;"	m	struct:ip_mreq_source	typeref:struct:ip_mreq_source::in_addr
+imr_multiaddr	netinet/in.h	/^    struct in_addr imr_multiaddr;$/;"	m	struct:ip_mreq	typeref:struct:ip_mreq::in_addr
+imr_multiaddr	netinet/in.h	/^    struct in_addr imr_multiaddr;$/;"	m	struct:ip_mreq_source	typeref:struct:ip_mreq_source::in_addr
+imr_sourceaddr	netinet/in.h	/^    struct in_addr imr_sourceaddr;$/;"	m	struct:ip_mreq_source	typeref:struct:ip_mreq_source::in_addr
+imsf_fmode	netinet/in.h	/^    uint32_t imsf_fmode;$/;"	m	struct:ip_msfilter
+imsf_interface	netinet/in.h	/^    struct in_addr imsf_interface;$/;"	m	struct:ip_msfilter	typeref:struct:ip_msfilter::in_addr
+imsf_multiaddr	netinet/in.h	/^    struct in_addr imsf_multiaddr;$/;"	m	struct:ip_msfilter	typeref:struct:ip_msfilter::in_addr
+imsf_numsrc	netinet/in.h	/^    uint32_t imsf_numsrc;$/;"	m	struct:ip_msfilter
+imsf_slist	netinet/in.h	/^    struct in_addr imsf_slist[1];$/;"	m	struct:ip_msfilter	typeref:struct:ip_msfilter::in_addr
+in6_addr	netinet/in.h	/^struct in6_addr$/;"	s
+in6_pktinfo	netinet/in.h	/^struct in6_pktinfo$/;"	s
+in6addr_any	in6_addr.c	/^const struct in6_addr in6addr_any =$/;"	v	typeref:struct:in6_addr
+in_addr	netinet/in.h	/^struct in_addr$/;"	s
+in_addr_t	netinet/in.h	/^typedef uint32_t in_addr_t;$/;"	t
+in_port_t	netinet/in.h	/^typedef uint16_t in_port_t;$/;"	t
+inet6_opt_append	inet6_opt.c	/^inet6_opt_append (void *extbuf, socklen_t extlen, int offset, uint8_t type,$/;"	f
+inet6_opt_find	inet6_opt.c	/^inet6_opt_find (void *extbuf, socklen_t extlen, int offset, uint8_t type,$/;"	f
+inet6_opt_finish	inet6_opt.c	/^inet6_opt_finish (void *extbuf, socklen_t extlen, int offset)$/;"	f
+inet6_opt_get_val	inet6_opt.c	/^inet6_opt_get_val (void *databuf, int offset, void *val, socklen_t vallen)$/;"	f
+inet6_opt_init	inet6_opt.c	/^inet6_opt_init (void *extbuf, socklen_t extlen)$/;"	f
+inet6_opt_next	inet6_opt.c	/^inet6_opt_next (void *extbuf, socklen_t extlen, int offset, uint8_t *typep,$/;"	f
+inet6_opt_set_val	inet6_opt.c	/^inet6_opt_set_val (void *databuf, int offset, void *val, socklen_t vallen)$/;"	f
+inet6_option_alloc	inet6_option.c	/^inet6_option_alloc (cmsg, datalen, multx, plusy)$/;"	f
+inet6_option_append	inet6_option.c	/^inet6_option_append (cmsg, typep, multx, plusy)$/;"	f
+inet6_option_find	inet6_option.c	/^inet6_option_find (cmsg, tptrp, type)$/;"	f
+inet6_option_init	inet6_option.c	/^inet6_option_init (bp, cmsgp, type)$/;"	f
+inet6_option_next	inet6_option.c	/^inet6_option_next (cmsg, tptrp)$/;"	f
+inet6_option_space	inet6_option.c	/^inet6_option_space (nbytes)$/;"	f
+inet6_rth_add	inet6_rth.c	/^inet6_rth_add (void *bp, const struct in6_addr *addr)$/;"	f
+inet6_rth_getaddr	inet6_rth.c	/^inet6_rth_getaddr (const void *bp, int index)$/;"	f
+inet6_rth_init	inet6_rth.c	/^inet6_rth_init (void *bp, socklen_t bp_len, int type, int segments)$/;"	f
+inet6_rth_reverse	inet6_rth.c	/^inet6_rth_reverse (const void *in, void *out)$/;"	f
+inet6_rth_segments	inet6_rth.c	/^inet6_rth_segments (const void *bp)$/;"	f
+inet6_rth_space	inet6_rth.c	/^inet6_rth_space (int type, int segments)$/;"	f
+inet_lnaof	inet_lnaof.c	/^inet_lnaof(in)$/;"	f
+inet_makeaddr	inet_mkadr.c	/^inet_makeaddr(net, host)$/;"	f
+inet_netof	inet_netof.c	/^inet_netof(in)$/;"	f
+inet_network	inet_net.c	/^inet_network(cp)$/;"	f
+inet_ntoa	inet_ntoa.c	/^inet_ntoa (struct in_addr in)$/;"	f
+ip6_ctlun	netinet/ip6.h	/^      } ip6_ctlun;$/;"	m	struct:ip6_hdr	typeref:union:ip6_hdr::__anon12
+ip6_dest	netinet/ip6.h	/^struct ip6_dest$/;"	s
+ip6_dst	netinet/ip6.h	/^    struct in6_addr ip6_dst;      \/* destination address *\/$/;"	m	struct:ip6_hdr	typeref:struct:ip6_hdr::in6_addr
+ip6_ext	netinet/ip6.h	/^struct ip6_ext$/;"	s
+ip6_flow	netinet/ip6.h	44;"	d
+ip6_frag	netinet/ip6.h	/^struct ip6_frag$/;"	s
+ip6_hbh	netinet/ip6.h	/^struct ip6_hbh$/;"	s
+ip6_hdr	netinet/ip6.h	/^struct ip6_hdr$/;"	s
+ip6_hdrctl	netinet/ip6.h	/^	struct ip6_hdrctl$/;"	s	union:ip6_hdr::__anon12
+ip6_hlim	netinet/ip6.h	47;"	d
+ip6_hops	netinet/ip6.h	48;"	d
+ip6_mtuinfo	netinet/in.h	/^struct ip6_mtuinfo$/;"	s
+ip6_nxt	netinet/ip6.h	46;"	d
+ip6_opt	netinet/ip6.h	/^struct ip6_opt$/;"	s
+ip6_opt_jumbo	netinet/ip6.h	/^struct ip6_opt_jumbo$/;"	s
+ip6_opt_nsap	netinet/ip6.h	/^struct ip6_opt_nsap$/;"	s
+ip6_opt_router	netinet/ip6.h	/^struct ip6_opt_router$/;"	s
+ip6_opt_tunnel	netinet/ip6.h	/^struct ip6_opt_tunnel$/;"	s
+ip6_plen	netinet/ip6.h	45;"	d
+ip6_rthdr	netinet/ip6.h	/^struct ip6_rthdr$/;"	s
+ip6_rthdr0	netinet/ip6.h	/^struct ip6_rthdr0$/;"	s
+ip6_src	netinet/ip6.h	/^    struct in6_addr ip6_src;      \/* source address *\/$/;"	m	struct:ip6_hdr	typeref:struct:ip6_hdr::in6_addr
+ip6_un1	netinet/ip6.h	/^	  } ip6_un1;$/;"	m	union:ip6_hdr::__anon12	typeref:struct:ip6_hdr::__anon12::ip6_hdrctl
+ip6_un1_flow	netinet/ip6.h	/^	    uint32_t ip6_un1_flow;   \/* 4 bits version, 8 bits TC,$/;"	m	struct:ip6_hdr::__anon12::ip6_hdrctl
+ip6_un1_hlim	netinet/ip6.h	/^	    uint8_t  ip6_un1_hlim;   \/* hop limit *\/$/;"	m	struct:ip6_hdr::__anon12::ip6_hdrctl
+ip6_un1_nxt	netinet/ip6.h	/^	    uint8_t  ip6_un1_nxt;    \/* next header *\/$/;"	m	struct:ip6_hdr::__anon12::ip6_hdrctl
+ip6_un1_plen	netinet/ip6.h	/^	    uint16_t ip6_un1_plen;   \/* payload length *\/$/;"	m	struct:ip6_hdr::__anon12::ip6_hdrctl
+ip6_un2_vfc	netinet/ip6.h	/^	uint8_t ip6_un2_vfc;       \/* 4 bits version, top 4 bits tclass *\/$/;"	m	union:ip6_hdr::__anon12
+ip6_vfc	netinet/ip6.h	43;"	d
+ip6d_len	netinet/ip6.h	/^    uint8_t  ip6d_len;		\/* length in units of 8 octets *\/$/;"	m	struct:ip6_dest
+ip6d_nxt	netinet/ip6.h	/^    uint8_t  ip6d_nxt;		\/* next header *\/$/;"	m	struct:ip6_dest
+ip6e_len	netinet/ip6.h	/^    uint8_t  ip6e_len;		\/* length in units of 8 octets.  *\/$/;"	m	struct:ip6_ext
+ip6e_nxt	netinet/ip6.h	/^    uint8_t  ip6e_nxt;		\/* next header.  *\/$/;"	m	struct:ip6_ext
+ip6f_ident	netinet/ip6.h	/^    uint32_t  ip6f_ident;	\/* identification *\/$/;"	m	struct:ip6_frag
+ip6f_nxt	netinet/ip6.h	/^    uint8_t   ip6f_nxt;		\/* next header *\/$/;"	m	struct:ip6_frag
+ip6f_offlg	netinet/ip6.h	/^    uint16_t  ip6f_offlg;	\/* offset, reserved, and flag *\/$/;"	m	struct:ip6_frag
+ip6f_reserved	netinet/ip6.h	/^    uint8_t   ip6f_reserved;	\/* reserved field *\/$/;"	m	struct:ip6_frag
+ip6h_len	netinet/ip6.h	/^    uint8_t  ip6h_len;		\/* length in units of 8 octets.  *\/$/;"	m	struct:ip6_hbh
+ip6h_nxt	netinet/ip6.h	/^    uint8_t  ip6h_nxt;		\/* next header.  *\/$/;"	m	struct:ip6_hbh
+ip6m_addr	netinet/in.h	/^    struct sockaddr_in6 ip6m_addr; \/* dst address including zone ID *\/$/;"	m	struct:ip6_mtuinfo	typeref:struct:ip6_mtuinfo::sockaddr_in6
+ip6m_mtu	netinet/in.h	/^    uint32_t ip6m_mtu;		   \/* path MTU in host byte order *\/$/;"	m	struct:ip6_mtuinfo
+ip6o_len	netinet/ip6.h	/^    uint8_t  ip6o_len;$/;"	m	struct:ip6_opt
+ip6o_type	netinet/ip6.h	/^    uint8_t  ip6o_type;$/;"	m	struct:ip6_opt
+ip6oj_jumbo_len	netinet/ip6.h	/^    uint8_t  ip6oj_jumbo_len[4];$/;"	m	struct:ip6_opt_jumbo
+ip6oj_len	netinet/ip6.h	/^    uint8_t  ip6oj_len;$/;"	m	struct:ip6_opt_jumbo
+ip6oj_type	netinet/ip6.h	/^    uint8_t  ip6oj_type;$/;"	m	struct:ip6_opt_jumbo
+ip6on_dst_nsap_len	netinet/ip6.h	/^    uint8_t  ip6on_dst_nsap_len;$/;"	m	struct:ip6_opt_nsap
+ip6on_len	netinet/ip6.h	/^    uint8_t  ip6on_len;$/;"	m	struct:ip6_opt_nsap
+ip6on_src_nsap_len	netinet/ip6.h	/^    uint8_t  ip6on_src_nsap_len;$/;"	m	struct:ip6_opt_nsap
+ip6on_type	netinet/ip6.h	/^    uint8_t  ip6on_type;$/;"	m	struct:ip6_opt_nsap
+ip6or_len	netinet/ip6.h	/^    uint8_t  ip6or_len;$/;"	m	struct:ip6_opt_router
+ip6or_type	netinet/ip6.h	/^    uint8_t  ip6or_type;$/;"	m	struct:ip6_opt_router
+ip6or_value	netinet/ip6.h	/^    uint8_t  ip6or_value[2];$/;"	m	struct:ip6_opt_router
+ip6ot_encap_limit	netinet/ip6.h	/^    uint8_t  ip6ot_encap_limit;$/;"	m	struct:ip6_opt_tunnel
+ip6ot_len	netinet/ip6.h	/^    uint8_t  ip6ot_len;$/;"	m	struct:ip6_opt_tunnel
+ip6ot_type	netinet/ip6.h	/^    uint8_t  ip6ot_type;$/;"	m	struct:ip6_opt_tunnel
+ip6r0_addr	netinet/ip6.h	/^    struct in6_addr ip6r0_addr[0];$/;"	m	struct:ip6_rthdr0	typeref:struct:ip6_rthdr0::in6_addr
+ip6r0_len	netinet/ip6.h	/^    uint8_t  ip6r0_len;		\/* length in units of 8 octets *\/$/;"	m	struct:ip6_rthdr0
+ip6r0_nxt	netinet/ip6.h	/^    uint8_t  ip6r0_nxt;		\/* next header *\/$/;"	m	struct:ip6_rthdr0
+ip6r0_reserved	netinet/ip6.h	/^    uint8_t  ip6r0_reserved;	\/* reserved field *\/$/;"	m	struct:ip6_rthdr0
+ip6r0_segleft	netinet/ip6.h	/^    uint8_t  ip6r0_segleft;	\/* segments left *\/$/;"	m	struct:ip6_rthdr0
+ip6r0_slmap	netinet/ip6.h	/^    uint8_t  ip6r0_slmap[3];	\/* strict\/loose bit map *\/$/;"	m	struct:ip6_rthdr0
+ip6r0_type	netinet/ip6.h	/^    uint8_t  ip6r0_type;	\/* always zero *\/$/;"	m	struct:ip6_rthdr0
+ip6r_len	netinet/ip6.h	/^    uint8_t  ip6r_len;		\/* length in units of 8 octets *\/$/;"	m	struct:ip6_rthdr
+ip6r_nxt	netinet/ip6.h	/^    uint8_t  ip6r_nxt;		\/* next header *\/$/;"	m	struct:ip6_rthdr
+ip6r_segleft	netinet/ip6.h	/^    uint8_t  ip6r_segleft;	\/* segments left *\/$/;"	m	struct:ip6_rthdr
+ip6r_type	netinet/ip6.h	/^    uint8_t  ip6r_type;		\/* routing type *\/$/;"	m	struct:ip6_rthdr
+ip_mreq	netinet/in.h	/^struct ip_mreq$/;"	s
+ip_mreq_source	netinet/in.h	/^struct ip_mreq_source$/;"	s
+ip_msfilter	netinet/in.h	/^struct ip_msfilter$/;"	s
+ipi6_addr	netinet/in.h	/^    struct in6_addr ipi6_addr;	\/* src\/dst IPv6 address *\/$/;"	m	struct:in6_pktinfo	typeref:struct:in6_pktinfo::in6_addr
+ipi6_ifindex	netinet/in.h	/^    unsigned int ipi6_ifindex;	\/* send\/recv interface index *\/$/;"	m	struct:in6_pktinfo
+ipv6_mreq	netinet/in.h	/^struct ipv6_mreq$/;"	s
+ipv6mr_interface	netinet/in.h	/^    unsigned int ipv6mr_interface;$/;"	m	struct:ipv6_mreq
+ipv6mr_multiaddr	netinet/in.h	/^    struct in6_addr ipv6mr_multiaddr;$/;"	m	struct:ipv6_mreq	typeref:struct:ipv6_mreq::in6_addr
+iruserfopen	rcmd.c	/^iruserfopen (const char *file, uid_t okuser)$/;"	f	file:
+iruserok_af	rcmd.c	/^iruserok_af (raddr, superuser, ruser, luser, af)$/;"	f
+known_groups	netgroup.h	/^  struct name_list *known_groups;$/;"	m	struct:__netgrent	typeref:struct:__netgrent::name_list
+l_name	protocols/talkd.h	/^	char	l_name[NAME_SIZE];\/* caller's name *\/$/;"	m	struct:__anon8
+libc_hidden_def	getnetgrent_r.c	/^libc_hidden_def (internal_endnetgrent)$/;"	f
+libc_hidden_def	getnetgrent_r.c	/^libc_hidden_def (internal_getnetgrent_r)$/;"	f
+libc_hidden_def	getnetgrent_r.c	/^libc_hidden_def (internal_setnetgrent)$/;"	f
+libc_hidden_def	if_index.c	/^libc_hidden_def (if_indextoname)$/;"	f
+libc_hidden_def	if_index.c	/^libc_hidden_def (if_nametoindex)$/;"	f
+libc_hidden_def	ifaddrs.c	/^libc_hidden_def (getifaddrs)$/;"	f
+libc_hidden_def	rcmd.c	/^libc_hidden_def (rresvport_af)$/;"	f
+libc_hidden_proto	getnetgrent_r.c	/^libc_hidden_proto (internal_endnetgrent)$/;"	f
+libc_hidden_proto	getnetgrent_r.c	/^libc_hidden_proto (internal_getnetgrent_r)$/;"	f
+libc_hidden_proto	getnetgrent_r.c	/^libc_hidden_proto (internal_setnetgrent)$/;"	f
+lo	htontest.c	/^u_int32_t lo = 0x67452301;$/;"	v
+locuser	rcmd.c	/^	const char *locuser, *remuser, *cmd;$/;"	v
+lookup_function	ether_hton.c	/^typedef int (*lookup_function) (const char *, struct etherent *, char *, int,$/;"	t	file:
+lookup_function	ether_ntoh.c	/^typedef int (*lookup_function) (const struct ether_addr *, struct etherent *,$/;"	t	file:
+luser	rcmd.c	/^     const char *ruser, *luser;$/;"	v
+main	htontest.c	/^main (void)$/;"	f
+main	test-inet6_opt.c	/^main (void)$/;"	f
+main	tst-ether_aton.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-gethnm.c	/^main (void)$/;"	f
+main	tst-network.c	/^main (void)$/;"	f
+main	tst-ntoa.c	/^main (void)$/;"	f
+min	getnameinfo.c	63;"	d	file:
+mld_addr	netinet/icmp6.h	/^    struct in6_addr     mld_addr; \/* multicast address *\/$/;"	m	struct:mld_hdr	typeref:struct:mld_hdr::in6_addr
+mld_cksum	netinet/icmp6.h	243;"	d
+mld_code	netinet/icmp6.h	242;"	d
+mld_hdr	netinet/icmp6.h	/^struct mld_hdr$/;"	s
+mld_icmp6_hdr	netinet/icmp6.h	/^    struct icmp6_hdr    mld_icmp6_hdr;$/;"	m	struct:mld_hdr	typeref:struct:mld_hdr::icmp6_hdr
+mld_maxdelay	netinet/icmp6.h	244;"	d
+mld_reserved	netinet/icmp6.h	245;"	d
+mld_type	netinet/icmp6.h	241;"	d
+modenames	arpa/ftp.h	/^char *modenames[] =  {"0", "Stream", "Block", "Compressed" };$/;"	v
+name	netgroup.h	/^  char name[0];$/;"	m	struct:name_list
+name	rexec.c	/^	const char *name, *pass, *cmd;$/;"	v
+name_list	netgroup.h	/^struct name_list$/;"	s
+nd_na_cksum	netinet/icmp6.h	162;"	d
+nd_na_code	netinet/icmp6.h	161;"	d
+nd_na_flags_reserved	netinet/icmp6.h	163;"	d
+nd_na_hdr	netinet/icmp6.h	/^    struct icmp6_hdr  nd_na_hdr;$/;"	m	struct:nd_neighbor_advert	typeref:struct:nd_neighbor_advert::icmp6_hdr
+nd_na_target	netinet/icmp6.h	/^    struct in6_addr   nd_na_target; \/* target address *\/$/;"	m	struct:nd_neighbor_advert	typeref:struct:nd_neighbor_advert::in6_addr
+nd_na_type	netinet/icmp6.h	160;"	d
+nd_neighbor_advert	netinet/icmp6.h	/^struct nd_neighbor_advert     \/* neighbor advertisement *\/$/;"	s
+nd_neighbor_solicit	netinet/icmp6.h	/^struct nd_neighbor_solicit    \/* neighbor solicitation *\/$/;"	s
+nd_ns_cksum	netinet/icmp6.h	150;"	d
+nd_ns_code	netinet/icmp6.h	149;"	d
+nd_ns_hdr	netinet/icmp6.h	/^    struct icmp6_hdr  nd_ns_hdr;$/;"	m	struct:nd_neighbor_solicit	typeref:struct:nd_neighbor_solicit::icmp6_hdr
+nd_ns_reserved	netinet/icmp6.h	151;"	d
+nd_ns_target	netinet/icmp6.h	/^    struct in6_addr   nd_ns_target; \/* target address *\/$/;"	m	struct:nd_neighbor_solicit	typeref:struct:nd_neighbor_solicit::in6_addr
+nd_ns_type	netinet/icmp6.h	148;"	d
+nd_opt_adv_interval	netinet/icmp6.h	/^struct nd_opt_adv_interval$/;"	s
+nd_opt_adv_interval_ival	netinet/icmp6.h	/^    uint32_t  nd_opt_adv_interval_ival;$/;"	m	struct:nd_opt_adv_interval
+nd_opt_adv_interval_len	netinet/icmp6.h	/^    uint8_t   nd_opt_adv_interval_len;$/;"	m	struct:nd_opt_adv_interval
+nd_opt_adv_interval_reserved	netinet/icmp6.h	/^    uint16_t  nd_opt_adv_interval_reserved;$/;"	m	struct:nd_opt_adv_interval
+nd_opt_adv_interval_type	netinet/icmp6.h	/^    uint8_t   nd_opt_adv_interval_type;$/;"	m	struct:nd_opt_adv_interval
+nd_opt_hdr	netinet/icmp6.h	/^struct nd_opt_hdr             \/* Neighbor discovery option header *\/$/;"	s
+nd_opt_home_agent_info	netinet/icmp6.h	/^struct nd_opt_home_agent_info$/;"	s
+nd_opt_home_agent_info_len	netinet/icmp6.h	/^    uint8_t   nd_opt_home_agent_info_len;$/;"	m	struct:nd_opt_home_agent_info
+nd_opt_home_agent_info_lifetime	netinet/icmp6.h	/^    uint16_t  nd_opt_home_agent_info_lifetime;$/;"	m	struct:nd_opt_home_agent_info
+nd_opt_home_agent_info_preference	netinet/icmp6.h	/^    uint16_t  nd_opt_home_agent_info_preference;$/;"	m	struct:nd_opt_home_agent_info
+nd_opt_home_agent_info_reserved	netinet/icmp6.h	/^    uint16_t  nd_opt_home_agent_info_reserved;$/;"	m	struct:nd_opt_home_agent_info
+nd_opt_home_agent_info_type	netinet/icmp6.h	/^    uint8_t   nd_opt_home_agent_info_type;$/;"	m	struct:nd_opt_home_agent_info
+nd_opt_len	netinet/icmp6.h	/^    uint8_t  nd_opt_len;        \/* in units of 8 octets *\/$/;"	m	struct:nd_opt_hdr
+nd_opt_mtu	netinet/icmp6.h	/^struct nd_opt_mtu             \/* MTU option *\/$/;"	s
+nd_opt_mtu_len	netinet/icmp6.h	/^    uint8_t   nd_opt_mtu_len;$/;"	m	struct:nd_opt_mtu
+nd_opt_mtu_mtu	netinet/icmp6.h	/^    uint32_t  nd_opt_mtu_mtu;$/;"	m	struct:nd_opt_mtu
+nd_opt_mtu_reserved	netinet/icmp6.h	/^    uint16_t  nd_opt_mtu_reserved;$/;"	m	struct:nd_opt_mtu
+nd_opt_mtu_type	netinet/icmp6.h	/^    uint8_t   nd_opt_mtu_type;$/;"	m	struct:nd_opt_mtu
+nd_opt_pi_flags_reserved	netinet/icmp6.h	/^    uint8_t   nd_opt_pi_flags_reserved;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_pi_len	netinet/icmp6.h	/^    uint8_t   nd_opt_pi_len;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_pi_preferred_time	netinet/icmp6.h	/^    uint32_t  nd_opt_pi_preferred_time;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_pi_prefix	netinet/icmp6.h	/^    struct in6_addr  nd_opt_pi_prefix;$/;"	m	struct:nd_opt_prefix_info	typeref:struct:nd_opt_prefix_info::in6_addr
+nd_opt_pi_prefix_len	netinet/icmp6.h	/^    uint8_t   nd_opt_pi_prefix_len;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_pi_reserved2	netinet/icmp6.h	/^    uint32_t  nd_opt_pi_reserved2;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_pi_type	netinet/icmp6.h	/^    uint8_t   nd_opt_pi_type;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_pi_valid_time	netinet/icmp6.h	/^    uint32_t  nd_opt_pi_valid_time;$/;"	m	struct:nd_opt_prefix_info
+nd_opt_prefix_info	netinet/icmp6.h	/^struct nd_opt_prefix_info     \/* prefix information *\/$/;"	s
+nd_opt_rd_hdr	netinet/icmp6.h	/^struct nd_opt_rd_hdr          \/* redirected header *\/$/;"	s
+nd_opt_rh_len	netinet/icmp6.h	/^    uint8_t   nd_opt_rh_len;$/;"	m	struct:nd_opt_rd_hdr
+nd_opt_rh_reserved1	netinet/icmp6.h	/^    uint16_t  nd_opt_rh_reserved1;$/;"	m	struct:nd_opt_rd_hdr
+nd_opt_rh_reserved2	netinet/icmp6.h	/^    uint32_t  nd_opt_rh_reserved2;$/;"	m	struct:nd_opt_rd_hdr
+nd_opt_rh_type	netinet/icmp6.h	/^    uint8_t   nd_opt_rh_type;$/;"	m	struct:nd_opt_rd_hdr
+nd_opt_type	netinet/icmp6.h	/^    uint8_t  nd_opt_type;$/;"	m	struct:nd_opt_hdr
+nd_ra_cksum	netinet/icmp6.h	133;"	d
+nd_ra_code	netinet/icmp6.h	132;"	d
+nd_ra_curhoplimit	netinet/icmp6.h	134;"	d
+nd_ra_flags_reserved	netinet/icmp6.h	135;"	d
+nd_ra_hdr	netinet/icmp6.h	/^    struct icmp6_hdr  nd_ra_hdr;$/;"	m	struct:nd_router_advert	typeref:struct:nd_router_advert::icmp6_hdr
+nd_ra_reachable	netinet/icmp6.h	/^    uint32_t   nd_ra_reachable;   \/* reachable time *\/$/;"	m	struct:nd_router_advert
+nd_ra_retransmit	netinet/icmp6.h	/^    uint32_t   nd_ra_retransmit;  \/* retransmit timer *\/$/;"	m	struct:nd_router_advert
+nd_ra_router_lifetime	netinet/icmp6.h	139;"	d
+nd_ra_type	netinet/icmp6.h	131;"	d
+nd_rd_cksum	netinet/icmp6.h	184;"	d
+nd_rd_code	netinet/icmp6.h	183;"	d
+nd_rd_dst	netinet/icmp6.h	/^    struct in6_addr   nd_rd_dst;    \/* destination address *\/$/;"	m	struct:nd_redirect	typeref:struct:nd_redirect::in6_addr
+nd_rd_hdr	netinet/icmp6.h	/^    struct icmp6_hdr  nd_rd_hdr;$/;"	m	struct:nd_redirect	typeref:struct:nd_redirect::icmp6_hdr
+nd_rd_reserved	netinet/icmp6.h	185;"	d
+nd_rd_target	netinet/icmp6.h	/^    struct in6_addr   nd_rd_target; \/* target address *\/$/;"	m	struct:nd_redirect	typeref:struct:nd_redirect::in6_addr
+nd_rd_type	netinet/icmp6.h	182;"	d
+nd_redirect	netinet/icmp6.h	/^struct nd_redirect            \/* redirect *\/$/;"	s
+nd_router_advert	netinet/icmp6.h	/^struct nd_router_advert       \/* router advertisement *\/$/;"	s
+nd_router_solicit	netinet/icmp6.h	/^struct nd_router_solicit      \/* router solicitation *\/$/;"	s
+nd_rs_cksum	netinet/icmp6.h	120;"	d
+nd_rs_code	netinet/icmp6.h	119;"	d
+nd_rs_hdr	netinet/icmp6.h	/^    struct icmp6_hdr  nd_rs_hdr;$/;"	m	struct:nd_router_solicit	typeref:struct:nd_router_solicit::icmp6_hdr
+nd_rs_reserved	netinet/icmp6.h	121;"	d
+nd_rs_type	netinet/icmp6.h	118;"	d
+needed_groups	netgroup.h	/^  struct name_list *needed_groups;$/;"	m	struct:__netgrent	typeref:struct:__netgrent::name_list
+netinfo	protocols/routed.h	/^struct netinfo {$/;"	s
+network	tst-network.c	/^  const char *network;$/;"	m	struct:__anon6	file:
+next	netgroup.h	/^  struct name_list *next;$/;"	m	struct:name_list	typeref:struct:name_list::name_list
+nip	netgroup.h	/^  service_user *nip;$/;"	m	struct:__netgrent
+nrl_domainname	getnameinfo.c	/^nrl_domainname (void)$/;"	f	file:
+ntohl	htonl.c	22;"	d	file:
+ntohl	netinet/in.h	385;"	d
+ntohl	netinet/in.h	391;"	d
+ntohs	htons.c	22;"	d	file:
+ntohs	netinet/in.h	386;"	d
+ntohs	netinet/in.h	392;"	d
+number	tst-network.c	/^  uint32_t number;$/;"	m	struct:__anon6	file:
+option_alloc	inet6_option.c	/^option_alloc (struct cmsghdr *cmsg, int datalen, int multx, int plusy)$/;"	f	file:
+out_line	protocols/rwhod.h	/^	char	out_line[8];		\/* tty name *\/$/;"	m	struct:outmp
+out_name	protocols/rwhod.h	/^	char	out_name[8];		\/* user id *\/$/;"	m	struct:outmp
+out_time	protocols/rwhod.h	/^	int32_t	out_time;		\/* time on *\/$/;"	m	struct:outmp
+outmp	protocols/rwhod.h	/^struct	outmp {$/;"	s
+pad	protocols/talkd.h	/^	u_char	pad;$/;"	m	struct:__anon8
+pad	protocols/talkd.h	/^	u_char	pad;$/;"	m	struct:__anon9
+pass	rexec.c	/^	const char *name, *pass, *cmd;$/;"	v
+pid	protocols/talkd.h	/^	int32_t	pid;		\/* caller's process id *\/$/;"	m	struct:__anon8
+position	netgroup.h	/^    unsigned long int position;$/;"	m	union:__netgrent::__anon5
+r_name	protocols/talkd.h	/^	char	r_name[NAME_SIZE];\/* callee's name *\/$/;"	m	struct:__anon8
+r_tty	protocols/talkd.h	/^	char	r_tty[TTY_SIZE];\/* callee's tty name *\/$/;"	m	struct:__anon8
+remuser	rcmd.c	/^	const char *locuser, *remuser, *cmd;$/;"	v
+rexec_af	rexec.c	/^rexec_af(ahost, rport, name, pass, cmd, fd2p, af)$/;"	f
+rexecoptions	rexec.c	/^int	rexecoptions;$/;"	v
+rip	protocols/routed.h	/^struct rip {$/;"	s
+rip_cmd	protocols/routed.h	/^	u_char	rip_cmd;		\/* request\/response *\/$/;"	m	struct:rip
+rip_dst	protocols/routed.h	/^	struct	sockaddr rip_dst;	\/* destination net\/host *\/$/;"	m	struct:netinfo	typeref:struct:netinfo::sockaddr
+rip_metric	protocols/routed.h	/^	int	rip_metric;		\/* cost of route *\/$/;"	m	struct:netinfo
+rip_nets	protocols/routed.h	58;"	d
+rip_res1	protocols/routed.h	/^	u_char	rip_res1[2];		\/* pad to 32-bit boundary *\/$/;"	m	struct:rip
+rip_tracefile	protocols/routed.h	59;"	d
+rip_vers	protocols/routed.h	/^	u_char	rip_vers;		\/* protocol version # *\/$/;"	m	struct:rip
+ripcmds	protocols/routed.h	/^char *ripcmds[RIPCMD_MAX] =$/;"	v
+ripun	protocols/routed.h	/^	} ripun;$/;"	m	struct:rip	typeref:union:rip::__anon10
+rpm_code	netinet/icmp6.h	/^    uint8_t             rpm_code;$/;"	m	struct:rr_pco_match
+rpm_len	netinet/icmp6.h	/^    uint8_t             rpm_len;$/;"	m	struct:rr_pco_match
+rpm_matchlen	netinet/icmp6.h	/^    uint8_t             rpm_matchlen;$/;"	m	struct:rr_pco_match
+rpm_maxlen	netinet/icmp6.h	/^    uint8_t             rpm_maxlen;$/;"	m	struct:rr_pco_match
+rpm_minlen	netinet/icmp6.h	/^    uint8_t             rpm_minlen;$/;"	m	struct:rr_pco_match
+rpm_ordinal	netinet/icmp6.h	/^    uint8_t             rpm_ordinal;$/;"	m	struct:rr_pco_match
+rpm_prefix	netinet/icmp6.h	/^    struct in6_addr     rpm_prefix;$/;"	m	struct:rr_pco_match	typeref:struct:rr_pco_match::in6_addr
+rpm_reserved	netinet/icmp6.h	/^    uint16_t            rpm_reserved;$/;"	m	struct:rr_pco_match
+rport	rcmd.c	/^	u_short rport;$/;"	v
+rport	rexec.c	/^	int rport;$/;"	v
+rpu_flags	netinet/icmp6.h	/^    uint32_t            rpu_flags;$/;"	m	struct:rr_pco_use
+rpu_keeplen	netinet/icmp6.h	/^    uint8_t             rpu_keeplen;$/;"	m	struct:rr_pco_use
+rpu_pltime	netinet/icmp6.h	/^    uint32_t            rpu_pltime;$/;"	m	struct:rr_pco_use
+rpu_prefix	netinet/icmp6.h	/^    struct in6_addr     rpu_prefix;$/;"	m	struct:rr_pco_use	typeref:struct:rr_pco_use::in6_addr
+rpu_raflags	netinet/icmp6.h	/^    uint8_t             rpu_raflags;$/;"	m	struct:rr_pco_use
+rpu_ramask	netinet/icmp6.h	/^    uint8_t             rpu_ramask;$/;"	m	struct:rr_pco_use
+rpu_uselen	netinet/icmp6.h	/^    uint8_t             rpu_uselen;$/;"	m	struct:rr_pco_use
+rpu_vltime	netinet/icmp6.h	/^    uint32_t            rpu_vltime;$/;"	m	struct:rr_pco_use
+rr_cksum	netinet/icmp6.h	260;"	d
+rr_code	netinet/icmp6.h	259;"	d
+rr_flags	netinet/icmp6.h	/^    uint8_t             rr_flags;$/;"	m	struct:icmp6_router_renum
+rr_hdr	netinet/icmp6.h	/^    struct icmp6_hdr    rr_hdr;$/;"	m	struct:icmp6_router_renum	typeref:struct:icmp6_router_renum::icmp6_hdr
+rr_maxdelay	netinet/icmp6.h	/^    uint16_t            rr_maxdelay;$/;"	m	struct:icmp6_router_renum
+rr_pco_match	netinet/icmp6.h	/^struct rr_pco_match    \/* match prefix part *\/$/;"	s
+rr_pco_use	netinet/icmp6.h	/^struct rr_pco_use      \/* use prefix part *\/$/;"	s
+rr_reserved	netinet/icmp6.h	/^    uint32_t            rr_reserved;$/;"	m	struct:icmp6_router_renum
+rr_result	netinet/icmp6.h	/^struct rr_result       \/* router renumbering result message *\/$/;"	s
+rr_segnum	netinet/icmp6.h	/^    uint8_t             rr_segnum;$/;"	m	struct:icmp6_router_renum
+rr_seqnum	netinet/icmp6.h	261;"	d
+rr_type	netinet/icmp6.h	258;"	d
+rresvport_af	rcmd.c	/^rresvport_af(alport, family)$/;"	f
+rrr_flags	netinet/icmp6.h	/^    uint16_t            rrr_flags;$/;"	m	struct:rr_result
+rrr_ifid	netinet/icmp6.h	/^    uint32_t            rrr_ifid;$/;"	m	struct:rr_result
+rrr_matchedlen	netinet/icmp6.h	/^    uint8_t             rrr_matchedlen;$/;"	m	struct:rr_result
+rrr_ordinal	netinet/icmp6.h	/^    uint8_t             rrr_ordinal;$/;"	m	struct:rr_result
+rrr_prefix	netinet/icmp6.h	/^    struct in6_addr     rrr_prefix;$/;"	m	struct:rr_result	typeref:struct:rr_result::in6_addr
+ru_nets	protocols/routed.h	/^		struct	netinfo ru_nets[1];	\/* variable length... *\/$/;"	m	union:rip::__anon10	typeref:struct:rip::__anon10::netinfo
+ru_tracefile	protocols/routed.h	/^		char	ru_tracefile[1];	\/* ditto ... *\/$/;"	m	union:rip::__anon10
+ruser	rcmd.c	/^     const char *ruser, *luser;$/;"	v
+ruserok2_sa	rcmd.c	/^ruserok2_sa (ra, ralen, superuser, ruser, luser, rhost)$/;"	f	file:
+ruserok_af	rcmd.c	/^ruserok_af(rhost, superuser, ruser, luser, af)$/;"	f
+ruserok_sa	rcmd.c	/^static int ruserok_sa(ra, ralen, superuser, ruser, luser)$/;"	f	file:
+ruserpass	ruserpass.c	/^ruserpass(host, aname, apass)$/;"	f
+s6_addr	netinet/in.h	208;"	d
+s6_addr16	netinet/in.h	210;"	d
+s6_addr32	netinet/in.h	211;"	d
+s_addr	netinet/in.h	/^    in_addr_t s_addr;$/;"	m	struct:in_addr
+sccsid	inet_lnaof.c	/^static char sccsid[] = "@(#)inet_lnaof.c	8.1 (Berkeley) 6\/4\/93";$/;"	v	file:
+sccsid	inet_mkadr.c	/^static char sccsid[] = "@(#)inet_makeaddr.c	8.1 (Berkeley) 6\/4\/93";$/;"	v	file:
+sccsid	inet_net.c	/^static char sccsid[] = "@(#)inet_network.c	8.1 (Berkeley) 6\/4\/93";$/;"	v	file:
+sccsid	inet_netof.c	/^static char sccsid[] = "@(#)inet_netof.c	8.1 (Berkeley) 6\/4\/93";$/;"	v	file:
+sccsid	rcmd.c	/^static char sccsid[] = "@(#)rcmd.c	8.3 (Berkeley) 3\/26\/94";$/;"	v	file:
+sccsid	rexec.c	/^static char sccsid[] = "@(#)rexec.c	8.1 (Berkeley) 6\/4\/93";$/;"	v	file:
+sccsid	ruserpass.c	/^static char sccsid[] = "@(#)ruserpass.c	8.3 (Berkeley) 4\/2\/94";$/;"	v	file:
+setipv4sourcefilter	setipv4sourcefilter.c	/^setipv4sourcefilter (int s, struct in_addr interface, struct in_addr group,$/;"	f
+setsourcefilter	setsourcefilter.c	/^setsourcefilter (int s, uint32_t interface, const struct sockaddr *group,$/;"	f
+setup	getnetgrent_r.c	/^setup (void **fctp, service_user **nipp)$/;"	f	file:
+sin6_addr	netinet/in.h	/^    struct in6_addr sin6_addr;	\/* IPv6 address *\/$/;"	m	struct:sockaddr_in6	typeref:struct:sockaddr_in6::in6_addr
+sin6_flowinfo	netinet/in.h	/^    uint32_t sin6_flowinfo;	\/* IPv6 flow information *\/$/;"	m	struct:sockaddr_in6
+sin6_port	netinet/in.h	/^    in_port_t sin6_port;	\/* Transport layer port # *\/$/;"	m	struct:sockaddr_in6
+sin6_scope_id	netinet/in.h	/^    uint32_t sin6_scope_id;	\/* IPv6 scope-id *\/$/;"	m	struct:sockaddr_in6
+sin_addr	netinet/in.h	/^    struct in_addr sin_addr;		\/* Internet address.  *\/$/;"	m	struct:sockaddr_in	typeref:struct:sockaddr_in::in_addr
+sin_port	netinet/in.h	/^    in_port_t sin_port;			\/* Port number.  *\/$/;"	m	struct:sockaddr_in
+sin_zero	netinet/in.h	/^    unsigned char sin_zero[sizeof (struct sockaddr) -$/;"	m	struct:sockaddr_in
+slc_names	arpa/telnet.h	/^char *slc_names[] = {$/;"	v
+sockaddr_in	netinet/in.h	/^struct sockaddr_in$/;"	s
+sockaddr_in6	netinet/in.h	/^struct sockaddr_in6$/;"	s
+socklen_t	arpa/inet.h	/^typedef __socklen_t socklen_t;$/;"	t
+strunames	arpa/ftp.h	/^char *strunames[] =  {"0", "File", "Record", "Page" };$/;"	v
+stub_warning	if_index.c	/^stub_warning (if_freenameindex)$/;"	f
+subdir	Makefile	/^subdir	:= inet$/;"	m
+superuser	rcmd.c	/^	int superuser;$/;"	v
+superuser	rcmd.c	/^     int superuser;$/;"	v
+telcmds	arpa/telnet.h	/^char *telcmds[] = {$/;"	v
+telopts	arpa/telnet.h	/^char *telopts[NTELOPTS+1] = {$/;"	v
+test	tst-ntoa.c	/^test (unsigned int inaddr, const char *expected)$/;"	f	file:
+tests	Makefile	/^tests := htontest test_ifindex tst-ntoa tst-ether_aton tst-network \\$/;"	m
+tests	tst-network.c	/^} tests [] =$/;"	v	typeref:struct:__anon6
+tftphdr	arpa/tftp.h	/^struct	tftphdr {$/;"	s
+th_block	arpa/tftp.h	59;"	d
+th_code	arpa/tftp.h	60;"	d
+th_data	arpa/tftp.h	/^	char	th_data[1];			\/* data or error string *\/$/;"	m	struct:tftphdr
+th_msg	arpa/tftp.h	62;"	d
+th_opcode	arpa/tftp.h	/^	short	th_opcode;			\/* packet type *\/$/;"	m	struct:tftphdr
+th_stuff	arpa/tftp.h	61;"	d
+th_u	arpa/tftp.h	/^	} __attribute__ ((__packed__)) th_u;$/;"	m	struct:tftphdr	typeref:union:tftphdr::__anon1
+token	ruserpass.c	/^token()$/;"	f	file:
+tokstr	ruserpass.c	/^static const char tokstr[] =$/;"	v	file:
+tokstr_off	ruserpass.c	/^	int tokstr_off;$/;"	m	struct:toktab	file:
+toktab	ruserpass.c	/^static const struct toktab {$/;"	s	file:
+toktab	ruserpass.c	/^} toktab[]= {$/;"	v	typeref:struct:toktab	file:
+tokval	ruserpass.c	/^static char tokval[100];$/;"	v	file:
+triple	netgroup.h	/^    triple;$/;"	m	union:__netgrent::__anon3	typeref:struct:__netgrent::__anon3::__anon4
+triple_val	netgroup.h	/^  enum { triple_val, group_val } type;$/;"	e	enum:__netgrent::__anon2
+tsp	protocols/timed.h	/^struct tsp {$/;"	s
+tsp_hopcnt	protocols/timed.h	56;"	d
+tsp_name	protocols/timed.h	/^	char tsp_name[MAXHOSTNAMELEN];$/;"	m	struct:tsp
+tsp_seq	protocols/timed.h	/^	u_short	tsp_seq;$/;"	m	struct:tsp
+tsp_time	protocols/timed.h	55;"	d
+tsp_type	protocols/timed.h	/^	u_char	tsp_type;$/;"	m	struct:tsp
+tsp_u	protocols/timed.h	/^	} tsp_u;$/;"	m	struct:tsp	typeref:union:tsp::__anon11
+tsp_vers	protocols/timed.h	/^	u_char	tsp_vers;$/;"	m	struct:tsp
+tsptype	protocols/timed.h	/^char *tsptype[TSPTYPENUMBER] =$/;"	v
+tspu_hopcnt	protocols/timed.h	/^		char tspu_hopcnt;$/;"	m	union:tsp::__anon11
+tspu_time	protocols/timed.h	/^		struct timeval tspu_time;$/;"	m	union:tsp::__anon11	typeref:struct:tsp::__anon11::timeval
+tu_block	arpa/tftp.h	/^		unsigned short	tu_block;	\/* block # *\/$/;"	m	union:tftphdr::__anon1
+tu_code	arpa/tftp.h	/^		short	tu_code;		\/* error code *\/$/;"	m	union:tftphdr::__anon1
+tu_stuff	arpa/tftp.h	/^		char	tu_stuff[1];		\/* request packet stuff *\/$/;"	m	union:tftphdr::__anon1
+tval	ruserpass.c	/^	int tval;$/;"	m	struct:toktab	file:
+type	netgroup.h	/^  enum { triple_val, group_val } type;$/;"	m	struct:__netgrent	typeref:enum:__netgrent::__anon2
+type	protocols/talkd.h	/^	u_char	type;		\/* request type, see below *\/$/;"	m	struct:__anon8
+type	protocols/talkd.h	/^	u_char	type;		\/* type of request message, see below *\/$/;"	m	struct:__anon9
+typenames	arpa/ftp.h	/^char *typenames[] =  {"0", "ASCII", "EBCDIC", "Image", "Local" };$/;"	v
+user	netgroup.h	/^      const char *user;$/;"	m	struct:__netgrent::__anon3::__anon4
+val	netgroup.h	/^  } val;$/;"	m	struct:__netgrent	typeref:union:__netgrent::__anon3
+vers	protocols/talkd.h	/^	u_char	vers;		\/* protocol version *\/$/;"	m	struct:__anon8
+vers	protocols/talkd.h	/^	u_char	vers;		\/* protocol version *\/$/;"	m	struct:__anon9
+wd_boottime	protocols/rwhod.h	/^	int	wd_boottime;		\/* time system booted *\/$/;"	m	struct:whod
+wd_hostname	protocols/rwhod.h	/^	char	wd_hostname[32];	\/* hosts's name *\/$/;"	m	struct:whod
+wd_loadav	protocols/rwhod.h	/^	int	wd_loadav[3];		\/* load average as in uptime *\/$/;"	m	struct:whod
+wd_pad	protocols/rwhod.h	/^	char	wd_pad[2];$/;"	m	struct:whod
+wd_recvtime	protocols/rwhod.h	/^	int	wd_recvtime;		\/* time stamp applied by receiver *\/$/;"	m	struct:whod
+wd_sendtime	protocols/rwhod.h	/^	int	wd_sendtime;		\/* time stamp by sender *\/$/;"	m	struct:whod
+wd_type	protocols/rwhod.h	/^	char	wd_type;		\/* packet type, see below *\/$/;"	m	struct:whod
+wd_vers	protocols/rwhod.h	/^	char	wd_vers;		\/* protocol version # *\/$/;"	m	struct:whod
+wd_we	protocols/rwhod.h	/^	} wd_we[1024 \/ sizeof (struct whoent)];$/;"	m	struct:whod	typeref:struct:whod::whoent
+we_idle	protocols/rwhod.h	/^		int	we_idle;	\/* tty idle time *\/$/;"	m	struct:whod::whoent
+we_utmp	protocols/rwhod.h	/^		struct	outmp we_utmp;	\/* active tty info *\/$/;"	m	struct:whod::whoent	typeref:struct:whod::whoent::outmp
+weak_alias	getnetgrent_r.c	/^weak_alias (__getnetgrent_r, getnetgrent_r)$/;"	f
+whod	protocols/rwhod.h	/^struct	whod {$/;"	s
+whoent	protocols/rwhod.h	/^	struct	whoent {$/;"	s	struct:whod
+xEOF	arpa/telnet.h	57;"	d

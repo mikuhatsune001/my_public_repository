@@ -1,0 +1,318 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADVANCE_STACK_FRAME	backtrace.c	54;"	d	file:
+CFLAGS-asprintf_chk.c	Makefile	/^CFLAGS-asprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-backtrace.c	Makefile	/^CFLAGS-backtrace.c = -fno-omit-frame-pointer$/;"	m
+CFLAGS-dprintf_chk.c	Makefile	/^CFLAGS-dprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fgets_chk.c	Makefile	/^CFLAGS-fgets_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fgets_u_chk.c	Makefile	/^CFLAGS-fgets_u_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fgetws_chk.c	Makefile	/^CFLAGS-fgetws_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fgetws_u_chk.c	Makefile	/^CFLAGS-fgetws_u_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fprintf_chk.c	Makefile	/^CFLAGS-fprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fread_chk.c	Makefile	/^CFLAGS-fread_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fread_u_chk.c	Makefile	/^CFLAGS-fread_u_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-fwprintf_chk.c	Makefile	/^CFLAGS-fwprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-gets_chk.c	Makefile	/^CFLAGS-gets_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-obprintf_chk.c	Makefile	/^CFLAGS-obprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-pread64_chk.c	Makefile	/^CFLAGS-pread64_chk.c = -fexceptions -fasynchronous-unwind-tables$/;"	m
+CFLAGS-pread_chk.c	Makefile	/^CFLAGS-pread_chk.c = -fexceptions -fasynchronous-unwind-tables$/;"	m
+CFLAGS-printf_chk.c	Makefile	/^CFLAGS-printf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-read_chk.c	Makefile	/^CFLAGS-read_chk.c = -fexceptions -fasynchronous-unwind-tables$/;"	m
+CFLAGS-recv_chk.c	Makefile	/^CFLAGS-recv_chk.c = -fexceptions -fasynchronous-unwind-tables$/;"	m
+CFLAGS-recvfrom_chk.c	Makefile	/^CFLAGS-recvfrom_chk.c = -fexceptions -fasynchronous-unwind-tables$/;"	m
+CFLAGS-snprintf_chk.c	Makefile	/^CFLAGS-snprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-sprintf_chk.c	Makefile	/^CFLAGS-sprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-swprintf_chk.c	Makefile	/^CFLAGS-swprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-tst-chk1.c	Makefile	/^CFLAGS-tst-chk1.c = -Wno-format$/;"	m
+CFLAGS-tst-chk2.c	Makefile	/^CFLAGS-tst-chk2.c = -Wno-format$/;"	m
+CFLAGS-tst-chk3.c	Makefile	/^CFLAGS-tst-chk3.c = -Wno-format$/;"	m
+CFLAGS-tst-chk4.cc	Makefile	/^CFLAGS-tst-chk4.cc = -Wno-format$/;"	m
+CFLAGS-tst-chk5.cc	Makefile	/^CFLAGS-tst-chk5.cc = -Wno-format$/;"	m
+CFLAGS-tst-chk6.cc	Makefile	/^CFLAGS-tst-chk6.cc = -Wno-format$/;"	m
+CFLAGS-tst-lfschk1.c	Makefile	/^CFLAGS-tst-lfschk1.c = -Wno-format$/;"	m
+CFLAGS-tst-lfschk2.c	Makefile	/^CFLAGS-tst-lfschk2.c = -Wno-format$/;"	m
+CFLAGS-tst-lfschk3.c	Makefile	/^CFLAGS-tst-lfschk3.c = -Wno-format$/;"	m
+CFLAGS-tst-lfschk4.cc	Makefile	/^CFLAGS-tst-lfschk4.cc = -Wno-format$/;"	m
+CFLAGS-tst-lfschk5.cc	Makefile	/^CFLAGS-tst-lfschk5.cc = -Wno-format$/;"	m
+CFLAGS-tst-lfschk6.cc	Makefile	/^CFLAGS-tst-lfschk6.cc = -Wno-format$/;"	m
+CFLAGS-tst-longjmp_chk.c	Makefile	/^CFLAGS-tst-longjmp_chk.c = -fexceptions -fasynchronous-unwind-tables \\$/;"	m
+CFLAGS-tst-longjmp_chk2.c	Makefile	/^CFLAGS-tst-longjmp_chk2.c = -fexceptions -fasynchronous-unwind-tables \\$/;"	m
+CFLAGS-vasprintf_chk.c	Makefile	/^CFLAGS-vasprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-vdprintf_chk.c	Makefile	/^CFLAGS-vdprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-vfprintf_chk.c	Makefile	/^CFLAGS-vfprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-vfwprintf_chk.c	Makefile	/^CFLAGS-vfwprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-vprintf_chk.c	Makefile	/^CFLAGS-vprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-vsnprintf_chk.c	Makefile	/^CFLAGS-vsnprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-vsprintf_chk.c	Makefile	/^CFLAGS-vsprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-vswprintf_chk.c	Makefile	/^CFLAGS-vswprintf_chk.c = -D_IO_MTSAFE_IO$/;"	m
+CFLAGS-vwprintf_chk.c	Makefile	/^CFLAGS-vwprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CFLAGS-wprintf_chk.c	Makefile	/^CFLAGS-wprintf_chk.c = -D_IO_MTSAFE_IO $(exceptions)$/;"	m
+CHK_FAIL2_END	tst-chk1.c	112;"	d	file:
+CHK_FAIL2_END	tst-chk1.c	115;"	d	file:
+CHK_FAIL2_START	tst-chk1.c	111;"	d	file:
+CHK_FAIL2_START	tst-chk1.c	114;"	d	file:
+CHK_FAIL_END	tst-chk1.c	106;"	d	file:
+CHK_FAIL_START	tst-chk1.c	102;"	d	file:
+CURRENT_STACK_FRAME	backtrace.c	43;"	d	file:
+FAIL	tst-backtrace2.c	35;"	d	file:
+FAIL	tst-chk1.c	100;"	d	file:
+FIRST_FRAME_POINTER	backtrace.c	59;"	d	file:
+INNER_THAN	backtrace.c	48;"	d	file:
+INSTALL_FOR_SIG	segfault.c	189;"	d	file:
+LDFLAGS-tst-backtrace2	Makefile	/^LDFLAGS-tst-backtrace2 = -rdynamic$/;"	m
+LDFLAGS-tst-chk4	Makefile	/^LDFLAGS-tst-chk4 = -lstdc++$/;"	m
+LDFLAGS-tst-chk5	Makefile	/^LDFLAGS-tst-chk5 = -lstdc++$/;"	m
+LDFLAGS-tst-chk6	Makefile	/^LDFLAGS-tst-chk6 = -lstdc++$/;"	m
+LDFLAGS-tst-lfschk4	Makefile	/^LDFLAGS-tst-lfschk4 = -lstdc++$/;"	m
+LDFLAGS-tst-lfschk5	Makefile	/^LDFLAGS-tst-lfschk5 = -lstdc++$/;"	m
+LDFLAGS-tst-lfschk6	Makefile	/^LDFLAGS-tst-lfschk6 = -lstdc++$/;"	m
+NO_INLINE	tst-backtrace2.c	43;"	d	file:
+NUM_FUNCTIONS	tst-backtrace2.c	39;"	d	file:
+N_	pcprofiledump.c	47;"	d	file:
+O	tst-chk1.c	364;"	d	file:
+O	tst-chk1.c	599;"	d	file:
+PACKAGE	pcprofiledump.c	40;"	d	file:
+PREPARE	tst-chk1.c	42;"	d	file:
+STRCPY_RESULT	test-stpcpy_chk.c	21;"	d	file:
+STRCPY_RESULT	test-strcpy_chk.c	22;"	d	file:
+TEST_FUNCTION	tst-backtrace2.c	25;"	d	file:
+TEST_FUNCTION	tst-chk1.c	43;"	d	file:
+TEST_FUNCTION	tst-longjmp_chk2.c	113;"	d	file:
+TEST_MAIN	test-stpcpy_chk.c	22;"	d	file:
+TEST_MAIN	test-strcpy_chk.c	23;"	d	file:
+WORD_WIDTH	backtracesyms.c	27;"	d	file:
+WORD_WIDTH	backtracesymsfd.c	29;"	d	file:
+WORD_WIDTH	backtracesymsfd.c	32;"	d	file:
+WRITE_STRING	segfault.c	47;"	d	file:
+_	pcprofiledump.c	43;"	d	file:
+_EXECINFO_H	execinfo.h	20;"	d
+_FILE_OFFSET_BITS	tst-lfschk1.c	1;"	d	file:
+_FILE_OFFSET_BITS	tst-lfschk2.c	1;"	d	file:
+_FILE_OFFSET_BITS	tst-lfschk3.c	1;"	d	file:
+_FILE_OFFSET_BITS	tst-lfschk4.cc	1;"	d	file:
+_FILE_OFFSET_BITS	tst-lfschk5.cc	1;"	d	file:
+_FILE_OFFSET_BITS	tst-lfschk6.cc	1;"	d	file:
+_FORTIFY_SOURCE	tst-chk2.c	1;"	d	file:
+_FORTIFY_SOURCE	tst-chk3.c	1;"	d	file:
+_FORTIFY_SOURCE	tst-chk5.cc	1;"	d	file:
+_FORTIFY_SOURCE	tst-chk6.cc	1;"	d	file:
+_IO_obstack_file	obprintf_chk.c	/^struct _IO_obstack_file$/;"	s	file:
+_IO_str_chk_jumps	vsprintf_chk.c	/^static const struct _IO_jump_t _IO_str_chk_jumps =$/;"	v	typeref:struct:_IO_jump_t	file:
+_IO_str_chk_overflow	vsprintf_chk.c	/^_IO_str_chk_overflow (fp, c)$/;"	f	file:
+__USE_FORTIFY_LEVEL	warning-nop.c	34;"	d	file:
+__USE_FORTIFY_LEVEL	warning-nop.c	35;"	d	file:
+___fprintf_chk	fprintf_chk.c	/^___fprintf_chk (FILE *fp, int flag, const char *format, ...)$/;"	f
+___printf_chk	printf_chk.c	/^___printf_chk (int flag, const char *format, ...)$/;"	f
+___snprintf_chk	snprintf_chk.c	/^___snprintf_chk (char *s, size_t maxlen, int flags, size_t slen,$/;"	f
+___sprintf_chk	sprintf_chk.c	/^___sprintf_chk (char *s, int flags, size_t slen, const char *format, ...)$/;"	f
+___vfprintf_chk	vfprintf_chk.c	/^___vfprintf_chk (FILE *fp, int flag, const char *format, va_list ap)$/;"	f
+___vprintf_chk	vprintf_chk.c	/^___vprintf_chk (int flag, const char *format, va_list ap)$/;"	f
+___vsnprintf_chk	vsnprintf_chk.c	/^___vsnprintf_chk (char *s, size_t maxlen, int flags, size_t slen,$/;"	f
+___vsprintf_chk	vsprintf_chk.c	/^___vsprintf_chk (char *s, int flags, size_t slen, const char *format,$/;"	f
+__asprintf_chk	asprintf_chk.c	/^__asprintf_chk (char **result_ptr, int flags, const char *format, ...)$/;"	f
+__backtrace	backtrace.c	/^__backtrace (array, size)$/;"	f
+__backtrace_symbols	backtracesyms.c	/^__backtrace_symbols (array, size)$/;"	f
+__backtrace_symbols_fd	backtracesymsfd.c	/^__backtrace_symbols_fd (array, size, fd)$/;"	f
+__builtin___memcpy_chk	warning-nop.c	42;"	d	file:
+__builtin___memmove_chk	warning-nop.c	43;"	d	file:
+__builtin___mempcpy_chk	warning-nop.c	44;"	d	file:
+__builtin___memset_chk	warning-nop.c	45;"	d	file:
+__builtin___stpcpy_chk	warning-nop.c	46;"	d	file:
+__builtin___strcat_chk	warning-nop.c	47;"	d	file:
+__builtin___strcpy_chk	warning-nop.c	48;"	d	file:
+__builtin___strncat_chk	warning-nop.c	49;"	d	file:
+__builtin___strncpy_chk	warning-nop.c	50;"	d	file:
+__builtin_object_size	warning-nop.c	51;"	d	file:
+__chk_fail	chk_fail.c	/^__chk_fail (void)$/;"	f
+__confstr_chk	confstr_chk.c	/^__confstr_chk (int name, char *buf, size_t len, size_t buflen)$/;"	f
+__cyg_profile_func_enter	noophooks.c	/^__cyg_profile_func_enter (void *this_fn, void *call_site)$/;"	f
+__cyg_profile_func_enter	pcprofile.c	/^__cyg_profile_func_enter (void *this_fn, void *call_site)$/;"	f
+__dprintf_chk	dprintf_chk.c	/^__dprintf_chk (int d, int flags, const char *format, ...)$/;"	f
+__fgets_chk	fgets_chk.c	/^__fgets_chk (buf, size, n, fp)$/;"	f
+__fgets_unlocked_chk	fgets_u_chk.c	/^__fgets_unlocked_chk (buf, size, n, fp)$/;"	f
+__fgetws_chk	fgetws_chk.c	/^__fgetws_chk (wchar_t *buf, size_t size, int n, _IO_FILE *fp)$/;"	f
+__fgetws_unlocked_chk	fgetws_u_chk.c	/^__fgetws_unlocked_chk (wchar_t *buf, size_t size, int n, _IO_FILE *fp)$/;"	f
+__fortify_fail	fortify_fail.c	/^__fortify_fail (msg)$/;"	f
+__fread_chk	fread_chk.c	/^__fread_chk (void *__restrict ptr, size_t ptrlen,$/;"	f
+__fread_unlocked_chk	fread_u_chk.c	/^__fread_unlocked_chk (void *__restrict ptr, size_t ptrlen,$/;"	f
+__fwprintf_chk	fwprintf_chk.c	/^__fwprintf_chk (FILE *fp, int flag, const wchar_t *format, ...)$/;"	f
+__getcwd_chk	getcwd_chk.c	/^__getcwd_chk (char *buf, size_t size, size_t buflen)$/;"	f
+__getdomainname_chk	getdomainname_chk.c	/^__getdomainname_chk (char *buf, size_t buflen, size_t nreal)$/;"	f
+__getgroups_chk	getgroups_chk.c	/^__getgroups_chk (int size, __gid_t list[], size_t listlen)$/;"	f
+__gethostname_chk	gethostname_chk.c	/^__gethostname_chk (char *buf, size_t buflen, size_t nreal)$/;"	f
+__getlogin_r_chk	getlogin_r_chk.c	/^__getlogin_r_chk (char *buf, size_t buflen, size_t nreal)$/;"	f
+__gets_chk	gets_chk.c	/^__gets_chk (char *buf, size_t size)$/;"	f
+__getwd_chk	getwd_chk.c	/^__getwd_chk (char *buf, size_t buflen)$/;"	f
+__libc_siglongjmp	longjmp_chk.c	26;"	d	file:
+__longjmp	longjmp_chk.c	25;"	d	file:
+__mbsnrtowcs_chk	mbsnrtowcs_chk.c	/^__mbsnrtowcs_chk (wchar_t *dst, __const char **src, size_t nmc, size_t len,$/;"	f
+__mbsrtowcs_chk	mbsrtowcs_chk.c	/^__mbsrtowcs_chk (wchar_t *dst, __const char **src, size_t len,$/;"	f
+__mbstowcs_chk	mbstowcs_chk.c	/^__mbstowcs_chk (wchar_t *dst, const char *src, size_t len, size_t dstlen)$/;"	f
+__memcpy_chk	memcpy_chk.c	/^__memcpy_chk (dstpp, srcpp, len, dstlen)$/;"	f
+__memmove_chk	memmove_chk.c	/^__memmove_chk (dest, src, len, destlen)$/;"	f
+__mempcpy_chk	mempcpy_chk.c	/^__mempcpy_chk (dstpp, srcpp, len, dstlen)$/;"	f
+__memset_chk	memset_chk.c	/^__memset_chk (dstpp, c, len, dstlen)$/;"	f
+__need_ptrdiff_t	wcpcpy_chk.c	22;"	d	file:
+__obstack_vprintf_chk	obprintf_chk.c	/^__obstack_vprintf_chk (struct obstack *obstack, int flags, const char *format,$/;"	f
+__pread64_chk	pread64_chk.c	/^__pread64_chk (int fd, void *buf, size_t nbytes, off64_t offset, size_t buflen)$/;"	f
+__pread_chk	pread_chk.c	/^__pread_chk (int fd, void *buf, size_t nbytes, off_t offset, size_t buflen)$/;"	f
+__ptsname_r_chk	ptsname_r_chk.c	/^__ptsname_r_chk (int fd, char *buf, size_t buflen, size_t nreal)$/;"	f
+__read_chk	read_chk.c	/^__read_chk (int fd, void *buf, size_t nbytes, size_t buflen)$/;"	f
+__readlink_chk	readlink_chk.c	/^__readlink_chk (const char *path, void *buf, size_t len, size_t buflen)$/;"	f
+__readlinkat_chk	readlinkat_chk.c	/^__readlinkat_chk (int fd, const char *path, void *buf, size_t len,$/;"	f
+__readonly_area	readonly-area.c	/^__readonly_area (const void *ptr, size_t size)$/;"	f
+__realpath_chk	realpath_chk.c	/^__realpath_chk (const char *buf, char *resolved, size_t resolvedlen)$/;"	f
+__recv_chk	recv_chk.c	/^__recv_chk (int fd, void *buf, size_t n, size_t buflen, int flags)$/;"	f
+__recvfrom_chk	recvfrom_chk.c	/^__recvfrom_chk (int fd, void *buf, size_t n, size_t buflen, int flags,$/;"	f
+__stack_chk_fail	stack_chk_fail.c	/^__stack_chk_fail (void)$/;"	f
+__stack_chk_fail_local	stack_chk_fail_local.c	/^__stack_chk_fail_local (void)$/;"	f
+__stpcpy_chk	stpcpy_chk.c	/^__stpcpy_chk (dest, src, destlen)$/;"	f
+__stpncpy_chk	stpncpy_chk.c	/^__stpncpy_chk (char *dest, const char *src, size_t n, size_t destlen)$/;"	f
+__strcat_chk	strcat_chk.c	/^__strcat_chk (dest, src, destlen)$/;"	f
+__strcpy_chk	strcpy_chk.c	/^__strcpy_chk (dest, src, destlen)$/;"	f
+__strncat_chk	strncat_chk.c	/^__strncat_chk (s1, s2, n, s1len)$/;"	f
+__strncpy_chk	strncpy_chk.c	/^__strncpy_chk (s1, s2, n, s1len)$/;"	f
+__swprintf_chk	swprintf_chk.c	/^__swprintf_chk (wchar_t *s, size_t n, int flag, size_t s_len,$/;"	f
+__ttyname_r_chk	ttyname_r_chk.c	/^__ttyname_r_chk (int fd, char *buf, size_t buflen, size_t nreal)$/;"	f
+__vasprintf_chk	vasprintf_chk.c	/^__vasprintf_chk (char **result_ptr, int flags, const char *format,$/;"	f
+__vdprintf_chk	vdprintf_chk.c	/^__vdprintf_chk (int d, int flags, const char *format, va_list arg)$/;"	f
+__vfwprintf_chk	vfwprintf_chk.c	/^__vfwprintf_chk (FILE *fp, int flag, const wchar_t *format, va_list ap)$/;"	f
+__vswprintf_chk	vswprintf_chk.c	/^__vswprintf_chk (wchar_t *s, size_t maxlen, int flags, size_t slen,$/;"	f
+__vwprintf_chk	vwprintf_chk.c	/^__vwprintf_chk (int flag, const wchar_t *format, va_list ap)$/;"	f
+__warndecl	warning-nop.c	29;"	d	file:
+__warndecl	warning-nop.c	30;"	d	file:
+__wcpcpy_chk	wcpcpy_chk.c	/^__wcpcpy_chk (wchar_t *dest, const wchar_t *src, size_t destlen)$/;"	f
+__wcpncpy_chk	wcpncpy_chk.c	/^__wcpncpy_chk (wchar_t *dest, const wchar_t *src, size_t n, size_t destlen)$/;"	f
+__wcrtomb_chk	wcrtomb_chk.c	/^__wcrtomb_chk (char *s, wchar_t wchar, mbstate_t *ps, size_t buflen)$/;"	f
+__wcscat_chk	wcscat_chk.c	/^__wcscat_chk (wchar_t *dest, const wchar_t *src, size_t destlen)$/;"	f
+__wcscpy_chk	wcscpy_chk.c	/^__wcscpy_chk (wchar_t *dest, const wchar_t *src, size_t n)$/;"	f
+__wcsncat_chk	wcsncat_chk.c	/^__wcsncat_chk (wchar_t *dest, const wchar_t *src, size_t n, size_t destlen)$/;"	f
+__wcsncpy_chk	wcsncpy_chk.c	/^__wcsncpy_chk (wchar_t *dest, const wchar_t *src, size_t n, size_t destlen)$/;"	f
+__wcsnrtombs_chk	wcsnrtombs_chk.c	/^__wcsnrtombs_chk (char *dst, __const wchar_t **src, size_t nwc, size_t len,$/;"	f
+__wcsrtombs_chk	wcsrtombs_chk.c	/^__wcsrtombs_chk (char *dst, __const wchar_t **src, size_t len,$/;"	f
+__wcstombs_chk	wcstombs_chk.c	/^__wcstombs_chk (char *dst, __const wchar_t *src, size_t len, size_t dstlen)$/;"	f
+__wctomb_chk	wctomb_chk.c	/^__wctomb_chk (char *s, wchar_t wchar, size_t buflen)$/;"	f
+__wmemcpy_chk	wmemcpy_chk.c	/^__wmemcpy_chk (wchar_t *s1, const wchar_t *s2, size_t n, size_t ns1)$/;"	f
+__wmemmove_chk	wmemmove_chk.c	/^__wmemmove_chk (wchar_t *s1, const wchar_t *s2, size_t n, size_t ns1)$/;"	f
+__wmempcpy_chk	wmempcpy_chk.c	/^__wmempcpy_chk (wchar_t *s1, const wchar_t *s2, size_t n, size_t ns1)$/;"	f
+__wmemset_chk	wmemset_chk.c	/^__wmemset_chk (wchar_t *s, wchar_t c, size_t n, size_t dstlen)$/;"	f
+__wprintf_chk	wprintf_chk.c	/^__wprintf_chk (int flag, const wchar_t *format, ...)$/;"	f
+active	pcprofile.c	/^static int active;$/;"	v	file:
+argp	pcprofiledump.c	/^static struct argp argp =$/;"	v	typeref:struct:argp	file:
+argp_program_version_hook	pcprofiledump.c	/^void (*argp_program_version_hook) (FILE *, struct argp_state *) = print_version;$/;"	v
+args_doc	pcprofiledump.c	/^static const char args_doc[] = N_("[FILE]");$/;"	v	file:
+b	tst-longjmp_chk.c	/^static jmp_buf b;$/;"	v	file:
+buf	tst-chk1.c	/^char buf[10];$/;"	v
+buf2	tst-chk1.c	/^char buf2[10] = "%s";$/;"	v
+catch_segfault	segfault.c	/^catch_segfault (int signal, SIGCONTEXT ctx)$/;"	f	file:
+chk_fail_buf	test-strcpy_chk.c	/^jmp_buf chk_fail_buf;$/;"	v
+chk_fail_buf	tst-chk1.c	/^jmp_buf chk_fail_buf;$/;"	v
+chk_fail_ok	test-strcpy_chk.c	/^volatile int chk_fail_ok;$/;"	v
+chk_fail_ok	tst-chk1.c	/^volatile int chk_fail_ok;$/;"	v
+compare	backtrace-tst.c	/^compare (const void *p1, const void *p2)$/;"	f	file:
+distribute	Makefile	/^distribute = sigcontextinfo.h register-dump.h frame.h$/;"	m
+do_help	xtrace.sh	/^do_help() {$/;"	f
+do_missing_arg	xtrace.sh	/^do_missing_arg() {$/;"	f
+do_one_test	test-strcpy_chk.c	/^do_one_test (impl_t *impl, char *dst, const char *src,$/;"	f	file:
+do_prepare	tst-chk1.c	/^do_prepare (void)$/;"	f	file:
+do_random_tests	test-strcpy_chk.c	/^do_random_tests (void)$/;"	f	file:
+do_test	test-strcpy_chk.c	/^do_test (size_t align1, size_t align2, size_t len, size_t dlen, int max_char)$/;"	f	file:
+do_test	tst-backtrace2.c	/^do_test (void) $/;"	f	file:
+do_test	tst-chk1.c	/^do_test (void)$/;"	f	file:
+do_test	tst-longjmp_chk2.c	/^do_test (void)$/;"	f	file:
+do_usage	xtrace.sh	/^do_usage() {$/;"	f
+do_version	xtrace.sh	/^do_version() {$/;"	f
+doc	pcprofiledump.c	/^static const char doc[] = N_("Dump information generated by PC profiling.");$/;"	v	file:
+expected_to_fail	tst-longjmp_chk.c	/^static bool expected_to_fail;$/;"	v	file:
+extra-libs	Makefile	/^extra-libs = libSegFault libpcprofile$/;"	m
+extra-libs-others	Makefile	/^extra-libs-others = $(extra-libs)$/;"	m
+f	tst-longjmp_chk.c	/^f (void)$/;"	f	file:
+fd	pcprofile.c	/^static int fd;$/;"	v	file:
+file	obprintf_chk.c	/^  struct _IO_FILE_plus file;$/;"	m	struct:_IO_obstack_file	typeref:struct:_IO_obstack_file::_IO_FILE_plus	file:
+fn1	tst-backtrace2.c	/^fn1 (void) $/;"	f
+fn2	tst-backtrace2.c	/^fn2 (void) $/;"	f	file:
+fn3	tst-backtrace2.c	/^fn3 (void)$/;"	f
+fname	segfault.c	/^static const char *fname;$/;"	v	file:
+format_line	xtrace.sh	/^format_line() {$/;"	f
+generated	Makefile	/^generated = catchsegv xtrace$/;"	m
+handler	test-strcpy_chk.c	/^handler (int sig)$/;"	f	file:
+handler	tst-chk1.c	/^handler (int sig)$/;"	f	file:
+handler	tst-longjmp_chk.c	/^handler (int sig)$/;"	f	file:
+headers	Makefile	/^headers	:= execinfo.h$/;"	m
+help_info	xtrace.sh	/^help_info() {$/;"	f
+install	pcprofile.c	/^install (void)$/;"	f	file:
+install-bin	Makefile	/^install-bin = pcprofiledump$/;"	m
+install-bin-script	Makefile	/^install-bin-script = xtrace$/;"	m
+install_handler	segfault.c	/^install_handler (void)$/;"	f	file:
+l0	tst-chk1.c	/^volatile size_t l0;$/;"	v
+libSegFault-inhibit-o	Makefile	/^libSegFault-inhibit-o = $(filter-out .os,$(object-suffixes))$/;"	m
+libSegFault-routines	Makefile	/^libSegFault-routines = segfault$/;"	m
+libc_hidden_def	obprintf_chk.c	/^libc_hidden_def (__obstack_vprintf_chk)$/;"	f
+libpcprofile-inhibit-o	Makefile	/^libpcprofile-inhibit-o = $(filter-out .os,$(object-suffixes))$/;"	m
+libpcprofile-routines	Makefile	/^libpcprofile-routines = pcprofile$/;"	m
+main	backtrace-tst.c	/^main (int argc, char *argv[])$/;"	f
+main	pcprofiledump.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-longjmp_chk.c	/^main (void)$/;"	f
+mainloop	tst-longjmp_chk2.c	/^static jmp_buf mainloop;$/;"	v	file:
+mainsigset	tst-longjmp_chk2.c	/^static sigset_t mainsigset;$/;"	v	file:
+more_help	pcprofiledump.c	/^more_help (int key, const char *text, void *input)$/;"	f	file:
+nop	warning-nop.c	/^nop (void)$/;"	f	file:
+num1	tst-chk1.c	/^int num1 = 67;$/;"	v
+num2	tst-chk1.c	/^int num2 = 987654;$/;"	v
+obstack	obprintf_chk.c	/^  struct obstack *obstack;$/;"	m	struct:_IO_obstack_file	typeref:struct:_IO_obstack_file::obstack	file:
+obstack_chunk_alloc	tst-chk1.c	36;"	d	file:
+obstack_chunk_free	tst-chk1.c	37;"	d	file:
+options	pcprofiledump.c	/^static const struct argp_option options[] =$/;"	v	typeref:struct:argp_option	file:
+others	Makefile	/^others = pcprofiledump$/;"	m
+p	tst-chk1.c	/^volatile char *p;$/;"	v
+parse_opt	pcprofiledump.c	/^parse_opt (int key, char *arg, struct argp_state *state)$/;"	f	file:
+pass	tst-longjmp_chk2.c	/^static int pass;$/;"	v	file:
+print_version	pcprofiledump.c	/^print_version (FILE *stream, struct argp_state *state)$/;"	f	file:
+proto_t	test-strcpy_chk.c	/^typedef char *(*proto_t) (char *, const char *, size_t);$/;"	t	file:
+recurse	tst-longjmp_chk2.c	/^recurse (int n)$/;"	f	file:
+recurse_1	tst-longjmp_chk2.c	/^recurse_1 (int n, volatile int *p)$/;"	f	file:
+ret	tst-backtrace2.c	/^int ret;$/;"	v
+ret	tst-chk1.c	/^volatile int ret;$/;"	v
+routines	Makefile	/^routines  = noophooks \\$/;"	m
+sLIBdir	Makefile	/^sLIBdir := $(shell echo $(slibdir) | sed 's,lib\\(\\|64\\)$$,\\\\\\\\$$LIB,')$/;"	m
+simple_stpcpy_chk	test-stpcpy_chk.c	/^simple_stpcpy_chk (char *dst, const char *src, size_t len)$/;"	f
+simple_strcpy_chk	test-strcpy_chk.c	/^simple_strcpy_chk (char *dst, const char *src, size_t len)$/;"	f
+slibpfx	Makefile	/^	slibpfx=`echo $(slibdir)|sed 's\/lib\\(64\\|\\)$$\/\\\\\\\\\\\\\\\\$$LIB\/'`; \\$/;"	m
+stackoverflow_handler	tst-longjmp_chk2.c	/^stackoverflow_handler (int sig)$/;"	f	file:
+static-only-routines	Makefile	/^static-only-routines := warning-nop stack_chk_fail_local$/;"	m
+str1	tst-chk1.c	/^const char *str1 = "JIHGFEDCBA";$/;"	v
+str2	tst-chk1.c	/^const char *str2 = "F";$/;"	v
+str3	tst-chk1.c	/^const char *str3 = "%s%n%s%n";$/;"	v
+str4	tst-chk1.c	/^const char *str4 = "Hello, ";$/;"	v
+str5	tst-chk1.c	/^const char *str5 = "World!\\n";$/;"	v
+strcpy	strcpy_chk.c	23;"	d	file:
+subdir	Makefile	/^subdir	:= debug$/;"	m
+temp_filename	tst-chk1.c	/^char *temp_filename;$/;"	v
+test_main	test-strcpy_chk.c	/^test_main (void)$/;"	f
+tests	Makefile	/^tests = tst-longjmp_chk test-strcpy_chk test-stpcpy_chk tst-longjmp_chk2$/;"	m
+tst-chk1-ENV	Makefile	/^tst-chk1-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-chk2-ENV	Makefile	/^tst-chk2-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-chk3-ENV	Makefile	/^tst-chk3-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-chk4-ENV	Makefile	/^tst-chk4-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-chk5-ENV	Makefile	/^tst-chk5-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-chk6-ENV	Makefile	/^tst-chk6-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-lfschk1-ENV	Makefile	/^tst-lfschk1-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-lfschk2-ENV	Makefile	/^tst-lfschk2-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-lfschk3-ENV	Makefile	/^tst-lfschk3-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-lfschk4-ENV	Makefile	/^tst-lfschk4-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-lfschk5-ENV	Makefile	/^tst-lfschk5-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-lfschk6-ENV	Makefile	/^tst-lfschk6-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+uninstall	pcprofile.c	/^uninstall (void)$/;"	f	file:
+wbuf	tst-chk1.c	/^wchar_t wbuf[10];$/;"	v
+wp	tst-chk1.c	/^volatile wchar_t *wp;$/;"	v
+write_strsignal	segfault.c	/^write_strsignal (int fd, int signal)$/;"	f	file:
+wstr1	tst-chk1.c	/^const wchar_t *wstr1 = L"JIHGFEDCBA";$/;"	v
+wstr2	tst-chk1.c	/^const wchar_t *wstr2 = L"F";$/;"	v
+wstr3	tst-chk1.c	/^const wchar_t *wstr3 = L"%s%n%s%n";$/;"	v
+wstr4	tst-chk1.c	/^const wchar_t *wstr4 = L"Hello, ";$/;"	v
+wstr5	tst-chk1.c	/^const wchar_t *wstr5 = L"World!\\n";$/;"	v
+x	tst-backtrace2.c	/^volatile int x;$/;"	v

@@ -1,0 +1,795 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AVAILABLE	memmem.c	33;"	d	file:
+AVAILABLE	str-two-way.h	426;"	d
+AVAILABLE	strcasestr.c	45;"	d	file:
+AVAILABLE	strstr.c	37;"	d	file:
+BIG_ENDIAN	endian.h	47;"	d
+BP_SYM	memchr.c	60;"	d	file:
+BUF1PAGES	test-memmem.c	22;"	d	file:
+BUF1PAGES	test-string.h	122;"	d
+BUFFERSIZ	strsignal.c	34;"	d	file:
+BYTE_ORDER	endian.h	49;"	d
+CALL	test-string.h	104;"	d
+CANON_ELEMENT	str-two-way.h	427;"	d
+CANON_ELEMENT	str-two-way.h	76;"	d
+CANON_ELEMENT	strcasestr.c	48;"	d	file:
+CFLAGS-inl-tester.c	Makefile	/^CFLAGS-inl-tester.c = -fno-builtin$/;"	m
+CFLAGS-noinl-tester.c	Makefile	/^CFLAGS-noinl-tester.c = -fno-builtin$/;"	m
+CFLAGS-stratcliff.c	Makefile	/^CFLAGS-stratcliff.c = -fno-builtin$/;"	m
+CFLAGS-test-ffs.c	Makefile	/^CFLAGS-test-ffs.c = -fno-builtin$/;"	m
+CFLAGS-tst-inlcall.c	Makefile	/^CFLAGS-tst-inlcall.c = -fno-builtin$/;"	m
+CFLAGS-tst-strlen.c	Makefile	/^CFLAGS-tst-strlen.c = -fno-builtin$/;"	m
+CHAR	stratcliff.c	36;"	d	file:
+CMDLINE_OPTIONS	test-string.h	83;"	d
+CMDLINE_PROCESS	test-string.h	86;"	d
+CMP	strverscmp.c	33;"	d	file:
+CMP_FUNC	str-two-way.h	428;"	d
+CMP_FUNC	str-two-way.h	79;"	d
+CMP_FUNC	strcasestr.c	49;"	d	file:
+CMP_LT_OR_GT	memcmp.c	74;"	d	file:
+CMP_LT_OR_GT	memcmp.c	76;"	d	file:
+CONCAT	strcoll_l.c	41;"	d	file:
+CONCAT	strxfrm_l.c	43;"	d	file:
+CONCAT1	strcoll_l.c	42;"	d	file:
+CONCAT1	strxfrm_l.c	44;"	d	file:
+DO_STRING_INLINES	inl-tester.c	3;"	d	file:
+FOR_EACH_IMPL	test-string.h	107;"	d
+GCONV_PATH	Makefile	/^	GCONV_PATH=$(common-objpfx)iconvdata LC_ALL=C \\$/;"	m
+GL	test-string.h	51;"	d
+GLRO	test-string.h	52;"	d
+HP_TIMING_BEST	test-string.h	111;"	d
+IMPL	test-string.h	29;"	d
+ITERATIONS	test-memmem.c	23;"	d	file:
+ITERATIONS	test-string.h	77;"	d
+ITERATIONS_OPTIONS	test-string.h	71;"	d
+ITERATIONS_OPTIONS	test-string.h	79;"	d
+ITERATIONS_PROCESS	test-string.h	73;"	d
+ITERATIONS_PROCESS	test-string.h	80;"	d
+L	stratcliff.c	35;"	d	file:
+L	strcoll_l.c	38;"	d	file:
+L	strxfrm_l.c	40;"	d	file:
+LEN	strverscmp.c	34;"	d	file:
+LITTLE_ENDIAN	endian.h	46;"	d
+LOCALE_PARAM	strcasecmp.c	39;"	d	file:
+LOCALE_PARAM	strcasecmp.c	42;"	d	file:
+LOCALE_PARAM	strncase.c	40;"	d	file:
+LOCALE_PARAM	strncase.c	43;"	d	file:
+LOCALE_PARAM_DECL	strcasecmp.c	40;"	d	file:
+LOCALE_PARAM_DECL	strcasecmp.c	43;"	d	file:
+LOCALE_PARAM_DECL	strncase.c	41;"	d	file:
+LOCALE_PARAM_DECL	strncase.c	44;"	d	file:
+LONG_MAX	memchr.c	53;"	d	file:
+LONG_MAX	memrchr.c	52;"	d	file:
+LONG_MAX	rawmemchr.c	50;"	d	file:
+LONG_MAX_32_BITS	memchr.c	50;"	d	file:
+LONG_MAX_32_BITS	memrchr.c	49;"	d	file:
+LONG_MAX_32_BITS	rawmemchr.c	47;"	d	file:
+LONG_NEEDLE_THRESHOLD	memmem.c	78;"	d	file:
+LONG_NEEDLE_THRESHOLD	str-two-way.h	66;"	d
+LONG_NEEDLE_THRESHOLD	str-two-way.h	68;"	d
+LONG_NEEDLE_THRESHOLD	strcasestr.c	104;"	d	file:
+LONG_NEEDLE_THRESHOLD	strstr.c	92;"	d	file:
+MAX	str-two-way.h	429;"	d
+MAX	str-two-way.h	72;"	d
+MAX_LINE_SIZE	tst-svc.c	8;"	d	file:
+MAX_STRINGS	tst-svc.c	7;"	d	file:
+MEMCHR	stratcliff.c	49;"	d	file:
+MEMCMP	stratcliff.c	44;"	d	file:
+MEMCPY	stratcliff.c	47;"	d	file:
+MEMCPY_RESULT	test-memcpy.c	22;"	d	file:
+MEMCPY_RESULT	test-mempcpy.c	21;"	d	file:
+MEMPCPY	stratcliff.c	48;"	d	file:
+MEMSET	stratcliff.c	37;"	d	file:
+MERGE	memcmp.c	66;"	d	file:
+MERGE	memcmp.c	68;"	d	file:
+MIN_PAGE_SIZE	test-memcpy.c	23;"	d	file:
+MIN_PAGE_SIZE	test-memset.c	22;"	d	file:
+OPSIZ	memcmp.c	57;"	d	file:
+OPT_ITERATIONS	test-string.h	58;"	d
+OPT_RANDOM	test-string.h	59;"	d
+OPT_SEED	test-string.h	60;"	d
+OP_T_THRES	memcmp.c	60;"	d	file:
+PDP_ENDIAN	endian.h	48;"	d
+RES_TYPE	test-strcspn.c	22;"	d	file:
+RES_TYPE	test-strpbrk.c	23;"	d	file:
+RETURN	bcopy.c	23;"	d	file:
+RETURN	memmove.c	36;"	d	file:
+RETURN_TYPE	memmem.c	32;"	d	file:
+RETURN_TYPE	str-two-way.h	430;"	d
+RETURN_TYPE	strcasestr.c	44;"	d	file:
+RETURN_TYPE	strstr.c	36;"	d	file:
+SEP	envz.c	27;"	d	file:
+SIMPLE_COPY	tester.c	115;"	d	file:
+STPCPY	stratcliff.c	45;"	d	file:
+STPNCPY	stpncpy.c	33;"	d	file:
+STPNCPY	stratcliff.c	46;"	d	file:
+STPNCPY	strxfrm_l.c	37;"	d	file:
+STRCASESTR	strcasestr.c	/^STRCASESTR (const char *haystack_start, const char *needle_start)$/;"	f
+STRCASESTR	strcasestr.c	57;"	d	file:
+STRCHR	stratcliff.c	40;"	d	file:
+STRCMP	strcoll_l.c	34;"	d	file:
+STRCMP	strxfrm_l.c	35;"	d	file:
+STRCOLL	strcoll.c	/^STRCOLL (s1, s2)$/;"	f
+STRCOLL	strcoll.c	24;"	d	file:
+STRCOLL	strcoll_l.c	/^STRCOLL (s1, s2, l)$/;"	f
+STRCOLL	strcoll_l.c	33;"	d	file:
+STRCOLL_L	strcoll.c	25;"	d	file:
+STRCPY	stratcliff.c	42;"	d	file:
+STRCPY_RESULT	test-stpcpy.c	21;"	d	file:
+STRCPY_RESULT	test-strcpy.c	22;"	d	file:
+STREQ	tester.c	38;"	d	file:
+STRINGIFY	stratcliff.c	53;"	d	file:
+STRINGIFY2	stratcliff.c	54;"	d	file:
+STRING_TYPE	strcoll.c	23;"	d	file:
+STRING_TYPE	strcoll_l.c	31;"	d	file:
+STRING_TYPE	strxfrm.c	24;"	d	file:
+STRING_TYPE	strxfrm_l.c	32;"	d	file:
+STRLEN	stratcliff.c	38;"	d	file:
+STRLEN	strcoll_l.c	35;"	d	file:
+STRLEN	strxfrm_l.c	36;"	d	file:
+STRNCMP	strncmp.c	/^STRNCMP (const char *s1, const char *s2, size_t n)$/;"	f
+STRNCMP	strncmp.c	25;"	d	file:
+STRNCPY	stratcliff.c	43;"	d	file:
+STRNCPY	strncpy.c	/^STRNCPY (char *s1, const char *s2, size_t n)$/;"	f
+STRNCPY	strncpy.c	25;"	d	file:
+STRNCPY_RESULT	test-stpncpy.c	21;"	d	file:
+STRNCPY_RESULT	test-strncpy.c	22;"	d	file:
+STRNLEN	stratcliff.c	39;"	d	file:
+STRPBRK_RESULT	test-strcspn.c	21;"	d	file:
+STRPBRK_RESULT	test-strpbrk.c	22;"	d	file:
+STRRCHR	stratcliff.c	41;"	d	file:
+STRSTR	strstr.c	/^STRSTR (const char *haystack_start, const char *needle_start)$/;"	f
+STRSTR	strstr.c	45;"	d	file:
+STRXFRM	strxfrm.c	/^STRXFRM (STRING_TYPE *dest, const STRING_TYPE *src, size_t n)$/;"	f
+STRXFRM	strxfrm.c	25;"	d	file:
+STRXFRM	strxfrm_l.c	/^STRXFRM (STRING_TYPE *dest, const STRING_TYPE *src, size_t n, __locale_t l)$/;"	f
+STRXFRM	strxfrm_l.c	34;"	d	file:
+STRXFRM_L	strxfrm.c	26;"	d	file:
+SUFFIX	strcoll_l.c	37;"	d	file:
+SUFFIX	strxfrm_l.c	39;"	d	file:
+S_F	strverscmp.c	29;"	d	file:
+S_I	strverscmp.c	28;"	d	file:
+S_N	strverscmp.c	27;"	d	file:
+S_Z	strverscmp.c	30;"	d	file:
+TEST	test-ffs.c	46;"	d	file:
+TEST_FUNCTION	bug-envz1.c	75;"	d	file:
+TEST_FUNCTION	bug-strtok1.c	44;"	d	file:
+TEST_FUNCTION	stratcliff.c	462;"	d	file:
+TEST_FUNCTION	test-string.h	56;"	d
+TEST_FUNCTION	tst-endian.c	111;"	d	file:
+TEST_FUNCTION	tst-strfry.c	14;"	d	file:
+TEST_FUNCTION	tst-strxfrm2.c	85;"	d	file:
+TEST_FUNCTION	tst-svc2.c	61;"	d	file:
+TEST_MAIN	test-memccpy.c	21;"	d	file:
+TEST_MAIN	test-memchr.c	21;"	d	file:
+TEST_MAIN	test-memcmp.c	21;"	d	file:
+TEST_MAIN	test-memcpy.c	24;"	d	file:
+TEST_MAIN	test-memmem.c	21;"	d	file:
+TEST_MAIN	test-memmove.c	21;"	d	file:
+TEST_MAIN	test-mempcpy.c	22;"	d	file:
+TEST_MAIN	test-memset.c	21;"	d	file:
+TEST_MAIN	test-stpcpy.c	22;"	d	file:
+TEST_MAIN	test-stpncpy.c	22;"	d	file:
+TEST_MAIN	test-strcat.c	21;"	d	file:
+TEST_MAIN	test-strchr.c	21;"	d	file:
+TEST_MAIN	test-strcmp.c	21;"	d	file:
+TEST_MAIN	test-strcpy.c	23;"	d	file:
+TEST_MAIN	test-strcspn.c	23;"	d	file:
+TEST_MAIN	test-strlen.c	21;"	d	file:
+TEST_MAIN	test-strncmp.c	21;"	d	file:
+TEST_MAIN	test-strncpy.c	23;"	d	file:
+TEST_MAIN	test-strpbrk.c	24;"	d	file:
+TEST_MAIN	test-strrchr.c	21;"	d	file:
+TEST_MAIN	test-strspn.c	21;"	d	file:
+TIMEOUT	test-string.h	57;"	d
+TOLOWER	strcasecmp.c	29;"	d	file:
+TOLOWER	strcasecmp.c	35;"	d	file:
+TOLOWER	strcasestr.c	41;"	d	file:
+TOLOWER	strncase.c	30;"	d	file:
+TOLOWER	strncase.c	36;"	d	file:
+USE_HIDDEN_DEF	strcoll.c	26;"	d	file:
+USE_IN_EXTENDED_LOCALE_MODEL	strcasecmp_l.c	19;"	d	file:
+USE_IN_EXTENDED_LOCALE_MODEL	strncase_l.c	21;"	d	file:
+USTRING_TYPE	strcoll_l.c	32;"	d	file:
+USTRING_TYPE	strxfrm_l.c	33;"	d	file:
+WEIGHT_H	strcoll_l.c	36;"	d	file:
+WEIGHT_H	strxfrm_l.c	38;"	d	file:
+WORDS_BIGENDIAN	memcmp.c	46;"	d	file:
+_ARGZ_H	argz.h	21;"	d
+_BYTESWAP_H	byteswap.h	20;"	d
+_ENDIAN_H	endian.h	20;"	d
+_ENVZ_H	envz.h	21;"	d
+_FORCE_INLINES	string-inlines.c	25;"	d	file:
+_GNU_SOURCE	stratcliff.c	21;"	d	file:
+_GNU_SOURCE	test-string.h	37;"	d
+_GNU_SOURCE	tester.c	21;"	d	file:
+_GNU_SOURCE	tst-inlcall.c	21;"	d	file:
+_MEMORY_H	memory.h	24;"	d
+_STRINGS_H	strings.h	20;"	d
+_STRING_H	string.h	24;"	d
+__BIG_ENDIAN	endian.h	33;"	d
+__CORRECT_ISO_CPP_STRINGS_H_PROTO	strings.h	33;"	d
+__CORRECT_ISO_CPP_STRING_H_PROTO	string.h	37;"	d
+__FLOAT_WORD_ORDER	endian.h	42;"	d
+__LITTLE_ENDIAN	endian.h	32;"	d
+__LONG_LONG_PAIR	endian.h	53;"	d
+__LONG_LONG_PAIR	endian.h	55;"	d
+__NO_INLINE__	string-inlines.c	27;"	d	file:
+__NO_INLINE__	string-inlines.c	33;"	d	file:
+__NO_STRING_INLINES	noinl-tester.c	3;"	d	file:
+__PDP_ENDIAN	endian.h	34;"	d
+__STRING2_COPY_TYPE	bits/string2.h	77;"	d
+__STRING2_COPY_TYPE	bits/string2.h	87;"	d
+__STRING2_SMALL_GET16	bits/string2.h	56;"	d
+__STRING2_SMALL_GET16	bits/string2.h	65;"	d
+__STRING2_SMALL_GET32	bits/string2.h	59;"	d
+__STRING2_SMALL_GET32	bits/string2.h	68;"	d
+__STRING_INLINE	bits/string2.h	1351;"	d
+__STRING_INLINE	bits/string2.h	44;"	d
+__STRING_INLINE	bits/string2.h	46;"	d
+__STRING_INLINE	string-inlines.c	26;"	d	file:
+__USE_STRING_INLINES	bug-strncat1.c	2;"	d	file:
+__USE_STRING_INLINES	bug-strncat1.c	3;"	d	file:
+__USE_STRING_INLINES	bug-strpbrk1.c	2;"	d	file:
+__USE_STRING_INLINES	bug-strpbrk1.c	3;"	d	file:
+__USE_STRING_INLINES	bug-strspn1.c	2;"	d	file:
+__USE_STRING_INLINES	bug-strspn1.c	3;"	d	file:
+__USE_STRING_INLINES	inl-tester.c	4;"	d	file:
+__USE_STRING_INLINES	inl-tester.c	5;"	d	file:
+__USE_STRING_INLINES	stratcliff.c	25;"	d	file:
+__USE_STRING_INLINES	string-inlines.c	23;"	d	file:
+__USE_STRING_INLINES	string-inlines.c	24;"	d	file:
+__USE_STRING_INLINES	test-string.h	40;"	d
+__USE_STRING_INLINES	tester.c	27;"	d	file:
+__USE_STRING_INLINES	tst-inlcall.c	25;"	d	file:
+__USE_STRING_INLINES	tst-strlen.c	3;"	d	file:
+__argz_add_sep	argz-addsep.c	/^__argz_add_sep (char **argz, size_t *argz_len, const char *string, int delim)$/;"	f
+__argz_append	argz-append.c	/^__argz_append (char **argz, size_t *argz_len, const char *buf, size_t buf_len)$/;"	f
+__argz_count	argz-count.c	/^__argz_count (const char *argz, size_t len)$/;"	f
+__argz_create	argz-create.c	/^__argz_create (char *const argv[], char **argz, size_t *len)$/;"	f
+__argz_create_sep	argz-ctsep.c	/^__argz_create_sep (const char *string, int delim, char **argz, size_t *len)$/;"	f
+__argz_extract	argz-extract.c	/^__argz_extract (const char *argz, size_t len, char **argv)$/;"	f
+__argz_insert	argz-insert.c	/^__argz_insert (char **argz, size_t *argz_len, char *before, const char *entry)$/;"	f
+__argz_next	argz-next.c	/^__argz_next (const char *argz, size_t argz_len, const char *entry)$/;"	f
+__argz_next	argz.h	/^__NTH (__argz_next (__const char *__argz, size_t __argz_len,$/;"	f
+__argz_replace	argz-replace.c	/^__argz_replace (char **argz, size_t *argz_len, const char *str, const char *with,$/;"	f
+__argz_stringify	argz-stringify.c	/^__argz_stringify (char *argz, size_t len, int sep)$/;"	f
+__attribute_malloc__	bits/string2.h	/^     __THROW __attribute_malloc__;$/;"	v
+__attribute_malloc__	bits/string2.h	/^extern char *__strdup (__const char *__string) __THROW __attribute_malloc__;$/;"	v
+__attribute_pure__	argz.h	/^     __THROW __attribute_pure__;$/;"	v
+__attribute_pure__	envz.h	/^     __THROW __attribute_pure__;$/;"	v
+__attribute_pure__	strings.h	/^     __THROW __attribute_pure__;$/;"	v
+__builtin_expect	memmem.c	29;"	d	file:
+__builtin_expect	strstr.c	33;"	d	file:
+__bzero	bits/string2.h	195;"	d
+__bzero	bzero.c	/^__bzero (s, len)$/;"	f
+__bzero	bzero.c	23;"	d	file:
+__const	argz.h	30;"	d
+__ffs	ffs.c	/^__ffs (i)$/;"	f
+__memccpy	memccpy.c	/^__memccpy (dest, src, c, n)$/;"	f
+__memccpy	memccpy.c	21;"	d	file:
+__memchr	memchr.c	/^__memchr (s, c_in, n)$/;"	f
+__memchr	memchr.c	64;"	d	file:
+__mempcpy	bits/string2.h	207;"	d
+__mempcpy	bits/string2.h	209;"	d
+__mempcpy	bits/string2.h	215;"	d
+__mempcpy	mempcpy.c	/^__mempcpy (dstpp, srcpp, len)$/;"	f
+__mempcpy	mempcpy.c	28;"	d	file:
+__mempcpy_args	bits/string2.h	229;"	d
+__mempcpy_args	bits/string2.h	304;"	d
+__mempcpy_small	bits/string2.h	/^__mempcpy_small (void *__dest, char __src1,$/;"	f
+__mempcpy_small	bits/string2.h	/^__mempcpy_small (void *__dest1,$/;"	f
+__memrchr	memrchr.c	/^__memrchr (s, c_in, n)$/;"	f
+__memrchr	memrchr.c	57;"	d	file:
+__memrchr	memrchr.c	61;"	d	file:
+__memset_1	bits/string2.h	109;"	d
+__memset_gc	bits/string2.h	112;"	d
+__need_NULL	string.h	32;"	d
+__need_error_t	argz.h	25;"	d
+__need_malloc_and_calloc	bits/string2.h	1297;"	d
+__need_size_t	string.h	31;"	d
+__need_size_t	strings.h	28;"	d
+__ptr_t	memchr.c	28;"	d	file:
+__ptr_t	memchr.c	30;"	d	file:
+__ptr_t	memchr.c	32;"	d	file:
+__ptr_t	memcmp.c	25;"	d	file:
+__ptr_t	memcmp.c	27;"	d	file:
+__ptr_t	memcmp.c	31;"	d	file:
+__ptr_t	memrchr.c	31;"	d	file:
+__ptr_t	memrchr.c	33;"	d	file:
+__ptr_t	memrchr.c	35;"	d	file:
+__ptr_t	rawmemchr.c	28;"	d	file:
+__ptr_t	rawmemchr.c	30;"	d	file:
+__ptr_t	rawmemchr.c	32;"	d	file:
+__rawmemchr	rawmemchr.c	/^__rawmemchr (s, c_in)$/;"	f
+__rawmemchr	strtok_r.c	33;"	d	file:
+__stpcpy	bits/string2.h	577;"	d
+__stpcpy	bits/string2.h	579;"	d
+__stpcpy	bits/string2.h	587;"	d
+__stpcpy	stpcpy.c	/^__stpcpy (dest, src)$/;"	f
+__stpcpy	stpcpy.c	25;"	d	file:
+__stpcpy	stpcpy.c	29;"	d	file:
+__stpcpy_args	bits/string2.h	604;"	d
+__stpcpy_args	bits/string2.h	671;"	d
+__stpcpy_small	bits/string2.h	/^__stpcpy_small (char *__dest,$/;"	f
+__strcasecmp	strcasecmp.c	28;"	d	file:
+__strcasecmp	strcasecmp.c	33;"	d	file:
+__strcasestr	strcasestr.c	54;"	d	file:
+__strchrnul	strchrnul.c	/^__strchrnul (s, c_in)$/;"	f
+__strchrnul	strchrnul.c	28;"	d	file:
+__strcmp_cc	bits/string2.h	842;"	d
+__strcmp_cg	bits/string2.h	869;"	d
+__strcmp_gc	bits/string2.h	891;"	d
+__strcpy_args	bits/string2.h	425;"	d
+__strcpy_args	bits/string2.h	487;"	d
+__strcpy_small	bits/string2.h	/^__strcpy_small (char *__dest,$/;"	f
+__strcspn_c1	bits/string2.h	/^__strcspn_c1 (__const char *__s, int __reject)$/;"	f
+__strcspn_c2	bits/string2.h	/^__strcspn_c2 (__const char *__s, int __reject1, int __reject2)$/;"	f
+__strcspn_c3	bits/string2.h	/^__strcspn_c3 (__const char *__s, int __reject1, int __reject2,$/;"	f
+__strdup	bits/string2.h	1304;"	d
+__strdup	strdup.c	/^__strdup (const char *s)$/;"	f
+__strdup	strdup.c	31;"	d	file:
+__strdup	strdup.c	35;"	d	file:
+__strerror_r	_strerror.c	/^__strerror_r (int errnum, char *buf, size_t buflen)$/;"	f
+__string2_1bptr_p	bits/string2.h	93;"	d
+__strncasecmp	strncase.c	29;"	d	file:
+__strncasecmp	strncase.c	34;"	d	file:
+__strndup	bits/string2.h	1324;"	d
+__strndup	strndup.c	/^__strndup (s, n)$/;"	f
+__strndup	strndup.c	33;"	d	file:
+__strndup	strndup.c	37;"	d	file:
+__strnlen	strnlen.c	/^__strnlen (const char *str, size_t maxlen)$/;"	f
+__strpbrk_c2	bits/string2.h	/^__strpbrk_c2 (__const char *__s, int __accept1, int __accept2)$/;"	f
+__strpbrk_c3	bits/string2.h	/^__strpbrk_c3 (__const char *__s, int __accept1, int __accept2,$/;"	f
+__strsep	bits/string2.h	1205;"	d
+__strsep	strsep.c	/^__strsep (char **stringp, const char *delim)$/;"	f
+__strsep	strsep.c	21;"	d	file:
+__strsep_1c	bits/string2.h	/^__strsep_1c (char **__s, char __reject)$/;"	f
+__strsep_2c	bits/string2.h	/^__strsep_2c (char **__s, char __reject1, char __reject2)$/;"	f
+__strsep_3c	bits/string2.h	/^__strsep_3c (char **__s, char __reject1, char __reject2, char __reject3)$/;"	f
+__strspn_c1	bits/string2.h	/^__strspn_c1 (__const char *__s, int __accept)$/;"	f
+__strspn_c2	bits/string2.h	/^__strspn_c2 (__const char *__s, int __accept1, int __accept2)$/;"	f
+__strspn_c3	bits/string2.h	/^__strspn_c3 (__const char *__s, int __accept1, int __accept2, int __accept3)$/;"	f
+__strtok_r	bits/string2.h	1164;"	d
+__strtok_r	strtok_r.c	/^__strtok_r (char *s, const char *delim, char **save_ptr)$/;"	f
+__strtok_r	strtok_r.c	27;"	d	file:
+__strtok_r	strtok_r.c	32;"	d	file:
+__strtok_r_1c	bits/string2.h	/^__strtok_r_1c (char *__s, char __sep, char **__nextp)$/;"	f
+__strverscmp	strverscmp.c	/^__strverscmp (s1, s2)$/;"	f
+__xpg_strerror_r	xpg-strerror.c	/^__xpg_strerror_r (int errnum, char *buf, size_t buflen)$/;"	f
+_dl_hp_timing_overhead	test-string.h	/^hp_timing_t _dl_hp_timing_overhead;$/;"	v
+_wordcopy_bwd_aligned	wordcopy.c	/^_wordcopy_bwd_aligned (dstp, srcp, len)$/;"	f
+_wordcopy_bwd_dest_aligned	wordcopy.c	/^_wordcopy_bwd_dest_aligned (dstp, srcp, len)$/;"	f
+_wordcopy_fwd_aligned	wordcopy.c	/^_wordcopy_fwd_aligned (dstp, srcp, len)$/;"	f
+_wordcopy_fwd_dest_aligned	wordcopy.c	/^_wordcopy_fwd_dest_aligned (dstp, srcp, len)$/;"	f
+a1	bcopy.c	24;"	d	file:
+a1	memmove.c	29;"	d	file:
+a1const	bcopy.c	25;"	d	file:
+a1const	memmove.c	30;"	d	file:
+a2	bcopy.c	26;"	d	file:
+a2	memmove.c	31;"	d	file:
+a2const	bcopy.c	27;"	d	file:
+a2const	memmove.c	32;"	d	file:
+argz_delete	argz-delete.c	/^argz_delete (char **argz, size_t *argz_len, char *entry)$/;"	f
+argz_next	argz.h	/^__NTH (argz_next (__const char *__argz, size_t __argz_len,$/;"	f
+basename	basename.c	/^basename (filename)$/;"	f
+basename	basename.c	29;"	d	file:
+bcmp	memcmp.c	379;"	d	file:
+bcopy	bits/string3.h	/^__NTH (bcopy (__const void *__restrict __src, void *__restrict __dest,$/;"	f
+bcopy	bits/string3.h	42;"	d
+be16toh	endian.h	66;"	d
+be16toh	endian.h	81;"	d
+be32toh	endian.h	71;"	d
+be32toh	endian.h	86;"	d
+be64toh	endian.h	76;"	d
+be64toh	endian.h	91;"	d
+bswap_16	byteswap.h	30;"	d
+bswap_32	byteswap.h	33;"	d
+bswap_64	byteswap.h	37;"	d
+buf1	test-string.h	/^unsigned char *buf1, *buf2;$/;"	v
+buf2	test-string.h	/^unsigned char *buf1, *buf2;$/;"	v
+bug-strcoll1-ENV	Makefile	/^bug-strcoll1-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+builtin_memcpy	test-memcpy.c	/^builtin_memcpy (char *dst, const char *src, size_t n)$/;"	f
+builtin_memset	test-memset.c	/^builtin_memset (char *s, int c, size_t n)$/;"	f
+builtin_strlen	test-strlen.c	/^builtin_strlen (const char *p)$/;"	f
+byte	memcmp.c	/^typedef unsigned char byte;$/;"	t	file:
+bzero	bits/string3.h	/^__NTH (bzero (void *__dest, size_t __len))$/;"	f
+bzero	bits/string3.h	43;"	d
+check	tester.c	/^check (int thing, int number)$/;"	f	file:
+compare	tst-svc.c	/^compare (const void *p1, const void *p2)$/;"	f	file:
+compare	tst-svc2.c	/^compare (const char *str1, const char *str2, int exp)$/;"	f
+const	memcmp.c	29;"	d	file:
+const	memcmp.c	30;"	d	file:
+cp	tester.c	/^char *cp;$/;"	v
+critical_factorization	str-two-way.h	/^critical_factorization (const unsigned char *needle, size_t needle_len,$/;"	f
+d	bug-strncat1.c	/^char d[3] = "\\0\\1\\2";$/;"	v
+dgettext	_strerror.c	32;"	d	file:
+dgettext	xpg-strerror.c	33;"	d	file:
+distribute	Makefile	/^distribute	:= memcopy.h pagecopy.h tst-svc.expect test-string.h	\\$/;"	m
+do_one_test	test-memccpy.c	/^do_one_test (impl_t *impl, void *dst, const void *src, int c, size_t len,$/;"	f	file:
+do_one_test	test-memchr.c	/^do_one_test (impl_t *impl, const char *s, int c, size_t n, char *exp_res)$/;"	f	file:
+do_one_test	test-memcmp.c	/^do_one_test (impl_t *impl, const char *s1, const char *s2, size_t len,$/;"	f	file:
+do_one_test	test-memcpy.c	/^do_one_test (impl_t *impl, char *dst, const char *src,$/;"	f	file:
+do_one_test	test-memmem.c	/^do_one_test (impl_t *impl, const void *haystack, size_t haystack_len,$/;"	f	file:
+do_one_test	test-memmove.c	/^do_one_test (impl_t *impl, char *dst, char *src, const char *orig_src,$/;"	f	file:
+do_one_test	test-memset.c	/^do_one_test (impl_t *impl, char *s, int c, size_t n)$/;"	f	file:
+do_one_test	test-strcat.c	/^do_one_test (impl_t *impl, char *dst, const char *src)$/;"	f	file:
+do_one_test	test-strchr.c	/^do_one_test (impl_t *impl, const char *s, int c, char *exp_res)$/;"	f	file:
+do_one_test	test-strcmp.c	/^do_one_test (impl_t *impl, const char *s1, const char *s2, int exp_result)$/;"	f	file:
+do_one_test	test-strcpy.c	/^do_one_test (impl_t *impl, char *dst, const char *src,$/;"	f	file:
+do_one_test	test-strlen.c	/^do_one_test (impl_t *impl, const char *s, size_t exp_len)$/;"	f	file:
+do_one_test	test-strncmp.c	/^do_one_test (impl_t *impl, const char *s1, const char *s2, size_t n,$/;"	f	file:
+do_one_test	test-strncpy.c	/^do_one_test (impl_t *impl, char *dst, const char *src, size_t len, size_t n)$/;"	f	file:
+do_one_test	test-strpbrk.c	/^do_one_test (impl_t *impl, const char *s, const char *rej, RES_TYPE exp_res)$/;"	f	file:
+do_one_test	test-strrchr.c	/^do_one_test (impl_t *impl, const char *s, int c, char *exp_res)$/;"	f	file:
+do_one_test	test-strspn.c	/^do_one_test (impl_t *impl, const char *s, const char *acc, size_t exp_res)$/;"	f	file:
+do_random_tests	test-memccpy.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-memchr.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-memcmp.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-memcpy.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-memmem.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-memmove.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-memset.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strcat.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strchr.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strcmp.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strcpy.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strlen.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strncmp.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strncpy.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strpbrk.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strrchr.c	/^do_random_tests (void)$/;"	f	file:
+do_random_tests	test-strspn.c	/^do_random_tests (void)$/;"	f	file:
+do_srandom	test-string.h	/^int ret, do_srandom;$/;"	v
+do_test	bug-envz1.c	/^do_test (void)$/;"	f	file:
+do_test	bug-strtok1.c	/^do_test (void)$/;"	f	file:
+do_test	stratcliff.c	/^do_test (void)$/;"	f	file:
+do_test	test-memccpy.c	/^do_test (size_t align1, size_t align2, int c, size_t len, size_t n,$/;"	f	file:
+do_test	test-memchr.c	/^do_test (size_t align, size_t pos, size_t len, int seek_char)$/;"	f	file:
+do_test	test-memcmp.c	/^do_test (size_t align1, size_t align2, size_t len, int exp_result)$/;"	f	file:
+do_test	test-memcpy.c	/^do_test (size_t align1, size_t align2, size_t len)$/;"	f	file:
+do_test	test-memmem.c	/^do_test (const char *str, size_t len, size_t idx)$/;"	f	file:
+do_test	test-memmove.c	/^do_test (size_t align1, size_t align2, size_t len)$/;"	f	file:
+do_test	test-memset.c	/^do_test (size_t align, int c, size_t len)$/;"	f	file:
+do_test	test-strcat.c	/^do_test (size_t align1, size_t align2, size_t len1, size_t len2, int max_char)$/;"	f	file:
+do_test	test-strchr.c	/^do_test (size_t align, size_t pos, size_t len, int seek_char, int max_char)$/;"	f	file:
+do_test	test-strcmp.c	/^do_test (size_t align1, size_t align2, size_t len, int max_char,$/;"	f	file:
+do_test	test-strcpy.c	/^do_test (size_t align1, size_t align2, size_t len, int max_char)$/;"	f	file:
+do_test	test-strlen.c	/^do_test (size_t align, size_t len, int max_char)$/;"	f	file:
+do_test	test-strncmp.c	/^do_test (size_t align1, size_t align2, size_t len, size_t n, int max_char,$/;"	f	file:
+do_test	test-strncpy.c	/^do_test (size_t align1, size_t align2, size_t len, size_t n, int max_char)$/;"	f	file:
+do_test	test-strpbrk.c	/^do_test (size_t align, size_t pos, size_t len)$/;"	f	file:
+do_test	test-strrchr.c	/^do_test (size_t align, size_t pos, size_t len, int seek_char, int max_char)$/;"	f	file:
+do_test	test-strspn.c	/^do_test (size_t align, size_t pos, size_t len)$/;"	f	file:
+do_test	tst-endian.c	/^do_test (void)$/;"	f	file:
+do_test	tst-strfry.c	/^do_test (void)$/;"	f	file:
+do_test	tst-strxfrm2.c	/^do_test (void)$/;"	f	file:
+do_test	tst-svc2.c	/^do_test (void)$/;"	f	file:
+do_test_limit	test-strncmp.c	/^do_test_limit (size_t align1, size_t align2, size_t len, size_t n, int max_char,$/;"	f	file:
+envz_entry	envz.c	/^envz_entry (const char *envz, size_t envz_len, const char *name)$/;"	f
+envz_merge	envz.c	/^envz_merge (char **envz, size_t *envz_len, const char *envz2,$/;"	f
+envz_remove	envz.c	/^envz_remove (char **envz, size_t *envz_len, const char *name)$/;"	f
+envz_strip	envz.c	/^envz_strip (char **envz, size_t *envz_len)$/;"	f
+equal	tester.c	/^equal (const char *a, const char *b, int number)$/;"	f	file:
+error_t	argz.h	/^typedef int error_t;$/;"	t
+errors	tester.c	/^size_t errors = 0;$/;"	v
+ffs	ffs.c	24;"	d	file:
+ffsl	ffs.c	21;"	d	file:
+ffsl	ffs.c	53;"	d	file:
+ffsl	ffsll.c	21;"	d	file:
+ffsl	ffsll.c	40;"	d	file:
+ffsll	ffsll.c	/^ffsll (i)$/;"	f
+ffsll	ffsll.c	24;"	d	file:
+fn	test-string.h	/^  void (*fn) (void);$/;"	m	struct:__anon1
+free_key_mem	strsignal.c	/^free_key_mem (void *mem)$/;"	f	file:
+getbuffer	strsignal.c	/^getbuffer (void)$/;"	f	file:
+headers	Makefile	/^headers	:= string.h strings.h memory.h endian.h bits\/endian.h \\$/;"	m
+htobe16	endian.h	64;"	d
+htobe16	endian.h	79;"	d
+htobe32	endian.h	69;"	d
+htobe32	endian.h	84;"	d
+htobe64	endian.h	74;"	d
+htobe64	endian.h	89;"	d
+htole16	endian.h	65;"	d
+htole16	endian.h	80;"	d
+htole32	endian.h	70;"	d
+htole32	endian.h	85;"	d
+htole64	endian.h	75;"	d
+htole64	endian.h	90;"	d
+impl_t	test-string.h	/^} impl_t;$/;"	t	typeref:struct:__anon1
+in_result	bug-envz1.c	/^  int in_result;$/;"	m	struct:__anon2	file:
+index	strchr.c	188;"	d	file:
+index	string-inlines.c	30;"	d	file:
+init	strsignal.c	/^init (void)$/;"	f	file:
+inl-tester-ENV	Makefile	/^inl-tester-ENV = LANGUAGE=C$/;"	m
+it	tester.c	/^const char *it = "<UNSET>";	\/* Routine name for message routines. *\/$/;"	v
+iterations	test-string.h	/^size_t iterations = 100000;$/;"	v
+key	strsignal.c	/^static __libc_key_t key;$/;"	v	file:
+last_value	strerror_l.c	/^static __thread char *last_value;$/;"	v	file:
+le16toh	endian.h	67;"	d
+le16toh	endian.h	82;"	d
+le32toh	endian.h	72;"	d
+le32toh	endian.h	87;"	d
+le64toh	endian.h	77;"	d
+le64toh	endian.h	92;"	d
+libc_hidden_def	envz.c	/^libc_hidden_def (envz_entry)$/;"	f
+libc_hidden_def	envz.c	/^libc_hidden_def (envz_remove)$/;"	f
+local_buf	strsignal.c	/^static char local_buf[BUFFERSIZ];$/;"	v	file:
+main	bug-strcoll1.c	/^main (void)$/;"	f
+main	bug-strncat1.c	/^main (void)$/;"	f
+main	bug-strpbrk1.c	/^main (void)$/;"	f
+main	bug-strspn1.c	/^main (void)$/;"	f
+main	test-ffs.c	/^main (void)$/;"	f
+main	testcopy.c	/^main (void)$/;"	f
+main	tester.c	/^main (void)$/;"	f
+main	tst-bswap.c	/^main (void)$/;"	f
+main	tst-inlcall.c	/^main (void)$/;"	f
+main	tst-strlen.c	/^main(int argc, char *argv[])$/;"	f
+main	tst-strtok.c	/^main (void)$/;"	f
+main	tst-strxfrm.c	/^main (void)$/;"	f
+main	tst-svc.c	/^main (int argc, char *argv[])$/;"	f
+memccpy	memccpy.c	22;"	d	file:
+memchr	memchr.c	63;"	d	file:
+memchr	rawmemchr.c	55;"	d	file:
+memcmp	memcmp.c	/^memcmp (s1, s2, len)$/;"	f
+memcmp	memcmp.c	38;"	d	file:
+memcmp_bytes	memcmp.c	/^memcmp_bytes (a, b)$/;"	f	file:
+memcmp_common_alignment	memcmp.c	/^memcmp_common_alignment (srcp1, srcp2, len)$/;"	f	file:
+memcmp_not_common_alignment	memcmp.c	/^memcmp_not_common_alignment (srcp1, srcp2, len)$/;"	f	file:
+memcpy	bits/string3.h	/^__NTH (memcpy (void *__restrict __dest, __const void *__restrict __src,$/;"	f
+memcpy	bits/string3.h	30;"	d
+memcpy	memcpy.c	/^memcpy (dstpp, srcpp, len)$/;"	f
+memcpy	memcpy.c	26;"	d	file:
+memfrob	memfrob.c	/^memfrob (s, n)$/;"	f
+memmem	memmem.c	/^memmem (const void *haystack_start, size_t haystack_len,$/;"	f
+memmem	memmem.c	36;"	d	file:
+memmove	bcopy.c	21;"	d	file:
+memmove	bits/string3.h	/^__NTH (memmove (void *__restrict __dest, __const void *__restrict __src,$/;"	f
+memmove	bits/string3.h	31;"	d
+memmove	memmove.c	/^memmove (a1, a2, len)$/;"	f
+memmove	memmove.c	33;"	d	file:
+mempcpy	bits/string2.h	223;"	d
+mempcpy	bits/string3.h	/^__NTH (mempcpy (void *__restrict __dest, __const void *__restrict __src,$/;"	f
+mempcpy	bits/string3.h	38;"	d
+mempcpy	mempcpy.c	27;"	d	file:
+memrchr	memrchr.c	58;"	d	file:
+memset	bits/string2.h	100;"	d
+memset	bits/string2.h	182;"	d
+memset	bits/string3.h	/^__NTH (memset (void *__dest, int __ch, size_t __len))$/;"	f
+memset	bits/string3.h	32;"	d
+memset	memset.c	/^memset (dstpp, c, len)$/;"	f
+memset	memset.c	22;"	d	file:
+n	strncase.c	/^     size_t n;$/;"	v
+name	test-string.h	/^  const char *name;$/;"	m	struct:__anon1
+noinl-tester-ENV	Makefile	/^noinl-tester-ENV = LANGUAGE=C$/;"	m
+nstrs	bug-envz1.c	25;"	d	file:
+ntests	tst-svc2.c	16;"	d	file:
+o-objects.ob	Makefile	/^o-objects.ob	:= memcpy.o memset.o memchr.o$/;"	m
+olds	strtok.c	/^static char *olds;$/;"	v	file:
+one	tester.c	/^char one[50];$/;"	v
+op_t	memcmp.c	56;"	d	file:
+page_size	test-string.h	/^size_t page_size;$/;"	v
+proto_t	test-memccpy.c	/^typedef void *(*proto_t) (void *, const void *, int c, size_t);$/;"	t	file:
+proto_t	test-memchr.c	/^typedef char *(*proto_t) (const char *, int, size_t);$/;"	t	file:
+proto_t	test-memcmp.c	/^typedef int (*proto_t) (const char *, const char *, size_t);$/;"	t	file:
+proto_t	test-memcpy.c	/^typedef char *(*proto_t) (char *, const char *, size_t);$/;"	t	file:
+proto_t	test-memmem.c	/^typedef char *(*proto_t) (const void *, size_t, const void *, size_t);$/;"	t	file:
+proto_t	test-memmove.c	/^typedef char *(*proto_t) (char *, const char *, size_t);$/;"	t	file:
+proto_t	test-memset.c	/^typedef char *(*proto_t) (char *, int, size_t);$/;"	t	file:
+proto_t	test-strcat.c	/^typedef char *(*proto_t) (char *, const char *);$/;"	t	file:
+proto_t	test-strchr.c	/^typedef char *(*proto_t) (const char *, int);$/;"	t	file:
+proto_t	test-strcmp.c	/^typedef int (*proto_t) (const char *, const char *);$/;"	t	file:
+proto_t	test-strcpy.c	/^typedef char *(*proto_t) (char *, const char *);$/;"	t	file:
+proto_t	test-strcspn.c	/^typedef size_t (*proto_t) (const char *, const char *);$/;"	t	file:
+proto_t	test-strlen.c	/^typedef size_t (*proto_t) (const char *);$/;"	t	file:
+proto_t	test-strncmp.c	/^typedef int (*proto_t) (const char *, const char *, size_t);$/;"	t	file:
+proto_t	test-strncpy.c	/^typedef char *(*proto_t) (char *, const char *, size_t);$/;"	t	file:
+proto_t	test-strpbrk.c	/^typedef char *(*proto_t) (const char *, const char *);$/;"	t	file:
+proto_t	test-strrchr.c	/^typedef char *(*proto_t) (const char *, int);$/;"	t	file:
+proto_t	test-strspn.c	/^typedef size_t (*proto_t) (const char *, const char *);$/;"	t	file:
+reg_char	memchr.c	39;"	d	file:
+reg_char	memrchr.c	42;"	d	file:
+reg_char	rawmemchr.c	40;"	d	file:
+reg_char	strncat.c	/^typedef char reg_char;$/;"	t	file:
+ret	test-string.h	/^int ret, do_srandom;$/;"	v
+rettype	bcopy.c	22;"	d	file:
+rettype	memmove.c	37;"	d	file:
+rindex	string-inlines.c	31;"	d	file:
+rindex	strrchr.c	47;"	d	file:
+routines	Makefile	/^routines	:= strcat strchr strcmp strcoll strcpy strcspn		\\$/;"	m
+s	bug-envz1.c	/^  const char *s;$/;"	m	struct:__anon2	file:
+s1	strcasecmp.c	/^     const char *s1;$/;"	v
+s1	strncase.c	/^     const char *s1;$/;"	v
+s2	strcasecmp.c	/^     const char *s2;$/;"	v
+s2	strncase.c	/^     const char *s2;$/;"	v
+seed	test-string.h	/^unsigned int seed;$/;"	v
+simple_memccpy	test-memccpy.c	/^simple_memccpy (void *dst, const void *src, int c, size_t n)$/;"	f
+simple_memchr	test-memchr.c	/^simple_memchr (const char *s, int c, size_t n)$/;"	f
+simple_memcmp	test-memcmp.c	/^simple_memcmp (const char *s1, const char *s2, size_t n)$/;"	f
+simple_memcpy	test-memcpy.c	/^simple_memcpy (char *dst, const char *src, size_t n)$/;"	f
+simple_memmem	test-memmem.c	/^simple_memmem (const void *haystack, size_t haystack_len, const void *needle,$/;"	f
+simple_memmove	test-memmove.c	/^simple_memmove (char *dst, const char *src, size_t n)$/;"	f
+simple_mempcpy	test-mempcpy.c	/^simple_mempcpy (char *dst, const char *src, size_t n)$/;"	f
+simple_memset	test-memset.c	/^simple_memset (char *s, int c, size_t n)$/;"	f
+simple_stpcpy	test-stpcpy.c	/^simple_stpcpy (char *dst, const char *src)$/;"	f
+simple_stpncpy	test-stpncpy.c	/^simple_stpncpy (char *dst, const char *src, size_t n)$/;"	f
+simple_strcat	test-strcat.c	/^simple_strcat (char *dst, const char *src)$/;"	f
+simple_strchr	test-strchr.c	/^simple_strchr (const char *s, int c)$/;"	f
+simple_strcmp	test-strcmp.c	/^simple_strcmp (const char *s1, const char *s2)$/;"	f
+simple_strcpy	test-strcpy.c	/^simple_strcpy (char *dst, const char *src)$/;"	f
+simple_strcspn	test-strcspn.c	/^simple_strcspn (const char *s, const char *rej)$/;"	f
+simple_strlen	test-strlen.c	/^simple_strlen (const char *s)$/;"	f
+simple_strncmp	test-strncmp.c	/^simple_strncmp (const char *s1, const char *s2, size_t n)$/;"	f
+simple_strncpy	test-strncpy.c	/^simple_strncpy (char *dst, const char *src, size_t n)$/;"	f
+simple_strpbrk	test-strpbrk.c	/^simple_strpbrk (const char *s, const char *rej)$/;"	f
+simple_strrchr	test-strrchr.c	/^simple_strrchr (const char *s, int c)$/;"	f
+simple_strspn	test-strspn.c	/^simple_strspn (const char *s, const char *acc)$/;"	f
+static_buf	strsignal.c	/^static char *static_buf;$/;"	v	file:
+stpcpy	bits/string2.h	598;"	d
+stpcpy	bits/string3.h	/^__NTH (stpcpy (char *__restrict __dest, __const char *__restrict __src))$/;"	f
+stpcpy	bits/string3.h	39;"	d
+stpcpy	stpcpy.c	26;"	d	file:
+stpncpy	bits/string3.h	/^__NTH (stpncpy (char *__dest, __const char *__src, size_t __n))$/;"	f
+str1	tst-svc2.c	/^  const char *str1;$/;"	m	struct:__anon3	file:
+str2	tst-svc2.c	/^  const char *str2;$/;"	m	struct:__anon3	file:
+str_append	argz-replace.c	/^str_append (char **to, size_t *to_len, const char *buf, const size_t buf_len)$/;"	f	file:
+strcasestr	strcasestr.c	53;"	d	file:
+strcat	bits/string3.h	/^__NTH (strcat (char *__restrict __dest, __const char *__restrict __src))$/;"	f
+strcat	bits/string3.h	33;"	d
+strcat	strcat.c	/^strcat (dest, src)$/;"	f
+strcat	strcat.c	22;"	d	file:
+strchr	bits/string2.h	396;"	d
+strchr	bits/string2.h	402;"	d
+strchr	strchr.c	/^strchr (s, c_in)$/;"	f
+strchr	strchr.c	29;"	d	file:
+strchr	strcspn.c	28;"	d	file:
+strchrnul	strchrnul.c	29;"	d	file:
+strcmp	bits/string2.h	800;"	d
+strcmp	bits/string2.h	820;"	d
+strcmp	strcmp.c	/^strcmp (p1, p2)$/;"	f
+strcmp	strcmp.c	22;"	d	file:
+strcpy	bits/string2.h	414;"	d
+strcpy	bits/string3.h	/^__NTH (strcpy (char *__restrict __dest, __const char *__restrict __src))$/;"	f
+strcpy	bits/string3.h	34;"	d
+strcpy	strcpy.c	/^strcpy (dest, src)$/;"	f
+strcpy	strcpy.c	24;"	d	file:
+strcspn	bits/string2.h	935;"	d
+strcspn	bits/string2.h	952;"	d
+strcspn	strcspn.c	/^strcspn (s, reject)$/;"	f
+strcspn	strcspn.c	32;"	d	file:
+strdup	bits/string2.h	1316;"	d
+strdup	strdup.c	32;"	d	file:
+strdupa	string.h	187;"	d
+strerror	strerror.c	/^strerror (errnum)$/;"	f
+strerror_l	strerror_l.c	/^strerror_l (int errnum, locale_t loc)$/;"	f
+strerror_thread_freeres	strerror_l.c	/^strerror_thread_freeres (void)$/;"	f	file:
+strfry	strfry.c	/^strfry (char *string)$/;"	f
+string	tst-strxfrm.c	/^char const string[] = "";$/;"	v
+strlen	strlen.c	/^strlen (str)$/;"	f
+strlen	strlen.c	25;"	d	file:
+strncat	bits/string2.h	776;"	d
+strncat	bits/string2.h	785;"	d
+strncat	bits/string2.h	787;"	d
+strncat	bits/string3.h	/^__NTH (strncat (char *__restrict __dest, __const char *__restrict __src,$/;"	f
+strncat	bits/string3.h	35;"	d
+strncat	strncat.c	/^strncat (s1, s2, n)$/;"	f
+strncat	strncat.c	27;"	d	file:
+strncmp	bits/string2.h	920;"	d
+strncmp	strncmp.c	22;"	d	file:
+strncpy	bits/string2.h	761;"	d
+strncpy	bits/string2.h	763;"	d
+strncpy	bits/string3.h	/^__NTH (strncpy (char *__restrict __dest, __const char *__restrict __src,$/;"	f
+strncpy	bits/string3.h	36;"	d
+strncpy	strncpy.c	22;"	d	file:
+strndup	bits/string2.h	1344;"	d
+strndup	strndup.c	34;"	d	file:
+strndupa	string.h	197;"	d
+strop-tests	Makefile	/^strop-tests	:= memchr memcmp memcpy memmove mempcpy memset memccpy	\\$/;"	m
+strpbrk	bits/string2.h	1087;"	d
+strpbrk	bits/string2.h	1104;"	d
+strpbrk	strpbrk.c	/^strpbrk (s, accept)$/;"	f
+strpbrk	strpbrk.c	27;"	d	file:
+strrchr	strrchr.c	/^strrchr (const char *s, int c)$/;"	f
+strrchr	strrchr.c	21;"	d	file:
+strs	bug-envz1.c	/^} strs[] =$/;"	v	typeref:struct:__anon2	file:
+strs	test-memmem.c	/^static const char *const strs[] =$/;"	v	file:
+strsep	bits/string2.h	1287;"	d
+strsep	strsep.c	22;"	d	file:
+strsignal	strsignal.c	/^strsignal (int signum)$/;"	f
+strspn	bits/string2.h	1011;"	d
+strspn	bits/string2.h	1028;"	d
+strspn	strspn.c	/^strspn (s, accept)$/;"	f
+strspn	strspn.c	21;"	d	file:
+strstr	bits/string2.h	1150;"	d
+strstr	strstr.c	42;"	d	file:
+strtok	strtok.c	/^strtok (s, delim)$/;"	f
+strtok	strtok.c	25;"	d	file:
+strtok_r	bits/string2.h	1196;"	d
+strtok_r	strtok_r.c	26;"	d	file:
+stupid_memccpy	test-memccpy.c	/^stupid_memccpy (void *dst, const void *src, int c, size_t n)$/;"	f
+stupid_stpncpy	test-stpncpy.c	/^stupid_stpncpy (char *dst, const char *src, size_t n)$/;"	f
+stupid_strchr	test-strchr.c	/^stupid_strchr (const char *s, int c)$/;"	f
+stupid_strcmp	test-strcmp.c	/^stupid_strcmp (const char *s1, const char *s2)$/;"	f
+stupid_strcspn	test-strcspn.c	/^stupid_strcspn (const char *s, const char *rej)$/;"	f
+stupid_strncmp	test-strncmp.c	/^stupid_strncmp (const char *s1, const char *s2, size_t n)$/;"	f
+stupid_strncpy	test-strncpy.c	/^stupid_strncpy (char *dst, const char *src, size_t n)$/;"	f
+stupid_strpbrk	test-strpbrk.c	/^stupid_strpbrk (const char *s, const char *rej)$/;"	f
+stupid_strspn	test-strspn.c	/^stupid_strspn (const char *s, const char *acc)$/;"	f
+subdir	Makefile	/^subdir	:= string$/;"	m
+swab	swab.c	/^swab (const void *bfrom, void *bto, ssize_t n)$/;"	f
+test	test-string.h	/^  long test;$/;"	m	struct:__anon1
+test	tst-strxfrm.c	/^test (const char *locale)$/;"	f	file:
+test_bcmp	tester.c	/^test_bcmp (void)$/;"	f	file:
+test_bcopy	tester.c	/^test_bcopy (void)$/;"	f	file:
+test_bzero	tester.c	/^test_bzero (void)$/;"	f	file:
+test_index	tester.c	/^test_index (void)$/;"	f	file:
+test_init	test-string.h	/^test_init (void)$/;"	f
+test_main	test-memccpy.c	/^test_main (void)$/;"	f
+test_main	test-memchr.c	/^test_main (void)$/;"	f
+test_main	test-memcmp.c	/^test_main (void)$/;"	f
+test_main	test-memcpy.c	/^test_main (void)$/;"	f
+test_main	test-memmem.c	/^test_main (void)$/;"	f
+test_main	test-memmove.c	/^test_main (void)$/;"	f
+test_main	test-memset.c	/^test_main (void)$/;"	f
+test_main	test-strcat.c	/^test_main (void)$/;"	f
+test_main	test-strchr.c	/^test_main (void)$/;"	f
+test_main	test-strcmp.c	/^test_main (void)$/;"	f
+test_main	test-strcpy.c	/^test_main (void)$/;"	f
+test_main	test-strlen.c	/^test_main (void)$/;"	f
+test_main	test-strncmp.c	/^test_main (void)$/;"	f
+test_main	test-strncpy.c	/^test_main (void)$/;"	f
+test_main	test-strpbrk.c	/^test_main (void)$/;"	f
+test_main	test-strrchr.c	/^test_main (void)$/;"	f
+test_main	test-strspn.c	/^test_main (void)$/;"	f
+test_memccpy	tester.c	/^test_memccpy (void)$/;"	f	file:
+test_memchr	tester.c	/^test_memchr (void)$/;"	f	file:
+test_memcmp	tester.c	/^test_memcmp (void)$/;"	f	file:
+test_memcpy	tester.c	/^test_memcpy (void)$/;"	f	file:
+test_memmove	tester.c	/^test_memmove (void)$/;"	f	file:
+test_mempcpy	tester.c	/^test_mempcpy (void)$/;"	f	file:
+test_memrchr	tester.c	/^test_memrchr (void)$/;"	f	file:
+test_memset	tester.c	/^test_memset (void)$/;"	f	file:
+test_rawmemchr	tester.c	/^test_rawmemchr (void)$/;"	f	file:
+test_rindex	tester.c	/^test_rindex (void)$/;"	f	file:
+test_stpcpy	tester.c	/^test_stpcpy (void)$/;"	f	file:
+test_stpncpy	tester.c	/^test_stpncpy (void)$/;"	f	file:
+test_strcasecmp	tester.c	/^test_strcasecmp (void)$/;"	f	file:
+test_strcat	tester.c	/^test_strcat (void)$/;"	f	file:
+test_strchr	tester.c	/^test_strchr (void)$/;"	f	file:
+test_strchrnul	tester.c	/^test_strchrnul (void)$/;"	f	file:
+test_strcmp	tester.c	/^test_strcmp (void)$/;"	f	file:
+test_strcpy	tester.c	/^test_strcpy (void)$/;"	f	file:
+test_strcspn	tester.c	/^test_strcspn (void)$/;"	f	file:
+test_strerror	tester.c	/^test_strerror (void)$/;"	f	file:
+test_strlen	tester.c	/^test_strlen (void)$/;"	f	file:
+test_strncasecmp	tester.c	/^test_strncasecmp (void)$/;"	f	file:
+test_strncat	tester.c	/^test_strncat (void)$/;"	f	file:
+test_strncmp	tester.c	/^test_strncmp (void)$/;"	f	file:
+test_strncpy	tester.c	/^test_strncpy (void)$/;"	f	file:
+test_strndup	tester.c	/^test_strndup (void)$/;"	f	file:
+test_strnlen	tester.c	/^test_strnlen (void)$/;"	f	file:
+test_strpbrk	tester.c	/^test_strpbrk (void)$/;"	f	file:
+test_strrchr	tester.c	/^test_strrchr (void)$/;"	f	file:
+test_strsep	tester.c	/^test_strsep (void)$/;"	f	file:
+test_strspn	tester.c	/^test_strspn (void)$/;"	f	file:
+test_strstr	tester.c	/^test_strstr (void)$/;"	f	file:
+test_strtok	tester.c	/^test_strtok (void)$/;"	f	file:
+test_strtok_r	tester.c	/^test_strtok_r (void)$/;"	f	file:
+tester-ENV	Makefile	/^tester-ENV = LANGUAGE=C$/;"	m
+tests	Makefile	/^tests		:= tester inl-tester noinl-tester testcopy test-ffs	\\$/;"	m
+tests	tst-svc2.c	/^} tests[] =$/;"	v	typeref:struct:__anon3	file:
+translate	strerror_l.c	/^translate (const char *str, locale_t loc)$/;"	f	file:
+tst-strxfrm-ENV	Makefile	/^tst-strxfrm-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-strxfrm2-ENV	Makefile	/^tst-strxfrm2-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+two	tester.c	/^char two[50];$/;"	v
+two_way_long_needle	str-two-way.h	/^two_way_long_needle (const unsigned char *haystack, size_t haystack_len,$/;"	f
+two_way_short_needle	str-two-way.h	/^two_way_short_needle (const unsigned char *haystack, size_t haystack_len,$/;"	f
+utf8_encode	strxfrm_l.c	/^utf8_encode (char *buf, int val)$/;"	f	file:
+wash	tst-bswap.c	/^wash (unsigned long long int a)$/;"	f
+weak_alias	argz-append.c	/^weak_alias (__argz_append, argz_append)$/;"	f
+weak_alias	stpncpy.c	/^weak_alias (__stpncpy, stpncpy)$/;"	f

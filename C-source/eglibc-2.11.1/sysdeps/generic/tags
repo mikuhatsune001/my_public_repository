@@ -1,0 +1,2137 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIGN_CACHE	dl-cache.h	100;"	d
+ARCH_PLTENTER_MEMBERS	ldsodefs.h	/^    ARCH_PLTENTER_MEMBERS;$/;"	m	union:audit_ifaces::__anon8
+ARCH_PLTEXIT_MEMBERS	ldsodefs.h	/^    ARCH_PLTEXIT_MEMBERS;$/;"	m	union:audit_ifaces::__anon9
+BITS_PER_CHAR	gmp-mparam.h	28;"	d
+BITS_PER_INT	gmp-mparam.h	26;"	d
+BITS_PER_LONGINT	gmp-mparam.h	25;"	d
+BITS_PER_MP_LIMB	gmp-mparam.h	23;"	d
+BITS_PER_SHORTINT	gmp-mparam.h	27;"	d
+BOUNDED_1	bp-checks.h	127;"	d
+BOUNDED_N	bp-checks.h	100;"	d
+BOUNDED_N	bp-checks.h	123;"	d
+BOUNDS_VIOLATED	bp-checks.h	110;"	d
+BOUNDS_VIOLATED	bp-checks.h	26;"	d
+BP_SYM	bp-sym.h	21;"	d
+BYTES_PER_MP_LIMB	gmp-mparam.h	24;"	d
+BYTE_COPY_BWD	memcopy.h	95;"	d
+BYTE_COPY_FWD	memcopy.h	77;"	d
+CACHEMAGIC	dl-cache.h	39;"	d
+CACHEMAGIC_NEW	dl-cache.h	74;"	d
+CACHEMAGIC_VERSION_NEW	dl-cache.h	76;"	d
+CACHE_VERSION	dl-cache.h	75;"	d
+CALL_SIGHANDLER	sigcontextinfo.h	26;"	d
+CBRK	sys/ttydefaults.h	83;"	d
+CDISCARD	sys/ttydefaults.h	78;"	d
+CDSUSP	sys/ttydefaults.h	74;"	d
+CEOF	sys/ttydefaults.h	56;"	d
+CEOL	sys/ttydefaults.h	58;"	d
+CEOL	sys/ttydefaults.h	60;"	d
+CEOT	sys/ttydefaults.h	81;"	d
+CERASE	sys/ttydefaults.h	62;"	d
+CFA_EXP	unwind-dw2.c	/^    CFA_EXP,$/;"	e	enum:__anon17::__anon21	file:
+CFA_REG_OFFSET	unwind-dw2.c	/^    CFA_REG_OFFSET,$/;"	e	enum:__anon17::__anon21	file:
+CFA_UNSET	unwind-dw2.c	/^    CFA_UNSET,$/;"	e	enum:__anon17::__anon21	file:
+CFI_ADJUST_CFA_OFFSET	sysdep.h	103;"	d
+CFI_ADJUST_CFA_OFFSET	sysdep.h	133;"	d
+CFI_DEF_CFA	sysdep.h	130;"	d
+CFI_DEF_CFA	sysdep.h	97;"	d
+CFI_DEF_CFA_OFFSET	sysdep.h	101;"	d
+CFI_DEF_CFA_OFFSET	sysdep.h	132;"	d
+CFI_DEF_CFA_REGISTER	sysdep.h	131;"	d
+CFI_DEF_CFA_REGISTER	sysdep.h	99;"	d
+CFI_ENDPROC	sysdep.h	129;"	d
+CFI_ENDPROC	sysdep.h	96;"	d
+CFI_LSDA	sysdep.h	125;"	d
+CFI_LSDA	sysdep.h	144;"	d
+CFI_OFFSET	sysdep.h	105;"	d
+CFI_OFFSET	sysdep.h	134;"	d
+CFI_PERSONALITY	sysdep.h	123;"	d
+CFI_PERSONALITY	sysdep.h	143;"	d
+CFI_REGISTER	sysdep.h	109;"	d
+CFI_REGISTER	sysdep.h	136;"	d
+CFI_REL_OFFSET	sysdep.h	107;"	d
+CFI_REL_OFFSET	sysdep.h	135;"	d
+CFI_REMEMBER_STATE	sysdep.h	117;"	d
+CFI_REMEMBER_STATE	sysdep.h	140;"	d
+CFI_RESTORE	sysdep.h	113;"	d
+CFI_RESTORE	sysdep.h	138;"	d
+CFI_RESTORE_STATE	sysdep.h	119;"	d
+CFI_RESTORE_STATE	sysdep.h	141;"	d
+CFI_RETURN_COLUMN	sysdep.h	111;"	d
+CFI_RETURN_COLUMN	sysdep.h	137;"	d
+CFI_STARTPROC	sysdep.h	128;"	d
+CFI_STARTPROC	sysdep.h	95;"	d
+CFI_STRINGIFY	sysdep.h	93;"	d
+CFI_STRINGIFY2	sysdep.h	94;"	d
+CFI_UNDEFINED	sysdep.h	115;"	d
+CFI_UNDEFINED	sysdep.h	139;"	d
+CFI_WINDOW_SAVE	sysdep.h	121;"	d
+CFI_WINDOW_SAVE	sysdep.h	142;"	d
+CFLUSH	sys/ttydefaults.h	85;"	d
+CHECK_1	bp-checks.h	113;"	d
+CHECK_1	bp-checks.h	61;"	d
+CHECK_1_NULL_OK	bp-checks.h	114;"	d
+CHECK_1_NULL_OK	bp-checks.h	63;"	d
+CHECK_BOUNDS_HIGH	bp-checks.h	112;"	d
+CHECK_BOUNDS_HIGH	bp-checks.h	34;"	d
+CHECK_BOUNDS_LOW	bp-checks.h	111;"	d
+CHECK_BOUNDS_LOW	bp-checks.h	29;"	d
+CHECK_FCNTL	bp-checks.h	121;"	d
+CHECK_FCNTL	bp-checks.h	87;"	d
+CHECK_IOCTL	bp-checks.h	120;"	d
+CHECK_IOCTL	bp-checks.h	77;"	d
+CHECK_IOCTL	bp-checks.h	83;"	d
+CHECK_N	bp-checks.h	115;"	d
+CHECK_N	bp-checks.h	56;"	d
+CHECK_N_NULL_OK	bp-checks.h	116;"	d
+CHECK_N_NULL_OK	bp-checks.h	58;"	d
+CHECK_N_PAGES	bp-checks.h	122;"	d
+CHECK_N_PAGES	bp-checks.h	94;"	d
+CHECK_SEMCTL	bp-semctl.h	26;"	d
+CHECK_SEMCTL	bp-semctl.h	64;"	d
+CHECK_SIGSET	bp-checks.h	118;"	d
+CHECK_SIGSET	bp-checks.h	71;"	d
+CHECK_SIGSET_NULL_OK	bp-checks.h	119;"	d
+CHECK_SIGSET_NULL_OK	bp-checks.h	73;"	d
+CHECK_STRING	bp-checks.h	117;"	d
+CHECK_STRING	bp-checks.h	66;"	d
+CHECK_STRING_NULL_OK	bp-checks.h	68;"	d
+CIE_delta	unwind-dw2-fde.h	/^  sword CIE_delta;$/;"	m	struct:dwarf_fde
+CIE_id	unwind-dw2-fde.h	/^  sword CIE_id;$/;"	m	struct:dwarf_cie
+CINTR	sys/ttydefaults.h	63;"	d
+CKILL	sys/ttydefaults.h	69;"	d
+CLNEXT	sys/ttydefaults.h	77;"	d
+CMIN	sys/ttydefaults.h	70;"	d
+CQUIT	sys/ttydefaults.h	71;"	d
+CREPRINT	sys/ttydefaults.h	80;"	d
+CRPRNT	sys/ttydefaults.h	84;"	d
+CSTART	sys/ttydefaults.h	75;"	d
+CSTATUS	sys/ttydefaults.h	65;"	d
+CSTATUS	sys/ttydefaults.h	67;"	d
+CSTOP	sys/ttydefaults.h	76;"	d
+CSUSP	sys/ttydefaults.h	72;"	d
+CS_PATH	confstr.h	4;"	d
+CTIME	sys/ttydefaults.h	73;"	d
+CTRL	sys/ttydefaults.h	55;"	d
+CWERASE	sys/ttydefaults.h	79;"	d
+C_LABEL	sysdep.h	25;"	d
+C_LABEL	sysdep.h	27;"	d
+C_LABEL	sysdep.h	31;"	d
+C_LABEL	sysdep.h	33;"	d
+DEFAULT_TOP_PAD	malloc-machine.h	65;"	d
+DEV_TTY_P	device-nrs.h	26;"	d
+DL_ADDR_SYM_MATCH	ldsodefs.h	78;"	d
+DL_DEBUG_BINDINGS	ldsodefs.h	548;"	d
+DL_DEBUG_FILES	ldsodefs.h	552;"	d
+DL_DEBUG_HELP	ldsodefs.h	556;"	d
+DL_DEBUG_IMPCALLS	ldsodefs.h	547;"	d
+DL_DEBUG_LIBS	ldsodefs.h	546;"	d
+DL_DEBUG_PRELINK	ldsodefs.h	557;"	d
+DL_DEBUG_RELOC	ldsodefs.h	551;"	d
+DL_DEBUG_STATISTICS	ldsodefs.h	553;"	d
+DL_DEBUG_SYMBOLS	ldsodefs.h	549;"	d
+DL_DEBUG_UNUSED	ldsodefs.h	554;"	d
+DL_DEBUG_VERSIONS	ldsodefs.h	550;"	d
+DL_DT_FINI_ADDRESS	ldsodefs.h	74;"	d
+DL_DT_INIT_ADDRESS	ldsodefs.h	73;"	d
+DL_FIXUP_ADDR_VALUE	dl-lookupcfg.h	29;"	d
+DL_FIXUP_MAKE_VALUE	dl-lookupcfg.h	24;"	d
+DL_FIXUP_VALUE_ADDR	dl-lookupcfg.h	28;"	d
+DL_FIXUP_VALUE_CODE_ADDR	dl-lookupcfg.h	27;"	d
+DL_FIXUP_VALUE_TYPE	dl-lookupcfg.h	21;"	d
+DL_LOOKUP_ADDRESS	ldsodefs.h	72;"	d
+DL_LOOKUP_ADD_DEPENDENCY	ldsodefs.h	/^    DL_LOOKUP_ADD_DEPENDENCY = 1,$/;"	e	enum:__anon10
+DL_LOOKUP_GSCOPE_LOCK	ldsodefs.h	/^    DL_LOOKUP_GSCOPE_LOCK = 4,$/;"	e	enum:__anon10
+DL_LOOKUP_RETURN_NEWEST	ldsodefs.h	/^    DL_LOOKUP_RETURN_NEWEST = 2,$/;"	e	enum:__anon10
+DL_NNS	ldsodefs.h	374;"	d
+DL_STATIC_INIT	ldsodefs.h	95;"	d
+DL_SYMBOL_ADDRESS	ldsodefs.h	70;"	d
+DL_UNMAP	ldsodefs.h	87;"	d
+DTV_SURPLUS	ldsodefs.h	496;"	d
+DT_THISPROCNUM	dl-dtprocnum.h	22;"	d
+DWARF_FRAME_REGISTERS	unwind-dw2.c	54;"	d	file:
+DW_ACCESS_private	dwarf2.h	/^    DW_ACCESS_private = 3$/;"	e	enum:dwarf_access_attribute
+DW_ACCESS_protected	dwarf2.h	/^    DW_ACCESS_protected = 2,$/;"	e	enum:dwarf_access_attribute
+DW_ACCESS_public	dwarf2.h	/^    DW_ACCESS_public = 1,$/;"	e	enum:dwarf_access_attribute
+DW_ADDR_none	dwarf2.h	528;"	d
+DW_ATE_address	dwarf2.h	/^    DW_ATE_address = 0x1,$/;"	e	enum:dwarf_type
+DW_ATE_boolean	dwarf2.h	/^    DW_ATE_boolean = 0x2,$/;"	e	enum:dwarf_type
+DW_ATE_complex_float	dwarf2.h	/^    DW_ATE_complex_float = 0x3,$/;"	e	enum:dwarf_type
+DW_ATE_float	dwarf2.h	/^    DW_ATE_float = 0x4,$/;"	e	enum:dwarf_type
+DW_ATE_hi_user	dwarf2.h	389;"	d
+DW_ATE_lo_user	dwarf2.h	388;"	d
+DW_ATE_signed	dwarf2.h	/^    DW_ATE_signed = 0x5,$/;"	e	enum:dwarf_type
+DW_ATE_signed_char	dwarf2.h	/^    DW_ATE_signed_char = 0x6,$/;"	e	enum:dwarf_type
+DW_ATE_unsigned	dwarf2.h	/^    DW_ATE_unsigned = 0x7,$/;"	e	enum:dwarf_type
+DW_ATE_unsigned_char	dwarf2.h	/^    DW_ATE_unsigned_char = 0x8$/;"	e	enum:dwarf_type
+DW_ATE_void	dwarf2.h	/^    DW_ATE_void = 0x0,$/;"	e	enum:dwarf_type
+DW_AT_MIPS_abstract_name	dwarf2.h	/^    DW_AT_MIPS_abstract_name = 0x2009,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_clone_origin	dwarf2.h	/^    DW_AT_MIPS_clone_origin = 0x200a,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_epilog_begin	dwarf2.h	/^    DW_AT_MIPS_epilog_begin = 0x2004,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_fde	dwarf2.h	/^    DW_AT_MIPS_fde = 0x2001,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_has_inlines	dwarf2.h	/^    DW_AT_MIPS_has_inlines = 0x200b,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_linkage_name	dwarf2.h	/^    DW_AT_MIPS_linkage_name = 0x2007,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_loop_begin	dwarf2.h	/^    DW_AT_MIPS_loop_begin = 0x2002,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_loop_unroll_factor	dwarf2.h	/^    DW_AT_MIPS_loop_unroll_factor = 0x2005,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_software_pipeline_depth	dwarf2.h	/^    DW_AT_MIPS_software_pipeline_depth = 0x2006,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_stride	dwarf2.h	/^    DW_AT_MIPS_stride = 0x2008,$/;"	e	enum:dwarf_attribute
+DW_AT_MIPS_tail_loop_begin	dwarf2.h	/^    DW_AT_MIPS_tail_loop_begin = 0x2003,$/;"	e	enum:dwarf_attribute
+DW_AT_abstract_origin	dwarf2.h	/^    DW_AT_abstract_origin = 0x31,$/;"	e	enum:dwarf_attribute
+DW_AT_accessibility	dwarf2.h	/^    DW_AT_accessibility = 0x32,$/;"	e	enum:dwarf_attribute
+DW_AT_address_class	dwarf2.h	/^    DW_AT_address_class = 0x33,$/;"	e	enum:dwarf_attribute
+DW_AT_artificial	dwarf2.h	/^    DW_AT_artificial = 0x34,$/;"	e	enum:dwarf_attribute
+DW_AT_base_types	dwarf2.h	/^    DW_AT_base_types = 0x35,$/;"	e	enum:dwarf_attribute
+DW_AT_bit_offset	dwarf2.h	/^    DW_AT_bit_offset = 0x0c,$/;"	e	enum:dwarf_attribute
+DW_AT_bit_size	dwarf2.h	/^    DW_AT_bit_size = 0x0d,$/;"	e	enum:dwarf_attribute
+DW_AT_body_begin	dwarf2.h	/^    DW_AT_body_begin = 0x2105,$/;"	e	enum:dwarf_attribute
+DW_AT_body_end	dwarf2.h	/^    DW_AT_body_end = 0x2106$/;"	e	enum:dwarf_attribute
+DW_AT_byte_size	dwarf2.h	/^    DW_AT_byte_size = 0x0b,$/;"	e	enum:dwarf_attribute
+DW_AT_calling_convention	dwarf2.h	/^    DW_AT_calling_convention = 0x36,$/;"	e	enum:dwarf_attribute
+DW_AT_common_reference	dwarf2.h	/^    DW_AT_common_reference = 0x1a,$/;"	e	enum:dwarf_attribute
+DW_AT_comp_dir	dwarf2.h	/^    DW_AT_comp_dir = 0x1b,$/;"	e	enum:dwarf_attribute
+DW_AT_const_value	dwarf2.h	/^    DW_AT_const_value = 0x1c,$/;"	e	enum:dwarf_attribute
+DW_AT_containing_type	dwarf2.h	/^    DW_AT_containing_type = 0x1d,$/;"	e	enum:dwarf_attribute
+DW_AT_count	dwarf2.h	/^    DW_AT_count = 0x37,$/;"	e	enum:dwarf_attribute
+DW_AT_data_member_location	dwarf2.h	/^    DW_AT_data_member_location = 0x38,$/;"	e	enum:dwarf_attribute
+DW_AT_decl_column	dwarf2.h	/^    DW_AT_decl_column = 0x39,$/;"	e	enum:dwarf_attribute
+DW_AT_decl_file	dwarf2.h	/^    DW_AT_decl_file = 0x3a,$/;"	e	enum:dwarf_attribute
+DW_AT_decl_line	dwarf2.h	/^    DW_AT_decl_line = 0x3b,$/;"	e	enum:dwarf_attribute
+DW_AT_declaration	dwarf2.h	/^    DW_AT_declaration = 0x3c,$/;"	e	enum:dwarf_attribute
+DW_AT_default_value	dwarf2.h	/^    DW_AT_default_value = 0x1e,$/;"	e	enum:dwarf_attribute
+DW_AT_discr	dwarf2.h	/^    DW_AT_discr = 0x15,$/;"	e	enum:dwarf_attribute
+DW_AT_discr_list	dwarf2.h	/^    DW_AT_discr_list = 0x3d,$/;"	e	enum:dwarf_attribute
+DW_AT_discr_value	dwarf2.h	/^    DW_AT_discr_value = 0x16,$/;"	e	enum:dwarf_attribute
+DW_AT_element_list	dwarf2.h	/^    DW_AT_element_list = 0x0f,$/;"	e	enum:dwarf_attribute
+DW_AT_encoding	dwarf2.h	/^    DW_AT_encoding = 0x3e,$/;"	e	enum:dwarf_attribute
+DW_AT_external	dwarf2.h	/^    DW_AT_external = 0x3f,$/;"	e	enum:dwarf_attribute
+DW_AT_frame_base	dwarf2.h	/^    DW_AT_frame_base = 0x40,$/;"	e	enum:dwarf_attribute
+DW_AT_friend	dwarf2.h	/^    DW_AT_friend = 0x41,$/;"	e	enum:dwarf_attribute
+DW_AT_hi_user	dwarf2.h	217;"	d
+DW_AT_high_pc	dwarf2.h	/^    DW_AT_high_pc = 0x12,$/;"	e	enum:dwarf_attribute
+DW_AT_identifier_case	dwarf2.h	/^    DW_AT_identifier_case = 0x42,$/;"	e	enum:dwarf_attribute
+DW_AT_import	dwarf2.h	/^    DW_AT_import = 0x18,$/;"	e	enum:dwarf_attribute
+DW_AT_inline	dwarf2.h	/^    DW_AT_inline = 0x20,$/;"	e	enum:dwarf_attribute
+DW_AT_is_optional	dwarf2.h	/^    DW_AT_is_optional = 0x21,$/;"	e	enum:dwarf_attribute
+DW_AT_language	dwarf2.h	/^    DW_AT_language = 0x13,$/;"	e	enum:dwarf_attribute
+DW_AT_lo_user	dwarf2.h	216;"	d
+DW_AT_location	dwarf2.h	/^    DW_AT_location = 0x02,$/;"	e	enum:dwarf_attribute
+DW_AT_low_pc	dwarf2.h	/^    DW_AT_low_pc = 0x11,$/;"	e	enum:dwarf_attribute
+DW_AT_lower_bound	dwarf2.h	/^    DW_AT_lower_bound = 0x22,$/;"	e	enum:dwarf_attribute
+DW_AT_mac_info	dwarf2.h	/^    DW_AT_mac_info = 0x2103,$/;"	e	enum:dwarf_attribute
+DW_AT_macro_info	dwarf2.h	/^    DW_AT_macro_info = 0x43,$/;"	e	enum:dwarf_attribute
+DW_AT_member	dwarf2.h	/^    DW_AT_member = 0x14,$/;"	e	enum:dwarf_attribute
+DW_AT_name	dwarf2.h	/^    DW_AT_name = 0x03,$/;"	e	enum:dwarf_attribute
+DW_AT_namelist_items	dwarf2.h	/^    DW_AT_namelist_items = 0x44,$/;"	e	enum:dwarf_attribute
+DW_AT_ordering	dwarf2.h	/^    DW_AT_ordering = 0x09,$/;"	e	enum:dwarf_attribute
+DW_AT_priority	dwarf2.h	/^    DW_AT_priority = 0x45,$/;"	e	enum:dwarf_attribute
+DW_AT_producer	dwarf2.h	/^    DW_AT_producer = 0x25,$/;"	e	enum:dwarf_attribute
+DW_AT_prototyped	dwarf2.h	/^    DW_AT_prototyped = 0x27,$/;"	e	enum:dwarf_attribute
+DW_AT_return_addr	dwarf2.h	/^    DW_AT_return_addr = 0x2a,$/;"	e	enum:dwarf_attribute
+DW_AT_segment	dwarf2.h	/^    DW_AT_segment = 0x46,$/;"	e	enum:dwarf_attribute
+DW_AT_sf_names	dwarf2.h	/^    DW_AT_sf_names = 0x2101,$/;"	e	enum:dwarf_attribute
+DW_AT_sibling	dwarf2.h	/^    DW_AT_sibling = 0x01,$/;"	e	enum:dwarf_attribute
+DW_AT_specification	dwarf2.h	/^    DW_AT_specification = 0x47,$/;"	e	enum:dwarf_attribute
+DW_AT_src_coords	dwarf2.h	/^    DW_AT_src_coords = 0x2104,$/;"	e	enum:dwarf_attribute
+DW_AT_src_info	dwarf2.h	/^    DW_AT_src_info = 0x2102,$/;"	e	enum:dwarf_attribute
+DW_AT_start_scope	dwarf2.h	/^    DW_AT_start_scope = 0x2c,$/;"	e	enum:dwarf_attribute
+DW_AT_static_link	dwarf2.h	/^    DW_AT_static_link = 0x48,$/;"	e	enum:dwarf_attribute
+DW_AT_stmt_list	dwarf2.h	/^    DW_AT_stmt_list = 0x10,$/;"	e	enum:dwarf_attribute
+DW_AT_stride_size	dwarf2.h	/^    DW_AT_stride_size = 0x2e,$/;"	e	enum:dwarf_attribute
+DW_AT_string_length	dwarf2.h	/^    DW_AT_string_length = 0x19,$/;"	e	enum:dwarf_attribute
+DW_AT_subscr_data	dwarf2.h	/^    DW_AT_subscr_data = 0x0a,$/;"	e	enum:dwarf_attribute
+DW_AT_type	dwarf2.h	/^    DW_AT_type = 0x49,$/;"	e	enum:dwarf_attribute
+DW_AT_upper_bound	dwarf2.h	/^    DW_AT_upper_bound = 0x2f,$/;"	e	enum:dwarf_attribute
+DW_AT_use_location	dwarf2.h	/^    DW_AT_use_location = 0x4a,$/;"	e	enum:dwarf_attribute
+DW_AT_variable_parameter	dwarf2.h	/^    DW_AT_variable_parameter = 0x4b,$/;"	e	enum:dwarf_attribute
+DW_AT_virtuality	dwarf2.h	/^    DW_AT_virtuality = 0x4c,$/;"	e	enum:dwarf_attribute
+DW_AT_visibility	dwarf2.h	/^    DW_AT_visibility = 0x17,$/;"	e	enum:dwarf_attribute
+DW_AT_vtable_elem_location	dwarf2.h	/^    DW_AT_vtable_elem_location = 0x4d,$/;"	e	enum:dwarf_attribute
+DW_CC_hi_user	dwarf2.h	440;"	d
+DW_CC_lo_user	dwarf2.h	439;"	d
+DW_CC_nocall	dwarf2.h	/^    DW_CC_nocall = 0x3$/;"	e	enum:dwarf_calling_convention
+DW_CC_normal	dwarf2.h	/^    DW_CC_normal = 0x1,$/;"	e	enum:dwarf_calling_convention
+DW_CC_program	dwarf2.h	/^    DW_CC_program = 0x2,$/;"	e	enum:dwarf_calling_convention
+DW_CFA_GNU_args_size	dwarf2.h	/^    DW_CFA_GNU_args_size = 0x2e,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_GNU_negative_offset_extended	dwarf2.h	/^    DW_CFA_GNU_negative_offset_extended = 0x2f$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_GNU_window_save	dwarf2.h	/^    DW_CFA_GNU_window_save = 0x2d,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_MIPS_advance_loc8	dwarf2.h	/^    DW_CFA_MIPS_advance_loc8 = 0x1d,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_advance_loc	dwarf2.h	/^    DW_CFA_advance_loc = 0x40,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_advance_loc1	dwarf2.h	/^    DW_CFA_advance_loc1 = 0x02,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_advance_loc2	dwarf2.h	/^    DW_CFA_advance_loc2 = 0x03,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_advance_loc4	dwarf2.h	/^    DW_CFA_advance_loc4 = 0x04,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_def_cfa	dwarf2.h	/^    DW_CFA_def_cfa = 0x0c,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_def_cfa_expression	dwarf2.h	/^    DW_CFA_def_cfa_expression = 0x0f,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_def_cfa_offset	dwarf2.h	/^    DW_CFA_def_cfa_offset = 0x0e,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_def_cfa_offset_sf	dwarf2.h	/^    DW_CFA_def_cfa_offset_sf = 0x13,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_def_cfa_register	dwarf2.h	/^    DW_CFA_def_cfa_register = 0x0d,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_def_cfa_sf	dwarf2.h	/^    DW_CFA_def_cfa_sf = 0x12,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_expression	dwarf2.h	/^    DW_CFA_expression = 0x10,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_extended	dwarf2.h	521;"	d
+DW_CFA_high_user	dwarf2.h	523;"	d
+DW_CFA_low_user	dwarf2.h	522;"	d
+DW_CFA_nop	dwarf2.h	/^    DW_CFA_nop = 0x00,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_offset	dwarf2.h	/^    DW_CFA_offset = 0x80,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_offset_extended	dwarf2.h	/^    DW_CFA_offset_extended = 0x05,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_offset_extended_sf	dwarf2.h	/^    DW_CFA_offset_extended_sf = 0x11,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_register	dwarf2.h	/^    DW_CFA_register = 0x09,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_remember_state	dwarf2.h	/^    DW_CFA_remember_state = 0x0a,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_restore	dwarf2.h	/^    DW_CFA_restore = 0xc0,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_restore_extended	dwarf2.h	/^    DW_CFA_restore_extended = 0x06,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_restore_state	dwarf2.h	/^    DW_CFA_restore_state = 0x0b,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_same_value	dwarf2.h	/^    DW_CFA_same_value = 0x08,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_set_loc	dwarf2.h	/^    DW_CFA_set_loc = 0x01,$/;"	e	enum:dwarf_call_frame_info
+DW_CFA_undefined	dwarf2.h	/^    DW_CFA_undefined = 0x07,$/;"	e	enum:dwarf_call_frame_info
+DW_CHILDREN_no	dwarf2.h	525;"	d
+DW_CHILDREN_yes	dwarf2.h	526;"	d
+DW_CIE_ID	dwarf2.h	518;"	d
+DW_CIE_VERSION	dwarf2.h	519;"	d
+DW_DSC_label	dwarf2.h	/^    DW_DSC_label = 0,$/;"	e	enum:dwarf_discrim_list
+DW_DSC_range	dwarf2.h	/^    DW_DSC_range = 1$/;"	e	enum:dwarf_discrim_list
+DW_EH_PE_absptr	dwarf2.h	566;"	d
+DW_EH_PE_absptr	sysdep.h	150;"	d
+DW_EH_PE_absptr	unwind-pe.h	33;"	d
+DW_EH_PE_aligned	dwarf2.h	583;"	d
+DW_EH_PE_aligned	sysdep.h	165;"	d
+DW_EH_PE_aligned	unwind-pe.h	50;"	d
+DW_EH_PE_datarel	dwarf2.h	581;"	d
+DW_EH_PE_datarel	sysdep.h	163;"	d
+DW_EH_PE_datarel	unwind-pe.h	48;"	d
+DW_EH_PE_funcrel	dwarf2.h	582;"	d
+DW_EH_PE_funcrel	sysdep.h	164;"	d
+DW_EH_PE_funcrel	unwind-pe.h	49;"	d
+DW_EH_PE_indirect	dwarf2.h	585;"	d
+DW_EH_PE_indirect	sysdep.h	166;"	d
+DW_EH_PE_indirect	unwind-pe.h	52;"	d
+DW_EH_PE_omit	dwarf2.h	567;"	d
+DW_EH_PE_omit	sysdep.h	151;"	d
+DW_EH_PE_omit	unwind-pe.h	34;"	d
+DW_EH_PE_pcrel	dwarf2.h	579;"	d
+DW_EH_PE_pcrel	sysdep.h	161;"	d
+DW_EH_PE_pcrel	unwind-pe.h	46;"	d
+DW_EH_PE_sdata2	dwarf2.h	574;"	d
+DW_EH_PE_sdata2	sysdep.h	157;"	d
+DW_EH_PE_sdata2	unwind-pe.h	41;"	d
+DW_EH_PE_sdata4	dwarf2.h	575;"	d
+DW_EH_PE_sdata4	sysdep.h	158;"	d
+DW_EH_PE_sdata4	unwind-pe.h	42;"	d
+DW_EH_PE_sdata8	dwarf2.h	576;"	d
+DW_EH_PE_sdata8	sysdep.h	159;"	d
+DW_EH_PE_sdata8	unwind-pe.h	43;"	d
+DW_EH_PE_signed	dwarf2.h	577;"	d
+DW_EH_PE_signed	sysdep.h	160;"	d
+DW_EH_PE_signed	unwind-pe.h	44;"	d
+DW_EH_PE_sleb128	dwarf2.h	573;"	d
+DW_EH_PE_sleb128	sysdep.h	156;"	d
+DW_EH_PE_sleb128	unwind-pe.h	40;"	d
+DW_EH_PE_textrel	dwarf2.h	580;"	d
+DW_EH_PE_textrel	sysdep.h	162;"	d
+DW_EH_PE_textrel	unwind-pe.h	47;"	d
+DW_EH_PE_udata2	dwarf2.h	570;"	d
+DW_EH_PE_udata2	sysdep.h	153;"	d
+DW_EH_PE_udata2	unwind-pe.h	37;"	d
+DW_EH_PE_udata4	dwarf2.h	571;"	d
+DW_EH_PE_udata4	sysdep.h	154;"	d
+DW_EH_PE_udata4	unwind-pe.h	38;"	d
+DW_EH_PE_udata8	dwarf2.h	572;"	d
+DW_EH_PE_udata8	sysdep.h	155;"	d
+DW_EH_PE_udata8	unwind-pe.h	39;"	d
+DW_EH_PE_uleb128	dwarf2.h	569;"	d
+DW_EH_PE_uleb128	sysdep.h	152;"	d
+DW_EH_PE_uleb128	unwind-pe.h	36;"	d
+DW_FORM_addr	dwarf2.h	/^    DW_FORM_addr = 0x01,$/;"	e	enum:dwarf_form
+DW_FORM_block	dwarf2.h	/^    DW_FORM_block = 0x09,$/;"	e	enum:dwarf_form
+DW_FORM_block1	dwarf2.h	/^    DW_FORM_block1 = 0x0a,$/;"	e	enum:dwarf_form
+DW_FORM_block2	dwarf2.h	/^    DW_FORM_block2 = 0x03,$/;"	e	enum:dwarf_form
+DW_FORM_block4	dwarf2.h	/^    DW_FORM_block4 = 0x04,$/;"	e	enum:dwarf_form
+DW_FORM_data1	dwarf2.h	/^    DW_FORM_data1 = 0x0b,$/;"	e	enum:dwarf_form
+DW_FORM_data2	dwarf2.h	/^    DW_FORM_data2 = 0x05,$/;"	e	enum:dwarf_form
+DW_FORM_data4	dwarf2.h	/^    DW_FORM_data4 = 0x06,$/;"	e	enum:dwarf_form
+DW_FORM_data8	dwarf2.h	/^    DW_FORM_data8 = 0x07,$/;"	e	enum:dwarf_form
+DW_FORM_flag	dwarf2.h	/^    DW_FORM_flag = 0x0c,$/;"	e	enum:dwarf_form
+DW_FORM_indirect	dwarf2.h	/^    DW_FORM_indirect = 0x16$/;"	e	enum:dwarf_form
+DW_FORM_ref1	dwarf2.h	/^    DW_FORM_ref1 = 0x11,$/;"	e	enum:dwarf_form
+DW_FORM_ref2	dwarf2.h	/^    DW_FORM_ref2 = 0x12,$/;"	e	enum:dwarf_form
+DW_FORM_ref4	dwarf2.h	/^    DW_FORM_ref4 = 0x13,$/;"	e	enum:dwarf_form
+DW_FORM_ref8	dwarf2.h	/^    DW_FORM_ref8 = 0x14,$/;"	e	enum:dwarf_form
+DW_FORM_ref_addr	dwarf2.h	/^    DW_FORM_ref_addr = 0x10,$/;"	e	enum:dwarf_form
+DW_FORM_ref_udata	dwarf2.h	/^    DW_FORM_ref_udata = 0x15,$/;"	e	enum:dwarf_form
+DW_FORM_sdata	dwarf2.h	/^    DW_FORM_sdata = 0x0d,$/;"	e	enum:dwarf_form
+DW_FORM_string	dwarf2.h	/^    DW_FORM_string = 0x08,$/;"	e	enum:dwarf_form
+DW_FORM_strp	dwarf2.h	/^    DW_FORM_strp = 0x0e,$/;"	e	enum:dwarf_form
+DW_FORM_udata	dwarf2.h	/^    DW_FORM_udata = 0x0f,$/;"	e	enum:dwarf_form
+DW_ID_case_insensitive	dwarf2.h	/^    DW_ID_case_insensitive = 3$/;"	e	enum:dwarf_id_case
+DW_ID_case_sensitive	dwarf2.h	/^    DW_ID_case_sensitive = 0,$/;"	e	enum:dwarf_id_case
+DW_ID_down_case	dwarf2.h	/^    DW_ID_down_case = 2,$/;"	e	enum:dwarf_id_case
+DW_ID_up_case	dwarf2.h	/^    DW_ID_up_case = 1,$/;"	e	enum:dwarf_id_case
+DW_INL_declared_inlined	dwarf2.h	/^    DW_INL_declared_inlined = 3$/;"	e	enum:dwarf_inline_attribute
+DW_INL_declared_not_inlined	dwarf2.h	/^    DW_INL_declared_not_inlined = 2,$/;"	e	enum:dwarf_inline_attribute
+DW_INL_inlined	dwarf2.h	/^    DW_INL_inlined = 1,$/;"	e	enum:dwarf_inline_attribute
+DW_INL_not_inlined	dwarf2.h	/^    DW_INL_not_inlined = 0,$/;"	e	enum:dwarf_inline_attribute
+DW_LANG_Ada83	dwarf2.h	/^    DW_LANG_Ada83 = 0x0003,$/;"	e	enum:dwarf_source_language
+DW_LANG_C	dwarf2.h	/^    DW_LANG_C = 0x0002,$/;"	e	enum:dwarf_source_language
+DW_LANG_C89	dwarf2.h	/^    DW_LANG_C89 = 0x0001,$/;"	e	enum:dwarf_source_language
+DW_LANG_C_plus_plus	dwarf2.h	/^    DW_LANG_C_plus_plus = 0x0004,$/;"	e	enum:dwarf_source_language
+DW_LANG_Cobol74	dwarf2.h	/^    DW_LANG_Cobol74 = 0x0005,$/;"	e	enum:dwarf_source_language
+DW_LANG_Cobol85	dwarf2.h	/^    DW_LANG_Cobol85 = 0x0006,$/;"	e	enum:dwarf_source_language
+DW_LANG_Fortran77	dwarf2.h	/^    DW_LANG_Fortran77 = 0x0007,$/;"	e	enum:dwarf_source_language
+DW_LANG_Fortran90	dwarf2.h	/^    DW_LANG_Fortran90 = 0x0008,$/;"	e	enum:dwarf_source_language
+DW_LANG_Java	dwarf2.h	/^    DW_LANG_Java = 0x000b,$/;"	e	enum:dwarf_source_language
+DW_LANG_Mips_Assembler	dwarf2.h	/^    DW_LANG_Mips_Assembler = 0x8001$/;"	e	enum:dwarf_source_language
+DW_LANG_Modula2	dwarf2.h	/^    DW_LANG_Modula2 = 0x000a,$/;"	e	enum:dwarf_source_language
+DW_LANG_Pascal83	dwarf2.h	/^    DW_LANG_Pascal83 = 0x0009,$/;"	e	enum:dwarf_source_language
+DW_LANG_hi_user	dwarf2.h	550;"	d
+DW_LANG_lo_user	dwarf2.h	549;"	d
+DW_LNE_define_file	dwarf2.h	/^    DW_LNE_define_file = 3$/;"	e	enum:dwarf_line_number_x_ops
+DW_LNE_end_sequence	dwarf2.h	/^    DW_LNE_end_sequence = 1,$/;"	e	enum:dwarf_line_number_x_ops
+DW_LNE_set_address	dwarf2.h	/^    DW_LNE_set_address = 2,$/;"	e	enum:dwarf_line_number_x_ops
+DW_LNS_advance_line	dwarf2.h	/^    DW_LNS_advance_line = 3,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_advance_pc	dwarf2.h	/^    DW_LNS_advance_pc = 2,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_const_add_pc	dwarf2.h	/^    DW_LNS_const_add_pc = 8,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_copy	dwarf2.h	/^    DW_LNS_copy = 1,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_extended_op	dwarf2.h	/^    DW_LNS_extended_op = 0,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_fixed_advance_pc	dwarf2.h	/^    DW_LNS_fixed_advance_pc = 9$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_negate_stmt	dwarf2.h	/^    DW_LNS_negate_stmt = 6,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_set_basic_block	dwarf2.h	/^    DW_LNS_set_basic_block = 7,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_set_column	dwarf2.h	/^    DW_LNS_set_column = 5,$/;"	e	enum:dwarf_line_number_ops
+DW_LNS_set_file	dwarf2.h	/^    DW_LNS_set_file = 4,$/;"	e	enum:dwarf_line_number_ops
+DW_MACINFO_define	dwarf2.h	/^    DW_MACINFO_define = 1,$/;"	e	enum:dwarf_macinfo_record_type
+DW_MACINFO_end_file	dwarf2.h	/^    DW_MACINFO_end_file = 4,$/;"	e	enum:dwarf_macinfo_record_type
+DW_MACINFO_start_file	dwarf2.h	/^    DW_MACINFO_start_file = 3,$/;"	e	enum:dwarf_macinfo_record_type
+DW_MACINFO_undef	dwarf2.h	/^    DW_MACINFO_undef = 2,$/;"	e	enum:dwarf_macinfo_record_type
+DW_MACINFO_vendor_ext	dwarf2.h	/^    DW_MACINFO_vendor_ext = 255$/;"	e	enum:dwarf_macinfo_record_type
+DW_OP_abs	dwarf2.h	/^    DW_OP_abs = 0x19,$/;"	e	enum:dwarf_location_atom
+DW_OP_addr	dwarf2.h	/^    DW_OP_addr = 0x03,$/;"	e	enum:dwarf_location_atom
+DW_OP_and	dwarf2.h	/^    DW_OP_and = 0x1a,$/;"	e	enum:dwarf_location_atom
+DW_OP_bra	dwarf2.h	/^    DW_OP_bra = 0x28,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg0	dwarf2.h	/^    DW_OP_breg0 = 0x70,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg1	dwarf2.h	/^    DW_OP_breg1 = 0x71,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg10	dwarf2.h	/^    DW_OP_breg10 = 0x7a,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg11	dwarf2.h	/^    DW_OP_breg11 = 0x7b,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg12	dwarf2.h	/^    DW_OP_breg12 = 0x7c,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg13	dwarf2.h	/^    DW_OP_breg13 = 0x7d,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg14	dwarf2.h	/^    DW_OP_breg14 = 0x7e,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg15	dwarf2.h	/^    DW_OP_breg15 = 0x7f,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg16	dwarf2.h	/^    DW_OP_breg16 = 0x80,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg17	dwarf2.h	/^    DW_OP_breg17 = 0x81,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg18	dwarf2.h	/^    DW_OP_breg18 = 0x82,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg19	dwarf2.h	/^    DW_OP_breg19 = 0x83,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg2	dwarf2.h	/^    DW_OP_breg2 = 0x72,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg20	dwarf2.h	/^    DW_OP_breg20 = 0x84,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg21	dwarf2.h	/^    DW_OP_breg21 = 0x85,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg22	dwarf2.h	/^    DW_OP_breg22 = 0x86,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg23	dwarf2.h	/^    DW_OP_breg23 = 0x87,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg24	dwarf2.h	/^    DW_OP_breg24 = 0x88,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg25	dwarf2.h	/^    DW_OP_breg25 = 0x89,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg26	dwarf2.h	/^    DW_OP_breg26 = 0x8a,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg27	dwarf2.h	/^    DW_OP_breg27 = 0x8b,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg28	dwarf2.h	/^    DW_OP_breg28 = 0x8c,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg29	dwarf2.h	/^    DW_OP_breg29 = 0x8d,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg3	dwarf2.h	/^    DW_OP_breg3 = 0x73,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg30	dwarf2.h	/^    DW_OP_breg30 = 0x8e,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg31	dwarf2.h	/^    DW_OP_breg31 = 0x8f,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg4	dwarf2.h	/^    DW_OP_breg4 = 0x74,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg5	dwarf2.h	/^    DW_OP_breg5 = 0x75,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg6	dwarf2.h	/^    DW_OP_breg6 = 0x76,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg7	dwarf2.h	/^    DW_OP_breg7 = 0x77,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg8	dwarf2.h	/^    DW_OP_breg8 = 0x78,$/;"	e	enum:dwarf_location_atom
+DW_OP_breg9	dwarf2.h	/^    DW_OP_breg9 = 0x79,$/;"	e	enum:dwarf_location_atom
+DW_OP_bregx	dwarf2.h	/^    DW_OP_bregx = 0x92,$/;"	e	enum:dwarf_location_atom
+DW_OP_const1s	dwarf2.h	/^    DW_OP_const1s = 0x09,$/;"	e	enum:dwarf_location_atom
+DW_OP_const1u	dwarf2.h	/^    DW_OP_const1u = 0x08,$/;"	e	enum:dwarf_location_atom
+DW_OP_const2s	dwarf2.h	/^    DW_OP_const2s = 0x0b,$/;"	e	enum:dwarf_location_atom
+DW_OP_const2u	dwarf2.h	/^    DW_OP_const2u = 0x0a,$/;"	e	enum:dwarf_location_atom
+DW_OP_const4s	dwarf2.h	/^    DW_OP_const4s = 0x0d,$/;"	e	enum:dwarf_location_atom
+DW_OP_const4u	dwarf2.h	/^    DW_OP_const4u = 0x0c,$/;"	e	enum:dwarf_location_atom
+DW_OP_const8s	dwarf2.h	/^    DW_OP_const8s = 0x0f,$/;"	e	enum:dwarf_location_atom
+DW_OP_const8u	dwarf2.h	/^    DW_OP_const8u = 0x0e,$/;"	e	enum:dwarf_location_atom
+DW_OP_consts	dwarf2.h	/^    DW_OP_consts = 0x11,$/;"	e	enum:dwarf_location_atom
+DW_OP_constu	dwarf2.h	/^    DW_OP_constu = 0x10,$/;"	e	enum:dwarf_location_atom
+DW_OP_deref	dwarf2.h	/^    DW_OP_deref = 0x06,$/;"	e	enum:dwarf_location_atom
+DW_OP_deref_size	dwarf2.h	/^    DW_OP_deref_size = 0x94,$/;"	e	enum:dwarf_location_atom
+DW_OP_div	dwarf2.h	/^    DW_OP_div = 0x1b,$/;"	e	enum:dwarf_location_atom
+DW_OP_drop	dwarf2.h	/^    DW_OP_drop = 0x13,$/;"	e	enum:dwarf_location_atom
+DW_OP_dup	dwarf2.h	/^    DW_OP_dup = 0x12,$/;"	e	enum:dwarf_location_atom
+DW_OP_eq	dwarf2.h	/^    DW_OP_eq = 0x29,$/;"	e	enum:dwarf_location_atom
+DW_OP_fbreg	dwarf2.h	/^    DW_OP_fbreg = 0x91,$/;"	e	enum:dwarf_location_atom
+DW_OP_ge	dwarf2.h	/^    DW_OP_ge = 0x2a,$/;"	e	enum:dwarf_location_atom
+DW_OP_gt	dwarf2.h	/^    DW_OP_gt = 0x2b,$/;"	e	enum:dwarf_location_atom
+DW_OP_hi_user	dwarf2.h	371;"	d
+DW_OP_le	dwarf2.h	/^    DW_OP_le = 0x2c,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit0	dwarf2.h	/^    DW_OP_lit0 = 0x30,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit1	dwarf2.h	/^    DW_OP_lit1 = 0x31,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit10	dwarf2.h	/^    DW_OP_lit10 = 0x3a,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit11	dwarf2.h	/^    DW_OP_lit11 = 0x3b,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit12	dwarf2.h	/^    DW_OP_lit12 = 0x3c,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit13	dwarf2.h	/^    DW_OP_lit13 = 0x3d,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit14	dwarf2.h	/^    DW_OP_lit14 = 0x3e,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit15	dwarf2.h	/^    DW_OP_lit15 = 0x3f,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit16	dwarf2.h	/^    DW_OP_lit16 = 0x40,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit17	dwarf2.h	/^    DW_OP_lit17 = 0x41,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit18	dwarf2.h	/^    DW_OP_lit18 = 0x42,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit19	dwarf2.h	/^    DW_OP_lit19 = 0x43,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit2	dwarf2.h	/^    DW_OP_lit2 = 0x32,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit20	dwarf2.h	/^    DW_OP_lit20 = 0x44,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit21	dwarf2.h	/^    DW_OP_lit21 = 0x45,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit22	dwarf2.h	/^    DW_OP_lit22 = 0x46,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit23	dwarf2.h	/^    DW_OP_lit23 = 0x47,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit24	dwarf2.h	/^    DW_OP_lit24 = 0x48,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit25	dwarf2.h	/^    DW_OP_lit25 = 0x49,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit26	dwarf2.h	/^    DW_OP_lit26 = 0x4a,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit27	dwarf2.h	/^    DW_OP_lit27 = 0x4b,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit28	dwarf2.h	/^    DW_OP_lit28 = 0x4c,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit29	dwarf2.h	/^    DW_OP_lit29 = 0x4d,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit3	dwarf2.h	/^    DW_OP_lit3 = 0x33,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit30	dwarf2.h	/^    DW_OP_lit30 = 0x4e,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit31	dwarf2.h	/^    DW_OP_lit31 = 0x4f,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit4	dwarf2.h	/^    DW_OP_lit4 = 0x34,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit5	dwarf2.h	/^    DW_OP_lit5 = 0x35,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit6	dwarf2.h	/^    DW_OP_lit6 = 0x36,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit7	dwarf2.h	/^    DW_OP_lit7 = 0x37,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit8	dwarf2.h	/^    DW_OP_lit8 = 0x38,$/;"	e	enum:dwarf_location_atom
+DW_OP_lit9	dwarf2.h	/^    DW_OP_lit9 = 0x39,$/;"	e	enum:dwarf_location_atom
+DW_OP_lo_user	dwarf2.h	370;"	d
+DW_OP_lt	dwarf2.h	/^    DW_OP_lt = 0x2d,$/;"	e	enum:dwarf_location_atom
+DW_OP_minus	dwarf2.h	/^    DW_OP_minus = 0x1c,$/;"	e	enum:dwarf_location_atom
+DW_OP_mod	dwarf2.h	/^    DW_OP_mod = 0x1d,$/;"	e	enum:dwarf_location_atom
+DW_OP_mul	dwarf2.h	/^    DW_OP_mul = 0x1e,$/;"	e	enum:dwarf_location_atom
+DW_OP_ne	dwarf2.h	/^    DW_OP_ne = 0x2e,$/;"	e	enum:dwarf_location_atom
+DW_OP_neg	dwarf2.h	/^    DW_OP_neg = 0x1f,$/;"	e	enum:dwarf_location_atom
+DW_OP_nop	dwarf2.h	/^    DW_OP_nop = 0x96$/;"	e	enum:dwarf_location_atom
+DW_OP_not	dwarf2.h	/^    DW_OP_not = 0x20,$/;"	e	enum:dwarf_location_atom
+DW_OP_or	dwarf2.h	/^    DW_OP_or = 0x21,$/;"	e	enum:dwarf_location_atom
+DW_OP_over	dwarf2.h	/^    DW_OP_over = 0x14,$/;"	e	enum:dwarf_location_atom
+DW_OP_pick	dwarf2.h	/^    DW_OP_pick = 0x15,$/;"	e	enum:dwarf_location_atom
+DW_OP_piece	dwarf2.h	/^    DW_OP_piece = 0x93,$/;"	e	enum:dwarf_location_atom
+DW_OP_plus	dwarf2.h	/^    DW_OP_plus = 0x22,$/;"	e	enum:dwarf_location_atom
+DW_OP_plus_uconst	dwarf2.h	/^    DW_OP_plus_uconst = 0x23,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg0	dwarf2.h	/^    DW_OP_reg0 = 0x50,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg1	dwarf2.h	/^    DW_OP_reg1 = 0x51,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg10	dwarf2.h	/^    DW_OP_reg10 = 0x5a,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg11	dwarf2.h	/^    DW_OP_reg11 = 0x5b,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg12	dwarf2.h	/^    DW_OP_reg12 = 0x5c,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg13	dwarf2.h	/^    DW_OP_reg13 = 0x5d,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg14	dwarf2.h	/^    DW_OP_reg14 = 0x5e,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg15	dwarf2.h	/^    DW_OP_reg15 = 0x5f,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg16	dwarf2.h	/^    DW_OP_reg16 = 0x60,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg17	dwarf2.h	/^    DW_OP_reg17 = 0x61,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg18	dwarf2.h	/^    DW_OP_reg18 = 0x62,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg19	dwarf2.h	/^    DW_OP_reg19 = 0x63,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg2	dwarf2.h	/^    DW_OP_reg2 = 0x52,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg20	dwarf2.h	/^    DW_OP_reg20 = 0x64,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg21	dwarf2.h	/^    DW_OP_reg21 = 0x65,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg22	dwarf2.h	/^    DW_OP_reg22 = 0x66,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg23	dwarf2.h	/^    DW_OP_reg23 = 0x67,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg24	dwarf2.h	/^    DW_OP_reg24 = 0x68,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg25	dwarf2.h	/^    DW_OP_reg25 = 0x69,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg26	dwarf2.h	/^    DW_OP_reg26 = 0x6a,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg27	dwarf2.h	/^    DW_OP_reg27 = 0x6b,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg28	dwarf2.h	/^    DW_OP_reg28 = 0x6c,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg29	dwarf2.h	/^    DW_OP_reg29 = 0x6d,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg3	dwarf2.h	/^    DW_OP_reg3 = 0x53,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg30	dwarf2.h	/^    DW_OP_reg30 = 0x6e,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg31	dwarf2.h	/^    DW_OP_reg31 = 0x6f,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg4	dwarf2.h	/^    DW_OP_reg4 = 0x54,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg5	dwarf2.h	/^    DW_OP_reg5 = 0x55,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg6	dwarf2.h	/^    DW_OP_reg6 = 0x56,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg7	dwarf2.h	/^    DW_OP_reg7 = 0x57,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg8	dwarf2.h	/^    DW_OP_reg8 = 0x58,$/;"	e	enum:dwarf_location_atom
+DW_OP_reg9	dwarf2.h	/^    DW_OP_reg9 = 0x59,$/;"	e	enum:dwarf_location_atom
+DW_OP_regx	dwarf2.h	/^    DW_OP_regx = 0x90,$/;"	e	enum:dwarf_location_atom
+DW_OP_rot	dwarf2.h	/^    DW_OP_rot = 0x17,$/;"	e	enum:dwarf_location_atom
+DW_OP_shl	dwarf2.h	/^    DW_OP_shl = 0x24,$/;"	e	enum:dwarf_location_atom
+DW_OP_shr	dwarf2.h	/^    DW_OP_shr = 0x25,$/;"	e	enum:dwarf_location_atom
+DW_OP_shra	dwarf2.h	/^    DW_OP_shra = 0x26,$/;"	e	enum:dwarf_location_atom
+DW_OP_skip	dwarf2.h	/^    DW_OP_skip = 0x2f,$/;"	e	enum:dwarf_location_atom
+DW_OP_swap	dwarf2.h	/^    DW_OP_swap = 0x16,$/;"	e	enum:dwarf_location_atom
+DW_OP_xderef	dwarf2.h	/^    DW_OP_xderef = 0x18,$/;"	e	enum:dwarf_location_atom
+DW_OP_xderef_size	dwarf2.h	/^    DW_OP_xderef_size = 0x95,$/;"	e	enum:dwarf_location_atom
+DW_OP_xor	dwarf2.h	/^    DW_OP_xor = 0x27,$/;"	e	enum:dwarf_location_atom
+DW_ORD_col_major	dwarf2.h	/^    DW_ORD_col_major = 1$/;"	e	enum:dwarf_array_dim_ordering
+DW_ORD_row_major	dwarf2.h	/^    DW_ORD_row_major = 0,$/;"	e	enum:dwarf_array_dim_ordering
+DW_TAG_GNU_BINCL	dwarf2.h	/^    DW_TAG_GNU_BINCL = 0x4104,$/;"	e	enum:dwarf_tag
+DW_TAG_GNU_EINCL	dwarf2.h	/^    DW_TAG_GNU_EINCL = 0x4105$/;"	e	enum:dwarf_tag
+DW_TAG_MIPS_loop	dwarf2.h	/^    DW_TAG_MIPS_loop = 0x4081,$/;"	e	enum:dwarf_tag
+DW_TAG_access_declaration	dwarf2.h	/^    DW_TAG_access_declaration = 0x23,$/;"	e	enum:dwarf_tag
+DW_TAG_array_type	dwarf2.h	/^    DW_TAG_array_type = 0x01,$/;"	e	enum:dwarf_tag
+DW_TAG_base_type	dwarf2.h	/^    DW_TAG_base_type = 0x24,$/;"	e	enum:dwarf_tag
+DW_TAG_catch_block	dwarf2.h	/^    DW_TAG_catch_block = 0x25,$/;"	e	enum:dwarf_tag
+DW_TAG_class_template	dwarf2.h	/^    DW_TAG_class_template = 0x4103,	\/* for C++ *\/$/;"	e	enum:dwarf_tag
+DW_TAG_class_type	dwarf2.h	/^    DW_TAG_class_type = 0x02,$/;"	e	enum:dwarf_tag
+DW_TAG_common_block	dwarf2.h	/^    DW_TAG_common_block = 0x1a,$/;"	e	enum:dwarf_tag
+DW_TAG_common_inclusion	dwarf2.h	/^    DW_TAG_common_inclusion = 0x1b,$/;"	e	enum:dwarf_tag
+DW_TAG_compile_unit	dwarf2.h	/^    DW_TAG_compile_unit = 0x11,$/;"	e	enum:dwarf_tag
+DW_TAG_const_type	dwarf2.h	/^    DW_TAG_const_type = 0x26,$/;"	e	enum:dwarf_tag
+DW_TAG_constant	dwarf2.h	/^    DW_TAG_constant = 0x27,$/;"	e	enum:dwarf_tag
+DW_TAG_entry_point	dwarf2.h	/^    DW_TAG_entry_point = 0x03,$/;"	e	enum:dwarf_tag
+DW_TAG_enumeration_type	dwarf2.h	/^    DW_TAG_enumeration_type = 0x04,$/;"	e	enum:dwarf_tag
+DW_TAG_enumerator	dwarf2.h	/^    DW_TAG_enumerator = 0x28,$/;"	e	enum:dwarf_tag
+DW_TAG_file_type	dwarf2.h	/^    DW_TAG_file_type = 0x29,$/;"	e	enum:dwarf_tag
+DW_TAG_formal_parameter	dwarf2.h	/^    DW_TAG_formal_parameter = 0x05,$/;"	e	enum:dwarf_tag
+DW_TAG_format_label	dwarf2.h	/^    DW_TAG_format_label = 0x4101,	\/* for FORTRAN 77 and Fortran 90 *\/$/;"	e	enum:dwarf_tag
+DW_TAG_friend	dwarf2.h	/^    DW_TAG_friend = 0x2a,$/;"	e	enum:dwarf_tag
+DW_TAG_function_template	dwarf2.h	/^    DW_TAG_function_template = 0x4102,	\/* for C++ *\/$/;"	e	enum:dwarf_tag
+DW_TAG_hi_user	dwarf2.h	97;"	d
+DW_TAG_imported_declaration	dwarf2.h	/^    DW_TAG_imported_declaration = 0x08,$/;"	e	enum:dwarf_tag
+DW_TAG_inheritance	dwarf2.h	/^    DW_TAG_inheritance = 0x1c,$/;"	e	enum:dwarf_tag
+DW_TAG_inlined_subroutine	dwarf2.h	/^    DW_TAG_inlined_subroutine = 0x1d,$/;"	e	enum:dwarf_tag
+DW_TAG_label	dwarf2.h	/^    DW_TAG_label = 0x0a,$/;"	e	enum:dwarf_tag
+DW_TAG_lexical_block	dwarf2.h	/^    DW_TAG_lexical_block = 0x0b,$/;"	e	enum:dwarf_tag
+DW_TAG_lo_user	dwarf2.h	96;"	d
+DW_TAG_member	dwarf2.h	/^    DW_TAG_member = 0x0d,$/;"	e	enum:dwarf_tag
+DW_TAG_module	dwarf2.h	/^    DW_TAG_module = 0x1e,$/;"	e	enum:dwarf_tag
+DW_TAG_namelist	dwarf2.h	/^    DW_TAG_namelist = 0x2b,$/;"	e	enum:dwarf_tag
+DW_TAG_namelist_item	dwarf2.h	/^    DW_TAG_namelist_item = 0x2c,$/;"	e	enum:dwarf_tag
+DW_TAG_packed_type	dwarf2.h	/^    DW_TAG_packed_type = 0x2d,$/;"	e	enum:dwarf_tag
+DW_TAG_padding	dwarf2.h	/^    DW_TAG_padding = 0x00,$/;"	e	enum:dwarf_tag
+DW_TAG_pointer_type	dwarf2.h	/^    DW_TAG_pointer_type = 0x0f,$/;"	e	enum:dwarf_tag
+DW_TAG_ptr_to_member_type	dwarf2.h	/^    DW_TAG_ptr_to_member_type = 0x1f,$/;"	e	enum:dwarf_tag
+DW_TAG_reference_type	dwarf2.h	/^    DW_TAG_reference_type = 0x10,$/;"	e	enum:dwarf_tag
+DW_TAG_set_type	dwarf2.h	/^    DW_TAG_set_type = 0x20,$/;"	e	enum:dwarf_tag
+DW_TAG_string_type	dwarf2.h	/^    DW_TAG_string_type = 0x12,$/;"	e	enum:dwarf_tag
+DW_TAG_structure_type	dwarf2.h	/^    DW_TAG_structure_type = 0x13,$/;"	e	enum:dwarf_tag
+DW_TAG_subprogram	dwarf2.h	/^    DW_TAG_subprogram = 0x2e,$/;"	e	enum:dwarf_tag
+DW_TAG_subrange_type	dwarf2.h	/^    DW_TAG_subrange_type = 0x21,$/;"	e	enum:dwarf_tag
+DW_TAG_subroutine_type	dwarf2.h	/^    DW_TAG_subroutine_type = 0x15,$/;"	e	enum:dwarf_tag
+DW_TAG_template_type_param	dwarf2.h	/^    DW_TAG_template_type_param = 0x2f,$/;"	e	enum:dwarf_tag
+DW_TAG_template_value_param	dwarf2.h	/^    DW_TAG_template_value_param = 0x30,$/;"	e	enum:dwarf_tag
+DW_TAG_thrown_type	dwarf2.h	/^    DW_TAG_thrown_type = 0x31,$/;"	e	enum:dwarf_tag
+DW_TAG_try_block	dwarf2.h	/^    DW_TAG_try_block = 0x32,$/;"	e	enum:dwarf_tag
+DW_TAG_typedef	dwarf2.h	/^    DW_TAG_typedef = 0x16,$/;"	e	enum:dwarf_tag
+DW_TAG_union_type	dwarf2.h	/^    DW_TAG_union_type = 0x17,$/;"	e	enum:dwarf_tag
+DW_TAG_unspecified_parameters	dwarf2.h	/^    DW_TAG_unspecified_parameters = 0x18,$/;"	e	enum:dwarf_tag
+DW_TAG_variable	dwarf2.h	/^    DW_TAG_variable = 0x34,$/;"	e	enum:dwarf_tag
+DW_TAG_variant	dwarf2.h	/^    DW_TAG_variant = 0x19,$/;"	e	enum:dwarf_tag
+DW_TAG_variant_part	dwarf2.h	/^    DW_TAG_variant_part = 0x33,$/;"	e	enum:dwarf_tag
+DW_TAG_volatile_type	dwarf2.h	/^    DW_TAG_volatile_type = 0x35,$/;"	e	enum:dwarf_tag
+DW_TAG_with_stmt	dwarf2.h	/^    DW_TAG_with_stmt = 0x22,$/;"	e	enum:dwarf_tag
+DW_VIRTUALITY_none	dwarf2.h	/^    DW_VIRTUALITY_none = 0,$/;"	e	enum:dwarf_virtuality_attribute
+DW_VIRTUALITY_pure_virtual	dwarf2.h	/^    DW_VIRTUALITY_pure_virtual = 2$/;"	e	enum:dwarf_virtuality_attribute
+DW_VIRTUALITY_virtual	dwarf2.h	/^    DW_VIRTUALITY_virtual = 1,$/;"	e	enum:dwarf_virtuality_attribute
+DW_VIS_exported	dwarf2.h	/^    DW_VIS_exported = 2,$/;"	e	enum:dwarf_visibility_attribute
+DW_VIS_local	dwarf2.h	/^    DW_VIS_local = 1,$/;"	e	enum:dwarf_visibility_attribute
+DW_VIS_qualified	dwarf2.h	/^    DW_VIS_qualified = 3$/;"	e	enum:dwarf_visibility_attribute
+DW_children_no	dwarf2.h	100;"	d
+DW_children_yes	dwarf2.h	101;"	d
+D_PTR	ldsodefs.h	56;"	d
+ELFW	ldsodefs.h	47;"	d
+ELF_IFUNC_SEL_H	elf/ifunc-sel.h	3;"	d
+ELF_MACHINE_NAME	dl-machine.h	21;"	d
+ELF_RTYPE_CLASS_COPY	ldsodefs.h	107;"	d
+ELF_RTYPE_CLASS_COPY	ldsodefs.h	109;"	d
+ELF_RTYPE_CLASS_PLT	ldsodefs.h	105;"	d
+END	sysdep.h	43;"	d
+ENTRY_POINT	entry.h	5;"	d
+EXTERN	ldsodefs.h	357;"	d
+EXTERN	ldsodefs.h	360;"	d
+EXTERN	ldsodefs.h	703;"	d
+FAIL_EACCES	pty-private.h	/^  FAIL_EACCES,$/;"	e	enum:__anon2
+FAIL_EBADF	pty-private.h	/^  FAIL_EBADF = 1,$/;"	e	enum:__anon2
+FAIL_EINVAL	pty-private.h	/^  FAIL_EINVAL,$/;"	e	enum:__anon2
+FAIL_ENOMEM	pty-private.h	/^  FAIL_ENOMEM$/;"	e	enum:__anon2
+FAIL_EXEC	pty-private.h	/^  FAIL_EXEC,$/;"	e	enum:__anon2
+FLAG_ANY	ldconfig.h	23;"	d
+FLAG_ELF	ldconfig.h	26;"	d
+FLAG_ELF_LIBC5	ldconfig.h	27;"	d
+FLAG_ELF_LIBC6	ldconfig.h	28;"	d
+FLAG_IA64_LIB64	ldconfig.h	31;"	d
+FLAG_LIBC4	ldconfig.h	25;"	d
+FLAG_MIPS64_LIBN32	ldconfig.h	35;"	d
+FLAG_MIPS64_LIBN64	ldconfig.h	36;"	d
+FLAG_POWERPC_LIB64	ldconfig.h	34;"	d
+FLAG_REQUIRED_MASK	ldconfig.h	29;"	d
+FLAG_S390_LIB64	ldconfig.h	33;"	d
+FLAG_SPARC_LIB64	ldconfig.h	30;"	d
+FLAG_TYPE_MASK	ldconfig.h	24;"	d
+FLAG_X8664_LIB64	ldconfig.h	32;"	d
+GETSP	memusage.h	25;"	d
+GETTIME	memusage.h	29;"	d
+GET_FRAME	sigcontextinfo.h	24;"	d
+GET_PC	sigcontextinfo.h	23;"	d
+GET_STACK	sigcontextinfo.h	25;"	d
+GL	ldsodefs.h	358;"	d
+GL	ldsodefs.h	362;"	d
+GL	ldsodefs.h	364;"	d
+GLRO	ldsodefs.h	533;"	d
+GLRO	ldsodefs.h	536;"	d
+GLRO	ldsodefs.h	538;"	d
+HP_TIMING_ACCUM	hp-timing.h	76;"	d
+HP_TIMING_ACCUM_NT	hp-timing.h	77;"	d
+HP_TIMING_AVAIL	hp-timing.h	69;"	d
+HP_TIMING_DIFF	hp-timing.h	75;"	d
+HP_TIMING_DIFF_INIT	hp-timing.h	74;"	d
+HP_TIMING_INLINE	hp-timing.h	70;"	d
+HP_TIMING_NONAVAIL	hp-timing.h	81;"	d
+HP_TIMING_NOW	hp-timing.h	73;"	d
+HP_TIMING_PRINT	hp-timing.h	78;"	d
+HP_TIMING_ZERO	hp-timing.h	72;"	d
+HWCAP_IMPORTANT	dl-procinfo.h	34;"	d
+INIT_ARGV_and_ENVIRON	bp-start.h	28;"	d
+INIT_ARGV_and_ENVIRON	bp-start.h	70;"	d
+INT16_C	stdint.h	291;"	d
+INT16_MAX	stdint.h	166;"	d
+INT16_MIN	stdint.h	161;"	d
+INT32_C	stdint.h	292;"	d
+INT32_MAX	stdint.h	167;"	d
+INT32_MIN	stdint.h	162;"	d
+INT64_C	stdint.h	294;"	d
+INT64_C	stdint.h	296;"	d
+INT64_MAX	stdint.h	168;"	d
+INT64_MIN	stdint.h	163;"	d
+INT8_C	stdint.h	290;"	d
+INT8_MAX	stdint.h	165;"	d
+INT8_MIN	stdint.h	160;"	d
+INTDEF	unwind-dw2-fde.c	/^INTDEF(__deregister_frame_info_bases)$/;"	f
+INTDEF	unwind-dw2-fde.c	/^INTDEF(__register_frame_info_bases)$/;"	f
+INTDEF	unwind-dw2-fde.c	/^INTDEF(__register_frame_info_table_bases)$/;"	f
+INTMAX_C	stdint.h	311;"	d
+INTMAX_C	stdint.h	314;"	d
+INTMAX_MAX	stdint.h	243;"	d
+INTMAX_MIN	stdint.h	241;"	d
+INTPTR_MAX	stdint.h	231;"	d
+INTPTR_MAX	stdint.h	235;"	d
+INTPTR_MIN	stdint.h	230;"	d
+INTPTR_MIN	stdint.h	234;"	d
+INT_FAST16_MAX	stdint.h	208;"	d
+INT_FAST16_MAX	stdint.h	211;"	d
+INT_FAST16_MIN	stdint.h	198;"	d
+INT_FAST16_MIN	stdint.h	201;"	d
+INT_FAST32_MAX	stdint.h	209;"	d
+INT_FAST32_MAX	stdint.h	212;"	d
+INT_FAST32_MIN	stdint.h	199;"	d
+INT_FAST32_MIN	stdint.h	202;"	d
+INT_FAST64_MAX	stdint.h	214;"	d
+INT_FAST64_MIN	stdint.h	204;"	d
+INT_FAST8_MAX	stdint.h	206;"	d
+INT_FAST8_MIN	stdint.h	196;"	d
+INT_LEAST16_MAX	stdint.h	184;"	d
+INT_LEAST16_MIN	stdint.h	179;"	d
+INT_LEAST32_MAX	stdint.h	185;"	d
+INT_LEAST32_MIN	stdint.h	180;"	d
+INT_LEAST64_MAX	stdint.h	186;"	d
+INT_LEAST64_MIN	stdint.h	181;"	d
+INT_LEAST8_MAX	stdint.h	183;"	d
+INT_LEAST8_MIN	stdint.h	178;"	d
+IPDEFTTL	netinet/ip.h	277;"	d
+IPFRAGTTL	netinet/ip.h	278;"	d
+IPOPT_CLASS	netinet/ip.h	224;"	d
+IPOPT_CLASS_MASK	netinet/ip.h	220;"	d
+IPOPT_CONTROL	netinet/ip.h	227;"	d
+IPOPT_COPIED	netinet/ip.h	223;"	d
+IPOPT_COPY	netinet/ip.h	219;"	d
+IPOPT_DEBMEAS	netinet/ip.h	229;"	d
+IPOPT_END	netinet/ip.h	234;"	d
+IPOPT_EOL	netinet/ip.h	233;"	d
+IPOPT_LSRR	netinet/ip.h	243;"	d
+IPOPT_MEASUREMENT	netinet/ip.h	230;"	d
+IPOPT_MINOFF	netinet/ip.h	255;"	d
+IPOPT_NOOP	netinet/ip.h	236;"	d
+IPOPT_NOP	netinet/ip.h	235;"	d
+IPOPT_NUMBER	netinet/ip.h	225;"	d
+IPOPT_NUMBER_MASK	netinet/ip.h	221;"	d
+IPOPT_OFFSET	netinet/ip.h	254;"	d
+IPOPT_OLEN	netinet/ip.h	253;"	d
+IPOPT_OPTVAL	netinet/ip.h	252;"	d
+IPOPT_RA	netinet/ip.h	247;"	d
+IPOPT_RESERVED1	netinet/ip.h	228;"	d
+IPOPT_RESERVED2	netinet/ip.h	231;"	d
+IPOPT_RR	netinet/ip.h	238;"	d
+IPOPT_SATID	netinet/ip.h	244;"	d
+IPOPT_SEC	netinet/ip.h	242;"	d
+IPOPT_SECURITY	netinet/ip.h	241;"	d
+IPOPT_SECUR_CONFID	netinet/ip.h	266;"	d
+IPOPT_SECUR_EFTO	netinet/ip.h	267;"	d
+IPOPT_SECUR_MMMM	netinet/ip.h	268;"	d
+IPOPT_SECUR_RESTR	netinet/ip.h	269;"	d
+IPOPT_SECUR_SECRET	netinet/ip.h	270;"	d
+IPOPT_SECUR_TOPSECRET	netinet/ip.h	271;"	d
+IPOPT_SECUR_UNCLASS	netinet/ip.h	265;"	d
+IPOPT_SID	netinet/ip.h	245;"	d
+IPOPT_SSRR	netinet/ip.h	246;"	d
+IPOPT_TIMESTAMP	netinet/ip.h	240;"	d
+IPOPT_TS	netinet/ip.h	239;"	d
+IPOPT_TS_PRESPEC	netinet/ip.h	262;"	d
+IPOPT_TS_TSANDADDR	netinet/ip.h	261;"	d
+IPOPT_TS_TSONLY	netinet/ip.h	260;"	d
+IPTOS_DSCP	netinet/ip.h	176;"	d
+IPTOS_DSCP_AF11	netinet/ip.h	177;"	d
+IPTOS_DSCP_AF12	netinet/ip.h	178;"	d
+IPTOS_DSCP_AF13	netinet/ip.h	179;"	d
+IPTOS_DSCP_AF21	netinet/ip.h	180;"	d
+IPTOS_DSCP_AF22	netinet/ip.h	181;"	d
+IPTOS_DSCP_AF23	netinet/ip.h	182;"	d
+IPTOS_DSCP_AF31	netinet/ip.h	183;"	d
+IPTOS_DSCP_AF32	netinet/ip.h	184;"	d
+IPTOS_DSCP_AF33	netinet/ip.h	185;"	d
+IPTOS_DSCP_AF41	netinet/ip.h	186;"	d
+IPTOS_DSCP_AF42	netinet/ip.h	187;"	d
+IPTOS_DSCP_AF43	netinet/ip.h	188;"	d
+IPTOS_DSCP_EF	netinet/ip.h	189;"	d
+IPTOS_DSCP_MASK	netinet/ip.h	175;"	d
+IPTOS_ECN	netinet/ip.h	163;"	d
+IPTOS_ECN_CE	netinet/ip.h	167;"	d
+IPTOS_ECN_ECT0	netinet/ip.h	166;"	d
+IPTOS_ECN_ECT1	netinet/ip.h	165;"	d
+IPTOS_ECN_MASK	netinet/ip.h	162;"	d
+IPTOS_ECN_NOT_ECT	netinet/ip.h	164;"	d
+IPTOS_LOWCOST	netinet/ip.h	199;"	d
+IPTOS_LOWDELAY	netinet/ip.h	196;"	d
+IPTOS_MINCOST	netinet/ip.h	200;"	d
+IPTOS_PREC	netinet/ip.h	206;"	d
+IPTOS_PREC_CRITIC_ECP	netinet/ip.h	209;"	d
+IPTOS_PREC_FLASH	netinet/ip.h	211;"	d
+IPTOS_PREC_FLASHOVERRIDE	netinet/ip.h	210;"	d
+IPTOS_PREC_IMMEDIATE	netinet/ip.h	212;"	d
+IPTOS_PREC_INTERNETCONTROL	netinet/ip.h	208;"	d
+IPTOS_PREC_MASK	netinet/ip.h	205;"	d
+IPTOS_PREC_NETCONTROL	netinet/ip.h	207;"	d
+IPTOS_PREC_PRIORITY	netinet/ip.h	213;"	d
+IPTOS_PREC_ROUTINE	netinet/ip.h	214;"	d
+IPTOS_RELIABILITY	netinet/ip.h	198;"	d
+IPTOS_THROUGHPUT	netinet/ip.h	197;"	d
+IPTOS_TOS	netinet/ip.h	195;"	d
+IPTOS_TOS_MASK	netinet/ip.h	194;"	d
+IPTTLDEC	netinet/ip.h	279;"	d
+IPVERSION	netinet/ip.h	153;"	d
+IP_DF	netinet/ip.h	124;"	d
+IP_MAXPACKET	netinet/ip.h	154;"	d
+IP_MF	netinet/ip.h	125;"	d
+IP_MSS	netinet/ip.h	281;"	d
+IP_OFFMASK	netinet/ip.h	126;"	d
+IP_RF	netinet/ip.h	123;"	d
+JUMPTARGET	sysdep.h	47;"	d
+LD_SO_CACHE	dl-cache.h	32;"	d
+LIBC_CANCEL_ASYNC	sysdep-cancel.h	6;"	d
+LIBC_CANCEL_HANDLED	sysdep-cancel.h	8;"	d
+LIBC_CANCEL_RESET	sysdep-cancel.h	7;"	d
+LIBGCC_S_SO	libgcc_s.h	2;"	d
+LIO_DSYNC	aio_misc.h	/^  LIO_DSYNC = LIO_READ + 1,$/;"	e	enum:__anon23
+LIO_READ64	aio_misc.h	/^  LIO_READ64 = LIO_READ | 128,$/;"	e	enum:__anon23
+LIO_SYNC	aio_misc.h	/^  LIO_SYNC,$/;"	e	enum:__anon23
+LIO_WRITE64	aio_misc.h	/^  LIO_WRITE64 = LIO_WRITE | 128$/;"	e	enum:__anon23
+LONG_DOUBLE_COMPAT	math_ldbl_opt.h	9;"	d
+LOOKUP_VALUE	ldsodefs.h	63;"	d
+LOOKUP_VALUE_ADDRESS	ldsodefs.h	64;"	d
+MACHINE_THREAD_STATE_COUNT	thread_state.h	27;"	d
+MACHINE_THREAD_STATE_FLAVOR	thread_state.h	26;"	d
+MAX	sys/param.h	15;"	d
+MAXPATHLEN	sys/param.h	11;"	d
+MAXSYMLINKS	sys/param.h	10;"	d
+MAXTTL	netinet/ip.h	276;"	d
+MAX_IPOPTLEN	netinet/ip.h	257;"	d
+MCOUNT	machine-gmon.h	50;"	d
+MERGE	memcopy.h	69;"	d
+MERGE	memcopy.h	72;"	d
+MIN	sys/param.h	14;"	d
+M_386	a.out.h	/^  M_386 = 100$/;"	e	enum:machine_type
+M__68010	a.out.h	/^  M__68010 = M_68010,$/;"	e	enum:machine_type
+M__68020	a.out.h	/^  M__68020 = M_68020,$/;"	e	enum:machine_type
+M__OLDSUN2	a.out.h	/^  M__OLDSUN2 = M_OLDSUN2,$/;"	e	enum:machine_type
+M__SPARC	a.out.h	/^  M__SPARC = M_SPARC,$/;"	e	enum:machine_type
+NMAGIC	a.out.h	122;"	d
+NMAGIC	a.out.h	80;"	d
+NO_BASE_OF_ENCODED_VALUE	unwind-dw2-fde.c	35;"	d	file:
+NO_BASE_OF_ENCODED_VALUE	unwind-dw2-fde.c	44;"	d	file:
+NO_THREADS	malloc-machine.h	28;"	d
+N_ABS	a.out.h	245;"	d
+N_ADDRADJ	a.out.h	82;"	d
+N_BADMAG	a.out.h	128;"	d
+N_BADMAG	a.out.h	81;"	d
+N_BSS	a.out.h	254;"	d
+N_BSSADDR	a.out.h	224;"	d
+N_COMM	a.out.h	257;"	d
+N_COMM	a.out.h	87;"	d
+N_DATA	a.out.h	251;"	d
+N_DATADDR	a.out.h	217;"	d
+N_DATOFF	a.out.h	149;"	d
+N_DATOFF	a.out.h	83;"	d
+N_DRELOFF	a.out.h	157;"	d
+N_EXT	a.out.h	264;"	d
+N_FLAGS	a.out.h	100;"	d
+N_FLAGS	a.out.h	73;"	d
+N_FN	a.out.h	260;"	d
+N_FN	a.out.h	88;"	d
+N_INDR	a.out.h	281;"	d
+N_MACHTYPE	a.out.h	72;"	d
+N_MACHTYPE	a.out.h	99;"	d
+N_MAGIC	a.out.h	71;"	d
+N_MAGIC	a.out.h	97;"	d
+N_SETA	a.out.h	295;"	d
+N_SETB	a.out.h	298;"	d
+N_SETD	a.out.h	297;"	d
+N_SETT	a.out.h	296;"	d
+N_SETV	a.out.h	301;"	d
+N_SET_FLAGS	a.out.h	112;"	d
+N_SET_FLAGS	a.out.h	77;"	d
+N_SET_INFO	a.out.h	101;"	d
+N_SET_INFO	a.out.h	74;"	d
+N_SET_MACHTYPE	a.out.h	108;"	d
+N_SET_MACHTYPE	a.out.h	76;"	d
+N_SET_MAGIC	a.out.h	105;"	d
+N_SET_MAGIC	a.out.h	75;"	d
+N_STAB	a.out.h	270;"	d
+N_STROFF	a.out.h	165;"	d
+N_SYMOFF	a.out.h	161;"	d
+N_SYMOFF	a.out.h	85;"	d
+N_TEXT	a.out.h	248;"	d
+N_TRELOFF	a.out.h	153;"	d
+N_TRELOFF	a.out.h	84;"	d
+N_TXTADDR	a.out.h	170;"	d
+N_TXTADDR	a.out.h	86;"	d
+N_TXTOFF	a.out.h	144;"	d
+N_TYPE	a.out.h	267;"	d
+N_UNDF	a.out.h	242;"	d
+OMAGIC	a.out.h	120;"	d
+OMAGIC	a.out.h	78;"	d
+OPSIZ	memcopy.h	60;"	d
+OP_T_THRES	memcopy.h	150;"	d
+PAGE_COPY_FWD_MAYBE	pagecopy.h	47;"	d
+PAGE_COPY_FWD_MAYBE	pagecopy.h	73;"	d
+PAGE_OFFSET	pagecopy.h	69;"	d
+PAGE_SIZE	a.out.h	177;"	d
+PAGE_SIZE	a.out.h	180;"	d
+PAGE_SIZE	a.out.h	189;"	d
+PAGE_SIZE	a.out.h	206;"	d
+PAGE_SIZE	a.out.h	91;"	d
+PAGSIZ	a.out.h	209;"	d
+PC	thread_state.h	33;"	d
+PF_TO_PROT	ldsodefs.h	116;"	d
+PRE_GCC3_DWARF_FRAME_REGISTERS	unwind-dw2.c	59;"	d	file:
+PRIX16	inttypes.h	141;"	d
+PRIX32	inttypes.h	142;"	d
+PRIX64	inttypes.h	143;"	d
+PRIX8	inttypes.h	140;"	d
+PRIXFAST16	inttypes.h	151;"	d
+PRIXFAST32	inttypes.h	152;"	d
+PRIXFAST64	inttypes.h	153;"	d
+PRIXFAST8	inttypes.h	150;"	d
+PRIXLEAST16	inttypes.h	146;"	d
+PRIXLEAST32	inttypes.h	147;"	d
+PRIXLEAST64	inttypes.h	148;"	d
+PRIXLEAST8	inttypes.h	145;"	d
+PRIXMAX	inttypes.h	162;"	d
+PRIXPTR	inttypes.h	171;"	d
+PRId16	inttypes.h	61;"	d
+PRId32	inttypes.h	62;"	d
+PRId64	inttypes.h	63;"	d
+PRId8	inttypes.h	60;"	d
+PRIdFAST16	inttypes.h	71;"	d
+PRIdFAST32	inttypes.h	72;"	d
+PRIdFAST64	inttypes.h	73;"	d
+PRIdFAST8	inttypes.h	70;"	d
+PRIdLEAST16	inttypes.h	66;"	d
+PRIdLEAST32	inttypes.h	67;"	d
+PRIdLEAST64	inttypes.h	68;"	d
+PRIdLEAST8	inttypes.h	65;"	d
+PRIdMAX	inttypes.h	157;"	d
+PRIdPTR	inttypes.h	166;"	d
+PRIi16	inttypes.h	77;"	d
+PRIi32	inttypes.h	78;"	d
+PRIi64	inttypes.h	79;"	d
+PRIi8	inttypes.h	76;"	d
+PRIiFAST16	inttypes.h	87;"	d
+PRIiFAST32	inttypes.h	88;"	d
+PRIiFAST64	inttypes.h	89;"	d
+PRIiFAST8	inttypes.h	86;"	d
+PRIiLEAST16	inttypes.h	82;"	d
+PRIiLEAST32	inttypes.h	83;"	d
+PRIiLEAST64	inttypes.h	84;"	d
+PRIiLEAST8	inttypes.h	81;"	d
+PRIiMAX	inttypes.h	158;"	d
+PRIiPTR	inttypes.h	167;"	d
+PRIo16	inttypes.h	93;"	d
+PRIo32	inttypes.h	94;"	d
+PRIo64	inttypes.h	95;"	d
+PRIo8	inttypes.h	92;"	d
+PRIoFAST16	inttypes.h	103;"	d
+PRIoFAST32	inttypes.h	104;"	d
+PRIoFAST64	inttypes.h	105;"	d
+PRIoFAST8	inttypes.h	102;"	d
+PRIoLEAST16	inttypes.h	98;"	d
+PRIoLEAST32	inttypes.h	99;"	d
+PRIoLEAST64	inttypes.h	100;"	d
+PRIoLEAST8	inttypes.h	97;"	d
+PRIoMAX	inttypes.h	159;"	d
+PRIoPTR	inttypes.h	168;"	d
+PRIu16	inttypes.h	109;"	d
+PRIu32	inttypes.h	110;"	d
+PRIu64	inttypes.h	111;"	d
+PRIu8	inttypes.h	108;"	d
+PRIuFAST16	inttypes.h	119;"	d
+PRIuFAST32	inttypes.h	120;"	d
+PRIuFAST64	inttypes.h	121;"	d
+PRIuFAST8	inttypes.h	118;"	d
+PRIuLEAST16	inttypes.h	114;"	d
+PRIuLEAST32	inttypes.h	115;"	d
+PRIuLEAST64	inttypes.h	116;"	d
+PRIuLEAST8	inttypes.h	113;"	d
+PRIuMAX	inttypes.h	160;"	d
+PRIuPTR	inttypes.h	169;"	d
+PRIx16	inttypes.h	125;"	d
+PRIx32	inttypes.h	126;"	d
+PRIx64	inttypes.h	127;"	d
+PRIx8	inttypes.h	124;"	d
+PRIxFAST16	inttypes.h	135;"	d
+PRIxFAST32	inttypes.h	136;"	d
+PRIxFAST64	inttypes.h	137;"	d
+PRIxFAST8	inttypes.h	134;"	d
+PRIxLEAST16	inttypes.h	130;"	d
+PRIxLEAST32	inttypes.h	131;"	d
+PRIxLEAST64	inttypes.h	132;"	d
+PRIxLEAST8	inttypes.h	129;"	d
+PRIxMAX	inttypes.h	161;"	d
+PRIxPTR	inttypes.h	170;"	d
+PROCINFO_CLASS	ldsodefs.h	605;"	d
+PROCINFO_DECL	ldsodefs.h	603;"	d
+PTRACE_ATTACH	sys/ptrace.h	/^  PTRACE_ATTACH,$/;"	e	enum:__ptrace_request
+PTRACE_CONT	sys/ptrace.h	/^  PTRACE_CONT,$/;"	e	enum:__ptrace_request
+PTRACE_DETACH	sys/ptrace.h	/^  PTRACE_DETACH,$/;"	e	enum:__ptrace_request
+PTRACE_GETFPAREGS	sys/ptrace.h	/^  PTRACE_GETFPAREGS = 20,$/;"	e	enum:__ptrace_request
+PTRACE_GETFPREGS	sys/ptrace.h	/^  PTRACE_GETFPREGS = 14,$/;"	e	enum:__ptrace_request
+PTRACE_GETREGS	sys/ptrace.h	/^  PTRACE_GETREGS = 12,$/;"	e	enum:__ptrace_request
+PTRACE_KILL	sys/ptrace.h	/^  PTRACE_KILL,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKDATA	sys/ptrace.h	/^  PTRACE_PEEKDATA,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKTEXT	sys/ptrace.h	/^  PTRACE_PEEKTEXT,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKUSER	sys/ptrace.h	/^  PTRACE_PEEKUSER,$/;"	e	enum:__ptrace_request
+PTRACE_POKEDATA	sys/ptrace.h	/^  PTRACE_POKEDATA,$/;"	e	enum:__ptrace_request
+PTRACE_POKETEXT	sys/ptrace.h	/^  PTRACE_POKETEXT,$/;"	e	enum:__ptrace_request
+PTRACE_POKEUSER	sys/ptrace.h	/^  PTRACE_POKEUSER,$/;"	e	enum:__ptrace_request
+PTRACE_READDATA	sys/ptrace.h	/^  PTRACE_READDATA = 16,$/;"	e	enum:__ptrace_request
+PTRACE_READTEXT	sys/ptrace.h	/^  PTRACE_READTEXT = 18,$/;"	e	enum:__ptrace_request
+PTRACE_SETFPAREGS	sys/ptrace.h	/^  PTRACE_SETFPAREGS$/;"	e	enum:__ptrace_request
+PTRACE_SETFPREGS	sys/ptrace.h	/^  PTRACE_SETFPREGS,$/;"	e	enum:__ptrace_request
+PTRACE_SETREGS	sys/ptrace.h	/^  PTRACE_SETREGS,$/;"	e	enum:__ptrace_request
+PTRACE_SINGLESTEP	sys/ptrace.h	/^  PTRACE_SINGLESTEP,$/;"	e	enum:__ptrace_request
+PTRACE_TRACEME	sys/ptrace.h	/^  PTRACE_TRACEME = 0,$/;"	e	enum:__ptrace_request
+PTRACE_WRITEDATA	sys/ptrace.h	/^  PTRACE_WRITEDATA,$/;"	e	enum:__ptrace_request
+PTRACE_WRITETEXT	sys/ptrace.h	/^  PTRACE_WRITETEXT,$/;"	e	enum:__ptrace_request
+PTRDIFF_MAX	stdint.h	254;"	d
+PTRDIFF_MAX	stdint.h	257;"	d
+PTRDIFF_MIN	stdint.h	253;"	d
+PTRDIFF_MIN	stdint.h	256;"	d
+PTY_FILENO	pty-private.h	28;"	d
+PT_ATTACH	sys/ptrace.h	76;"	d
+PT_CONTINUE	sys/ptrace.h	63;"	d
+PT_DETACH	sys/ptrace.h	80;"	d
+PT_KILL	sys/ptrace.h	67;"	d
+PT_READ_D	sys/ptrace.h	43;"	d
+PT_READ_I	sys/ptrace.h	39;"	d
+PT_READ_U	sys/ptrace.h	47;"	d
+PT_STEP	sys/ptrace.h	72;"	d
+PT_TRACE_ME	sys/ptrace.h	35;"	d
+PT_WRITE_D	sys/ptrace.h	55;"	d
+PT_WRITE_I	sys/ptrace.h	51;"	d
+PT_WRITE_U	sys/ptrace.h	59;"	d
+RB_AUTOBOOT	sys/reboot.h	7;"	d
+REG_SAVED_EXP	unwind-dw2.c	/^	REG_SAVED_EXP,$/;"	e	enum:__anon17::frame_state_reg_info::__anon18::__anon20	file:
+REG_SAVED_OFFSET	unwind-dw2.c	/^	REG_SAVED_OFFSET,$/;"	e	enum:__anon17::frame_state_reg_info::__anon18::__anon20	file:
+REG_SAVED_REG	unwind-dw2.c	/^	REG_SAVED_REG,$/;"	e	enum:__anon17::frame_state_reg_info::__anon18::__anon20	file:
+REG_UNSAVED	unwind-dw2.c	/^	REG_UNSAVED,$/;"	e	enum:__anon17::frame_state_reg_info::__anon18::__anon20	file:
+RTLD_PRIVATE_ERRNO	dl-sysdep.h	32;"	d
+RTLD_PRIVATE_ERRNO	dl-sysdep.h	34;"	d
+RTLD_SINGLE_THREAD_P	sysdep-cancel.h	5;"	d
+RTLD_START	dl-machine.h	135;"	d
+SCNd16	inttypes.h	178;"	d
+SCNd32	inttypes.h	179;"	d
+SCNd64	inttypes.h	180;"	d
+SCNd8	inttypes.h	177;"	d
+SCNdFAST16	inttypes.h	188;"	d
+SCNdFAST32	inttypes.h	189;"	d
+SCNdFAST64	inttypes.h	190;"	d
+SCNdFAST8	inttypes.h	187;"	d
+SCNdLEAST16	inttypes.h	183;"	d
+SCNdLEAST32	inttypes.h	184;"	d
+SCNdLEAST64	inttypes.h	185;"	d
+SCNdLEAST8	inttypes.h	182;"	d
+SCNdMAX	inttypes.h	258;"	d
+SCNdPTR	inttypes.h	265;"	d
+SCNi16	inttypes.h	194;"	d
+SCNi32	inttypes.h	195;"	d
+SCNi64	inttypes.h	196;"	d
+SCNi8	inttypes.h	193;"	d
+SCNiFAST16	inttypes.h	204;"	d
+SCNiFAST32	inttypes.h	205;"	d
+SCNiFAST64	inttypes.h	206;"	d
+SCNiFAST8	inttypes.h	203;"	d
+SCNiLEAST16	inttypes.h	199;"	d
+SCNiLEAST32	inttypes.h	200;"	d
+SCNiLEAST64	inttypes.h	201;"	d
+SCNiLEAST8	inttypes.h	198;"	d
+SCNiMAX	inttypes.h	259;"	d
+SCNiPTR	inttypes.h	266;"	d
+SCNo16	inttypes.h	226;"	d
+SCNo32	inttypes.h	227;"	d
+SCNo64	inttypes.h	228;"	d
+SCNo8	inttypes.h	225;"	d
+SCNoFAST16	inttypes.h	236;"	d
+SCNoFAST32	inttypes.h	237;"	d
+SCNoFAST64	inttypes.h	238;"	d
+SCNoFAST8	inttypes.h	235;"	d
+SCNoLEAST16	inttypes.h	231;"	d
+SCNoLEAST32	inttypes.h	232;"	d
+SCNoLEAST64	inttypes.h	233;"	d
+SCNoLEAST8	inttypes.h	230;"	d
+SCNoMAX	inttypes.h	260;"	d
+SCNoPTR	inttypes.h	267;"	d
+SCNu16	inttypes.h	210;"	d
+SCNu32	inttypes.h	211;"	d
+SCNu64	inttypes.h	212;"	d
+SCNu8	inttypes.h	209;"	d
+SCNuFAST16	inttypes.h	220;"	d
+SCNuFAST32	inttypes.h	221;"	d
+SCNuFAST64	inttypes.h	222;"	d
+SCNuFAST8	inttypes.h	219;"	d
+SCNuLEAST16	inttypes.h	215;"	d
+SCNuLEAST32	inttypes.h	216;"	d
+SCNuLEAST64	inttypes.h	217;"	d
+SCNuLEAST8	inttypes.h	214;"	d
+SCNuMAX	inttypes.h	261;"	d
+SCNuPTR	inttypes.h	268;"	d
+SCNx16	inttypes.h	242;"	d
+SCNx32	inttypes.h	243;"	d
+SCNx64	inttypes.h	244;"	d
+SCNx8	inttypes.h	241;"	d
+SCNxFAST16	inttypes.h	252;"	d
+SCNxFAST32	inttypes.h	253;"	d
+SCNxFAST64	inttypes.h	254;"	d
+SCNxFAST8	inttypes.h	251;"	d
+SCNxLEAST16	inttypes.h	247;"	d
+SCNxLEAST32	inttypes.h	248;"	d
+SCNxLEAST64	inttypes.h	249;"	d
+SCNxLEAST8	inttypes.h	246;"	d
+SCNxMAX	inttypes.h	262;"	d
+SCNxPTR	inttypes.h	269;"	d
+SECTION	initfini.c	51;"	d	file:
+SEGMENT_SIZE	a.out.h	183;"	d
+SEGMENT_SIZE	a.out.h	186;"	d
+SEGMENT_SIZE	a.out.h	193;"	d
+SEGMENT_SIZE	a.out.h	200;"	d
+SEGMENT_SIZE	a.out.h	92;"	d
+SEGSIZ	a.out.h	210;"	d
+SIGCONTEXT	sigcontextinfo.h	21;"	d
+SIGCONTEXT_EXTRA_ARGS	sigcontextinfo.h	22;"	d
+SIG_ATOMIC_MAX	stdint.h	262;"	d
+SIG_ATOMIC_MIN	stdint.h	261;"	d
+SINGLE_THREAD_P	sysdep-cancel.h	4;"	d
+SIZE_MAX	stdint.h	266;"	d
+SIZE_MAX	stdint.h	268;"	d
+SOL_TCP	netinet/tcp.h	104;"	d
+SP	thread_state.h	34;"	d
+STACK_GROWS_DOWNWARD	unwind-dw2.c	45;"	d	file:
+STACK_GROWS_DOWNWARD	unwind-dw2.c	47;"	d	file:
+STACK_GROWS_DOWNWARD	unwind-dw2.c	48;"	d	file:
+STATIC	framestate.c	23;"	d	file:
+STATIC	unwind-dw2.c	1028;"	d	file:
+STATIC	unwind-pe.h	82;"	d
+STATIC	unwind-pe.h	84;"	d
+SWAP	unwind-dw2-fde.c	513;"	d	file:
+SWAP	unwind-dw2-fde.c	563;"	d	file:
+TCPOLEN_MAXSEG	netinet/tcp.h	73;"	d
+TCPOLEN_SACK_PERMITTED	netinet/tcp.h	77;"	d
+TCPOLEN_TIMESTAMP	netinet/tcp.h	80;"	d
+TCPOLEN_TSTAMP_APPA	netinet/tcp.h	81;"	d
+TCPOLEN_WINDOW	netinet/tcp.h	75;"	d
+TCPOPT_EOL	netinet/tcp.h	70;"	d
+TCPOPT_MAXSEG	netinet/tcp.h	72;"	d
+TCPOPT_NOP	netinet/tcp.h	71;"	d
+TCPOPT_SACK	netinet/tcp.h	78;"	d
+TCPOPT_SACK_PERMITTED	netinet/tcp.h	76;"	d
+TCPOPT_TIMESTAMP	netinet/tcp.h	79;"	d
+TCPOPT_TSTAMP_HDR	netinet/tcp.h	83;"	d
+TCPOPT_WINDOW	netinet/tcp.h	74;"	d
+TCP_MAXSEG	netinet/tcp.h	102;"	d
+TCP_MAXWIN	netinet/tcp.h	94;"	d
+TCP_MAX_WINSHIFT	netinet/tcp.h	96;"	d
+TCP_MSS	netinet/tcp.h	92;"	d
+TCP_NODELAY	netinet/tcp.h	101;"	d
+TEST_STACK_ALIGN	tst-stack-align.h	22;"	d
+TH_ACK	netinet/tcp.h	63;"	d
+TH_FIN	netinet/tcp.h	59;"	d
+TH_PUSH	netinet/tcp.h	62;"	d
+TH_RST	netinet/tcp.h	61;"	d
+TH_SYN	netinet/tcp.h	60;"	d
+TH_URG	netinet/tcp.h	64;"	d
+TLS_SLOTINFO_SURPLUS	ldsodefs.h	493;"	d
+TTYDEFCHARS	sys/ttydefaults.h	99;"	d
+TTYDEF_CFLAG	sys/ttydefaults.h	49;"	d
+TTYDEF_IFLAG	sys/ttydefaults.h	46;"	d
+TTYDEF_LFLAG	sys/ttydefaults.h	48;"	d
+TTYDEF_OFLAG	sys/ttydefaults.h	47;"	d
+TTYDEF_SPEED	sys/ttydefaults.h	50;"	d
+TTY_GROUP	pty-private.h	25;"	d
+UINT16_C	stdint.h	301;"	d
+UINT16_MAX	stdint.h	172;"	d
+UINT32_C	stdint.h	302;"	d
+UINT32_MAX	stdint.h	173;"	d
+UINT64_C	stdint.h	304;"	d
+UINT64_C	stdint.h	306;"	d
+UINT64_MAX	stdint.h	174;"	d
+UINT8_C	stdint.h	300;"	d
+UINT8_MAX	stdint.h	171;"	d
+UINTMAX_C	stdint.h	312;"	d
+UINTMAX_C	stdint.h	315;"	d
+UINTMAX_MAX	stdint.h	246;"	d
+UINTPTR_MAX	stdint.h	232;"	d
+UINTPTR_MAX	stdint.h	236;"	d
+UINT_FAST16_MAX	stdint.h	219;"	d
+UINT_FAST16_MAX	stdint.h	222;"	d
+UINT_FAST32_MAX	stdint.h	220;"	d
+UINT_FAST32_MAX	stdint.h	223;"	d
+UINT_FAST64_MAX	stdint.h	225;"	d
+UINT_FAST8_MAX	stdint.h	217;"	d
+UINT_LEAST16_MAX	stdint.h	190;"	d
+UINT_LEAST32_MAX	stdint.h	191;"	d
+UINT_LEAST64_MAX	stdint.h	192;"	d
+UINT_LEAST8_MAX	stdint.h	189;"	d
+UNSECURE_ENVVARS	unsecvars.h	4;"	d
+WCHAR_MAX	stdint.h	275;"	d
+WCHAR_MIN	stdint.h	274;"	d
+WINT_MAX	stdint.h	280;"	d
+WINT_MIN	stdint.h	279;"	d
+WORD_COPY_BWD	memcopy.h	136;"	d
+WORD_COPY_FWD	memcopy.h	116;"	d
+WORD_WIDTH	elf/backtracesyms.c	30;"	d	file:
+WORD_WIDTH	elf/backtracesyms.c	33;"	d	file:
+WORD_WIDTH	elf/backtracesymsfd.c	29;"	d	file:
+WORD_WIDTH	elf/backtracesymsfd.c	32;"	d	file:
+ZMAGIC	a.out.h	124;"	d
+ZMAGIC	a.out.h	79;"	d
+_AIO_MISC_H	aio_misc.h	21;"	d
+_BITS_ERRQUEUE_H	errqueue.h	2;"	d
+_BP_SYM	bp-sym.h	23;"	d
+_BP_SYM	bp-sym.h	25;"	d
+_CHECK_N	bp-checks.h	38;"	d
+_CHECK_STRING	bp-checks.h	47;"	d
+_DEVICE_NRS_H	device-nrs.h	21;"	d
+_DIRSTREAM_H	dirstream.h	21;"	d
+_DL_CACHE_DEFAULT_ID	dl-cache.h	23;"	d
+_DL_HASH_H	dl-hash.h	21;"	d
+_DL_HWCAP_COUNT	dl-procinfo.h	40;"	d
+_DL_HWCAP_PLATFORM	dl-procinfo.h	37;"	d
+_DL_IREL_H	dl-irel.h	21;"	d
+_DL_LIBRECON_H	dl-librecon.h	22;"	d
+_DL_PROCINFO_H	dl-procinfo.h	22;"	d
+_EXTERN_INLINE	machine-lock.h	33;"	d
+_EXTERN_INLINE	machine-sp.h	26;"	d
+_FPU_CONTROL_H	fpu_control.h	21;"	d
+_FPU_DEFAULT	fpu_control.h	27;"	d
+_FPU_GETCW	fpu_control.h	33;"	d
+_FPU_RESERVED	fpu_control.h	23;"	d
+_FPU_SETCW	fpu_control.h	34;"	d
+_GENERIC_MALLOC_MACHINE_H	malloc-machine.h	22;"	d
+_G_ARGS	_G_config.h	88;"	d
+_G_ARGS	_G_config.h	90;"	d
+_G_BUFSIZ	_G_config.h	79;"	d
+_G_HAVE_ATEXIT	_G_config.h	62;"	d
+_G_HAVE_BOOL	_G_config.h	58;"	d
+_G_HAVE_IO_FILE_OPEN	_G_config.h	71;"	d
+_G_HAVE_IO_GETLINE_INFO	_G_config.h	72;"	d
+_G_HAVE_LONG_DOUBLE_IO	_G_config.h	70;"	d
+_G_HAVE_MMAP	_G_config.h	69;"	d
+_G_HAVE_PRINTF_FP	_G_config.h	68;"	d
+_G_HAVE_ST_BLKSIZE	_G_config.h	77;"	d
+_G_HAVE_SYS_CDEFS	_G_config.h	63;"	d
+_G_HAVE_SYS_WAIT	_G_config.h	64;"	d
+_G_IO_IO_FILE_VERSION	_G_config.h	74;"	d
+_G_NAMES_HAVE_UNDERSCORE	_G_config.h	82;"	d
+_G_NEED_STDARG_H	_G_config.h	65;"	d
+_G_VTABLE_LABEL_HAS_LENGTH	_G_config.h	84;"	d
+_G_VTABLE_LABEL_PREFIX	_G_config.h	83;"	d
+_G_config_h	_G_config.h	5;"	d
+_G_fpos64_t	_G_config.h	/^} _G_fpos64_t;$/;"	t	typeref:struct:__anon4
+_G_fpos_t	_G_config.h	/^} _G_fpos_t;$/;"	t	typeref:struct:__anon3
+_G_iconv_t	_G_config.h	/^} _G_iconv_t;$/;"	t	typeref:union:__anon5
+_G_int16_t	_G_config.h	/^typedef int _G_int16_t __attribute__ ((__mode__ (__HI__)));$/;"	t
+_G_int32_t	_G_config.h	/^typedef int _G_int32_t __attribute__ ((__mode__ (__SI__)));$/;"	t
+_G_off64_t	_G_config.h	34;"	d
+_G_off_t	_G_config.h	33;"	d
+_G_pid_t	_G_config.h	35;"	d
+_G_size_t	_G_config.h	21;"	d
+_G_ssize_t	_G_config.h	32;"	d
+_G_stat64	_G_config.h	39;"	d
+_G_uid_t	_G_config.h	36;"	d
+_G_uint16_t	_G_config.h	/^typedef unsigned int _G_uint16_t __attribute__ ((__mode__ (__HI__)));$/;"	t
+_G_uint32_t	_G_config.h	/^typedef unsigned int _G_uint32_t __attribute__ ((__mode__ (__SI__)));$/;"	t
+_G_va_list	_G_config.h	66;"	d
+_G_wchar_t	_G_config.h	37;"	d
+_G_wint_t	_G_config.h	38;"	d
+_HP_TIMING_H	hp-timing.h	22;"	d
+_INTTYPES_H	inttypes.h	24;"	d
+_LDCONFIG_H	ldconfig.h	21;"	d
+_LDSODEFS_H	ldsodefs.h	21;"	d
+_LIBC_DEFINITIONS	unwind-pe.c	4;"	d	file:
+_MACHINE_LOCK_H	machine-lock.h	21;"	d
+_MACHINE_SP_H	machine-sp.h	21;"	d
+_MCOUNT_DECL	machine-gmon.h	47;"	d
+_NETINET_IN_SYSTM_H	netinet/in_systm.h	21;"	d
+_NETINET_TCP_H	netinet/tcp.h	34;"	d
+_NET_IF_H	net/if.h	22;"	d
+_NFS_NFS_H	nfs/nfs.h	21;"	d
+_N_BADMAG	a.out.h	133;"	d
+_N_HDROFF	a.out.h	138;"	d
+_N_HDROFF	a.out.h	140;"	d
+_N_SEGMENT_ROUND	a.out.h	212;"	d
+_N_TXTENDADDR	a.out.h	214;"	d
+_PATHS_H_	paths.h	33;"	d
+_PATH_BSHELL	paths.h	41;"	d
+_PATH_CONSOLE	paths.h	42;"	d
+_PATH_CSHELL	paths.h	43;"	d
+_PATH_DEFPATH	paths.h	36;"	d
+_PATH_DEV	paths.h	69;"	d
+_PATH_DEVDB	paths.h	44;"	d
+_PATH_DEVNULL	paths.h	45;"	d
+_PATH_DRUM	paths.h	46;"	d
+_PATH_GSHADOW	paths.h	47;"	d
+_PATH_KMEM	paths.h	48;"	d
+_PATH_LASTLOG	paths.h	50;"	d
+_PATH_LDCONFIG_AUX_CACHE	ldconfig.h	39;"	d
+_PATH_MAILDIR	paths.h	49;"	d
+_PATH_MAN	paths.h	51;"	d
+_PATH_MEM	paths.h	52;"	d
+_PATH_MNTTAB	paths.h	53;"	d
+_PATH_MOUNTED	paths.h	54;"	d
+_PATH_NOLOGIN	paths.h	55;"	d
+_PATH_PRESERVE	paths.h	56;"	d
+_PATH_PT_CHOWN	pty-private.h	31;"	d
+_PATH_RWHODIR	paths.h	57;"	d
+_PATH_SENDMAIL	paths.h	58;"	d
+_PATH_SHADOW	paths.h	59;"	d
+_PATH_SHELLS	paths.h	60;"	d
+_PATH_STDPATH	paths.h	38;"	d
+_PATH_TMP	paths.h	70;"	d
+_PATH_TTY	paths.h	61;"	d
+_PATH_UNIX	paths.h	62;"	d
+_PATH_UTMP	paths.h	63;"	d
+_PATH_UTMP_DB	paths.h	64;"	d
+_PATH_VARDB	paths.h	71;"	d
+_PATH_VARRUN	paths.h	72;"	d
+_PATH_VARTMP	paths.h	73;"	d
+_PATH_VI	paths.h	65;"	d
+_PATH_WTMP	paths.h	66;"	d
+_PTRACE_H	sys/ptrace.h	22;"	d
+_PTY_PRIVATE_H	pty-private.h	22;"	d
+_STDINT_H	stdint.h	24;"	d
+_SYS_REBOOT_H	sys/reboot.h	5;"	d
+_SYS_SYSINFO_H	sys/sysinfo.h	20;"	d
+_SYS_SYSMACROS_H	sys/sysmacros.h	21;"	d
+_SYS_TTYDEFAULTS_H_	sys/ttydefaults.h	41;"	d
+_SYS_UCONTEXT_H	sys/ucontext.h	24;"	d
+_UA_CLEANUP_PHASE	unwind.h	95;"	d
+_UA_END_OF_STACK	unwind.h	98;"	d
+_UA_FORCE_UNWIND	unwind.h	97;"	d
+_UA_HANDLER_FRAME	unwind.h	96;"	d
+_UA_SEARCH_PHASE	unwind.h	94;"	d
+_UNWIND_H	unwind.h	25;"	d
+_URC_CONTINUE_UNWIND	unwind.h	/^  _URC_CONTINUE_UNWIND = 8$/;"	e	enum:__anon22
+_URC_END_OF_STACK	unwind.h	/^  _URC_END_OF_STACK = 5,$/;"	e	enum:__anon22
+_URC_FATAL_PHASE1_ERROR	unwind.h	/^  _URC_FATAL_PHASE1_ERROR = 3,$/;"	e	enum:__anon22
+_URC_FATAL_PHASE2_ERROR	unwind.h	/^  _URC_FATAL_PHASE2_ERROR = 2,$/;"	e	enum:__anon22
+_URC_FOREIGN_EXCEPTION_CAUGHT	unwind.h	/^  _URC_FOREIGN_EXCEPTION_CAUGHT = 1,$/;"	e	enum:__anon22
+_URC_HANDLER_FOUND	unwind.h	/^  _URC_HANDLER_FOUND = 6,$/;"	e	enum:__anon22
+_URC_INSTALL_CONTEXT	unwind.h	/^  _URC_INSTALL_CONTEXT = 7,$/;"	e	enum:__anon22
+_URC_NORMAL_STOP	unwind.h	/^  _URC_NORMAL_STOP = 4,$/;"	e	enum:__anon22
+_URC_NO_REASON	unwind.h	/^  _URC_NO_REASON = 0,$/;"	e	enum:__anon22
+_Unwind_Action	unwind.h	/^typedef int _Unwind_Action;$/;"	t
+_Unwind_Context	unwind-dw2.c	/^struct _Unwind_Context$/;"	s	file:
+_Unwind_Exception	unwind.h	/^struct _Unwind_Exception$/;"	s
+_Unwind_Exception_Class	unwind.h	/^typedef unsigned _Unwind_Exception_Class __attribute__((__mode__(__DI__)));$/;"	t
+_Unwind_Exception_Cleanup_Fn	unwind.h	/^typedef void (*_Unwind_Exception_Cleanup_Fn) (_Unwind_Reason_Code,$/;"	t
+_Unwind_FindEnclosingFunction	unwind-dw2.c	/^_Unwind_FindEnclosingFunction (void *pc)$/;"	f
+_Unwind_Find_FDE	unwind-dw2-fde-glibc.c	/^_Unwind_Find_FDE (void *pc, struct dwarf_eh_bases *bases)$/;"	f
+_Unwind_Find_FDE	unwind-dw2-fde-glibc.c	34;"	d	file:
+_Unwind_Find_FDE	unwind-dw2-fde-glibc.c	38;"	d	file:
+_Unwind_Find_FDE	unwind-dw2-fde.c	/^_Unwind_Find_FDE (void *pc, struct dwarf_eh_bases *bases)$/;"	f
+_Unwind_FrameState	unwind-dw2.c	/^} _Unwind_FrameState;$/;"	t	typeref:struct:__anon17	file:
+_Unwind_GetCFA	unwind-dw2.c	/^_Unwind_GetCFA (struct _Unwind_Context *context)$/;"	f
+_Unwind_GetDataRelBase	unwind-dw2.c	/^_Unwind_GetDataRelBase (struct _Unwind_Context *context)$/;"	f
+_Unwind_GetDataRelBase	unwind.h	/^_Unwind_GetDataRelBase (struct _Unwind_Context *_C)$/;"	f
+_Unwind_GetGR	unwind-dw2.c	/^_Unwind_GetGR (struct _Unwind_Context *context, int index)$/;"	f
+_Unwind_GetIP	unwind-dw2.c	/^_Unwind_GetIP (struct _Unwind_Context *context)$/;"	f
+_Unwind_GetLanguageSpecificData	unwind-dw2.c	/^_Unwind_GetLanguageSpecificData (struct _Unwind_Context *context)$/;"	f
+_Unwind_GetRegionStart	unwind-dw2.c	/^_Unwind_GetRegionStart (struct _Unwind_Context *context)$/;"	f
+_Unwind_GetTextRelBase	unwind-dw2.c	/^_Unwind_GetTextRelBase (struct _Unwind_Context *context)$/;"	f
+_Unwind_GetTextRelBase	unwind.h	/^_Unwind_GetTextRelBase (struct _Unwind_Context *_C)$/;"	f
+_Unwind_Internal_Ptr	unwind.h	/^typedef unsigned _Unwind_Internal_Ptr __attribute__((__mode__(__pointer__)));$/;"	t
+_Unwind_IteratePhdrCallback	unwind-dw2-fde-glibc.c	/^_Unwind_IteratePhdrCallback (struct dl_phdr_info *info, size_t size, void *ptr)$/;"	f	file:
+_Unwind_Personality_Fn	unwind.h	/^typedef _Unwind_Reason_Code (*_Unwind_Personality_Fn)$/;"	t
+_Unwind_Ptr	unwind.h	/^typedef unsigned _Unwind_Ptr __attribute__((__mode__(__pointer__)));$/;"	t
+_Unwind_Ptr	unwind.h	/^typedef unsigned _Unwind_Ptr __attribute__((__mode__(__word__)));$/;"	t
+_Unwind_Reason_Code	unwind.h	/^} _Unwind_Reason_Code;$/;"	t	typeref:enum:__anon22
+_Unwind_SetGR	unwind-dw2.c	/^_Unwind_SetGR (struct _Unwind_Context *context, int index, _Unwind_Word val)$/;"	f
+_Unwind_SetIP	unwind-dw2.c	/^_Unwind_SetIP (struct _Unwind_Context *context, _Unwind_Ptr val)$/;"	f
+_Unwind_Stop_Fn	unwind.h	/^typedef _Unwind_Reason_Code (*_Unwind_Stop_Fn)$/;"	t
+_Unwind_Sword	unwind.h	/^typedef signed _Unwind_Sword __attribute__((__mode__(__word__)));$/;"	t
+_Unwind_Trace_Fn	unwind.h	/^typedef _Unwind_Reason_Code (*_Unwind_Trace_Fn)$/;"	t
+_Unwind_Word	unwind.h	/^typedef unsigned _Unwind_Word __attribute__((__mode__(__word__)));$/;"	t
+__A_OUT_GNU_H__	a.out.h	2;"	d
+__GNU_EXEC_MACROS__	a.out.h	8;"	d
+__INT64_C	stdint.h	150;"	d
+__INT64_C	stdint.h	153;"	d
+__NETINET_IF_ETHER_H	netinet/if_ether.h	21;"	d
+__NETINET_IP_H	netinet/ip.h	21;"	d
+__PRI64_PREFIX	inttypes.h	50;"	d
+__PRI64_PREFIX	inttypes.h	53;"	d
+__PRIPTR_PREFIX	inttypes.h	51;"	d
+__PRIPTR_PREFIX	inttypes.h	54;"	d
+__SPIN_LOCK_INITIALIZER	machine-lock.h	29;"	d
+__SYS_SWAP_H	sys/swap.h	22;"	d
+__UINT64_C	stdint.h	151;"	d
+__UINT64_C	stdint.h	154;"	d
+____gwchar_t_defined	inttypes.h	41;"	d
+__backtrace_symbols	elf/backtracesyms.c	/^__backtrace_symbols (array, size)$/;"	f
+__backtrace_symbols_fd	elf/backtracesymsfd.c	/^__backtrace_symbols_fd (array, size, fd)$/;"	f
+__cd	_G_config.h	/^    struct __gconv_info __cd;$/;"	m	struct:__anon5::__anon6	typeref:struct:__anon5::__anon6::__gconv_info
+__cd	_G_config.h	/^  struct __gconv_info __cd;$/;"	m	union:__anon5	typeref:struct:__anon5::__gconv_info
+__combined	_G_config.h	/^  } __combined;$/;"	m	union:__anon5	typeref:struct:__anon5::__anon6
+__data	_G_config.h	/^    struct __gconv_step_data __data;$/;"	m	struct:__anon5::__anon6	typeref:struct:__anon5::__anon6::__gconv_step_data
+__deregister_frame	unwind-dw2-fde.c	/^__deregister_frame (void *begin)$/;"	f
+__deregister_frame_info_bases	unwind-dw2-fde.c	/^__deregister_frame_info_bases (void *begin)$/;"	f
+__flexarr	unwind-dw2-fde.h	/^  struct dwarf_fde *array __flexarr;$/;"	m	struct:fde_vector	typeref:struct:fde_vector::array
+__flexarr	unwind-dw2-fde.h	/^  unsigned char augmentation __flexarr;$/;"	m	struct:dwarf_cie
+__flexarr	unwind-dw2-fde.h	/^  unsigned char pc_begin __flexarr;$/;"	m	struct:dwarf_fde
+__frame_state_for	framestate.c	/^__frame_state_for (void *pc, struct frame_state *frame_state)$/;"	f
+__frame_state_for	framestate.c	24;"	d	file:
+__frame_state_for	framestate.c	26;"	d	file:
+__frame_state_for	unwind-dw2.c	/^__frame_state_for (void *pc_target, struct frame_state *state_in)$/;"	f
+__gthread_mutex_lock	unwind-dw2-fde.c	62;"	d	file:
+__gthread_mutex_unlock	unwind-dw2-fde.c	63;"	d	file:
+__gwchar_t	inttypes.h	/^typedef __WCHAR_TYPE__ __gwchar_t;$/;"	t
+__gwchar_t	inttypes.h	/^typedef wchar_t __gwchar_t;$/;"	t
+__gwchar_t	inttypes.h	33;"	d
+__gxx_abort	unwind-pe.h	27;"	d
+__gxx_abort	unwind-pe.h	29;"	d
+__if_freereq	ifreq.h	/^__if_freereq (struct ifreq *ifreqs, int num_ifs)$/;"	f
+__if_nextreq	ifreq.h	/^__if_nextreq (struct ifreq *ifr)$/;"	f
+__int8_t_defined	stdint.h	36;"	d
+__intptr_t_defined	stdint.h	121;"	d
+__intptr_t_defined	stdint.h	127;"	d
+__ldbl_is_dbl	math_ldbl_opt.h	14;"	d
+__libc_use_alloca	allocalim.h	/^extern inline int __libc_use_alloca (size_t size)$/;"	f
+__need_NULL	_G_config.h	14;"	d
+__need_NULL	ldsodefs.h	27;"	d
+__need_mbstate_t	_G_config.h	16;"	d
+__need_size_t	_G_config.h	10;"	d
+__need_size_t	ldsodefs.h	26;"	d
+__need_timeval	bp-thunks.h	36;"	d
+__need_wchar_t	_G_config.h	12;"	d
+__need_wchar_t	inttypes.h	37;"	d
+__need_wint_t	_G_config.h	18;"	d
+__pos	_G_config.h	/^  __off64_t __pos;$/;"	m	struct:__anon4
+__pos	_G_config.h	/^  __off_t __pos;$/;"	m	struct:__anon3
+__ptrace_request	sys/ptrace.h	/^enum __ptrace_request$/;"	g
+__register_frame	unwind-dw2-fde.c	/^__register_frame (void *begin)$/;"	f
+__register_frame_info_bases	unwind-dw2-fde.c	/^__register_frame_info_bases (void *begin, struct object *ob,$/;"	f
+__register_frame_info_table_bases	unwind-dw2-fde.c	/^__register_frame_info_table_bases (void *begin, struct object *ob,$/;"	f
+__register_frame_table	unwind-dw2-fde.c	/^__register_frame_table (void *begin)$/;"	f
+__rtld_global_attribute__	ldsodefs.h	515;"	d
+__rtld_global_attribute__	ldsodefs.h	520;"	d
+__rtld_global_attribute__	ldsodefs.h	521;"	d
+__rtld_global_attribute__	ldsodefs.h	529;"	d
+__rtld_global_attribute__	ldsodefs.h	687;"	d
+__rtld_global_attribute__	ldsodefs.h	701;"	d
+__rtld_local_attribute__	ldsodefs.h	518;"	d
+__rtld_local_attribute__	ldsodefs.h	523;"	d
+__rtld_local_attribute__	ldsodefs.h	526;"	d
+__rtld_local_attribute__	ldsodefs.h	689;"	d
+__rtld_local_attribute__	ldsodefs.h	694;"	d
+__spin_lock_locked	machine-lock.h	/^__spin_lock_locked (__spin_lock_t *__lock)$/;"	f
+__spin_lock_t	machine-lock.h	/^typedef volatile int __spin_lock_t;$/;"	t
+__spin_try_lock	machine-lock.h	/^__spin_try_lock (__spin_lock_t *__lock)$/;"	f
+__spin_unlock	machine-lock.h	/^__spin_unlock (__spin_lock_t *__lock)$/;"	f
+__state	_G_config.h	/^  __mbstate_t __state;$/;"	m	struct:__anon3
+__state	_G_config.h	/^  __mbstate_t __state;$/;"	m	struct:__anon4
+__thread_stack_pointer	machine-sp.h	/^__thread_stack_pointer (void)$/;"	f
+__uint32_t_defined	stdint.h	53;"	d
+__utmp_equal	utmp-equal.h	/^__utmp_equal (const struct utmp *entry, const struct utmp *match)$/;"	f
+_bp_checks_h_	bp-checks.h	22;"	d
+_bp_semctl_h_	bp-semctl.h	22;"	d
+_bpthunks_h_	bp-thunks.h	22;"	d
+_dl_all_dirs	ldsodefs.h	/^  EXTERN struct r_search_path_elem *_dl_all_dirs;$/;"	m	struct:rtld_global	typeref:struct:rtld_global::r_search_path_elem
+_dl_audit	ldsodefs.h	/^  struct audit_ifaces *_dl_audit;$/;"	m	struct:rtld_global_ro	typeref:struct:rtld_global_ro::audit_ifaces
+_dl_bind_not	ldsodefs.h	/^  EXTERN int _dl_bind_not;$/;"	m	struct:rtld_global_ro
+_dl_cache_check_flags	dl-cache.h	27;"	d
+_dl_catch_error	ldsodefs.h	/^  int (internal_function *_dl_catch_error) (const char **, const char **,$/;"	m	struct:rtld_global_ro
+_dl_check_caller	ldsodefs.h	/^  int (*_dl_check_caller) (const void *, enum allowmask);$/;"	m	struct:rtld_global_ro
+_dl_clktck	ldsodefs.h	/^  EXTERN int _dl_clktck;$/;"	m	struct:rtld_global_ro
+_dl_close	ldsodefs.h	/^  void (*_dl_close) (void *map);$/;"	m	struct:rtld_global_ro
+_dl_correct_cache_id	ldsodefs.h	/^  EXTERN int _dl_correct_cache_id;$/;"	m	struct:rtld_global_ro
+_dl_cpuclock_offset	ldsodefs.h	/^  EXTERN hp_timing_t _dl_cpuclock_offset;$/;"	m	struct:rtld_global
+_dl_debug_fd	ldsodefs.h	/^  EXTERN int _dl_debug_fd;$/;"	m	struct:rtld_global_ro
+_dl_debug_mask	ldsodefs.h	/^  EXTERN int _dl_debug_mask;$/;"	m	struct:rtld_global_ro
+_dl_debug_printf	ldsodefs.h	/^  void (*_dl_debug_printf) (const char *, ...)$/;"	m	struct:rtld_global_ro
+_dl_discover_osversion	ldsodefs.h	/^  int (*_dl_discover_osversion) (void);$/;"	m	struct:rtld_global_ro
+_dl_dynamic_weak	ldsodefs.h	/^  EXTERN int _dl_dynamic_weak;$/;"	m	struct:rtld_global_ro
+_dl_elf_hash	dl-hash.h	/^_dl_elf_hash (const char *name_arg)$/;"	f
+_dl_error_catch_tsd	ldsodefs.h	/^  EXTERN void **(*_dl_error_catch_tsd) (void) __attribute__ ((const));$/;"	m	struct:rtld_global
+_dl_error_printf	ldsodefs.h	783;"	d
+_dl_fatal_printf	ldsodefs.h	788;"	d
+_dl_fpu_control	ldsodefs.h	/^  EXTERN fpu_control_t _dl_fpu_control;$/;"	m	struct:rtld_global_ro
+_dl_hp_timing_overhead	ldsodefs.h	/^  EXTERN hp_timing_t _dl_hp_timing_overhead;$/;"	m	struct:rtld_global_ro
+_dl_hwcap	ldsodefs.h	/^  EXTERN uint64_t _dl_hwcap;$/;"	m	struct:rtld_global_ro
+_dl_hwcap_mask	ldsodefs.h	/^  EXTERN uint64_t _dl_hwcap_mask;$/;"	m	struct:rtld_global_ro
+_dl_hwcap_string	dl-procinfo.h	28;"	d
+_dl_inhibit_rpath	ldsodefs.h	/^  EXTERN const char *_dl_inhibit_rpath;$/;"	m	struct:rtld_global_ro
+_dl_init_all_dirs	ldsodefs.h	/^  EXTERN struct r_search_path_elem *_dl_init_all_dirs;$/;"	m	struct:rtld_global_ro	typeref:struct:rtld_global_ro::r_search_path_elem
+_dl_init_static_tls	ldsodefs.h	/^  EXTERN void (*_dl_init_static_tls) (struct link_map *);$/;"	m	struct:rtld_global
+_dl_initfirst	ldsodefs.h	/^  EXTERN struct link_map *_dl_initfirst;$/;"	m	struct:rtld_global	typeref:struct:rtld_global::link_map
+_dl_initial_dtv	ldsodefs.h	/^  EXTERN void *_dl_initial_dtv;$/;"	m	struct:rtld_global
+_dl_initial_searchlist	ldsodefs.h	/^  EXTERN struct r_scope_elem _dl_initial_searchlist;$/;"	m	struct:rtld_global_ro	typeref:struct:rtld_global_ro::r_scope_elem
+_dl_lazy	ldsodefs.h	/^  EXTERN int _dl_lazy;$/;"	m	struct:rtld_global_ro
+_dl_load_adds	ldsodefs.h	/^  EXTERN unsigned long long _dl_load_adds;$/;"	m	struct:rtld_global
+_dl_lookup_symbol_x	ldsodefs.h	/^  lookup_t (internal_function *_dl_lookup_symbol_x) (const char *,$/;"	m	struct:rtld_global_ro
+_dl_naudit	ldsodefs.h	/^  unsigned int _dl_naudit;$/;"	m	struct:rtld_global_ro
+_dl_nns	ldsodefs.h	/^  EXTERN size_t _dl_nns;$/;"	m	struct:rtld_global
+_dl_ns	ldsodefs.h	/^  } _dl_ns[DL_NNS];$/;"	m	struct:rtld_global	typeref:struct:rtld_global::link_namespaces
+_dl_num_cache_relocations	ldsodefs.h	/^  EXTERN unsigned long int _dl_num_cache_relocations;$/;"	m	struct:rtld_global
+_dl_num_relocations	ldsodefs.h	/^  EXTERN unsigned long int _dl_num_relocations;$/;"	m	struct:rtld_global
+_dl_open	ldsodefs.h	/^  void *(*_dl_open) (const char *file, int mode, const void *caller_dlopen,$/;"	m	struct:rtld_global_ro
+_dl_origin_path	ldsodefs.h	/^  EXTERN const char *_dl_origin_path;$/;"	m	struct:rtld_global_ro
+_dl_osversion	ldsodefs.h	/^  EXTERN unsigned int _dl_osversion;$/;"	m	struct:rtld_global_ro
+_dl_pagesize	ldsodefs.h	/^  EXTERN size_t _dl_pagesize;$/;"	m	struct:rtld_global_ro
+_dl_platform	ldsodefs.h	/^  EXTERN const char *_dl_platform;$/;"	m	struct:rtld_global_ro
+_dl_platform_string	dl-procinfo.h	31;"	d
+_dl_platformlen	ldsodefs.h	/^  EXTERN size_t _dl_platformlen;$/;"	m	struct:rtld_global_ro
+_dl_pointer_guard	ldsodefs.h	/^  EXTERN int _dl_pointer_guard;$/;"	m	struct:rtld_global_ro
+_dl_printf	ldsodefs.h	778;"	d
+_dl_procinfo	dl-procinfo.h	25;"	d
+_dl_profile	ldsodefs.h	/^  EXTERN const char *_dl_profile;$/;"	m	struct:rtld_global_ro
+_dl_profile_map	ldsodefs.h	/^  EXTERN struct link_map *_dl_profile_map;$/;"	m	struct:rtld_global	typeref:struct:rtld_global::link_map
+_dl_profile_output	ldsodefs.h	/^  EXTERN const char *_dl_profile_output;$/;"	m	struct:rtld_global_ro
+_dl_rtld_lock_recursive	ldsodefs.h	/^  EXTERN void (*_dl_rtld_lock_recursive) (void *);$/;"	m	struct:rtld_global
+_dl_rtld_map	ldsodefs.h	/^  EXTERN struct link_map _dl_rtld_map;$/;"	m	struct:rtld_global	typeref:struct:rtld_global::link_map
+_dl_rtld_unlock_recursive	ldsodefs.h	/^  EXTERN void (*_dl_rtld_unlock_recursive) (void *);$/;"	m	struct:rtld_global
+_dl_scope_free_list	ldsodefs.h	/^  } *_dl_scope_free_list;$/;"	m	struct:rtld_global	typeref:struct:rtld_global::dl_scope_free_list
+_dl_setup_pointer_guard	dl-osinfo.h	/^_dl_setup_pointer_guard (void *dl_random, uintptr_t stack_chk_guard)$/;"	f
+_dl_setup_stack_chk_guard	dl-osinfo.h	/^_dl_setup_stack_chk_guard (void *dl_random)$/;"	f
+_dl_signal_error	ldsodefs.h	/^  void (internal_function *_dl_signal_error) (int, const char *, const char *,$/;"	m	struct:rtld_global_ro
+_dl_stack_flags	ldsodefs.h	/^  EXTERN ElfW(Word) _dl_stack_flags;$/;"	m	struct:rtld_global
+_dl_string_hwcap	dl-procinfo.h	42;"	d
+_dl_string_platform	dl-procinfo.h	44;"	d
+_dl_sysinfo	ldsodefs.h	/^  EXTERN uintptr_t _dl_sysinfo;$/;"	m	struct:rtld_global_ro
+_dl_sysinfo_dso	ldsodefs.h	/^  EXTERN const ElfW(Ehdr) *_dl_sysinfo_dso;$/;"	m	struct:rtld_global_ro
+_dl_sysinfo_map	ldsodefs.h	/^  EXTERN struct link_map *_dl_sysinfo_map;$/;"	m	struct:rtld_global_ro	typeref:struct:rtld_global_ro::link_map
+_dl_tls_dtv_gaps	ldsodefs.h	/^  EXTERN bool _dl_tls_dtv_gaps;$/;"	m	struct:rtld_global
+_dl_tls_dtv_slotinfo_list	ldsodefs.h	/^  } *_dl_tls_dtv_slotinfo_list;$/;"	m	struct:rtld_global	typeref:struct:rtld_global::dtv_slotinfo_list
+_dl_tls_generation	ldsodefs.h	/^  EXTERN size_t _dl_tls_generation;$/;"	m	struct:rtld_global
+_dl_tls_get_addr_soft	ldsodefs.h	/^  void *(*_dl_tls_get_addr_soft) (struct link_map *);$/;"	m	struct:rtld_global_ro
+_dl_tls_max_dtv_idx	ldsodefs.h	/^  EXTERN size_t _dl_tls_max_dtv_idx;$/;"	m	struct:rtld_global
+_dl_tls_static_align	ldsodefs.h	/^  EXTERN size_t _dl_tls_static_align;$/;"	m	struct:rtld_global
+_dl_tls_static_nelem	ldsodefs.h	/^  EXTERN size_t _dl_tls_static_nelem;$/;"	m	struct:rtld_global
+_dl_tls_static_size	ldsodefs.h	/^  EXTERN size_t _dl_tls_static_size;$/;"	m	struct:rtld_global
+_dl_tls_static_used	ldsodefs.h	/^  EXTERN size_t _dl_tls_static_used;$/;"	m	struct:rtld_global
+_dl_trace_prelink	ldsodefs.h	/^  EXTERN const char *_dl_trace_prelink;$/;"	m	struct:rtld_global_ro
+_dl_trace_prelink_map	ldsodefs.h	/^  EXTERN struct link_map *_dl_trace_prelink_map;$/;"	m	struct:rtld_global_ro	typeref:struct:rtld_global_ro::link_map
+_dl_use_load_bias	ldsodefs.h	/^  EXTERN ElfW(Addr) _dl_use_load_bias;$/;"	m	struct:rtld_global_ro
+_dl_verbose	ldsodefs.h	/^  EXTERN int _dl_verbose;$/;"	m	struct:rtld_global_ro
+_dl_wait_lookup_done	ldsodefs.h	/^  EXTERN void (*_dl_wait_lookup_done) (void);$/;"	m	struct:rtld_global
+_fini	initfini.c	/^_fini (void)$/;"	f
+_init	initfini.c	/^_init (void)$/;"	f
+_ns_debug	ldsodefs.h	/^    struct r_debug _ns_debug;$/;"	m	struct:rtld_global::link_namespaces	typeref:struct:rtld_global::link_namespaces::r_debug
+_ns_global_scope_alloc	ldsodefs.h	/^    size_t _ns_global_scope_alloc;$/;"	m	struct:rtld_global::link_namespaces
+_ns_loaded	ldsodefs.h	/^    struct link_map *_ns_loaded;$/;"	m	struct:rtld_global::link_namespaces	typeref:struct:rtld_global::link_namespaces::link_map
+_ns_main_searchlist	ldsodefs.h	/^    struct r_scope_elem *_ns_main_searchlist;$/;"	m	struct:rtld_global::link_namespaces	typeref:struct:rtld_global::link_namespaces::r_scope_elem
+_ns_nloaded	ldsodefs.h	/^    unsigned int _ns_nloaded;$/;"	m	struct:rtld_global::link_namespaces
+_ns_unique_sym_table	ldsodefs.h	/^    } _ns_unique_sym_table;$/;"	m	struct:rtld_global::link_namespaces	typeref:struct:rtld_global::link_namespaces::unique_sym_table
+a_bootstrap	a.out.h	/^   unsigned a_bootstrap[11];	\/* bootstrap for standalone *\/$/;"	m	struct:exec
+a_bss	a.out.h	/^  unsigned a_bss;		\/* size of uninitialized data area, in bytes *\/$/;"	m	struct:exec
+a_data	a.out.h	/^  unsigned a_data;		\/* size of data, in bytes *\/$/;"	m	struct:exec
+a_drsize	a.out.h	/^  unsigned a_drsize;		\/* size of reloc info for data, in bytes *\/$/;"	m	struct:exec
+a_entry	a.out.h	/^  unsigned a_entry;		\/* start address *\/$/;"	m	struct:exec
+a_gdtbl	a.out.h	/^    } a_gdtbl;$/;"	m	struct:exec	typeref:struct:exec::gdtbl
+a_info	a.out.h	/^  unsigned long a_info;		\/* Use macros N_MAGIC, etc for access *\/$/;"	m	struct:exec
+a_reserved	a.out.h	/^   unsigned a_reserved[3];	\/* reserved for future use *\/$/;"	m	struct:exec
+a_shbss	a.out.h	/^   unsigned a_shbss;		\/* size of uninitialized shared data *\/$/;"	m	struct:exec
+a_shdata	a.out.h	/^   unsigned a_shdata;		\/* size of initialized shared data *\/$/;"	m	struct:exec
+a_shdrsize	a.out.h	/^   unsigned a_shdrsize;		\/* size of shared data relocation *\/$/;"	m	struct:exec
+a_syms	a.out.h	/^  unsigned a_syms;		\/* length of symbol table data, in bytes *\/$/;"	m	struct:exec
+a_text	a.out.h	/^  unsigned a_text;		\/* size of text, in bytes *\/$/;"	m	struct:exec
+a_trsize	a.out.h	/^  unsigned a_trsize;		\/* size of reloc info for text, in bytes *\/$/;"	m	struct:exec
+a_version	a.out.h	/^   unsigned a_version;		\/* object version *\/$/;"	m	struct:exec
+activity	ldsodefs.h	/^  void (*activity) (uintptr_t *, unsigned int);$/;"	m	struct:audit_ifaces
+add_fdes	unwind-dw2-fde.c	/^add_fdes (struct object *ob, struct fde_accumulator *accu, fde *this_fde)$/;"	f	file:
+add_system_dir	dl-cache.h	36;"	d
+aiocb	aio_misc.h	/^    struct aiocb aiocb;$/;"	m	union:__anon24	typeref:struct:__anon24::aiocb
+aiocb64	aio_misc.h	/^    struct aiocb64 aiocb64;$/;"	m	union:__anon24	typeref:struct:__anon24::aiocb64
+aiocb_union	aio_misc.h	/^  } aiocb_union;$/;"	t	typeref:union:__anon24
+allow_ldso	ldsodefs.h	/^    allow_ldso = 8$/;"	e	enum:allowmask
+allow_libc	ldsodefs.h	/^    allow_libc = 1,$/;"	e	enum:allowmask
+allow_libdl	ldsodefs.h	/^    allow_libdl = 2,$/;"	e	enum:allowmask
+allow_libpthread	ldsodefs.h	/^    allow_libpthread = 4,$/;"	e	enum:allowmask
+allowmask	ldsodefs.h	/^enum allowmask$/;"	g
+alpha_gnu_pltenter	ldsodefs.h	/^    Elf64_Addr (*alpha_gnu_pltenter) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+alpha_gnu_pltexit	ldsodefs.h	/^    unsigned int (*alpha_gnu_pltexit) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9
+args_size	unwind-dw2.c	/^  _Unwind_Word args_size;$/;"	m	struct:_Unwind_Context	file:
+args_size	unwind-dw2.c	/^  long args_size;$/;"	m	struct:frame_state	file:
+array	gccframe.h	/^    struct dwarf_fde **array;$/;"	m	union:object::__anon14	typeref:struct:object::__anon14::dwarf_fde
+array	unwind-dw2-fde.h	/^    struct dwarf_fde **array;$/;"	m	union:object::__anon11	typeref:struct:object::__anon11::dwarf_fde
+atomic_full_barrier	malloc-machine.h	53;"	d
+atomic_read_barrier	malloc-machine.h	57;"	d
+atomic_write_barrier	malloc-machine.h	61;"	d
+attribute_hidden	ldsodefs.h	/^		      char **env) internal_function attribute_hidden;$/;"	v
+attribute_hidden	ldsodefs.h	/^     attribute_hidden;$/;"	v
+attribute_hidden	ldsodefs.h	/^     internal_function __attribute__ ((__noreturn__)) attribute_hidden;$/;"	v
+attribute_hidden	ldsodefs.h	/^     internal_function attribute_hidden;$/;"	v
+attribute_hidden	ldsodefs.h	/^extern size_t _dl_next_tls_modid (void) internal_function attribute_hidden;$/;"	v
+attribute_hidden	ldsodefs.h	/^extern void _dl_determine_tlsoffset (void) internal_function attribute_hidden;$/;"	v
+attribute_hidden	ldsodefs.h	/^extern void _dl_start_profile (void) internal_function attribute_hidden;$/;"	v
+audit_data	ldsodefs.h	/^  struct auditstate audit_data[DL_NNS];$/;"	m	struct:rtld_global	typeref:struct:rtld_global::auditstate
+audit_ifaces	ldsodefs.h	/^struct audit_ifaces$/;"	s
+b	gccframe.h	/^    } b;$/;"	m	union:object::__anon15	typeref:struct:object::__anon15::__anon16
+b	unwind-dw2-fde.h	/^    } b;$/;"	m	union:object::__anon12	typeref:struct:object::__anon12::__anon13
+base_from_cb_data	unwind-dw2-fde-glibc.c	/^base_from_cb_data (unsigned char encoding, struct unw_eh_callback_data *data)$/;"	f	file:
+base_from_object	unwind-dw2-fde.c	/^base_from_object (unsigned char encoding, struct object *ob)$/;"	f	file:
+base_of_encoded_value	unwind-pe.h	/^base_of_encoded_value (unsigned char encoding, struct _Unwind_Context *context)$/;"	f
+bases	unwind-dw2.c	/^  struct dwarf_eh_bases bases;$/;"	m	struct:_Unwind_Context	typeref:struct:_Unwind_Context::dwarf_eh_bases	file:
+basic	thread_state.h	/^    struct <machine>_thread_state basic;$/;"	m	struct:machine_thread_all_state	typeref:struct:machine_thread_all_state::_thread_state
+binary_search_mixed_encoding_fdes	unwind-dw2-fde.c	/^binary_search_mixed_encoding_fdes (struct object *ob, void *pc)$/;"	f	file:
+binary_search_single_encoding_fdes	unwind-dw2-fde.c	/^binary_search_single_encoding_fdes (struct object *ob, void *pc)$/;"	f	file:
+binary_search_unencoded_fdes	unwind-dw2-fde.c	/^binary_search_unencoded_fdes (struct object *ob, void *pc)$/;"	f	file:
+boundify_vector	bp-start.h	/^boundify_vector (char **dest, char *__unbounded *__unbounded src)$/;"	f
+byte	memcopy.h	/^typedef unsigned char byte;$/;"	t
+cache_file	dl-cache.h	/^struct cache_file$/;"	s
+cache_file_new	dl-cache.h	/^struct cache_file_new$/;"	s
+call_gmon_start	initfini.c	/^call_gmon_start(void)$/;"	f	file:
+cfa	unwind-dw2.c	/^  void *cfa;$/;"	m	struct:_Unwind_Context	file:
+cfa	unwind-dw2.c	/^  void *cfa;$/;"	m	struct:frame_state	file:
+cfa_exp	unwind-dw2.c	/^  const unsigned char *cfa_exp;$/;"	m	struct:__anon17	file:
+cfa_how	unwind-dw2.c	/^  } cfa_how;$/;"	m	struct:__anon17	typeref:enum:__anon17::__anon21	file:
+cfa_offset	unwind-dw2.c	/^  _Unwind_Sword cfa_offset;$/;"	m	struct:__anon17	file:
+cfa_offset	unwind-dw2.c	/^  long cfa_offset;$/;"	m	struct:frame_state	file:
+cfa_reg	unwind-dw2.c	/^  _Unwind_Word cfa_reg;$/;"	m	struct:__anon17	file:
+cfa_reg	unwind-dw2.c	/^  unsigned short cfa_reg;$/;"	m	struct:frame_state	file:
+cfi_adjust_cfa_offset	sysdep.h	57;"	d
+cfi_adjust_cfa_offset	sysdep.h	76;"	d
+cfi_def_cfa	sysdep.h	54;"	d
+cfi_def_cfa	sysdep.h	73;"	d
+cfi_def_cfa_offset	sysdep.h	56;"	d
+cfi_def_cfa_offset	sysdep.h	75;"	d
+cfi_def_cfa_register	sysdep.h	55;"	d
+cfi_def_cfa_register	sysdep.h	74;"	d
+cfi_endproc	sysdep.h	53;"	d
+cfi_endproc	sysdep.h	72;"	d
+cfi_lsda	sysdep.h	69;"	d
+cfi_lsda	sysdep.h	88;"	d
+cfi_offset	sysdep.h	58;"	d
+cfi_offset	sysdep.h	77;"	d
+cfi_personality	sysdep.h	68;"	d
+cfi_personality	sysdep.h	87;"	d
+cfi_register	sysdep.h	60;"	d
+cfi_register	sysdep.h	79;"	d
+cfi_rel_offset	sysdep.h	59;"	d
+cfi_rel_offset	sysdep.h	78;"	d
+cfi_remember_state	sysdep.h	65;"	d
+cfi_remember_state	sysdep.h	84;"	d
+cfi_restore	sysdep.h	62;"	d
+cfi_restore	sysdep.h	81;"	d
+cfi_restore_state	sysdep.h	66;"	d
+cfi_restore_state	sysdep.h	85;"	d
+cfi_return_column	sysdep.h	61;"	d
+cfi_return_column	sysdep.h	80;"	d
+cfi_same_value	sysdep.h	63;"	d
+cfi_same_value	sysdep.h	82;"	d
+cfi_startproc	sysdep.h	52;"	d
+cfi_startproc	sysdep.h	71;"	d
+cfi_undefined	sysdep.h	64;"	d
+cfi_undefined	sysdep.h	83;"	d
+cfi_window_save	sysdep.h	67;"	d
+cfi_window_save	sysdep.h	86;"	d
+check	netinet/ip.h	/^    u_int16_t check;$/;"	m	struct:iphdr
+check_semctl	bp-semctl.h	/^check_semctl (union semun *arg, int semid, int cmd)$/;"	f
+classify_object_over_fdes	unwind-dw2-fde.c	/^classify_object_over_fdes (struct object *ob, fde *this_fde)$/;"	f	file:
+close_not_cancel	not-cancel.h	34;"	d
+close_not_cancel_no_status	not-cancel.h	36;"	d
+code_align	unwind-dw2.c	/^  _Unwind_Word code_align;$/;"	m	struct:__anon17	file:
+count	gccframe.h	/^      unsigned long count : 21;$/;"	m	struct:object::__anon15::__anon16
+count	ldsodefs.h	/^    size_t count;$/;"	m	struct:rtld_global::dl_scope_free_list
+count	unwind-dw2-fde.h	/^      unsigned long count : 21;$/;"	m	struct:object::__anon12::__anon13
+count	unwind-dw2-fde.h	/^  size_t count;$/;"	m	struct:fde_vector
+count	unwind-dw2-fde.h	/^  size_t count;$/;"	m	struct:old_object
+daddr	netinet/ip.h	/^    u_int32_t daddr;$/;"	m	struct:iphdr
+data	netinet/ip.h	/^    u_int32_t data[9];$/;"	m	struct:ip_timestamp
+data	netinet/ip.h	/^    u_int32_t data[9];$/;"	m	struct:timestamp
+data_align	unwind-dw2.c	/^  _Unwind_Sword data_align;$/;"	m	struct:__anon17	file:
+dbase	gccframe.h	/^  void *dbase;$/;"	m	struct:object
+dbase	unwind-dw2-fde-glibc.c	/^  void *dbase;$/;"	m	struct:unw_eh_callback_data	file:
+dbase	unwind-dw2-fde.h	/^  void *dbase;$/;"	m	struct:dwarf_eh_bases
+dbase	unwind-dw2-fde.h	/^  void *dbase;$/;"	m	struct:object
+dirname	ldsodefs.h	/^    const char *dirname;$/;"	m	struct:r_search_path_elem
+dirnamelen	ldsodefs.h	/^    size_t dirnamelen;$/;"	m	struct:r_search_path_elem
+dl_fptr_h	dl-fptr.h	21;"	d
+dl_iterate_phdr	unwind-dw2-fde-glibc.c	248;"	d	file:
+dl_scope_free_list	ldsodefs.h	/^  EXTERN struct dl_scope_free_list$/;"	s	struct:rtld_global
+dont_free	ldsodefs.h	/^    int dont_free;		\/* Flag whether this element should be freed$/;"	m	struct:libname_list
+dtv_slotinfo	ldsodefs.h	/^    struct dtv_slotinfo$/;"	s	struct:rtld_global::dtv_slotinfo_list
+dtv_slotinfo_list	ldsodefs.h	/^  EXTERN struct dtv_slotinfo_list$/;"	s	struct:rtld_global
+dummy	initfini.c	/^dummy (void (*foo) (void))$/;"	f
+dwarf_access_attribute	dwarf2.h	/^enum dwarf_access_attribute$/;"	g
+dwarf_array_dim_ordering	dwarf2.h	/^enum dwarf_array_dim_ordering$/;"	g
+dwarf_attribute	dwarf2.h	/^enum dwarf_attribute$/;"	g
+dwarf_call_frame_info	dwarf2.h	/^enum dwarf_call_frame_info$/;"	g
+dwarf_calling_convention	dwarf2.h	/^enum dwarf_calling_convention$/;"	g
+dwarf_cie	unwind-dw2-fde.h	/^struct dwarf_cie$/;"	s
+dwarf_discrim_list	dwarf2.h	/^enum dwarf_discrim_list$/;"	g
+dwarf_eh_bases	unwind-dw2-fde.h	/^struct dwarf_eh_bases$/;"	s
+dwarf_fde	unwind-dw2-fde.h	/^struct dwarf_fde$/;"	s
+dwarf_form	dwarf2.h	/^enum dwarf_form$/;"	g
+dwarf_id_case	dwarf2.h	/^enum dwarf_id_case$/;"	g
+dwarf_inline_attribute	dwarf2.h	/^enum dwarf_inline_attribute$/;"	g
+dwarf_line_number_ops	dwarf2.h	/^enum dwarf_line_number_ops$/;"	g
+dwarf_line_number_x_ops	dwarf2.h	/^enum dwarf_line_number_x_ops$/;"	g
+dwarf_location_atom	dwarf2.h	/^enum dwarf_location_atom$/;"	g
+dwarf_macinfo_record_type	dwarf2.h	/^enum dwarf_macinfo_record_type$/;"	g
+dwarf_reg_size_table	unwind-dw2.c	/^static unsigned char dwarf_reg_size_table[DWARF_FRAME_REGISTERS];$/;"	v	file:
+dwarf_source_language	dwarf2.h	/^enum dwarf_source_language$/;"	g
+dwarf_tag	dwarf2.h	/^enum dwarf_tag$/;"	g
+dwarf_type	dwarf2.h	/^enum dwarf_type$/;"	g
+dwarf_virtuality_attribute	dwarf2.h	/^enum dwarf_virtuality_attribute$/;"	g
+dwarf_visibility_attribute	dwarf2.h	/^enum dwarf_visibility_attribute$/;"	g
+eh_frame_ptr_enc	unwind-dw2-fde-glibc.c	/^  unsigned char eh_frame_ptr_enc;$/;"	m	struct:unw_eh_frame_hdr	file:
+eh_ptr	unwind-dw2.c	/^  void *eh_ptr;$/;"	m	struct:__anon17	file:
+eh_ptr	unwind-dw2.c	/^  void *eh_ptr;$/;"	m	struct:frame_state	file:
+elf_machine_dynamic	dl-machine.h	/^elf_machine_dynamic (void)$/;"	f
+elf_machine_fixup_plt	dl-machine.h	/^elf_machine_fixup_plt (struct link_map *map, lookup_t t,$/;"	f
+elf_machine_load_address	dl-machine.h	/^elf_machine_load_address (void)$/;"	f
+elf_machine_matches_host	dl-machine.h	/^elf_machine_matches_host (const Elf32_Ehdr *ehdr)$/;"	f
+elf_machine_rel	dl-machine.h	/^elf_machine_rel (Elf32_Addr loadaddr, Elf32_Dyn *info[DT_NUM],$/;"	f
+elf_machine_rela	dl-machine.h	/^elf_machine_rela (Elf32_Addr loadaddr, Elf32_Dyn *info[DT_NUM],$/;"	f
+elf_machine_runtime_setup	dl-machine.h	/^elf_machine_runtime_setup (struct link_map *l, int lazy)$/;"	f
+encoding	gccframe.h	/^      unsigned long encoding : 8;$/;"	m	struct:object::__anon15::__anon16
+encoding	unwind-dw2-fde.h	/^      unsigned long encoding : 8;$/;"	m	struct:object::__anon12::__anon13
+end_fde_sort	unwind-dw2-fde.c	/^end_fde_sort (struct object *ob, struct fde_accumulator *accu, size_t count)$/;"	f	file:
+entries	ldsodefs.h	/^      } *entries;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table	typeref:struct:rtld_global::link_namespaces::unique_sym_table::unique_sym
+erratic	unwind-dw2-fde.c	/^  struct fde_vector *erratic;$/;"	m	struct:fde_accumulator	typeref:struct:fde_accumulator::fde_vector	file:
+ether_addr	netinet/if_ether.h	/^struct ether_addr$/;"	s
+ether_addr_octet	netinet/if_ether.h	/^  u_int8_t ether_addr_octet[6];$/;"	m	struct:ether_addr
+exception_class	unwind.h	/^  _Unwind_Exception_Class exception_class;$/;"	m	struct:_Unwind_Exception
+exception_cleanup	unwind.h	/^  _Unwind_Exception_Cleanup_Fn exception_cleanup;$/;"	m	struct:_Unwind_Exception
+exec	a.out.h	/^struct exec$/;"	s
+execute_cfa_program	unwind-dw2.c	/^execute_cfa_program (const unsigned char *insn_ptr,$/;"	f	file:
+execute_stack_op	unwind-dw2.c	/^execute_stack_op (const unsigned char *op_ptr, const unsigned char *op_end,$/;"	f	file:
+existing	ldsodefs.h	/^enum r_dir_status { unknown, nonexisting, existing };$/;"	e	enum:r_dir_status
+exp	unwind-dw2.c	/^	const unsigned char *exp;$/;"	m	union:__anon17::frame_state_reg_info::__anon18::__anon19	file:
+extract_cie_info	unwind-dw2.c	/^extract_cie_info (struct dwarf_cie *cie, struct _Unwind_Context *context,$/;"	f	file:
+fcntl_not_cancel	not-cancel.h	44;"	d
+fd_to_filename	fd_to_filename.h	/^fd_to_filename (int fd)$/;"	f
+fde	unwind-dw2-fde.h	/^typedef struct dwarf_fde fde;$/;"	t	typeref:struct:dwarf_fde
+fde_accumulator	unwind-dw2-fde.c	/^struct fde_accumulator$/;"	s	file:
+fde_array	unwind-dw2-fde.h	/^  struct dwarf_fde **fde_array;$/;"	m	struct:old_object	typeref:struct:old_object::dwarf_fde
+fde_begin	unwind-dw2-fde.h	/^  struct dwarf_fde *fde_begin;$/;"	m	struct:old_object	typeref:struct:old_object::dwarf_fde
+fde_compare_t	unwind-dw2-fde.c	/^typedef int (*fde_compare_t) (struct object *, fde *, fde *);$/;"	t	file:
+fde_count_enc	unwind-dw2-fde-glibc.c	/^  unsigned char fde_count_enc;$/;"	m	struct:unw_eh_frame_hdr	file:
+fde_encoding	unwind-dw2.c	/^  unsigned char fde_encoding;$/;"	m	struct:__anon17	file:
+fde_end	unwind-dw2-fde.h	/^  char *fde_end;$/;"	m	struct:object
+fde_insert	unwind-dw2-fde.c	/^fde_insert (struct fde_accumulator *accu, fde *this_fde)$/;"	f	file:
+fde_merge	unwind-dw2-fde.c	/^fde_merge (struct object *ob, fde_compare_t fde_compare,$/;"	f	file:
+fde_mixed_encoding_compare	unwind-dw2-fde.c	/^fde_mixed_encoding_compare (struct object *ob, fde *x, fde *y)$/;"	f	file:
+fde_single_encoding_compare	unwind-dw2-fde.c	/^fde_single_encoding_compare (struct object *ob, fde *x, fde *y)$/;"	f	file:
+fde_split	unwind-dw2-fde.c	/^fde_split (struct object *ob, fde_compare_t fde_compare,$/;"	f	file:
+fde_unencoded_compare	unwind-dw2-fde.c	/^fde_unencoded_compare (struct object *ob __attribute__((unused)),$/;"	f	file:
+fde_vector	unwind-dw2-fde.h	/^struct fde_vector$/;"	s
+fdesc	dl-fptr.h	/^    struct fdesc fdesc[0];$/;"	m	struct:fdesc_table	typeref:struct:fdesc_table::fdesc
+fdesc	dl-fptr.h	/^struct fdesc$/;"	s
+fdesc_table	dl-fptr.h	/^struct fdesc_table$/;"	s
+file_entry	dl-cache.h	/^struct file_entry$/;"	s
+file_entry_new	dl-cache.h	/^struct file_entry_new$/;"	s
+filename	ldsodefs.h	/^    const char *filename;$/;"	m	struct:r_found_version
+first_unused	dl-fptr.h	/^    volatile unsigned int first_unused;	\/* index of first available entry *\/$/;"	m	struct:fdesc_table
+flags	dl-cache.h	/^  int flags;		\/* This is 1 for an ELF library.  *\/$/;"	m	struct:file_entry
+flags	dl-cache.h	/^  int32_t flags;		\/* This is 1 for an ELF library.  *\/$/;"	m	struct:file_entry_new
+flags	netinet/ip.h	/^    unsigned int flags:4;$/;"	m	struct:timestamp
+fpu_control_t	fpu_control.h	/^typedef unsigned int fpu_control_t;$/;"	t
+frag_off	netinet/ip.h	/^    u_int16_t frag_off;$/;"	m	struct:iphdr
+frame_heapsort	unwind-dw2-fde.c	/^frame_heapsort (struct object *ob, fde_compare_t fde_compare,$/;"	f	file:
+frame_state	unwind-dw2.c	/^typedef struct frame_state$/;"	s	file:
+frame_state	unwind-dw2.c	/^} frame_state;$/;"	t	typeref:struct:frame_state	file:
+frame_state_reg_info	unwind-dw2.c	/^  struct frame_state_reg_info$/;"	s	struct:__anon17	file:
+framesf	framestate.c	/^typedef struct frame_state * (*framesf)(void *pc, struct frame_state *);$/;"	t	typeref:struct:framesf	file:
+free	ldsodefs.h	/^      void (*free) (void *);$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table
+from_array	gccframe.h	/^      unsigned long from_array : 1;$/;"	m	struct:object::__anon15::__anon16
+from_array	unwind-dw2-fde.h	/^      unsigned long from_array : 1;$/;"	m	struct:object::__anon12::__anon13
+frompc	ldsodefs.h	/^  void (*_dl_mcount) (ElfW(Addr) frompc, ElfW(Addr) selfpc);$/;"	m	struct:rtld_global_ro
+func	unwind-dw2-fde-glibc.c	/^  void *func;$/;"	m	struct:unw_eh_callback_data	file:
+func	unwind-dw2-fde.h	/^  void *func;$/;"	m	struct:dwarf_eh_bases
+g_code	a.out.h	/^      unsigned g_code[2];$/;"	m	struct:exec::gdtbl
+g_data	a.out.h	/^      unsigned g_data[2];$/;"	m	struct:exec::gdtbl
+g_desc	a.out.h	/^      unsigned g_desc[2];$/;"	m	struct:exec::gdtbl
+gdtbl	a.out.h	/^  struct gdtbl$/;"	s	struct:exec
+gen	ldsodefs.h	/^      size_t gen;$/;"	m	struct:rtld_global::dtv_slotinfo_list::dtv_slotinfo
+get_cie	unwind-dw2-fde.h	/^get_cie (struct dwarf_fde *f)$/;"	f
+get_cie_encoding	unwind-dw2-fde.c	/^get_cie_encoding (struct dwarf_cie *cie)$/;"	f	file:
+get_fde_encoding	unwind-dw2-fde.c	/^get_fde_encoding (struct dwarf_fde *f)$/;"	f	file:
+gp	dl-fptr.h	/^    ElfW(Addr) gp;	\/* global pointer *\/$/;"	m	struct:fdesc
+hash	ldsodefs.h	/^    ElfW(Word) hash;$/;"	m	struct:r_found_version
+hashval	ldsodefs.h	/^	uint32_t hashval;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table::unique_sym
+hidden	ldsodefs.h	/^    int hidden;$/;"	m	struct:r_found_version
+how	unwind-dw2.c	/^      } how;$/;"	m	struct:__anon17::frame_state_reg_info::__anon18	typeref:enum:__anon17::frame_state_reg_info::__anon18::__anon20	file:
+hp_timing_t	hp-timing.h	/^typedef int hp_timing_t;$/;"	t
+hwcap	dl-cache.h	/^  uint64_t hwcap;		\/* Hwcap entry.	 *\/$/;"	m	struct:file_entry_new
+i	gccframe.h	/^    size_t i;$/;"	m	union:object::__anon15
+i	unwind-dw2-fde.h	/^    size_t i;$/;"	m	union:object::__anon12
+i86_gnu_pltenter	ldsodefs.h	/^    Elf32_Addr (*i86_gnu_pltenter) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+i86_gnu_pltexit	ldsodefs.h	/^    unsigned int (*i86_gnu_pltexit) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9
+ia64_gnu_pltenter	ldsodefs.h	/^    Elf64_Addr (*ia64_gnu_pltenter) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+ia64_gnu_pltexit	ldsodefs.h	/^    unsigned int (*ia64_gnu_pltexit) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9
+id	netinet/ip.h	/^    u_int16_t id;$/;"	m	struct:iphdr
+if_index	net/if.h	/^    unsigned int if_index;	\/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_name	net/if.h	/^    char *if_name;		\/* null terminated name: "eth0", ... *\/$/;"	m	struct:if_nameindex
+if_nameindex	net/if.h	/^struct if_nameindex$/;"	s
+ifunc_one	elf/ifunc-sel.h	/^ifunc_one (int (*f1) (void))$/;"	f
+ifunc_sel	elf/ifunc-sel.h	/^ifunc_sel (int (*f1) (void), int (*f2) (void), int (*f3) (void))$/;"	f
+ihl	netinet/ip.h	/^    unsigned int ihl:4;$/;"	m	struct:iphdr
+imaxdiv_t	inttypes.h	/^  } imaxdiv_t;$/;"	t	typeref:struct:__anon1
+init_dwarf_reg_size_table	unwind-dw2.c	/^init_dwarf_reg_size_table (void)$/;"	f	file:
+init_object	unwind-dw2-fde.c	/^init_object (struct object* ob)$/;"	f	file:
+init_object_mutex	unwind-dw2-fde.c	/^init_object_mutex (void)$/;"	f	file:
+init_object_mutex_once	unwind-dw2-fde.c	/^init_object_mutex_once (void)$/;"	f	file:
+init_object_mutex_once	unwind-dw2-fde.c	61;"	d	file:
+init_object_mutex_once	unwind-dw2-fde.c	94;"	d	file:
+int16_t	stdint.h	/^typedef short int		int16_t;$/;"	t
+int32_t	stdint.h	/^typedef int			int32_t;$/;"	t
+int64_t	stdint.h	/^typedef long int		int64_t;$/;"	t
+int64_t	stdint.h	/^typedef long long int		int64_t;$/;"	t
+int8_t	stdint.h	/^typedef signed char		int8_t;$/;"	t
+int_fast16_t	stdint.h	/^typedef int			int_fast16_t;$/;"	t
+int_fast16_t	stdint.h	/^typedef long int		int_fast16_t;$/;"	t
+int_fast32_t	stdint.h	/^typedef int			int_fast32_t;$/;"	t
+int_fast32_t	stdint.h	/^typedef long int		int_fast32_t;$/;"	t
+int_fast64_t	stdint.h	/^typedef long int		int_fast64_t;$/;"	t
+int_fast64_t	stdint.h	/^typedef long long int		int_fast64_t;$/;"	t
+int_fast8_t	stdint.h	/^typedef signed char		int_fast8_t;$/;"	t
+int_least16_t	stdint.h	/^typedef short int		int_least16_t;$/;"	t
+int_least32_t	stdint.h	/^typedef int			int_least32_t;$/;"	t
+int_least64_t	stdint.h	/^typedef long int		int_least64_t;$/;"	t
+int_least64_t	stdint.h	/^typedef long long int		int_least64_t;$/;"	t
+int_least8_t	stdint.h	/^typedef signed char		int_least8_t;$/;"	t
+internal_function	ldsodefs.h	/^     internal_function;$/;"	v
+internal_function	ldsodefs.h	/^  EXTERN int (*_dl_make_stack_executable_hook) (void **) internal_function;$/;"	m	struct:rtld_global
+intmax_t	stdint.h	/^typedef long int		intmax_t;$/;"	t
+intmax_t	stdint.h	/^typedef long long int		intmax_t;$/;"	t
+intptr_t	stdint.h	/^typedef int			intptr_t;$/;"	t
+intptr_t	stdint.h	/^typedef long int		intptr_t;$/;"	t
+ip	dl-fptr.h	/^    ElfW(Addr) ip;	\/* code entry point *\/$/;"	m	struct:fdesc
+ip	netinet/ip.h	/^struct ip$/;"	s
+ip_dst	netinet/ip.h	/^    struct in_addr ip_src, ip_dst;	\/* source and dest address *\/$/;"	m	struct:ip	typeref:struct:ip::
+ip_hl	netinet/ip.h	/^    unsigned int ip_hl:4;		\/* header length *\/$/;"	m	struct:ip
+ip_id	netinet/ip.h	/^    u_short ip_id;			\/* identification *\/$/;"	m	struct:ip
+ip_len	netinet/ip.h	/^    u_short ip_len;			\/* total length *\/$/;"	m	struct:ip
+ip_off	netinet/ip.h	/^    u_short ip_off;			\/* fragment offset field *\/$/;"	m	struct:ip
+ip_p	netinet/ip.h	/^    u_int8_t ip_p;			\/* protocol *\/$/;"	m	struct:ip
+ip_src	netinet/ip.h	/^    struct in_addr ip_src, ip_dst;	\/* source and dest address *\/$/;"	m	struct:ip	typeref:struct:ip::in_addr
+ip_sum	netinet/ip.h	/^    u_short ip_sum;			\/* checksum *\/$/;"	m	struct:ip
+ip_timestamp	netinet/ip.h	/^struct ip_timestamp$/;"	s
+ip_tos	netinet/ip.h	/^    u_int8_t ip_tos;			\/* type of service *\/$/;"	m	struct:ip
+ip_ttl	netinet/ip.h	/^    u_int8_t ip_ttl;			\/* time to live *\/$/;"	m	struct:ip
+ip_v	netinet/ip.h	/^    unsigned int ip_v:4;		\/* version *\/$/;"	m	struct:ip
+iphdr	netinet/ip.h	/^struct iphdr$/;"	s
+ipt_code	netinet/ip.h	/^    u_int8_t ipt_code;			\/* IPOPT_TS *\/$/;"	m	struct:ip_timestamp
+ipt_flg	netinet/ip.h	/^    unsigned int ipt_flg:4;		\/* flags, see below *\/$/;"	m	struct:ip_timestamp
+ipt_len	netinet/ip.h	/^    u_int8_t ipt_len;			\/* size of structure (variable) *\/$/;"	m	struct:ip_timestamp
+ipt_oflw	netinet/ip.h	/^    unsigned int ipt_oflw:4;		\/* overflow counter *\/$/;"	m	struct:ip_timestamp
+ipt_ptr	netinet/ip.h	/^    u_int8_t ipt_ptr;			\/* index of current entry *\/$/;"	m	struct:ip_timestamp
+kernel_has_rtsig	testrtsig.h	/^kernel_has_rtsig (void)$/;"	f
+key	dl-cache.h	/^  uint32_t key, value;		\/* String table indices.  *\/$/;"	m	struct:file_entry_new
+key	dl-cache.h	/^  unsigned int key, value; \/* String table indices.  *\/$/;"	m	struct:file_entry
+last_fde	unwind-dw2-fde.h	/^last_fde (struct object *obj __attribute__ ((__unused__)), fde *f)$/;"	f
+layout	frame.h	/^struct layout$/;"	s
+ldbl_hidden_def	math_ldbl_opt.h	11;"	d
+ldbl_strong_alias	math_ldbl_opt.h	12;"	d
+ldbl_weak_alias	math_ldbl_opt.h	13;"	d
+len	dl-fptr.h	/^    unsigned int len;			\/* # of entries in fdesc table *\/$/;"	m	struct:fdesc_table
+len	ldsodefs.h	/^    size_t len;$/;"	m	struct:r_strlenpair
+len	ldsodefs.h	/^    size_t len;$/;"	m	struct:rtld_global::dtv_slotinfo_list
+len	netinet/ip.h	/^    u_int8_t len;$/;"	m	struct:timestamp
+len_strings	dl-cache.h	/^  uint32_t len_strings;		\/* Size of string table. *\/$/;"	m	struct:cache_file_new
+length	unwind-dw2-fde.h	/^  uword length;$/;"	m	struct:dwarf_cie
+length	unwind-dw2-fde.h	/^  uword length;$/;"	m	struct:dwarf_fde
+libname_list	ldsodefs.h	/^struct libname_list$/;"	s
+libs	dl-cache.h	/^  struct file_entry libs[0];$/;"	m	struct:cache_file	typeref:struct:cache_file::file_entry
+libs	dl-cache.h	/^  struct file_entry_new libs[0]; \/* Entries describing libraries.  *\/$/;"	m	struct:cache_file_new	typeref:struct:cache_file_new::file_entry_new
+linear	unwind-dw2-fde.c	/^  struct fde_vector *linear;$/;"	m	struct:fde_accumulator	typeref:struct:fde_accumulator::fde_vector	file:
+linear_search_fdes	unwind-dw2-fde.c	/^linear_search_fdes (struct object *ob, fde *this_fde, void *pc)$/;"	f	file:
+link_namespaces	ldsodefs.h	/^  EXTERN struct link_namespaces$/;"	s	struct:rtld_global
+list	ldsodefs.h	/^    void *list[50];$/;"	m	struct:rtld_global::dl_scope_free_list
+loc	unwind-dw2.c	/^      } loc;$/;"	m	struct:__anon17::frame_state_reg_info::__anon18	typeref:union:__anon17::frame_state_reg_info::__anon18::__anon19	file:
+local_setegid	local-setxid.h	4;"	d
+local_seteuid	local-setxid.h	3;"	d
+lock	ldsodefs.h	/^      __rtld_lock_recursive_t lock;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table
+long_double_symbol	math_ldbl_opt.h	10;"	d
+lookup_t	ldsodefs.h	/^typedef struct link_map *lookup_t;$/;"	t	typeref:struct:link_map
+lsda	unwind-dw2.c	/^  void *lsda;$/;"	m	struct:_Unwind_Context	file:
+lsda_encoding	unwind-dw2.c	/^  unsigned char lsda_encoding;$/;"	m	struct:__anon17	file:
+machine_thread_all_state	thread_state.h	/^struct machine_thread_all_state$/;"	s
+machine_thread_state	thread_state.h	29;"	d
+machine_type	a.out.h	/^enum machine_type {$/;"	g
+magic	dl-cache.h	/^  char magic[sizeof CACHEMAGIC - 1];$/;"	m	struct:cache_file
+magic	dl-cache.h	/^  char magic[sizeof CACHEMAGIC_NEW - 1];$/;"	m	struct:cache_file_new
+major	sys/sysmacros.h	27;"	d
+makedev	sys/sysmacros.h	29;"	d
+map	ldsodefs.h	/^	struct link_map *map;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table::unique_sym	typeref:struct:rtld_global::link_namespaces::unique_sym_table::unique_sym::link_map
+map	ldsodefs.h	/^      struct link_map *map;$/;"	m	struct:rtld_global::dtv_slotinfo_list::dtv_slotinfo	typeref:struct:rtld_global::dtv_slotinfo_list::dtv_slotinfo::link_map
+mcontext_t	sys/ucontext.h	/^typedef struct sigcontext mcontext_t;$/;"	t	typeref:struct:sigcontext
+memusage_cntr_t	memusage.h	41;"	d
+memusage_cntr_t	memusage.h	43;"	d
+memusage_size_t	memusage.h	47;"	d
+memusage_size_t	memusage.h	49;"	d
+minor	sys/sysmacros.h	28;"	d
+mixed_encoding	gccframe.h	/^      unsigned long mixed_encoding : 1;$/;"	m	struct:object::__anon15::__anon16
+mixed_encoding	unwind-dw2-fde.h	/^      unsigned long mixed_encoding : 1;$/;"	m	struct:object::__anon12::__anon13
+mutex_init	malloc-machine.h	38;"	d
+mutex_lock	malloc-machine.h	39;"	d
+mutex_t	malloc-machine.h	/^typedef int mutex_t;$/;"	t
+mutex_trylock	malloc-machine.h	40;"	d
+mutex_unlock	malloc-machine.h	41;"	d
+n_desc	a.out.h	/^  short n_desc;$/;"	m	struct:nlist
+n_elements	ldsodefs.h	/^      size_t n_elements;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table
+n_long	netinet/in_systm.h	/^typedef u_int32_t n_long;       \/* long as received from the net  *\/$/;"	t
+n_name	a.out.h	/^    char *n_name;$/;"	m	union:nlist::__anon25
+n_next	a.out.h	/^    struct nlist *n_next;$/;"	m	union:nlist::__anon25	typeref:struct:nlist::__anon25::nlist
+n_other	a.out.h	/^  char n_other;$/;"	m	struct:nlist
+n_short	netinet/in_systm.h	/^typedef u_int16_t n_short;      \/* short as received from the net *\/$/;"	t
+n_strx	a.out.h	/^    long n_strx;$/;"	m	union:nlist::__anon25
+n_time	netinet/in_systm.h	/^typedef u_int32_t n_time;       \/* ms since 00:00 GMT, byte rev   *\/$/;"	t
+n_type	a.out.h	/^  unsigned char n_type;$/;"	m	struct:nlist
+n_un	a.out.h	/^  } n_un;$/;"	m	struct:nlist	typeref:union:nlist::__anon25
+n_value	a.out.h	/^  unsigned long n_value;$/;"	m	struct:nlist
+name	ldsodefs.h	/^	const char *name;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table::unique_sym
+name	ldsodefs.h	/^    const char *name;		\/* Name requested (before search).  *\/$/;"	m	struct:libname_list
+name	ldsodefs.h	/^    const char *name;$/;"	m	struct:r_found_version
+next	dl-fptr.h	/^    struct fdesc_table *next;$/;"	m	struct:fdesc_table	typeref:struct:fdesc_table::fdesc_table
+next	frame.h	/^  void *__unbounded next;$/;"	m	struct:layout
+next	gccframe.h	/^  struct object *next;$/;"	m	struct:object	typeref:struct:object::object
+next	ldsodefs.h	/^    struct dtv_slotinfo_list *next;$/;"	m	struct:rtld_global::dtv_slotinfo_list	typeref:struct:rtld_global::dtv_slotinfo_list::dtv_slotinfo_list
+next	ldsodefs.h	/^    struct libname_list *next;	\/* Link to next name for this object.  *\/$/;"	m	struct:libname_list	typeref:struct:libname_list::libname_list
+next	ldsodefs.h	/^    struct r_search_path_elem *next;$/;"	m	struct:r_search_path_elem	typeref:struct:r_search_path_elem::r_search_path_elem
+next	ldsodefs.h	/^  struct audit_ifaces *next;$/;"	m	struct:audit_ifaces	typeref:struct:audit_ifaces::audit_ifaces
+next	unwind-dw2-fde.h	/^  struct object *next;$/;"	m	struct:object	typeref:struct:object::object
+next	unwind-dw2-fde.h	/^  struct old_object *next;$/;"	m	struct:old_object	typeref:struct:old_object::old_object
+next_fde	unwind-dw2-fde.h	/^next_fde (fde *f)$/;"	f
+nlibs	dl-cache.h	/^  uint32_t nlibs;		\/* Number of entries.  *\/$/;"	m	struct:cache_file_new
+nlibs	dl-cache.h	/^  unsigned int nlibs;$/;"	m	struct:cache_file
+nlist	a.out.h	/^struct nlist {$/;"	s
+nonexisting	ldsodefs.h	/^enum r_dir_status { unknown, nonexisting, existing };$/;"	e	enum:r_dir_status
+nscd_ssize_t	nscd-types.h	/^typedef int32_t nscd_ssize_t;$/;"	t
+objclose	ldsodefs.h	/^  unsigned int (*objclose) (uintptr_t *);$/;"	m	struct:audit_ifaces
+object	gccframe.h	/^struct object$/;"	s
+object	unwind-dw2-fde.h	/^struct object$/;"	s
+object_mutex	unwind-dw2-fde.c	/^static __gthread_mutex_t object_mutex = __GTHREAD_MUTEX_INIT;$/;"	v	file:
+object_mutex	unwind-dw2-fde.c	/^static __gthread_mutex_t object_mutex;$/;"	v	file:
+objopen	ldsodefs.h	/^  unsigned int (*objopen) (struct link_map *, Lmid_t, uintptr_t *);$/;"	m	struct:audit_ifaces
+objsearch	ldsodefs.h	/^  char *(*objsearch) (const char *, uintptr_t *, unsigned int);$/;"	m	struct:audit_ifaces
+offset	unwind-dw2.c	/^	_Unwind_Sword offset;$/;"	m	union:__anon17::frame_state_reg_info::__anon18::__anon19	file:
+old_object	unwind-dw2-fde.h	/^struct old_object$/;"	s
+op_t	memcopy.h	59;"	d
+open_not_cancel	not-cancel.h	22;"	d
+open_not_cancel_2	not-cancel.h	24;"	d
+openat64_not_cancel	not-cancel.h	30;"	d
+openat64_not_cancel_3	not-cancel.h	32;"	d
+openat_not_cancel	not-cancel.h	26;"	d
+openat_not_cancel_3	not-cancel.h	28;"	d
+orig_data	unwind-dw2-fde.h	/^  void *orig_data;$/;"	m	struct:fde_vector
+osversion	dl-cache.h	/^  uint32_t osversion;		\/* Required OS version.	 *\/$/;"	m	struct:file_entry_new
+overflow	netinet/ip.h	/^    unsigned int overflow:4;$/;"	m	struct:timestamp
+p	unwind-dw2.c	/^  void *p;$/;"	m	union:unaligned	file:
+pc	unwind-dw2-fde-glibc.c	/^  _Unwind_Ptr pc;$/;"	m	struct:unw_eh_callback_data	file:
+pc	unwind-dw2.c	/^  void *pc;$/;"	m	struct:__anon17	file:
+pc_begin	gccframe.h	/^  void *pc_begin;$/;"	m	struct:object
+pc_begin	unwind-dw2-fde.h	/^  void *pc_begin;$/;"	m	struct:object
+pc_begin	unwind-dw2-fde.h	/^  void *pc_begin;$/;"	m	struct:old_object
+pc_end	unwind-dw2-fde.h	/^  void *pc_end;$/;"	m	struct:old_object
+personality	unwind-dw2.c	/^  _Unwind_Personality_Fn personality;$/;"	m	struct:__anon17	file:
+ppc32_gnu_pltenter	ldsodefs.h	/^    Elf32_Addr (*ppc32_gnu_pltenter) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+ppc32_gnu_pltexit	ldsodefs.h	/^    unsigned int (*ppc32_gnu_pltexit) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9
+ppc64_gnu_pltenter	ldsodefs.h	/^    Elf64_Addr (*ppc64_gnu_pltenter) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+ppc64_gnu_pltexit	ldsodefs.h	/^    unsigned int (*ppc64_gnu_pltexit) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9
+preinit	ldsodefs.h	/^  void (*preinit) (uintptr_t *);$/;"	m	struct:audit_ifaces
+prev	unwind-dw2.c	/^    struct frame_state_reg_info *prev;$/;"	m	struct:__anon17::frame_state_reg_info	typeref:struct:__anon17::frame_state_reg_info::frame_state_reg_info	file:
+private_1	unwind.h	/^  _Unwind_Word private_1;$/;"	m	struct:_Unwind_Exception
+private_2	unwind.h	/^  _Unwind_Word private_2;$/;"	m	struct:_Unwind_Exception
+profil_counter	profil-counter.h	/^profil_counter (int signr, int code, struct sigcontext *scp)$/;"	f
+protocol	netinet/ip.h	/^    u_int8_t protocol;$/;"	m	struct:iphdr
+ptr	netinet/ip.h	/^    u_int8_t ptr;$/;"	m	struct:timestamp
+quot	inttypes.h	/^    long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon1
+r_address	a.out.h	/^  int r_address;$/;"	m	struct:relocation_info
+r_dir_status	ldsodefs.h	/^enum r_dir_status { unknown, nonexisting, existing };$/;"	g
+r_extern	a.out.h	/^  unsigned int r_extern:1;$/;"	m	struct:relocation_info
+r_found_version	ldsodefs.h	/^struct r_found_version$/;"	s
+r_length	a.out.h	/^  unsigned int r_length:2;$/;"	m	struct:relocation_info
+r_pad	a.out.h	/^  unsigned int r_pad:4;$/;"	m	struct:relocation_info
+r_pcrel	a.out.h	/^  unsigned int r_pcrel:1;$/;"	m	struct:relocation_info
+r_search_path_elem	ldsodefs.h	/^struct r_search_path_elem$/;"	s
+r_strlenpair	ldsodefs.h	/^struct r_strlenpair$/;"	s
+r_symbolnum	a.out.h	/^  unsigned int r_symbolnum:24;$/;"	m	struct:relocation_info
+ra	unwind-dw2.c	/^  void *ra;$/;"	m	struct:_Unwind_Context	file:
+read_1s	unwind-dw2.c	/^read_1s (const void *p) { return *(const signed char *) p; }$/;"	f	file:
+read_1u	unwind-dw2.c	/^read_1u (const void *p) { return *(const unsigned char *) p; }$/;"	f	file:
+read_2s	unwind-dw2.c	/^read_2s (const void *p) { const union unaligned *up = p; return up->s2; }$/;"	f	file:
+read_2u	unwind-dw2.c	/^read_2u (const void *p) { const union unaligned *up = p; return up->u2; }$/;"	f	file:
+read_4s	unwind-dw2.c	/^read_4s (const void *p) { const union unaligned *up = p; return up->s4; }$/;"	f	file:
+read_4u	unwind-dw2.c	/^read_4u (const void *p) { const union unaligned *up = p; return up->u4; }$/;"	f	file:
+read_8s	unwind-dw2.c	/^read_8s (const void *p) { const union unaligned *up = p; return up->s8; }$/;"	f	file:
+read_8u	unwind-dw2.c	/^read_8u (const void *p) { const union unaligned *up = p; return up->u8; }$/;"	f	file:
+read_encoded_value	unwind-pe.h	/^read_encoded_value (struct _Unwind_Context *context, unsigned char encoding,$/;"	f
+read_encoded_value_with_base	unwind-pe.h	/^read_encoded_value_with_base (unsigned char encoding, _Unwind_Ptr base,$/;"	f
+read_not_cancel	not-cancel.h	38;"	d
+read_pointer	unwind-dw2.c	/^read_pointer (const void *p) { const union unaligned *up = p; return up->p; }$/;"	f	file:
+read_sleb128	unwind-pe.h	/^read_sleb128 (const unsigned char *p, _Unwind_Sword *val)$/;"	f
+read_uleb128	unwind-pe.h	/^read_uleb128 (const unsigned char *p, _Unwind_Word *val)$/;"	f
+receiver_fct	ldsodefs.h	/^typedef void (*receiver_fct) (int, const char *, const char *);$/;"	t
+reg	unwind-dw2.c	/^	_Unwind_Word reg;$/;"	m	union:__anon17::frame_state_reg_info::__anon18::__anon19	file:
+reg	unwind-dw2.c	/^    } reg[DWARF_FRAME_REGISTERS+1];$/;"	m	struct:__anon17::frame_state_reg_info	typeref:struct:__anon17::frame_state_reg_info::__anon18	file:
+reg	unwind-dw2.c	/^  void *reg[DWARF_FRAME_REGISTERS+1];$/;"	m	struct:_Unwind_Context	file:
+reg_char	memcopy.h	66;"	d
+reg_or_offset	unwind-dw2.c	/^  long reg_or_offset[PRE_GCC3_DWARF_FRAME_REGISTERS+1];$/;"	m	struct:frame_state	file:
+regs	unwind-dw2.c	/^  } regs;$/;"	m	struct:__anon17	typeref:struct:__anon17::frame_state_reg_info	file:
+relocation_info	a.out.h	/^struct relocation_info$/;"	s
+rem	inttypes.h	/^    long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon1
+ret	unwind-dw2-fde-glibc.c	/^  fde *ret;$/;"	m	struct:unw_eh_callback_data	file:
+retaddr_column	unwind-dw2.c	/^  unsigned char retaddr_column;$/;"	m	struct:__anon17	file:
+retaddr_column	unwind-dw2.c	/^  unsigned short retaddr_column;$/;"	m	struct:frame_state	file:
+return_address	frame.h	/^  void *__unbounded return_address;$/;"	m	struct:layout
+rtld_global	ldsodefs.h	/^struct rtld_global$/;"	s
+rtld_global_ro	ldsodefs.h	/^struct rtld_global_ro$/;"	s
+rtld_progname	ldsodefs.h	738;"	d
+rtld_progname	ldsodefs.h	740;"	d
+s	gccframe.h	/^  } s;$/;"	m	struct:object	typeref:union:object::__anon15
+s	unwind-dw2-fde.h	/^  } s;$/;"	m	struct:object	typeref:union:object::__anon12
+s2	unwind-dw2.c	/^  signed s2 __attribute__ ((mode (HI)));$/;"	m	union:unaligned	file:
+s390_32_gnu_pltenter	ldsodefs.h	/^    Elf32_Addr (*s390_32_gnu_pltenter) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+s390_32_gnu_pltexit	ldsodefs.h	/^    unsigned int (*s390_32_gnu_pltexit) (Elf32_Sym *, unsigned int,$/;"	m	union:audit_ifaces::__anon9
+s390_64_gnu_pltenter	ldsodefs.h	/^    Elf64_Addr (*s390_64_gnu_pltenter) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+s390_64_gnu_pltexit	ldsodefs.h	/^    unsigned int (*s390_64_gnu_pltexit) (Elf64_Sym *, unsigned int,$/;"	m	union:audit_ifaces::__anon9
+s4	unwind-dw2.c	/^  signed s4 __attribute__ ((mode (SI)));$/;"	m	union:unaligned	file:
+s8	unwind-dw2.c	/^  signed s8 __attribute__ ((mode (DI)));$/;"	m	union:unaligned	file:
+saddr	netinet/ip.h	/^    u_int32_t saddr;$/;"	m	struct:iphdr
+saddr	unwind-dw2-fde.h	/^typedef          int  saddr __attribute__ ((mode (pointer)));$/;"	t
+saved	unwind-dw2.c	/^  char saved[PRE_GCC3_DWARF_FRAME_REGISTERS+1];$/;"	m	struct:frame_state	file:
+saw_z	unwind-dw2.c	/^  unsigned char saw_z;$/;"	m	struct:__anon17	file:
+search_object	unwind-dw2-fde.c	/^search_object (struct object* ob, void *pc)$/;"	f	file:
+seen_objects	unwind-dw2-fde.c	/^static struct object *seen_objects;$/;"	v	typeref:struct:object	file:
+selfpc	ldsodefs.h	/^  void (*_dl_mcount) (ElfW(Addr) frompc, ElfW(Addr) selfpc);$/;"	m	struct:rtld_global_ro
+set	thread_state.h	/^    int set;			\/* Mask of bits (1 << FLAVOR).  *\/$/;"	m	struct:machine_thread_all_state
+sh_gnu_pltenter	ldsodefs.h	/^    uintptr_t (*sh_gnu_pltenter) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+sh_gnu_pltexit	ldsodefs.h	/^    unsigned int (*sh_gnu_pltexit) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9
+sigset_get_old_mask	sigset-cvt-mask.h	/^sigset_get_old_mask (const sigset_t *set)$/;"	f
+sigset_set_old_mask	sigset-cvt-mask.h	/^sigset_set_old_mask (sigset_t *set, int mask)$/;"	f
+single	gccframe.h	/^    struct dwarf_fde *single;$/;"	m	union:object::__anon14	typeref:struct:object::__anon14::dwarf_fde
+single	unwind-dw2-fde.h	/^    struct dwarf_fde *single;$/;"	m	union:object::__anon11	typeref:struct:object::__anon11::dwarf_fde
+size	ldsodefs.h	/^      size_t size;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table
+size_of_encoded_value	unwind-pe.h	/^size_of_encoded_value (unsigned char encoding)$/;"	f
+slotinfo	ldsodefs.h	/^    } slotinfo[0];$/;"	m	struct:rtld_global::dtv_slotinfo_list	typeref:struct:rtld_global::dtv_slotinfo_list::dtv_slotinfo
+sort	gccframe.h	/^    struct fde_vector *sort;$/;"	m	union:object::__anon14	typeref:struct:object::__anon14::fde_vector
+sort	unwind-dw2-fde.h	/^    struct fde_vector *sort;$/;"	m	union:object::__anon11	typeref:struct:object::__anon11::fde_vector
+sorted	gccframe.h	/^      unsigned long sorted : 1;$/;"	m	struct:object::__anon15::__anon16
+sorted	unwind-dw2-fde.h	/^      unsigned long sorted : 1;$/;"	m	struct:object::__anon12::__anon13
+sparc32_gnu_pltenter	ldsodefs.h	/^    Elf32_Addr (*sparc32_gnu_pltenter) (Elf32_Sym *, unsigned int,$/;"	m	union:audit_ifaces::__anon8
+sparc32_gnu_pltexit	ldsodefs.h	/^    unsigned int (*sparc32_gnu_pltexit) (Elf32_Sym *, unsigned int,$/;"	m	union:audit_ifaces::__anon9
+sparc64_gnu_pltenter	ldsodefs.h	/^    Elf64_Addr (*sparc64_gnu_pltenter) (Elf64_Sym *, unsigned int,$/;"	m	union:audit_ifaces::__anon8
+sparc64_gnu_pltexit	ldsodefs.h	/^    unsigned int (*sparc64_gnu_pltexit) (Elf64_Sym *, unsigned int,$/;"	m	union:audit_ifaces::__anon9
+start_fde_sort	unwind-dw2-fde.c	/^start_fde_sort (struct fde_accumulator *accu, size_t count)$/;"	f	file:
+status	ldsodefs.h	/^    enum r_dir_status status[0];$/;"	m	struct:r_search_path_elem	typeref:enum:r_search_path_elem::r_dir_status
+str	ldsodefs.h	/^    const char *str;$/;"	m	struct:r_strlenpair
+strtoimax	inttypes.h	/^__NTH (strtoimax (__const char *__restrict nptr, char **__restrict endptr,$/;"	f
+strtoumax	inttypes.h	/^__NTH (strtoumax (__const char *__restrict nptr, char **__restrict endptr,$/;"	f
+sword	unwind-dw2-fde.h	/^typedef          int  sword __attribute__ ((mode (SI)));$/;"	t
+sym	ldsodefs.h	/^	const ElfW(Sym) *sym;$/;"	m	struct:rtld_global::link_namespaces::unique_sym_table::unique_sym
+symbind32	ldsodefs.h	/^    uintptr_t (*symbind32) (Elf32_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon7
+symbind64	ldsodefs.h	/^    uintptr_t (*symbind64) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon7
+table_enc	unwind-dw2-fde-glibc.c	/^  unsigned char table_enc;$/;"	m	struct:unw_eh_frame_hdr	file:
+tbase	gccframe.h	/^  void *tbase;$/;"	m	struct:object
+tbase	unwind-dw2-fde-glibc.c	/^  void *tbase;$/;"	m	struct:unw_eh_callback_data	file:
+tbase	unwind-dw2-fde.h	/^  void *tbase;$/;"	m	struct:dwarf_eh_bases
+tbase	unwind-dw2-fde.h	/^  void *tbase;$/;"	m	struct:object
+tcp_seq	netinet/tcp.h	/^typedef	unsigned int	tcp_seq;$/;"	t
+tcphdr	netinet/tcp.h	/^struct tcphdr {$/;"	s
+th_ack	netinet/tcp.h	/^	tcp_seq	th_ack;			\/* acknowledgement number *\/$/;"	m	struct:tcphdr
+th_dport	netinet/tcp.h	/^	u_short	th_dport;		\/* destination port *\/$/;"	m	struct:tcphdr
+th_flags	netinet/tcp.h	/^	u_char	th_flags;$/;"	m	struct:tcphdr
+th_off	netinet/tcp.h	/^		th_off:4;		\/* data offset *\/$/;"	m	struct:tcphdr
+th_off	netinet/tcp.h	/^	u_char	th_off:4,		\/* data offset *\/$/;"	m	struct:tcphdr
+th_seq	netinet/tcp.h	/^	tcp_seq	th_seq;			\/* sequence number *\/$/;"	m	struct:tcphdr
+th_sport	netinet/tcp.h	/^	u_short	th_sport;		\/* source port *\/$/;"	m	struct:tcphdr
+th_sum	netinet/tcp.h	/^	u_short	th_sum;			\/* checksum *\/$/;"	m	struct:tcphdr
+th_urp	netinet/tcp.h	/^	u_short	th_urp;			\/* urgent pointer *\/$/;"	m	struct:tcphdr
+th_win	netinet/tcp.h	/^	u_short	th_win;			\/* window *\/$/;"	m	struct:tcphdr
+th_x2	netinet/tcp.h	/^		th_x2:4;		\/* (unused) *\/$/;"	m	struct:tcphdr
+th_x2	netinet/tcp.h	/^	u_char	th_x2:4,		\/* (unused) *\/$/;"	m	struct:tcphdr
+thread_atfork	malloc-machine.h	48;"	d
+timestamp	netinet/ip.h	/^struct timestamp$/;"	s
+tos	netinet/ip.h	/^    u_int8_t tos;$/;"	m	struct:iphdr
+tot_len	netinet/ip.h	/^    u_int16_t tot_len;$/;"	m	struct:iphdr
+tsd_getspecific	malloc-machine.h	46;"	d
+tsd_key_create	malloc-machine.h	44;"	d
+tsd_key_t	malloc-machine.h	/^typedef void *tsd_key_t;$/;"	t
+tsd_setspecific	malloc-machine.h	45;"	d
+ttl	netinet/ip.h	/^    u_int8_t ttl;$/;"	m	struct:iphdr
+ttydefchars	sys/ttydefaults.h	/^cc_t	ttydefchars[NCCS] = {$/;"	v
+u	gccframe.h	/^  } u;$/;"	m	struct:object	typeref:union:object::__anon14
+u	unwind-dw2-fde.h	/^  } u;$/;"	m	struct:object	typeref:union:object::__anon11
+u2	unwind-dw2.c	/^  unsigned u2 __attribute__ ((mode (HI)));$/;"	m	union:unaligned	file:
+u4	unwind-dw2.c	/^  unsigned u4 __attribute__ ((mode (SI)));$/;"	m	union:unaligned	file:
+u8	unwind-dw2.c	/^  unsigned u8 __attribute__ ((mode (DI)));$/;"	m	union:unaligned	file:
+uaddr	unwind-dw2-fde.h	/^typedef unsigned int  uaddr __attribute__ ((mode (pointer)));$/;"	t
+ubyte	unwind-dw2-fde.h	/^typedef unsigned char ubyte;$/;"	t
+uc_flags	sys/ucontext.h	/^    unsigned long int uc_flags;$/;"	m	struct:ucontext
+uc_link	sys/ucontext.h	/^    struct ucontext *uc_link;$/;"	m	struct:ucontext	typeref:struct:ucontext::ucontext
+uc_mcontext	sys/ucontext.h	/^    mcontext_t uc_mcontext;$/;"	m	struct:ucontext
+uc_sigmask	sys/ucontext.h	/^    __sigset_t uc_sigmask;$/;"	m	struct:ucontext
+uc_stack	sys/ucontext.h	/^    stack_t uc_stack;$/;"	m	struct:ucontext
+ucontext	sys/ucontext.h	/^typedef struct ucontext$/;"	s
+ucontext_t	sys/ucontext.h	/^  } ucontext_t;$/;"	t	typeref:struct:ucontext
+uint16_t	stdint.h	/^typedef unsigned short int	uint16_t;$/;"	t
+uint32_t	stdint.h	/^typedef unsigned int		uint32_t;$/;"	t
+uint64_t	stdint.h	/^typedef unsigned long int	uint64_t;$/;"	t
+uint64_t	stdint.h	/^typedef unsigned long long int	uint64_t;$/;"	t
+uint8_t	stdint.h	/^typedef unsigned char		uint8_t;$/;"	t
+uint_fast16_t	stdint.h	/^typedef unsigned int		uint_fast16_t;$/;"	t
+uint_fast16_t	stdint.h	/^typedef unsigned long int	uint_fast16_t;$/;"	t
+uint_fast32_t	stdint.h	/^typedef unsigned int		uint_fast32_t;$/;"	t
+uint_fast32_t	stdint.h	/^typedef unsigned long int	uint_fast32_t;$/;"	t
+uint_fast64_t	stdint.h	/^typedef unsigned long int	uint_fast64_t;$/;"	t
+uint_fast64_t	stdint.h	/^typedef unsigned long long int	uint_fast64_t;$/;"	t
+uint_fast8_t	stdint.h	/^typedef unsigned char		uint_fast8_t;$/;"	t
+uint_least16_t	stdint.h	/^typedef unsigned short int	uint_least16_t;$/;"	t
+uint_least32_t	stdint.h	/^typedef unsigned int		uint_least32_t;$/;"	t
+uint_least64_t	stdint.h	/^typedef unsigned long int	uint_least64_t;$/;"	t
+uint_least64_t	stdint.h	/^typedef unsigned long long int	uint_least64_t;$/;"	t
+uint_least8_t	stdint.h	/^typedef unsigned char		uint_least8_t;$/;"	t
+uintmax_t	stdint.h	/^typedef unsigned long int	uintmax_t;$/;"	t
+uintmax_t	stdint.h	/^typedef unsigned long long int	uintmax_t;$/;"	t
+uintptr_t	stdint.h	/^typedef unsigned int		uintptr_t;$/;"	t
+uintptr_t	stdint.h	/^typedef unsigned long int	uintptr_t;$/;"	t
+unaligned	unwind-dw2.c	/^union unaligned$/;"	u	file:
+unique_sym	ldsodefs.h	/^      struct unique_sym$/;"	s	struct:rtld_global::link_namespaces::unique_sym_table
+unique_sym_table	ldsodefs.h	/^    struct unique_sym_table$/;"	s	struct:rtld_global::link_namespaces
+unknown	ldsodefs.h	/^enum r_dir_status { unknown, nonexisting, existing };$/;"	e	enum:r_dir_status
+unseen_objects	unwind-dw2-fde.c	/^static struct object *unseen_objects;$/;"	v	typeref:struct:object	file:
+unused	dl-cache.h	/^  uint32_t unused[5];		\/* Leave space for future extensions$/;"	m	struct:cache_file_new
+unw_eh_callback_data	unwind-dw2-fde-glibc.c	/^struct unw_eh_callback_data$/;"	s	file:
+unw_eh_frame_hdr	unwind-dw2-fde-glibc.c	/^struct unw_eh_frame_hdr$/;"	s	file:
+uw_frame_state_for	unwind-dw2.c	/^uw_frame_state_for (struct _Unwind_Context *context, _Unwind_FrameState *fs)$/;"	f	file:
+uw_identify_context	unwind-dw2.c	/^uw_identify_context (struct _Unwind_Context *context)$/;"	f	file:
+uw_init_context	unwind-dw2.c	1191;"	d	file:
+uw_init_context_1	unwind-dw2.c	/^uw_init_context_1 (struct _Unwind_Context *context,$/;"	f	file:
+uw_install_context	unwind-dw2.c	1236;"	d	file:
+uw_install_context_1	unwind-dw2.c	/^uw_install_context_1 (struct _Unwind_Context *current,$/;"	f	file:
+uw_update_context	unwind-dw2.c	/^uw_update_context (struct _Unwind_Context *context, _Unwind_FrameState *fs)$/;"	f	file:
+uw_update_context_1	unwind-dw2.c	/^uw_update_context_1 (struct _Unwind_Context *context, _Unwind_FrameState *fs)$/;"	f	file:
+uword	unwind-dw2-fde.h	/^typedef unsigned int  uword __attribute__ ((mode (SI)));$/;"	t
+value	dl-cache.h	/^  uint32_t key, value;		\/* String table indices.  *\/$/;"	m	struct:file_entry_new
+value	dl-cache.h	/^  unsigned int key, value; \/* String table indices.  *\/$/;"	m	struct:file_entry
+version	dl-cache.h	/^  char version[sizeof CACHE_VERSION - 1];$/;"	m	struct:cache_file_new
+version	netinet/ip.h	/^    unsigned int version:4;$/;"	m	struct:iphdr
+version	unwind-dw2-fde-glibc.c	/^  unsigned char version;$/;"	m	struct:unw_eh_frame_hdr	file:
+version	unwind-dw2-fde.h	/^  ubyte version;$/;"	m	struct:dwarf_cie
+waitpid_not_cancel	not-cancel.h	46;"	d
+wcstoimax	inttypes.h	/^__NTH (wcstoimax (__const __gwchar_t *__restrict nptr,$/;"	f
+wcstoumax	inttypes.h	/^__NTH (wcstoumax (__const __gwchar_t *__restrict nptr,$/;"	f
+what	ldsodefs.h	/^    const char *what;$/;"	m	struct:r_search_path_elem
+where	ldsodefs.h	/^    const char *where;$/;"	m	struct:r_search_path_elem
+write_not_cancel	not-cancel.h	40;"	d
+writev_not_cancel_no_status	not-cancel.h	42;"	d
+x86_64_gnu_pltenter	ldsodefs.h	/^    Elf64_Addr (*x86_64_gnu_pltenter) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon8
+x86_64_gnu_pltexit	ldsodefs.h	/^    unsigned int (*x86_64_gnu_pltexit) (Elf64_Sym *, unsigned int, uintptr_t *,$/;"	m	union:audit_ifaces::__anon9

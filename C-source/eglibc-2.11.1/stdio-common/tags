@@ -1,0 +1,804 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDW	vfscanf.c	275;"	d	file:
+ARG	vfscanf.c	351;"	d	file:
+ARGCHECK	vfprintf.c	49;"	d	file:
+ARGCHECK	vfscanf.c	172;"	d	file:
+AppendToBuffer	xbug.c	/^void AppendToBuffer(b, str, len)$/;"	f
+BINARY_UNITS	printf_size.c	94;"	d	file:
+BSIZE	tfformat.c	4077;"	d	file:
+BSIZE	tiformat.c	5047;"	d	file:
+BSIZE	tllformat.c	32;"	d	file:
+BUFSIZ	vfprintf.c	47;"	d	file:
+BUFSIZ	vfprintf.c	48;"	d	file:
+Buffer	xbug.c	/^} Buffer;$/;"	t	typeref:struct:_Buffer	file:
+C	psiginfo-define.h	/^static const union C(codestrs_t_, NOW) {$/;"	f
+C	psiginfo.c	37;"	d	file:
+C1	psiginfo.c	38;"	d	file:
+CFLAGS-cuserid.c	Makefile	/^CFLAGS-cuserid.c = -fexceptions$/;"	m
+CFLAGS-errlist.c	Makefile	/^CFLAGS-errlist.c = $(fno-unit-at-a-time)$/;"	m
+CFLAGS-psignal.c	Makefile	/^CFLAGS-psignal.c = -fexceptions$/;"	m
+CFLAGS-scanf15.c	Makefile	/^CFLAGS-scanf15.c = -I..\/libio -I..\/stdlib -I..\/wcsmbs -I..\/time -I..\/string \\$/;"	m
+CFLAGS-scanf17.c	Makefile	/^CFLAGS-scanf17.c = -I..\/libio -I..\/stdlib -I..\/wcsmbs -I..\/time -I..\/string \\$/;"	m
+CFLAGS-scanf4.c	Makefile	/^CFLAGS-scanf4.c = -Wno-format$/;"	m
+CFLAGS-scanf7.c	Makefile	/^CFLAGS-scanf7.c = -Wno-format$/;"	m
+CFLAGS-siglist.c	Makefile	/^CFLAGS-siglist.c = $(fno-unit-at-a-time)$/;"	m
+CFLAGS-tempname.c	Makefile	/^CFLAGS-tempname.c = -fexceptions$/;"	m
+CFLAGS-tmpfile.c	Makefile	/^CFLAGS-tmpfile.c = -fexceptions$/;"	m
+CFLAGS-tmpfile64.c	Makefile	/^CFLAGS-tmpfile64.c = -fexceptions$/;"	m
+CFLAGS-tst-printf.c	Makefile	/^CFLAGS-tst-printf.c = -Wno-format$/;"	m
+CFLAGS-tst-printfsz.c	Makefile	/^CFLAGS-tst-printfsz.c = -Wno-format$/;"	m
+CFLAGS-tst-sprintf.c	Makefile	/^CFLAGS-tst-sprintf.c = -Wno-format$/;"	m
+CFLAGS-tstdiomisc.c	Makefile	/^CFLAGS-tstdiomisc.c = -Wno-format$/;"	m
+CFLAGS-vfprintf.c	Makefile	/^CFLAGS-vfprintf.c = -Wno-uninitialized$/;"	m
+CFLAGS-vfwprintf.c	Makefile	/^CFLAGS-vfwprintf.c = -Wno-uninitialized$/;"	m
+CFLAGS-vprintf.c	Makefile	/^CFLAGS-vprintf.c = -fexceptions$/;"	m
+CHAR	bug18.c	6;"	d	file:
+CHAR	bug18a.c	2;"	d	file:
+CHAR	bug19.c	6;"	d	file:
+CHAR	bug19a.c	2;"	d	file:
+CHAR	tst-sscanf.c	25;"	d	file:
+CHAR	tst-swscanf.c	1;"	d	file:
+CHAR	vfscanf.c	65;"	d	file:
+CHAR_CLASS	vfprintf.c	282;"	d	file:
+CHAR_T	printf-parsemb.c	29;"	d	file:
+CHAR_T	printf-parsemb.c	36;"	d	file:
+CHAR_T	printf-prs.c	30;"	d	file:
+CHAR_T	printf-prs.c	44;"	d	file:
+CHAR_T	printf_fp.c	46;"	d	file:
+CHAR_T	printf_fp.c	48;"	d	file:
+CHAR_T	vfprintf.c	82;"	d	file:
+CHAR_T	vfprintf.c	98;"	d	file:
+CHAR_T	vfscanf.c	106;"	d	file:
+CHAR_T	vfscanf.c	132;"	d	file:
+CHECK	tst-swprintf.c	29;"	d	file:
+COMPARE_LDBL	tst-sprintf2.c	16;"	d	file:
+COMPILE_WPRINTF	printf-parsewc.c	1;"	d	file:
+COMPILE_WPRINTF	vfwprintf.c	2;"	d	file:
+COMPILE_WSCANF	vfwscanf.c	1;"	d	file:
+DEC	tst-printf.c	78;"	d	file:
+DECIMAL_UNITS	printf_size.c	95;"	d	file:
+DONT_NEED_READ_INT	printf-prs.c	56;"	d	file:
+EOF	vfprintf.c	118;"	d	file:
+EOF	vfprintf.c	119;"	d	file:
+EOF	vfscanf.c	109;"	d	file:
+EOF	vfscanf.c	110;"	d	file:
+EXIT_SUCCESS	tst-printf.c	22;"	d	file:
+F	tstdiomisc.c	/^F (void)$/;"	f	file:
+FAIL	scanf13.c	16;"	d	file:
+FAIL	scanf14.c	7;"	d	file:
+FAIL	scanf15.c	15;"	d	file:
+FAIL	scanf16.c	7;"	d	file:
+FAIL	scanf17.c	16;"	d	file:
+FILE	printf_fp.c	68;"	d	file:
+FILE	printf_fphex.c	49;"	d	file:
+FILE	printf_size.c	40;"	d	file:
+FILE	vfprintf.c	44;"	d	file:
+FLAGS	tmpfile64.c	1;"	d	file:
+FORMAT	tst-printf.c	207;"	d	file:
+FORMAT	tst-printf.c	217;"	d	file:
+FPUTS	bug19.c	8;"	d	file:
+FPUTS	bug19a.c	4;"	d	file:
+FSCANF	bug19.c	9;"	d	file:
+FSCANF	bug19a.c	5;"	d	file:
+FSETLOCKING_BYCALLER	stdio_ext.h	/^  FSETLOCKING_BYCALLER$/;"	e	enum:__anon8
+FSETLOCKING_BYCALLER	stdio_ext.h	39;"	d
+FSETLOCKING_INTERNAL	stdio_ext.h	/^  FSETLOCKING_INTERNAL,$/;"	e	enum:__anon8
+FSETLOCKING_INTERNAL	stdio_ext.h	36;"	d
+FSETLOCKING_QUERY	stdio_ext.h	/^  FSETLOCKING_QUERY = 0,$/;"	e	enum:__anon8
+FSETLOCKING_QUERY	stdio_ext.h	32;"	d
+GNU_MALLOC	vfscanf.c	64;"	d	file:
+GROUP	vfscanf.c	63;"	d	file:
+H	psiginfo.c	97;"	d	file:
+HANDLE_REGISTERED_MODIFIER	printf-parsemb.c	34;"	d	file:
+HANDLE_REGISTERED_MODIFIER	printf-parsemb.c	41;"	d	file:
+HAVE_ALLOCA	printf_fp.c	23;"	d	file:
+HAVE_LONGLONG	vfscanf.c	35;"	d	file:
+HEXA_FLOAT	vfscanf.c	67;"	d	file:
+I18N	vfscanf.c	66;"	d	file:
+INIT_BUFFER_SIZE	xbug.c	17;"	d	file:
+INT	tst-printf.c	79;"	d	file:
+INT_T	printf-parsemb.c	31;"	d	file:
+INT_T	printf-parsemb.c	38;"	d	file:
+INT_T	printf-prs.c	32;"	d	file:
+INT_T	printf-prs.c	46;"	d	file:
+INT_T	vfprintf.c	101;"	d	file:
+INT_T	vfprintf.c	84;"	d	file:
+ISASCII	printf-prs.c	35;"	d	file:
+ISDIGIT	printf-parsemb.c	33;"	d	file:
+ISDIGIT	printf-parsemb.c	40;"	d	file:
+ISDIGIT	printf-prs.c	34;"	d	file:
+ISDIGIT	printf-prs.c	48;"	d	file:
+ISDIGIT	vfprintf.c	103;"	d	file:
+ISDIGIT	vfprintf.c	86;"	d	file:
+ISDIGIT	vfscanf.c	124;"	d	file:
+ISDIGIT	vfscanf.c	93;"	d	file:
+ISSPACE	vfscanf.c	123;"	d	file:
+ISSPACE	vfscanf.c	92;"	d	file:
+ISXDIGIT	vfscanf.c	125;"	d	file:
+ISXDIGIT	vfscanf.c	94;"	d	file:
+InitBuffer	xbug.c	/^void InitBuffer(b)$/;"	f
+JUMP	vfprintf.c	286;"	d	file:
+JUMP_TABLE_TYPE	vfprintf.c	285;"	d	file:
+L	bug18.c	7;"	d	file:
+L	bug18a.c	3;"	d	file:
+L	bug19.c	7;"	d	file:
+L	bug19a.c	3;"	d	file:
+L	tst-sscanf.c	26;"	d	file:
+L	tst-swscanf.c	2;"	d	file:
+LABEL	vfprintf.c	1348;"	d	file:
+LABEL	vfprintf.c	1830;"	d	file:
+LABEL	vfprintf.c	1831;"	d	file:
+LOCALE_SUPPORT	vfprintf.c	129;"	d	file:
+LOCALE_SUPPORT	vfprintf.c	131;"	d	file:
+LOCK_STREAM	vfscanf.c	188;"	d	file:
+LONG	vfscanf.c	56;"	d	file:
+LONGDBL	vfscanf.c	57;"	d	file:
+LONGLONG	vfscanf.c	36;"	d	file:
+LONGLONG	vfscanf.c	38;"	d	file:
+L_	printf-parsemb.c	32;"	d	file:
+L_	printf-parsemb.c	39;"	d	file:
+L_	printf-prs.c	33;"	d	file:
+L_	printf-prs.c	47;"	d	file:
+L_	vfprintf.c	102;"	d	file:
+L_	vfprintf.c	85;"	d	file:
+L_	vfscanf.c	105;"	d	file:
+L_	vfscanf.c	131;"	d	file:
+MAKE_STR	bug22.c	7;"	d	file:
+MALLOC	vfscanf.c	70;"	d	file:
+MBRLEN	printf-prs.c	36;"	d	file:
+MB_EXP	tst-perror.c	14;"	d	file:
+MB_EXP_LEN	tst-perror.c	18;"	d	file:
+MEMCPY	vfscanf.c	122;"	d	file:
+MEMCPY	vfscanf.c	91;"	d	file:
+MF	psiginfo.c	35;"	d	file:
+MF1	psiginfo.c	36;"	d	file:
+MIN	printf_fphex.c	89;"	d	file:
+MPN_ASSIGN	printf_fp.c	131;"	d	file:
+MPN_GE	printf_fp.c	133;"	d	file:
+MPN_VAR	printf_fp.c	129;"	d	file:
+MULTIBYTE_SUPPORT	vfprintf.c	123;"	d	file:
+MULTIBYTE_SUPPORT	vfprintf.c	125;"	d	file:
+MULTIBYTE_SUPPORT	vfscanf.c	138;"	d	file:
+MULTIBYTE_SUPPORT	vfscanf.c	140;"	d	file:
+N	bug22.c	4;"	d	file:
+NDEBUG	printf-parsemb.c	46;"	d	file:
+NDEBUG	printf_fp.c	54;"	d	file:
+NOSKIP	vfscanf.c	61;"	d	file:
+NOT_IN_JUMP_RANGE	vfprintf.c	281;"	d	file:
+NOW	psiginfo-define.h	15;"	d
+NOW	psiginfo.c	40;"	d	file:
+NOW	psiginfo.c	43;"	d	file:
+NOW	psiginfo.c	46;"	d	file:
+NOW	psiginfo.c	49;"	d	file:
+NOW	psiginfo.c	52;"	d	file:
+NOW	psiginfo.c	55;"	d	file:
+NOW	psiginfo.c	58;"	d	file:
+NUMBER_SIGNED	vfscanf.c	62;"	d	file:
+ORIENT	vfprintf.c	113;"	d	file:
+ORIENT	vfprintf.c	94;"	d	file:
+ORIENT	vfscanf.c	127;"	d	file:
+ORIENT	vfscanf.c	96;"	d	file:
+OUT_SIZE	tst-fwrite.c	7;"	d	file:
+P	psiginfo-data.h	50;"	d
+P	psiginfo-define.h	12;"	d
+P	psiginfo-define.h	3;"	d
+P	psiginfo-define.h	8;"	d
+PACK	_itoa.c	/^      mp_limb_t base PACK;$/;"	m	struct:base_table_t::__anon7	file:
+PACK	_itoa.c	/^      mp_limb_t base_ninv PACK;$/;"	m	struct:base_table_t::__anon7	file:
+PACK	_itoa.c	43;"	d	file:
+PACK	_itoa.c	44;"	d	file:
+PACK	_itoa.c	46;"	d	file:
+PACK	_itowa.c	/^      mp_limb_t base PACK;$/;"	m	struct:base_table_t::__anon3	file:
+PACK	_itowa.c	/^      mp_limb_t base_ninv PACK;$/;"	m	struct:base_table_t::__anon3	file:
+PACK	_itowa.c	42;"	d	file:
+PACK	_itowa.c	43;"	d	file:
+PACK	_itowa.c	45;"	d	file:
+PAD	printf-prs.c	39;"	d	file:
+PAD	printf-prs.c	51;"	d	file:
+PAD	printf_fp.c	61;"	d	file:
+PAD	printf_fphex.c	42;"	d	file:
+PAD	printf_fphex.c	52;"	d	file:
+PAD	printf_size.c	33;"	d	file:
+PAD	vfprintf.c	109;"	d	file:
+PAD	vfprintf.c	90;"	d	file:
+PADN	printf_fp.c	111;"	d	file:
+PADN	printf_fphex.c	79;"	d	file:
+PADN	printf_size.c	75;"	d	file:
+PA_CHAR	printf.h	/^  PA_CHAR,			\/* int, cast to char *\/$/;"	e	enum:__anon4
+PA_DOUBLE	printf.h	/^  PA_DOUBLE,			\/* double *\/$/;"	e	enum:__anon4
+PA_FLAG_LONG	printf.h	163;"	d
+PA_FLAG_LONG_DOUBLE	printf.h	162;"	d
+PA_FLAG_LONG_LONG	printf.h	161;"	d
+PA_FLAG_MASK	printf.h	160;"	d
+PA_FLAG_PTR	printf.h	165;"	d
+PA_FLAG_SHORT	printf.h	164;"	d
+PA_FLOAT	printf.h	/^  PA_FLOAT,			\/* float *\/$/;"	e	enum:__anon4
+PA_INT	printf.h	/^  PA_INT,			\/* int *\/$/;"	e	enum:__anon4
+PA_LAST	printf.h	/^  PA_LAST$/;"	e	enum:__anon4
+PA_POINTER	printf.h	/^  PA_POINTER,			\/* void * *\/$/;"	e	enum:__anon4
+PA_STRING	printf.h	/^  PA_STRING,			\/* const char *, a '\\0'-terminated string *\/$/;"	e	enum:__anon4
+PA_WCHAR	printf.h	/^  PA_WCHAR,			\/* wide char *\/$/;"	e	enum:__anon4
+PA_WSTRING	printf.h	/^  PA_WSTRING,			\/* const wchar_t *, wide character string *\/$/;"	e	enum:__anon4
+POINTER	vfscanf.c	60;"	d	file:
+POSIX_MALLOC	vfscanf.c	69;"	d	file:
+PREPARE	tst-fwrite.c	13;"	d	file:
+PREPARE	tst-unlockedio.c	28;"	d	file:
+PRINT	printf_fp.c	85;"	d	file:
+PRINT	printf_fphex.c	67;"	d	file:
+PRINT	printf_size.c	53;"	d	file:
+PUT	printf-prs.c	38;"	d	file:
+PUT	printf-prs.c	50;"	d	file:
+PUT	printf_fp.c	60;"	d	file:
+PUT	printf_fphex.c	41;"	d	file:
+PUT	printf_fphex.c	51;"	d	file:
+PUT	printf_size.c	32;"	d	file:
+PUT	vfprintf.c	108;"	d	file:
+PUT	vfprintf.c	89;"	d	file:
+PUTC	vfprintf.c	112;"	d	file:
+PUTC	vfprintf.c	93;"	d	file:
+READ_POINTER	vfscanf.c	68;"	d	file:
+REF	vfprintf.c	1344;"	d	file:
+REF	vfprintf.c	1824;"	d	file:
+REF	vfprintf.c	1826;"	d	file:
+RUN_2N	_itoa.c	223;"	d	file:
+RUN_2N	_itowa.c	104;"	d	file:
+ReadFile	xbug.c	/^void ReadFile(buffer, input)$/;"	f
+SCAN	tstdiomisc.c	25;"	d	file:
+SEL1	_itoa.c	74;"	d	file:
+SEL1	_itoa.c	77;"	d	file:
+SEL1	_itowa.c	73;"	d	file:
+SEL1	_itowa.c	76;"	d	file:
+SEL2	_itoa.c	75;"	d	file:
+SEL2	_itoa.c	78;"	d	file:
+SEL2	_itowa.c	74;"	d	file:
+SEL2	_itowa.c	77;"	d	file:
+SHORT	vfscanf.c	58;"	d	file:
+SIZE	tst-sprintf.c	22;"	d	file:
+SN	bug22.c	9;"	d	file:
+SPECIAL	_itoa.c	188;"	d	file:
+SPECIAL	_itoa.c	205;"	d	file:
+SPECIAL	_itoa.h	58;"	d
+SPECIAL	_itoa.h	75;"	d
+SPECIAL	_itowa.h	46;"	d
+SPECIAL	_itowa.h	63;"	d
+SSCANF	bug18.c	8;"	d	file:
+SSCANF	bug18a.c	4;"	d	file:
+SSCANF	tst-sscanf.c	27;"	d	file:
+SSCANF	tst-swscanf.c	3;"	d	file:
+STEP0_3_TABLE	vfprintf.c	312;"	d	file:
+STEP4_TABLE	vfprintf.c	484;"	d	file:
+STR	tst-sprintf.c	23;"	d	file:
+STRINGIFY	bug22.c	6;"	d	file:
+STRING_ARG	vfscanf.c	673;"	d	file:
+STR_LEN	vfprintf.c	104;"	d	file:
+STR_LEN	vfprintf.c	87;"	d	file:
+SUPPRESS	vfscanf.c	59;"	d	file:
+T	vfprintf.c	1767;"	d	file:
+T	vfprintf.c	1800;"	d	file:
+TEST	bug13.c	11;"	d	file:
+TEST	tst-sprintf2.c	22;"	d	file:
+TESTFILE	test-fseek.c	21;"	d	file:
+TEST_FILE	tst-fmemopen.c	11;"	d	file:
+TEST_FUNCTION	bug16.c	42;"	d	file:
+TEST_FUNCTION	bug17.c	30;"	d	file:
+TEST_FUNCTION	bug18.c	47;"	d	file:
+TEST_FUNCTION	bug19.c	57;"	d	file:
+TEST_FUNCTION	bug20.c	31;"	d	file:
+TEST_FUNCTION	bug21.c	15;"	d	file:
+TEST_FUNCTION	bug22.c	31;"	d	file:
+TEST_FUNCTION	tst-fgets.c	19;"	d	file:
+TEST_FUNCTION	tst-fmemopen2.c	67;"	d	file:
+TEST_FUNCTION	tst-fwrite.c	16;"	d	file:
+TEST_FUNCTION	tst-popen.c	75;"	d	file:
+TEST_FUNCTION	tst-popen2.c	91;"	d	file:
+TEST_FUNCTION	tst-put-error.c	32;"	d	file:
+TEST_FUNCTION	tst-rndseek.c	12;"	d	file:
+TEST_FUNCTION	tst-setvbuf1.c	18;"	d	file:
+TEST_FUNCTION	tst-unlockedio.c	29;"	d	file:
+THE_COOKIE	tst-cookie.c	9;"	d	file:
+TIMEOUT	bug22.c	30;"	d	file:
+TIMEOUT	tst-rndseek.c	13;"	d	file:
+TOLOWER	vfscanf.c	126;"	d	file:
+TOLOWER	vfscanf.c	95;"	d	file:
+UCHAR_T	printf-parsemb.c	30;"	d	file:
+UCHAR_T	printf-parsemb.c	37;"	d	file:
+UCHAR_T	printf-prs.c	31;"	d	file:
+UCHAR_T	printf-prs.c	45;"	d	file:
+UCHAR_T	vfprintf.c	100;"	d	file:
+UCHAR_T	vfprintf.c	83;"	d	file:
+UCHAR_T	vfscanf.c	107;"	d	file:
+UCHAR_T	vfscanf.c	133;"	d	file:
+UDIV_TIME	_itoa.c	38;"	d	file:
+UDIV_TIME	_itowa.c	37;"	d	file:
+UMUL_TIME	_itoa.c	35;"	d	file:
+UMUL_TIME	_itowa.c	34;"	d	file:
+UNBUFFERED_P	vfprintf.c	65;"	d	file:
+UNLOCK_STREAM	vfscanf.c	191;"	d	file:
+UNS	tst-printf.c	80;"	d	file:
+V	tst-printfsz.c	6;"	d	file:
+WC_EXP	tst-perror.c	20;"	d	file:
+WC_EXP_LEN	tst-perror.c	24;"	d	file:
+WINT_T	vfscanf.c	108;"	d	file:
+WINT_T	vfscanf.c	134;"	d	file:
+_Buffer	xbug.c	/^typedef struct _Buffer {$/;"	s	file:
+_FPIO_CONST_SHIFT	printf_fp.c	529;"	d	file:
+_GNU_SOURCE	scanf15.c	1;"	d	file:
+_GNU_SOURCE	scanf17.c	1;"	d	file:
+_GNU_SOURCE	tst-wc-printf.c	1;"	d	file:
+_IO_flockfile	flockfile.c	22;"	d	file:
+_IO_ftrylockfile	ftrylockfile.c	22;"	d	file:
+_IO_funlockfile	funlockfile.c	22;"	d	file:
+_IO_helper_jumps	vfprintf.c	/^static const struct _IO_jump_t _IO_helper_jumps =$/;"	v	typeref:struct:_IO_jump_t	file:
+_IO_helper_overflow	vfprintf.c	/^_IO_helper_overflow (_IO_FILE *s, int c)$/;"	f	file:
+_IO_printf	printf.c	41;"	d	file:
+_IO_sscanf	sscanf.c	41;"	d	file:
+_IO_vfwscanf	vfscanf.c	/^_IO_vfwscanf (_IO_FILE *s, const wchar_t *format, _IO_va_list argptr,$/;"	f
+_ITOA_H	_itoa.h	21;"	d
+_ITOWA_H	_itowa.h	21;"	d
+_LIBC	scanf15.c	3;"	d	file:
+_LIBC	scanf17.c	3;"	d	file:
+_PRINTF_H	printf.h	22;"	d
+_STDIO_EXT_H	stdio_ext.h	24;"	d
+_XOPEN_SOURCE	scanf15.c	2;"	d	file:
+_XOPEN_SOURCE	scanf17.c	2;"	d	file:
+__OPTIMIZE__	vprintf.c	20;"	d	file:
+__THROW	printf.h	/^extern int register_printf_modifier (__const wchar_t *__str) __wur __THROW;$/;"	v
+__THROW	printf.h	/^extern int register_printf_type (printf_va_arg_function __fct) __wur __THROW;$/;"	v
+___asprintf	asprintf.c	/^___asprintf (char **string_ptr, const char *format, ...)$/;"	f
+___printf_fp	printf_fp.c	/^___printf_fp (FILE *fp,$/;"	f
+__asprintf	asprintf.c	25;"	d	file:
+__attribute_deprecated__	printf.h	/^  __THROW __attribute_deprecated__;$/;"	v
+__dprintf	dprintf.c	/^__dprintf (int d, const char *format, ...)$/;"	f
+__fdopen	tmpfile.c	27;"	d	file:
+__find_specmb	printf-parse.h	/^__find_specmb (const unsigned char *format)$/;"	f
+__find_specwc	printf-parse.h	/^__find_specwc (const unsigned int *format)$/;"	f
+__flockfile	flockfile.c	/^__flockfile (FILE *stream)$/;"	f
+__fprintf	fprintf.c	/^__fprintf (FILE *stream, const char *format, ...)$/;"	f
+__fscanf	fscanf.c	/^__fscanf (FILE *stream, const char *format, ...)$/;"	f
+__ftrylockfile	ftrylockfile.c	/^__ftrylockfile (FILE *stream)$/;"	f
+__funlockfile	funlockfile.c	/^__funlockfile (FILE *stream)$/;"	f
+__fxprintf	fxprintf.c	/^__fxprintf (FILE *fp, const char *fmt, ...)$/;"	f
+__getdelim	getline.c	28;"	d	file:
+__getline	getline.c	/^__getline (char **lineptr, size_t *n, FILE *stream)$/;"	f
+__getline	getline.c	23;"	d	file:
+__handle_registered_modifier_wc	reg-modifier.c	/^__handle_registered_modifier_wc (const unsigned int **format,$/;"	f
+__isoc99_fscanf	isoc99_fscanf.c	/^__isoc99_fscanf (FILE *stream, const char *format, ...)$/;"	f
+__isoc99_scanf	isoc99_scanf.c	/^__isoc99_scanf (const char *format, ...)$/;"	f
+__isoc99_sscanf	isoc99_sscanf.c	/^__isoc99_sscanf (const char *s, const char *format, ...)$/;"	f
+__isoc99_vfscanf	isoc99_vfscanf.c	/^__isoc99_vfscanf (FILE *stream, const char *format, _IO_va_list args)$/;"	f
+__isoc99_vscanf	isoc99_vscanf.c	/^__isoc99_vscanf (const char *format, _IO_va_list args)$/;"	f
+__isoc99_vsscanf	isoc99_vsscanf.c	/^__isoc99_vsscanf (const char *string, const char *format, _IO_va_list args)$/;"	f
+__need_FILE	printf.h	27;"	d
+__need_size_t	printf.h	29;"	d
+__need_size_t	tempname.c	19;"	d	file:
+__need_wchar_t	printf.h	30;"	d
+__pad	printf.h	/^  unsigned int __pad:4;		\/* Unused so far.  *\/$/;"	m	struct:printf_info
+__parse_one_specwc	printf-parsemb.c	/^__parse_one_specwc (const UCHAR_T *format, size_t posn,$/;"	f
+__path_search	tempname.c	/^__path_search (tmpl, tmpl_len, dir, pfx, try_tmpdir)$/;"	f
+__printf	printf.c	/^__printf (const char *format, ...)$/;"	f
+__printf_fphex	printf_fphex.c	/^__printf_fphex (FILE *fp,$/;"	f
+__printf_size	printf_size.c	/^__printf_size (FILE *fp, const struct printf_info *info,$/;"	f
+__register_printf_modifier	reg-modifier.c	/^__register_printf_modifier (const wchar_t *str)$/;"	f
+__register_printf_specifier	reg-printf.c	/^__register_printf_specifier (spec, converter, arginfo)$/;"	f
+__register_printf_type	reg-type.c	/^__register_printf_type (printf_va_arg_function fct)$/;"	f
+__scanf	scanf.c	/^__scanf (const char *format, ...)$/;"	f
+__snprintf	snprintf.c	/^__snprintf (char *s, size_t maxlen, const char *format, ...)$/;"	f
+__sprintf	sprintf.c	/^__sprintf (char *s, const char *format, ...)$/;"	f
+__sscanf	sscanf.c	/^__sscanf (const char *s, const char *format, ...)$/;"	f
+__strtod_internal	vfscanf.c	102;"	d	file:
+__strtof_internal	vfscanf.c	103;"	d	file:
+__strtol_internal	vfscanf.c	99;"	d	file:
+__strtold_internal	vfscanf.c	101;"	d	file:
+__strtoll_internal	vfscanf.c	97;"	d	file:
+__strtoul_internal	vfscanf.c	100;"	d	file:
+__strtoull_internal	vfscanf.c	98;"	d	file:
+__vfwscanf	vfscanf.c	/^__vfwscanf (FILE *s, const wchar_t *format, va_list argptr)$/;"	f
+__vprintf	vprintf.c	/^__vprintf (const char *format, __gnuc_va_list arg)$/;"	f
+__vsnprintf	snprintf.c	23;"	d	file:
+__vsscanf	sscanf.c	23;"	d	file:
+_f	vfprintf.c	/^    struct _IO_FILE_plus _f;$/;"	m	struct:helper_file	typeref:struct:helper_file::_IO_FILE_plus	file:
+_fitoa	_itoa.c	/^_fitoa (unsigned long long value, char *buf, unsigned int base, int upper_case)$/;"	f
+_fitoa	_itoa.h	89;"	d
+_fitoa_word	_itoa.c	/^_fitoa_word (unsigned long value, char *buf, unsigned int base, int upper_case)$/;"	f
+_i18n_number_rewrite	_i18n_number.h	/^_i18n_number_rewrite (CHAR_T *w, CHAR_T *rear_ptr, CHAR_T *end)$/;"	f
+_itoa	_itoa.c	/^_itoa (value, buflim, base, upper_case)$/;"	f
+_itoa	_itoa.h	87;"	d
+_itoa	vfprintf.c	115;"	d	file:
+_itoa	vfprintf.c	116;"	d	file:
+_itoa_lower_digits	itoa-digits.c	/^const char _itoa_lower_digits[36]$/;"	v
+_itoa_upper_digits	itoa-udigits.c	/^const char _itoa_upper_digits[36]$/;"	v
+_itoa_word	_itoa.c	/^_itoa_word (unsigned long value, char *buflim,$/;"	f
+_itoa_word	_itoa.h	/^_itoa_word (unsigned long value, char *buflim,$/;"	f
+_itoa_word	vfprintf.c	117;"	d	file:
+_itowa	_itowa.c	/^_itowa (value, buflim, base, upper_case)$/;"	f
+_itowa_word	_itowa.h	/^_itowa_word (unsigned long value, wchar_t *buflim,$/;"	f
+_put_stream	vfprintf.c	/^    _IO_FILE *_put_stream;$/;"	m	struct:helper_file	file:
+_sys_errlist	errlist.c	/^const char *const _sys_errlist[] =$/;"	v
+_sys_nerr	errlist.c	/^const int _sys_nerr = sizeof (_sys_errlist) \/ sizeof (_sys_errlist[0]);$/;"	v
+_sys_siglist	siglist.c	/^const char *const _sys_siglist[NSIG] =$/;"	v
+_wide_data	vfprintf.c	/^    struct _IO_wide_data _wide_data;$/;"	m	struct:helper_file	typeref:struct:helper_file::_IO_wide_data	file:
+add_ptr_to_free	vfscanf.c	157;"	d	file:
+alt	printf.h	/^  unsigned int alt:1;		\/* # flag.  *\/$/;"	m	struct:printf_info
+arginfo	reg-printf.c	/^     printf_arginfo_function arginfo;$/;"	v
+assert	tst-fdopen.c	7;"	d	file:
+assert	tst-fdopen.c	8;"	d	file:
+assert	tst-ungetc.c	6;"	d	file:
+assert	tst-ungetc.c	7;"	d	file:
+attribute_hidden	_itoa.c	/^const struct base_table_t _itoa_base_table[] attribute_hidden =$/;"	v	typeref:struct:_itoa_base_table
+attribute_hidden	itowa-digits.c	/^const wchar_t _itowa_lower_digits[36] attribute_hidden$/;"	v
+attribute_hidden	itowa-digits.c	/^const wchar_t _itowa_upper_digits[36] attribute_hidden$/;"	v
+attribute_hidden	reg-modifier.c	/^struct printf_modifier_record **__printf_modifier_table attribute_hidden;$/;"	v	typeref:struct:__printf_modifier_table
+attribute_hidden	reg-printf.c	/^printf_function **__printf_function_table attribute_hidden;$/;"	v
+aux	Makefile	/^aux	:= errlist siglist printf-parsemb fxprintf$/;"	m
+b	bug12.c	/^char x[4096], z[4096], b[21], m[4096 * 4];$/;"	v
+base_multiplier	_itoa.c	/^  mp_limb_t base_multiplier;$/;"	m	struct:base_table_t	file:
+base_multiplier	_itowa.c	/^  mp_limb_t base_multiplier;$/;"	m	struct:base_table_t	file:
+base_table_t	_itoa.c	/^struct base_table_t$/;"	s	file:
+base_table_t	_itowa.c	/^struct base_table_t$/;"	s	file:
+big	_itoa.c	/^    } big;$/;"	m	struct:base_table_t	typeref:struct:base_table_t::__anon7	file:
+big	_itowa.c	/^    } big;$/;"	m	struct:base_table_t	typeref:struct:base_table_t::__anon3	file:
+bit	reg-modifier.c	/^  int bit;$/;"	m	struct:printf_modifier_record	file:
+buf	bug5.c	/^static char buf[8192];$/;"	v	file:
+buff	xbug.c	/^  char *buff;$/;"	m	struct:_Buffer	file:
+buffer	tst-fdopen.c	/^char buffer[256];$/;"	v
+buffered_vfprintf	vfprintf.c	/^buffered_vfprintf (register _IO_FILE *s, const CHAR_T *format,$/;"	f	file:
+bug14-ENV	Makefile	/^bug14-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+bug15-ENV	Makefile	/^bug15-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+check	tst-fileno.c	/^check (const char *name, FILE *stream, int fd)$/;"	f	file:
+conv_error	vfscanf.c	148;"	d	file:
+cookieclose	tst-cookie.c	/^cookieclose (void *cookie)$/;"	f	file:
+cookieclose_called	tst-cookie.c	/^static int cookieclose_called;$/;"	v	file:
+cookieread	tst-cookie.c	/^cookieread (void *cookie, char *buf, size_t count)$/;"	f	file:
+cookieread_called	tst-cookie.c	/^static int cookieread_called;$/;"	v	file:
+cookieseek	tst-cookie.c	/^cookieseek (void *cookie, off64_t *offset, int whence)$/;"	f	file:
+cookieseek_called	tst-cookie.c	/^static int cookieseek_called;$/;"	v	file:
+cookiewrite	tst-cookie.c	/^cookiewrite (void *cookie, const char *buf, size_t count)$/;"	f	file:
+cookiewrite_called	tst-cookie.c	/^static int cookiewrite_called;$/;"	v	file:
+count	vfscanf.c	/^  size_t count;$/;"	m	struct:ptrs_to_free	file:
+ctermid	ctermid.c	/^ctermid (s)$/;"	f
+cuserid	cuserid.c	/^cuserid (s)$/;"	f
+data_arg	printf-parse.h	/^    int data_arg;		\/* Position of data argument.  *\/$/;"	m	struct:printf_spec
+data_arg_type	printf-parse.h	/^    int data_arg_type;		\/* Type of first argument.  *\/$/;"	m	struct:printf_spec
+decimal	_i18n_number.h	33;"	d
+distribute	Makefile	/^distribute := _itoa.h _itowa.h _i18n_number.h \\$/;"	m
+do_prepare	tst-unlockedio.c	/^do_prepare (void)$/;"	f	file:
+do_test	bug16.c	/^do_test (void)$/;"	f	file:
+do_test	bug17.c	/^do_test (void)$/;"	f	file:
+do_test	bug18.c	/^do_test (void)$/;"	f	file:
+do_test	bug19.c	/^do_test (void)$/;"	f	file:
+do_test	bug20.c	/^do_test (void)$/;"	f	file:
+do_test	bug21.c	/^do_test (void)$/;"	f	file:
+do_test	bug22.c	/^do_test (void)$/;"	f	file:
+do_test	tst-fgets.c	/^do_test (void)$/;"	f	file:
+do_test	tst-fmemopen2.c	/^do_test (void)$/;"	f	file:
+do_test	tst-fphex.c	/^do_test (int argc, char **argv)$/;"	f	file:
+do_test	tst-fwrite.c	/^do_test (void)$/;"	f	file:
+do_test	tst-popen.c	/^do_test (void)$/;"	f	file:
+do_test	tst-popen2.c	/^do_test (void)$/;"	f	file:
+do_test	tst-put-error.c	/^do_test (void)$/;"	f	file:
+do_test	tst-rndseek.c	/^do_test (void)$/;"	f	file:
+do_test	tst-setvbuf1.c	/^do_test (void)$/;"	f	file:
+do_test	tst-unlockedio.c	/^do_test (void)$/;"	f	file:
+done_add	vfprintf.c	67;"	d	file:
+double_tests	tst-sscanf.c	/^struct test double_tests[] =$/;"	v	typeref:struct:test
+encode_error	vfscanf.c	143;"	d	file:
+end_of_fmt	printf-parse.h	/^    const UCHAR_T *end_of_fmt, *next_fmt;$/;"	m	struct:printf_spec
+errors	tst-cookie.c	/^static int errors;$/;"	v	file:
+exp_char	vfscanf.c	235;"	d	file:
+expect	tst-fphex.c	/^  const char *expect;$/;"	m	struct:testcase	file:
+extra	printf.h	/^  unsigned int extra:1;		\/* For special use.  *\/$/;"	m	struct:printf_info
+fd	tst-fwrite.c	/^static int fd;$/;"	v	file:
+fd	tst-unlockedio.c	/^int fd;$/;"	v
+files	temptest.c	/^char *files[500];$/;"	v
+flag	_itoa.c	/^  char flag;$/;"	m	struct:base_table_t	file:
+flag	_itowa.c	/^  char flag;$/;"	m	struct:base_table_t	file:
+flags	tempname.c	/^     int flags;$/;"	v
+fmt	tst-fphex.c	/^  const char *fmt;$/;"	m	struct:testcase	file:
+fmt	tst-sscanf.c	/^  const CHAR *fmt;$/;"	m	struct:test	file:
+fmt_long	tst-sscanf.c	/^const CHAR *fmt_long[] =$/;"	v
+fmtchk	tst-printf.c	/^fmtchk (const char *fmt)$/;"	f	file:
+fmtst1chk	tst-printf.c	/^fmtst1chk (const char *fmt)$/;"	f	file:
+fmtst2chk	tst-printf.c	/^fmtst2chk (const char *fmt)$/;"	f	file:
+fname	tst-rndseek.c	/^static char fname[] = "\/tmp\/rndseek.XXXXXX";$/;"	v	file:
+format_string	tfformat.c	/^  const char *format_string;$/;"	m	struct:__anon2	file:
+format_string	tiformat.c	/^  const char *format_string;$/;"	m	struct:__anon6	file:
+format_string	tllformat.c	/^  const char *format_string;$/;"	m	struct:__anon5	file:
+fp_test	tst-printf.c	/^fp_test (void)$/;"	f	file:
+fp_test	tst-rndseek.c	/^fp_test (const char *name, FILE *fp)$/;"	f	file:
+fread	getw.c	22;"	d	file:
+fwrite	putw.c	21;"	d	file:
+getw	getw.c	/^getw (FILE *stream)$/;"	f
+group	printf.h	/^  unsigned int group:1;		\/* ' flag.  *\/$/;"	m	struct:printf_info
+group_number	printf_fp.c	/^group_number (wchar_t *buf, wchar_t *bufend, unsigned int intdig_no,$/;"	f	file:
+group_number	vfprintf.c	/^group_number (CHAR_T *w, CHAR_T *rear_ptr, const char *grouping,$/;"	f	file:
+headers	Makefile	/^headers	:= stdio_ext.h printf.h bits\/printf-ldbl.h$/;"	m
+helper_file	vfprintf.c	/^struct helper_file$/;"	s	file:
+i18n	printf.h	/^  unsigned int i18n:1;		\/* I flag.  *\/$/;"	m	struct:printf_info
+inchar	vfscanf.c	117;"	d	file:
+inchar	vfscanf.c	85;"	d	file:
+info	printf-parse.h	/^    struct printf_info info;$/;"	m	struct:printf_spec	typeref:struct:printf_spec::printf_info
+infval	tstdiomisc.c	/^volatile double infval;$/;"	v
+init_sig	siglist.c	26;"	d	file:
+init_sig	siglist.c	28;"	d	file:
+init_sig	siglist.c	35;"	d	file:
+init_sig	siglist.c	37;"	d	file:
+input	tst-swprintf.c	/^const char input[] = "\\x8e\\xa1g\\x8e\\xa2h\\x8e\\xa3i\\x8e\\xa4j";$/;"	v
+input_error	vfscanf.c	152;"	d	file:
+int_tests	tst-sscanf.c	/^} int_tests[] =$/;"	v	typeref:struct:test
+internal_function	vfprintf.c	/^     __THROW __attribute__ ((noinline)) internal_function;$/;"	v
+internal_function	vfprintf.c	/^     __THROW internal_function;$/;"	v
+is_char	printf.h	/^  unsigned int is_char:1;	\/* hh flag.  *\/$/;"	m	struct:printf_info
+is_long	printf.h	/^  unsigned int is_long:1;	\/* l flag.  *\/$/;"	m	struct:printf_info
+is_long_double	printf.h	/^  unsigned int is_long_double:1;\/* L flag.  *\/$/;"	m	struct:printf_info
+is_long_num	vfprintf.c	179;"	d	file:
+is_long_num	vfprintf.c	181;"	d	file:
+is_longlong	vfprintf.c	171;"	d	file:
+is_longlong	vfprintf.c	173;"	d	file:
+is_short	printf.h	/^  unsigned int is_short:1;	\/* h flag.  *\/$/;"	m	struct:printf_info
+kind	tempname.c	/^     int kind;$/;"	v
+large	test-vfprintf.c	/^char large[50000];$/;"	v
+ldbl_hidden_def	printf_fp.c	/^ldbl_hidden_def (___printf_fp, __printf_fp)$/;"	f
+left	printf.h	/^  unsigned int left:1;		\/* - flag.  *\/$/;"	m	struct:printf_info
+libc_freeres_fn	reg-modifier.c	/^libc_freeres_fn (free_mem)$/;"	f
+line	tfformat.c	/^  int line;$/;"	m	struct:__anon2	file:
+line	tiformat.c	/^  int line;$/;"	m	struct:__anon6	file:
+line	tllformat.c	/^  int line;$/;"	m	struct:__anon5	file:
+linfval	tstdiomisc.c	/^volatile long double linfval;$/;"	v
+lnanval	tstdiomisc.c	/^volatile long double lnanval;$/;"	v
+lock	vfprintf.c	/^    _IO_lock_t lock;$/;"	m	struct:helper_file	file:
+locs	test-vfprintf.c	/^const char *locs[] =$/;"	v
+m	bug12.c	/^char x[4096], z[4096], b[21], m[4096 * 4];$/;"	v
+main	bug1.c	/^main (void)$/;"	f
+main	bug10.c	/^main (int arc, char *argv[])$/;"	f
+main	bug11.c	/^main (int argc, char *argv[])$/;"	f
+main	bug12.c	/^main (void)$/;"	f
+main	bug13.c	/^main (void)$/;"	f
+main	bug14.c	/^main (void)$/;"	f
+main	bug15.c	/^main (void)$/;"	f
+main	bug2.c	/^main (void)$/;"	f
+main	bug3.c	/^main (void)$/;"	f
+main	bug4.c	/^main (int argc, char *argv[])$/;"	f
+main	bug5.c	/^main (void)$/;"	f
+main	bug6.c	/^main (void)$/;"	f
+main	bug7.c	/^main (int argc, char *argv[])$/;"	f
+main	bug8.c	/^main(int argc, char *argv[])$/;"	f
+main	bug9.c	/^main(int argc, char *argv[])$/;"	f
+main	errnobug.c	/^main (void)$/;"	f
+main	scanf1.c	/^main (int argc, char *argv[])$/;"	f
+main	scanf10.c	/^main (int argc, char *argv[])$/;"	f
+main	scanf11.c	/^main (int argc, char *argv[])$/;"	f
+main	scanf12.c	/^main (void)$/;"	f
+main	scanf13.c	/^main (void)$/;"	f
+main	scanf14.c	/^main (void)$/;"	f
+main	scanf15.c	/^main (void)$/;"	f
+main	scanf16.c	/^main (void)$/;"	f
+main	scanf17.c	/^main (void)$/;"	f
+main	scanf2.c	/^main(int argc, char *argv[])$/;"	f
+main	scanf3.c	/^main(int arc, char *argv[])$/;"	f
+main	scanf4.c	/^main(int arc, char *argv[])$/;"	f
+main	scanf5.c	/^main(int argc, char *argv[])$/;"	f
+main	scanf7.c	/^main (int argc, char *argv[])$/;"	f
+main	scanf8.c	/^main (int argc, char *argv[])$/;"	f
+main	scanf9.c	/^main (void)$/;"	f
+main	temptest.c	/^main (int argc, char *argv[])$/;"	f
+main	test-fseek.c	/^main (void)$/;"	f
+main	test-fwrite.c	/^main (int argc, char *argv[])$/;"	f
+main	test-popen.c	/^main (void)$/;"	f
+main	test-vfprintf.c	/^main (void)$/;"	f
+main	test_rdwr.c	/^main (int argc, char **argv)$/;"	f
+main	tfformat.c	/^int main(int argc, char *argv[])$/;"	f
+main	tiformat.c	/^main(int argc, char *argv[])$/;"	f
+main	tllformat.c	/^main (void)$/;"	f
+main	tst-cookie.c	/^main (void)$/;"	f
+main	tst-fdopen.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-ferror.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-fileno.c	/^main (void)$/;"	f
+main	tst-fmemopen.c	/^main (void)$/;"	f
+main	tst-fseek.c	/^main (void)$/;"	f
+main	tst-gets.c	/^main (void)$/;"	f
+main	tst-obprintf.c	/^main (void)$/;"	f
+main	tst-perror.c	/^main (void)$/;"	f
+main	tst-printf.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-printfsz.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-sprintf.c	/^main (void)$/;"	f
+main	tst-sprintf2.c	/^main (void)$/;"	f
+main	tst-sscanf.c	/^main (void)$/;"	f
+main	tst-swprintf.c	/^main (void)$/;"	f
+main	tst-tmpnam.c	/^main (void)$/;"	f
+main	tst-unbputc.c	/^main (void)$/;"	f
+main	tst-ungetc.c	/^main (int argc, char *argv[])$/;"	f
+main	tst-wc-printf.c	/^main (void)$/;"	f
+main	tstdiomisc.c	/^main (int argc, char *argv[])$/;"	f
+main	tstgetln.c	/^main (int argc, char *argv[])$/;"	f
+main	tstscanf.c	/^main (int argc, char **argv)$/;"	f
+main	xbug.c	/^main(int argc, char *argv[])$/;"	f
+matches	tfformat.c	/^matches (register char *result, register const char *desired)$/;"	f	file:
+nanval	tstdiomisc.c	/^volatile double nanval;$/;"	v
+nbuf	tst-swprintf.c	19;"	d	file:
+ndata_args	printf-parse.h	/^    size_t ndata_args;$/;"	m	struct:printf_spec
+ndigits	_itoa.c	/^      char ndigits;$/;"	m	struct:base_table_t::__anon7	file:
+ndigits	_itowa.c	/^      char ndigits;$/;"	m	struct:base_table_t::__anon3	file:
+need_long	vfscanf.c	50;"	d	file:
+need_long	vfscanf.c	52;"	d	file:
+need_longlong	vfscanf.c	43;"	d	file:
+need_longlong	vfscanf.c	45;"	d	file:
+next	reg-modifier.c	/^  struct printf_modifier_record *next;$/;"	m	struct:printf_modifier_record	typeref:struct:printf_modifier_record::printf_modifier_record	file:
+next	vfscanf.c	/^  struct ptrs_to_free *next;$/;"	m	struct:ptrs_to_free	typeref:struct:ptrs_to_free::ptrs_to_free	file:
+next_bit	reg-modifier.c	/^static int next_bit;$/;"	v	file:
+next_fmt	printf-parse.h	/^    const UCHAR_T *end_of_fmt, *next_fmt;$/;"	m	struct:printf_spec
+nlocs	test-vfprintf.c	35;"	d	file:
+normalization_steps	_itoa.c	/^      char normalization_steps;$/;"	m	struct:base_table_t::__anon7	file:
+normalization_steps	_itowa.c	/^      char normalization_steps;$/;"	m	struct:base_table_t::__anon3	file:
+nstr	tst-fmemopen2.c	19;"	d	file:
+nstr2	tst-fmemopen2.c	47;"	d	file:
+null	vfprintf.c	/^static const CHAR_T null[] = L_("(null)");$/;"	v	file:
+obstack_chunk_alloc	tst-obprintf.c	15;"	d	file:
+obstack_chunk_free	tst-obprintf.c	16;"	d	file:
+outchar	printf_fp.c	72;"	d	file:
+outchar	printf_fphex.c	58;"	d	file:
+outchar	printf_size.c	44;"	d	file:
+outchar	vfprintf.c	140;"	d	file:
+outstring	vfprintf.c	153;"	d	file:
+pa_double	printf-parse.h	/^    double pa_double;$/;"	m	union:printf_arg
+pa_int	printf-parse.h	/^    int pa_int;$/;"	m	union:printf_arg
+pa_long_double	printf-parse.h	/^    long double pa_long_double;$/;"	m	union:printf_arg
+pa_long_int	printf-parse.h	/^    long int pa_long_int;$/;"	m	union:printf_arg
+pa_long_long_int	printf-parse.h	/^    long long int pa_long_long_int;$/;"	m	union:printf_arg
+pa_next_type	reg-type.c	/^static int pa_next_type = PA_LAST;$/;"	v	file:
+pa_pointer	printf-parse.h	/^    void *pa_pointer;$/;"	m	union:printf_arg
+pa_string	printf-parse.h	/^    const char *pa_string;$/;"	m	union:printf_arg
+pa_u_int	printf-parse.h	/^    unsigned int pa_u_int;$/;"	m	union:printf_arg
+pa_u_long_int	printf-parse.h	/^    unsigned long int pa_u_long_int;$/;"	m	union:printf_arg
+pa_u_long_long_int	printf-parse.h	/^    unsigned long long int pa_u_long_long_int;$/;"	m	union:printf_arg
+pa_user	printf-parse.h	/^    void *pa_user;$/;"	m	union:printf_arg
+pa_wchar	printf-parse.h	/^    wchar_t pa_wchar;$/;"	m	union:printf_arg
+pa_wstring	printf-parse.h	/^    const wchar_t *pa_wstring;$/;"	m	union:printf_arg
+pad	printf.h	/^  wchar_t pad;			\/* Padding character.  *\/$/;"	m	struct:printf_info
+parse_printf_format	printf-prs.c	/^parse_printf_format (fmt, n, argtypes)$/;"	f
+perror	perror.c	/^perror (const char *s)$/;"	f
+perror_internal	perror.c	/^perror_internal (FILE *fp, const char *s, int errnum)$/;"	f	file:
+post_shift	_itoa.c	/^  char post_shift;$/;"	m	struct:base_table_t	file:
+post_shift	_itowa.c	/^  char post_shift;$/;"	m	struct:base_table_t	file:
+prec	printf.h	/^  int prec;			\/* Precision.  *\/$/;"	m	struct:printf_info
+prec_arg	printf-parse.h	/^    int prec_arg, width_arg;$/;"	m	struct:printf_spec
+prepare	tst-fwrite.c	/^prepare (void)$/;"	f	file:
+printf	printf.c	24;"	d	file:
+printf_arg	printf-parse.h	/^union printf_arg$/;"	u
+printf_arginfo_function	printf.h	/^typedef int printf_arginfo_function (__const struct printf_info *__info,$/;"	t
+printf_arginfo_size_function	printf.h	/^typedef int printf_arginfo_size_function (__const struct printf_info *__info,$/;"	t
+printf_function	printf.h	/^typedef int printf_function (FILE *__stream,$/;"	t
+printf_info	printf.h	/^struct printf_info$/;"	s
+printf_modifier_record	reg-modifier.c	/^struct printf_modifier_record$/;"	s	file:
+printf_size_info	printf_size.c	/^printf_size_info (const struct printf_info *info, size_t n, int *argtypes)$/;"	f
+printf_spec	printf-parse.h	/^struct printf_spec$/;"	s
+printf_unknown	vfprintf.c	/^printf_unknown (FILE *s, const struct printf_info *info,$/;"	f	file:
+printf_va_arg_function	printf.h	/^typedef void printf_va_arg_function (void *__mem, va_list *__ap);$/;"	t
+process_arg	vfprintf.c	521;"	d	file:
+process_string_arg	vfprintf.c	980;"	d	file:
+psiginfo	psiginfo.c	/^psiginfo (const siginfo_t *pinfo, const char *s)$/;"	f
+psignal	psignal.c	/^psignal (int sig, const char *s)$/;"	f
+ptrs	vfscanf.c	/^  char **ptrs[32];$/;"	m	struct:ptrs_to_free	file:
+ptrs_to_free	vfscanf.c	/^struct ptrs_to_free$/;"	s	file:
+putc	printf_fp.c	64;"	d	file:
+putc	printf_fp.c	65;"	d	file:
+putc	printf_fphex.c	45;"	d	file:
+putc	printf_fphex.c	46;"	d	file:
+putc	printf_size.c	36;"	d	file:
+putc	printf_size.c	37;"	d	file:
+putw	putw.c	/^putw (int w, FILE *stream)$/;"	f
+read_data	test-popen.c	/^read_data (FILE *stream)$/;"	f	file:
+read_int	printf-parse.h	/^read_int (const UCHAR_T * *pstr)$/;"	f
+remove	remove.c	/^remove (file)$/;"	f
+rename	rename.c	/^rename (old, new)$/;"	f
+renameat	renameat.c	/^renameat (oldfd, old, newfd, new)$/;"	f
+required_precision	tfformat.c	/^int required_precision = 13;$/;"	v
+result	tfformat.c	/^  const char *result;$/;"	m	struct:__anon2	file:
+result	tiformat.c	/^  const char *result;$/;"	m	struct:__anon6	file:
+result	tllformat.c	/^  const char *result;$/;"	m	struct:__anon5	file:
+retval	tst-sscanf.c	/^  int retval;$/;"	m	struct:test	file:
+rfg1	tst-printf.c	/^rfg1 (void)$/;"	f	file:
+rfg2	tst-printf.c	/^rfg2 (void)$/;"	f	file:
+rfg3	tst-printf.c	/^rfg3 (void)$/;"	f	file:
+room	xbug.c	/^  int  room, used;$/;"	m	struct:_Buffer	file:
+routines	Makefile	/^routines	:=							      \\$/;"	m
+scanf13-ENV	Makefile	/^scanf13-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+showsign	printf.h	/^  unsigned int showsign:1;	\/* + flag.  *\/$/;"	m	struct:printf_info
+size	printf-parse.h	/^    int size;$/;"	m	struct:printf_spec
+size_t	printf_fp.c	67;"	d	file:
+size_t	printf_fphex.c	48;"	d	file:
+size_t	printf_size.c	39;"	d	file:
+space	printf.h	/^  unsigned int space:1;		\/* Space flag.  *\/$/;"	m	struct:printf_info
+spec	printf.h	/^  wchar_t spec;			\/* Format letter.  *\/$/;"	m	struct:printf_info
+sprint_double_type	tfformat.c	/^} sprint_double_type;$/;"	t	typeref:struct:__anon2	file:
+sprint_doubles	tfformat.c	/^sprint_double_type sprint_doubles[] =$/;"	v
+sprint_int_type	tiformat.c	/^} sprint_int_type;$/;"	t	typeref:struct:__anon6	file:
+sprint_int_type	tllformat.c	/^} sprint_int_type;$/;"	t	typeref:struct:__anon5	file:
+sprint_ints	tiformat.c	/^sprint_int_type sprint_ints[] =$/;"	v
+sprint_ints	tllformat.c	/^sprint_int_type sprint_ints[] =$/;"	v
+ssize_t	getline.c	26;"	d	file:
+ssize_t	getline.c	27;"	d	file:
+ssize_t	tstgetln.c	21;"	d	file:
+ssize_t	tstgetln.c	22;"	d	file:
+stdio_block_read	bug4.c	/^int stdio_block_read = 1, stdio_block_write = 1;$/;"	v
+stdio_block_write	bug4.c	/^int stdio_block_read = 1, stdio_block_write = 1;$/;"	v
+str	bug16.c	/^  const char str[4][7];$/;"	m	struct:__anon1	file:
+str	reg-modifier.c	/^  wchar_t str[0];$/;"	m	struct:printf_modifier_record	file:
+str	tst-sscanf.c	/^  const CHAR *str;$/;"	m	struct:test	file:
+str_double	tst-sscanf.c	/^const CHAR *str_double[] =$/;"	v
+str_long	tst-sscanf.c	/^const CHAR *str_long[] =$/;"	v
+string	bug14.c	/^static const char string[] = "\\$/;"	v	file:
+subdir	Makefile	/^subdir	:= stdio-common$/;"	m
+suffixlen	tempname.c	/^     int suffixlen;$/;"	v
+t1	tstdiomisc.c	/^t1 (void)$/;"	f	file:
+t2	tstdiomisc.c	/^t2 (void)$/;"	f	file:
+tempdata	tst-rndseek.c	/^static char tempdata[65 * 1024];$/;"	v	file:
+tempnam	tempnam.c	/^tempnam (const char *dir, const char *pfx)$/;"	f
+test	tst-sscanf.c	/^struct test$/;"	s	file:
+test-srcs	Makefile	/^test-srcs = tst-unbputc tst-printf$/;"	m
+test-vfprintf-ENV	Makefile	/^test-vfprintf-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+testcase	tst-fphex.c	/^struct testcase$/;"	s	file:
+testcases	tst-fphex.c	/^static const struct testcase testcases[] =$/;"	v	typeref:struct:testcase	file:
+tests	Makefile	/^tests := tstscanf test_rdwr test-popen tstgetln test-fseek \\$/;"	m
+tests	bug16.c	/^} tests[] =$/;"	v	typeref:struct:__anon1
+thousands	_i18n_number.h	34;"	d
+tmpfile	tmpfile.c	/^tmpfile (void)$/;"	f
+tmpfile	tmpfile.c	29;"	d	file:
+tmpfile	tmpfile.c	66;"	d	file:
+tmpfile	tmpfile64.c	2;"	d	file:
+tmpnam	tmpnam.c	/^tmpnam (char *s)$/;"	f
+tmpnam_buffer	tmpnam.c	/^static char tmpnam_buffer[L_tmpnam];$/;"	v	file:
+tmpnam_r	tmpnam_r.c	/^tmpnam_r (char *s)$/;"	f
+tst-sscanf-ENV	Makefile	/^tst-sscanf-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+tst-swprintf-ENV	Makefile	/^tst-swprintf-ENV = LOCPATH=$(common-objpfx)localedata$/;"	m
+u_char	scanf15.c	6;"	d	file:
+u_char	scanf17.c	6;"	d	file:
+u_int	scanf15.c	8;"	d	file:
+u_int	scanf17.c	8;"	d	file:
+u_long	scanf15.c	9;"	d	file:
+u_long	scanf17.c	9;"	d	file:
+u_short	scanf15.c	7;"	d	file:
+u_short	scanf17.c	7;"	d	file:
+ungetc	vfscanf.c	112;"	d	file:
+ungetc	vfscanf.c	80;"	d	file:
+ungetc_not_eof	vfscanf.c	115;"	d	file:
+ungetc_not_eof	vfscanf.c	83;"	d	file:
+used	xbug.c	/^  int  room, used;$/;"	m	struct:_Buffer	file:
+user	printf.h	/^  unsigned short int user;	\/* Bits for user-installed modifiers.  *\/$/;"	m	struct:printf_info
+va_list	vfprintf.c	45;"	d	file:
+va_list	vfprintf.c	46;"	d	file:
+va_list	vfscanf.c	76;"	d	file:
+va_list	vfscanf.c	77;"	d	file:
+val	bug16.c	/^  long double val;$/;"	m	struct:__anon1	file:
+val_double	tst-sscanf.c	/^const double val_double[] =$/;"	v
+val_long	tst-sscanf.c	/^const long int val_long[] =$/;"	v
+value	tfformat.c	/^  double value;$/;"	m	struct:__anon2	file:
+value	tiformat.c	/^  long value;$/;"	m	struct:__anon6	file:
+value	tllformat.c	/^  long long int value;$/;"	m	struct:__anon5	file:
+value	tst-fphex.c	/^  double value;$/;"	m	struct:testcase	file:
+vasprintf	asprintf.c	24;"	d	file:
+vdprintf	dprintf.c	23;"	d	file:
+vfprintf	printf-prs.c	43;"	d	file:
+vfprintf	vfprintf.c	/^vfprintf (FILE *s, const CHAR_T *format, va_list ap)$/;"	f
+vfprintf	vfprintf.c	2287;"	d	file:
+vfprintf	vfprintf.c	81;"	d	file:
+vfprintf	vfprintf.c	97;"	d	file:
+vprintf	vprintf.c	24;"	d	file:
+vsprintf	sprintf.c	23;"	d	file:
+weak_alias	reg-modifier.c	/^weak_alias (__register_printf_modifier, register_printf_modifier)$/;"	f
+wide	printf.h	/^  unsigned int wide:1;		\/* Nonzero for wide character streams.  *\/$/;"	m	struct:printf_info
+width	printf.h	/^  int width;			\/* Width.  *\/$/;"	m	struct:printf_info
+width_arg	printf-parse.h	/^    int prec_arg, width_arg;$/;"	m	struct:printf_spec
+write_data	test-popen.c	/^write_data (FILE *stream)$/;"	f	file:
+x	bug12.c	/^char x[4096], z[4096], b[21], m[4096 * 4];$/;"	v
+xfscanf	scanf16.c	/^xfscanf (FILE *f, const char *fmt, ...)$/;"	f	file:
+xfscanf	scanf17.c	/^xfscanf (FILE *f, const char *fmt, ...)$/;"	f	file:
+xscanf	scanf16.c	/^xscanf (const char *fmt, ...)$/;"	f	file:
+xscanf	scanf17.c	/^xscanf (const char *fmt, ...)$/;"	f	file:
+xsscanf	scanf16.c	/^xsscanf (const char *str, const char *fmt, ...)$/;"	f	file:
+xsscanf	scanf17.c	/^xsscanf (const char *str, const char *fmt, ...)$/;"	f	file:
+z	bug12.c	/^char x[4096], z[4096], b[21], m[4096 * 4];$/;"	v

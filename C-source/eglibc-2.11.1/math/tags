@@ -1,0 +1,1092 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL_EXC	test-fenv.c	52;"	d	file:
+BINARY_CTEST	test-tgmath2.c	276;"	d	file:
+BINARY_TEST	test-tgmath2.c	251;"	d	file:
+C	test-tgmath2.c	351;"	d	file:
+C	test-tgmath2.c	358;"	d	file:
+C	test-tgmath2.c	366;"	d	file:
+C	test-tgmath2.c	486;"	d	file:
+CFLAGS-test-double.c	Makefile	/^CFLAGS-test-double.c = -fno-inline -ffloat-store -fno-builtin$/;"	m
+CFLAGS-test-float.c	Makefile	/^CFLAGS-test-float.c = -fno-inline -ffloat-store -fno-builtin$/;"	m
+CFLAGS-test-ldouble.c	Makefile	/^CFLAGS-test-ldouble.c = -fno-inline -ffloat-store -fno-builtin$/;"	m
+CFLAGS-test-tgmath-ret.c	Makefile	/^CFLAGS-test-tgmath-ret.c = -fno-builtin$/;"	m
+CFLAGS-test-tgmath.c	Makefile	/^CFLAGS-test-tgmath.c = -fno-builtin$/;"	m
+CFLAGS-test-tgmath2.c	Makefile	/^CFLAGS-test-tgmath2.c = -fno-builtin$/;"	m
+CHECK_RET_CONST	test-tgmath-ret.c	55;"	d	file:
+CHECK_RET_CONST_DOUBLE	test-tgmath-int.c	42;"	d	file:
+CHECK_RET_CONST_DOUBLE	test-tgmath-ret.c	46;"	d	file:
+CHECK_RET_CONST_FLOAT	test-tgmath-int.c	39;"	d	file:
+CHECK_RET_CONST_FLOAT	test-tgmath-ret.c	44;"	d	file:
+CHECK_RET_CONST_LDOUBLE	test-tgmath-ret.c	49;"	d	file:
+CHECK_RET_CONST_LDOUBLE	test-tgmath-ret.c	51;"	d	file:
+CHECK_RET_CONST_TYPE	test-tgmath-int.c	35;"	d	file:
+CHECK_RET_CONST_TYPE	test-tgmath-ret.c	40;"	d	file:
+CHOOSE	test-double.c	24;"	d	file:
+CHOOSE	test-float.c	24;"	d	file:
+CHOOSE	test-idouble.c	24;"	d	file:
+CHOOSE	test-ifloat.c	24;"	d	file:
+CHOOSE	test-ildoubl.c	24;"	d	file:
+CHOOSE	test-ldouble.c	24;"	d	file:
+CPPFLAGS-s_lib_version.c	Makefile	/^CPPFLAGS-s_lib_version.c := -D_POSIX_MODE$/;"	m
+CPPFLAGS-test-idouble.c	Makefile	/^CPPFLAGS-test-idouble.c = -U__LIBC_INTERNAL_MATH_INLINES -D__FAST_MATH__ \\$/;"	m
+CPPFLAGS-test-ifloat.c	Makefile	/^CPPFLAGS-test-ifloat.c = -U__LIBC_INTERNAL_MATH_INLINES -D__FAST_MATH__ \\$/;"	m
+CPPFLAGS-test-ildoubl.c	Makefile	/^CPPFLAGS-test-ildoubl.c = -U__LIBC_INTERNAL_MATH_INLINES -D__FAST_MATH__ \\$/;"	m
+CTYPE	test-tgmath2.c	349;"	d	file:
+CTYPE	test-tgmath2.c	356;"	d	file:
+CTYPE	test-tgmath2.c	364;"	d	file:
+CTYPE	test-tgmath2.c	484;"	d	file:
+C_atan2	test-tgmath2.c	/^    C_atan2,$/;"	e	enum:__anon7	file:
+C_cabs	test-tgmath2.c	/^    C_cabs,$/;"	e	enum:__anon7	file:
+C_conj	test-tgmath2.c	/^    C_conj,$/;"	e	enum:__anon7	file:
+C_cos	test-tgmath2.c	/^    C_cos = 0,$/;"	e	enum:__anon7	file:
+C_expm1	test-tgmath2.c	/^    C_expm1,$/;"	e	enum:__anon7	file:
+C_fabs	test-tgmath2.c	/^    C_fabs,$/;"	e	enum:__anon7	file:
+C_fma	test-tgmath2.c	/^    C_fma,$/;"	e	enum:__anon7	file:
+C_last	test-tgmath2.c	/^    C_last$/;"	e	enum:__anon7	file:
+C_ldexp	test-tgmath2.c	/^    C_ldexp,$/;"	e	enum:__anon7	file:
+C_lrint	test-tgmath2.c	/^    C_lrint,$/;"	e	enum:__anon7	file:
+C_pow	test-tgmath2.c	/^    C_pow,$/;"	e	enum:__anon7	file:
+C_remquo	test-tgmath2.c	/^    C_remquo,$/;"	e	enum:__anon7	file:
+DIVBYZERO_EXC	test-fenv.c	48;"	d	file:
+DOMAIN	math.h	339;"	d
+EXTRACT_WORDS	math_private.h	69;"	d
+EXTRACT_WORDS64	math_private.h	96;"	d
+F	test-tgmath.c	/^(F(acos)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(acosh)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(asin)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(asinh)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(atan)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(atan2)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(atanh)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cabs)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cacos)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cacosh)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(carg)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(casin)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(casinh)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(catan)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(catanh)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cbrt)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(ccos)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(ccosh)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(ceil)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cexp)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cimag)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(clog)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(conj)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cos)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cosh)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(cpow)) (complex TYPE x, complex TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(cproj)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(creal)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(csin)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(csinh)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(csqrt)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(ctan)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(ctanh)) (complex TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(erf)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(erfc)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(exp)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(exp2)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(expm1)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(fabs)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(fdim)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(floor)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(fma)) (TYPE x, TYPE y, TYPE z)$/;"	f
+F	test-tgmath.c	/^(F(fmax)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(fmin)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(fmod)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(frexp)) (TYPE x, int *y)$/;"	f
+F	test-tgmath.c	/^(F(hypot)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(ilogb)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(ldexp)) (TYPE x, int y)$/;"	f
+F	test-tgmath.c	/^(F(lgamma)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(llrint)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(llround)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(log)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(log10)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(log1p)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(log2)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(logb)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(lrint)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(lround)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(nearbyint)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(nextafter)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(nexttoward)) (TYPE x, long double y)$/;"	f
+F	test-tgmath.c	/^(F(pow)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(remainder)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(remquo)) (TYPE x, TYPE y, int *i)$/;"	f
+F	test-tgmath.c	/^(F(rint)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(round)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(scalb)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath.c	/^(F(scalbln)) (TYPE x, long int y)$/;"	f
+F	test-tgmath.c	/^(F(scalbn)) (TYPE x, int y)$/;"	f
+F	test-tgmath.c	/^(F(sin)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(sinh)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(sqrt)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(tan)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(tanh)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(tgamma)) (TYPE x)$/;"	f
+F	test-tgmath.c	/^(F(trunc)) (TYPE x)$/;"	f
+F	test-tgmath.c	1033;"	d	file:
+F	test-tgmath.c	184;"	d	file:
+F	test-tgmath.c	194;"	d	file:
+F	test-tgmath.c	204;"	d	file:
+F	test-tgmath2.c	/^(F(atan2)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath2.c	/^(F(cabs)) (CTYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(ccos)) (CTYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(conj)) (CTYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(cos)) (TYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(cpow)) (CTYPE x, CTYPE y)$/;"	f
+F	test-tgmath2.c	/^(F(expm1)) (TYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(fabs)) (TYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(fma)) (TYPE x, TYPE y, TYPE z)$/;"	f
+F	test-tgmath2.c	/^(F(ldexp)) (TYPE x, int y)$/;"	f
+F	test-tgmath2.c	/^(F(lrint)) (TYPE x)$/;"	f
+F	test-tgmath2.c	/^(F(pow)) (TYPE x, TYPE y)$/;"	f
+F	test-tgmath2.c	/^(F(remquo)) (TYPE x, TYPE y, int *z)$/;"	f
+F	test-tgmath2.c	347;"	d	file:
+F	test-tgmath2.c	354;"	d	file:
+F	test-tgmath2.c	362;"	d	file:
+F	test-tgmath2.c	482;"	d	file:
+FAIL	test-tgmath2.c	99;"	d	file:
+FIRST	test-tgmath2.c	234;"	d	file:
+FLOAT	test-double.c	21;"	d	file:
+FLOAT	test-float.c	21;"	d	file:
+FLOAT	test-idouble.c	21;"	d	file:
+FLOAT	test-ifloat.c	21;"	d	file:
+FLOAT	test-ildoubl.c	21;"	d	file:
+FLOAT	test-ldouble.c	21;"	d	file:
+FP_INFINITE	math.h	/^    FP_INFINITE,$/;"	e	enum:__anon8
+FP_INFINITE	math.h	207;"	d
+FP_NAN	math.h	/^    FP_NAN,$/;"	e	enum:__anon8
+FP_NAN	math.h	205;"	d
+FP_NORMAL	math.h	/^    FP_NORMAL$/;"	e	enum:__anon8
+FP_NORMAL	math.h	213;"	d
+FP_SUBNORMAL	math.h	/^    FP_SUBNORMAL,$/;"	e	enum:__anon8
+FP_SUBNORMAL	math.h	211;"	d
+FP_ZERO	math.h	/^    FP_ZERO,$/;"	e	enum:__anon8
+FP_ZERO	math.h	209;"	d
+FRAC	atest-exp.c	31;"	d	file:
+FRAC	atest-exp2.c	32;"	d	file:
+FRAC	atest-sincos.c	31;"	d	file:
+FUNC	test-double.c	20;"	d	file:
+FUNC	test-float.c	20;"	d	file:
+FUNC	test-idouble.c	20;"	d	file:
+FUNC	test-ifloat.c	20;"	d	file:
+FUNC	test-ildoubl.c	20;"	d	file:
+FUNC	test-ldouble.c	20;"	d	file:
+GET_FLOAT_WORD	math_private.h	152;"	d
+GET_HIGH_WORD	math_private.h	79;"	d
+GET_LOW_WORD	math_private.h	88;"	d
+HAVE_MAIN	test-tgmath.c	182;"	d	file:
+HAVE_MAIN	test-tgmath2.c	345;"	d	file:
+HUGE	math.h	347;"	d
+I	complex.h	49;"	d
+I	complex.h	50;"	d
+INEXACT_EXC	test-fenv.c	47;"	d	file:
+INSERT_WORDS	math_private.h	105;"	d
+INSERT_WORDS64	math_private.h	114;"	d
+INVALID_EXC	test-fenv.c	51;"	d	file:
+MATHCONST	test-double.c	23;"	d	file:
+MATHCONST	test-float.c	23;"	d	file:
+MATHCONST	test-idouble.c	23;"	d	file:
+MATHCONST	test-ifloat.c	23;"	d	file:
+MATHCONST	test-ildoubl.c	23;"	d	file:
+MATHCONST	test-ldouble.c	23;"	d	file:
+MATH_ERREXCEPT	math.h	282;"	d
+MATH_ERRNO	math.h	281;"	d
+MAXFLOAT	math.h	353;"	d
+M_1_PI	math.h	369;"	d
+M_1_PIl	math.h	388;"	d
+M_2_PI	math.h	370;"	d
+M_2_PIl	math.h	389;"	d
+M_2_SQRTPI	math.h	371;"	d
+M_2_SQRTPIl	math.h	390;"	d
+M_E	math.h	361;"	d
+M_El	math.h	380;"	d
+M_LN10	math.h	365;"	d
+M_LN10l	math.h	384;"	d
+M_LN2	math.h	364;"	d
+M_LN2l	math.h	383;"	d
+M_LOG10E	math.h	363;"	d
+M_LOG10El	math.h	382;"	d
+M_LOG2E	math.h	362;"	d
+M_LOG2El	math.h	381;"	d
+M_PI	math.h	366;"	d
+M_PI_2	math.h	367;"	d
+M_PI_2l	math.h	386;"	d
+M_PI_4	math.h	368;"	d
+M_PI_4l	math.h	387;"	d
+M_PIl	math.h	385;"	d
+M_SQRT1_2	math.h	373;"	d
+M_SQRT1_2l	math.h	392;"	d
+M_SQRT2	math.h	372;"	d
+M_SQRT2l	math.h	391;"	d
+N	atest-sincos.c	29;"	d	file:
+N2	atest-exp.c	30;"	d	file:
+N2	atest-exp2.c	31;"	d	file:
+N2	atest-sincos.c	30;"	d	file:
+NCALLS	test-tgmath.c	54;"	d	file:
+NCALLS_INT	test-tgmath.c	55;"	d	file:
+NCCALLS	test-tgmath.c	56;"	d	file:
+NON_LDBL_CTEST	test-tgmath2.c	245;"	d	file:
+NON_LDBL_TEST	test-tgmath2.c	236;"	d	file:
+NO_EXC	test-fenv.c	46;"	d	file:
+OVERFLOW	math.h	341;"	d
+OVERFLOW_EXC	test-fenv.c	50;"	d	file:
+P	test-tgmath.c	217;"	d	file:
+P	test-tgmath.c	219;"	d	file:
+P	test-tgmath2.c	373;"	d	file:
+P	test-tgmath2.c	375;"	d	file:
+P	test-tgmath2.c	487;"	d	file:
+PLOSS	math.h	344;"	d
+PRINTF_EXPR	test-double.c	25;"	d	file:
+PRINTF_EXPR	test-float.c	25;"	d	file:
+PRINTF_EXPR	test-idouble.c	25;"	d	file:
+PRINTF_EXPR	test-ifloat.c	25;"	d	file:
+PRINTF_EXPR	test-ildoubl.c	25;"	d	file:
+PRINTF_EXPR	test-ldouble.c	25;"	d	file:
+PRINTF_NEXPR	test-double.c	27;"	d	file:
+PRINTF_NEXPR	test-float.c	27;"	d	file:
+PRINTF_NEXPR	test-idouble.c	27;"	d	file:
+PRINTF_NEXPR	test-ifloat.c	27;"	d	file:
+PRINTF_NEXPR	test-ildoubl.c	27;"	d	file:
+PRINTF_NEXPR	test-ldouble.c	27;"	d	file:
+PRINTF_XEXPR	test-double.c	26;"	d	file:
+PRINTF_XEXPR	test-float.c	26;"	d	file:
+PRINTF_XEXPR	test-idouble.c	26;"	d	file:
+PRINTF_XEXPR	test-ifloat.c	26;"	d	file:
+PRINTF_XEXPR	test-ildoubl.c	26;"	d	file:
+PRINTF_XEXPR	test-ldouble.c	26;"	d	file:
+PRINT_ERRORS	atest-exp.c	27;"	d	file:
+PRINT_ERRORS	atest-exp2.c	28;"	d	file:
+PRINT_ERRORS	atest-sincos.c	27;"	d	file:
+RCSID	machine/asm.h	10;"	d
+SECOND	test-tgmath2.c	235;"	d	file:
+SET_FLOAT_WORD	math_private.h	161;"	d
+SET_HIGH_WORD	math_private.h	123;"	d
+SET_LOW_WORD	math_private.h	133;"	d
+SING	math.h	340;"	d
+SZ	atest-exp.c	34;"	d	file:
+SZ	atest-exp2.c	35;"	d	file:
+SZ	atest-sincos.c	34;"	d	file:
+T	test-tgmath2.c	350;"	d	file:
+T	test-tgmath2.c	357;"	d	file:
+T	test-tgmath2.c	365;"	d	file:
+T	test-tgmath2.c	485;"	d	file:
+TEST	bug-tgmath1.c	10;"	d	file:
+TEST	test-tgmath2.c	140;"	d	file:
+TEST2	test-tgmath2.c	120;"	d	file:
+TEST_DOUBLE	test-double.c	28;"	d	file:
+TEST_DOUBLE	test-idouble.c	28;"	d	file:
+TEST_FLOAT	test-float.c	28;"	d	file:
+TEST_FLOAT	test-ifloat.c	28;"	d	file:
+TEST_FUNC	basic-test.c	36;"	d	file:
+TEST_FUNCTION	basic-test.c	152;"	d	file:
+TEST_FUNCTION	test-tgmath-int.c	70;"	d	file:
+TEST_FUNCTION	test-tgmath-ret.c	84;"	d	file:
+TEST_INLINE	test-idouble.c	29;"	d	file:
+TEST_INLINE	test-ifloat.c	29;"	d	file:
+TEST_INLINE	test-ildoubl.c	28;"	d	file:
+TEST_INT	test-tgmath.c	1037;"	d	file:
+TEST_INT	test-tgmath.c	186;"	d	file:
+TEST_LDOUBLE	test-ildoubl.c	29;"	d	file:
+TEST_LDOUBLE	test-ldouble.c	28;"	d	file:
+TEST_MSG	test-double.c	22;"	d	file:
+TEST_MSG	test-float.c	22;"	d	file:
+TEST_MSG	test-idouble.c	22;"	d	file:
+TEST_MSG	test-ifloat.c	22;"	d	file:
+TEST_MSG	test-ildoubl.c	22;"	d	file:
+TEST_MSG	test-ldouble.c	22;"	d	file:
+TEST_TRUNC	basic-test.c	106;"	d	file:
+TEST_TYPE_ONLY	test-tgmath2.c	106;"	d	file:
+TLOSS	math.h	343;"	d
+TOL	atest-exp.c	29;"	d	file:
+TOL	atest-exp2.c	30;"	d	file:
+TYPE	test-tgmath.c	1034;"	d	file:
+TYPE	test-tgmath.c	185;"	d	file:
+TYPE	test-tgmath.c	195;"	d	file:
+TYPE	test-tgmath.c	205;"	d	file:
+TYPE	test-tgmath2.c	348;"	d	file:
+TYPE	test-tgmath2.c	355;"	d	file:
+TYPE	test-tgmath2.c	363;"	d	file:
+TYPE	test-tgmath2.c	483;"	d	file:
+Tcdouble	test-tgmath2.c	/^    Tcdouble,$/;"	e	enum:__anon6	file:
+Tcfloat	test-tgmath2.c	/^    Tcfloat,$/;"	e	enum:__anon6	file:
+Tcldouble	test-tgmath2.c	/^    Tcldouble,$/;"	e	enum:__anon6	file:
+Tdouble	test-tgmath2.c	/^    Tdouble,$/;"	e	enum:__anon6	file:
+Tfloat	test-tgmath2.c	/^    Tfloat = 0,$/;"	e	enum:__anon6	file:
+Tlast	test-tgmath2.c	/^    Tlast$/;"	e	enum:__anon6	file:
+Tldouble	test-tgmath2.c	/^    Tldouble,$/;"	e	enum:__anon6	file:
+UNDERFLOW	math.h	342;"	d
+UNDERFLOW_EXC	test-fenv.c	49;"	d	file:
+Vcdouble1	test-tgmath2.c	/^const cdouble Vcdouble1 = 1, Vcdouble2 = 2, Vcdouble3 = 3;$/;"	v
+Vcdouble2	test-tgmath2.c	/^const cdouble Vcdouble1 = 1, Vcdouble2 = 2, Vcdouble3 = 3;$/;"	v
+Vcdouble3	test-tgmath2.c	/^const cdouble Vcdouble1 = 1, Vcdouble2 = 2, Vcdouble3 = 3;$/;"	v
+Vcfloat1	test-tgmath2.c	/^const cfloat Vcfloat1 = 1, Vcfloat2 = 2, Vcfloat3 = 3;$/;"	v
+Vcfloat2	test-tgmath2.c	/^const cfloat Vcfloat1 = 1, Vcfloat2 = 2, Vcfloat3 = 3;$/;"	v
+Vcfloat3	test-tgmath2.c	/^const cfloat Vcfloat1 = 1, Vcfloat2 = 2, Vcfloat3 = 3;$/;"	v
+Vcldouble1	test-tgmath2.c	/^const cldouble Vcldouble1 = 1, Vcldouble2 = 2, Vcldouble4 = 3;$/;"	v
+Vcldouble2	test-tgmath2.c	/^const cldouble Vcldouble1 = 1, Vcldouble2 = 2, Vcldouble4 = 3;$/;"	v
+Vcldouble4	test-tgmath2.c	/^const cldouble Vcldouble1 = 1, Vcldouble2 = 2, Vcldouble4 = 3;$/;"	v
+Vdouble1	test-tgmath2.c	/^const double Vdouble1 = 1, Vdouble2 = 2, Vdouble3 = 3;$/;"	v
+Vdouble2	test-tgmath2.c	/^const double Vdouble1 = 1, Vdouble2 = 2, Vdouble3 = 3;$/;"	v
+Vdouble3	test-tgmath2.c	/^const double Vdouble1 = 1, Vdouble2 = 2, Vdouble3 = 3;$/;"	v
+Vfloat1	test-tgmath2.c	/^const float Vfloat1 = 1, Vfloat2 = 2, Vfloat3 = 3;$/;"	v
+Vfloat2	test-tgmath2.c	/^const float Vfloat1 = 1, Vfloat2 = 2, Vfloat3 = 3;$/;"	v
+Vfloat3	test-tgmath2.c	/^const float Vfloat1 = 1, Vfloat2 = 2, Vfloat3 = 3;$/;"	v
+Vint1	test-tgmath2.c	/^const int Vint1 = 1, Vint2 = 2, Vint3 = 3;$/;"	v
+Vint2	test-tgmath2.c	/^const int Vint1 = 1, Vint2 = 2, Vint3 = 3;$/;"	v
+Vint3	test-tgmath2.c	/^const int Vint1 = 1, Vint2 = 2, Vint3 = 3;$/;"	v
+Vldouble1	test-tgmath2.c	/^const ldouble Vldouble1 = 1, Vldouble2 = 2, Vldouble3 = 3;$/;"	v
+Vldouble2	test-tgmath2.c	/^const ldouble Vldouble1 = 1, Vldouble2 = 2, Vldouble3 = 3;$/;"	v
+Vldouble3	test-tgmath2.c	/^const ldouble Vldouble1 = 1, Vldouble2 = 2, Vldouble3 = 3;$/;"	v
+Vllong1	test-tgmath2.c	/^const long long int Vllong1 = 1, Vllong2 = 2, Vllong3 = 3;$/;"	v
+Vllong2	test-tgmath2.c	/^const long long int Vllong1 = 1, Vllong2 = 2, Vllong3 = 3;$/;"	v
+Vllong3	test-tgmath2.c	/^const long long int Vllong1 = 1, Vllong2 = 2, Vllong3 = 3;$/;"	v
+Vlong1	test-tgmath2.c	/^const long int Vlong1 = 1, Vlong2 = 2, Vlong3 = 3;$/;"	v
+Vlong2	test-tgmath2.c	/^const long int Vlong1 = 1, Vlong2 = 2, Vlong3 = 3;$/;"	v
+Vlong3	test-tgmath2.c	/^const long int Vlong1 = 1, Vlong2 = 2, Vlong3 = 3;$/;"	v
+X_TLOSS	math.h	336;"	d
+_COMPLEX_H	complex.h	24;"	d
+_Complex	complex.h	37;"	d
+_Complex_I	complex.h	45;"	d
+_FENV_H	fenv.h	24;"	d
+_GNU_SOURCE	test-fenv.c	25;"	d	file:
+_IEEE_	math.h	/^  _IEEE_ = -1,	\/* According to IEEE 754\/IEEE 854.  *\/$/;"	e	enum:__anon9
+_ISOC_	math.h	/^  _ISOC_	\/* Actually this is ISO C99.  *\/$/;"	e	enum:__anon9
+_LIB_VERSION	ieee-math.c	/^_LIB_VERSION_TYPE _LIB_VERSION = _IEEE_;$/;"	v
+_LIB_VERSION_TYPE	math.h	/^} _LIB_VERSION_TYPE;$/;"	t	typeref:enum:__anon9
+_MATH_H	math.h	26;"	d
+_MATH_PRIVATE_H_	math_private.h	17;"	d
+_Mdouble_	complex.h	100;"	d
+_Mdouble_	complex.h	108;"	d
+_Mdouble_	complex.h	65;"	d
+_Mdouble_	complex.h	68;"	d
+_Mdouble_	complex.h	75;"	d
+_Mdouble_	complex.h	82;"	d
+_Mdouble_	math.h	137;"	d
+_Mdouble_	math.h	146;"	d
+_Mdouble_	math.h	67;"	d
+_Mdouble_	math.h	72;"	d
+_Mdouble_	math.h	86;"	d
+_Mdouble_	math.h	95;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	143;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	147;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	69;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	73;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	92;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	96;"	d
+_Mdouble_END_NAMESPACE	math.h	144;"	d
+_Mdouble_END_NAMESPACE	math.h	148;"	d
+_Mdouble_END_NAMESPACE	math.h	70;"	d
+_Mdouble_END_NAMESPACE	math.h	74;"	d
+_Mdouble_END_NAMESPACE	math.h	93;"	d
+_Mdouble_END_NAMESPACE	math.h	97;"	d
+_Mdouble_complex_	bits/cmathcalls.h	48;"	d
+_Mfloat_	complex.h	73;"	d
+_Mfloat_	math.h	84;"	d
+_Mlong_double_	complex.h	98;"	d
+_Mlong_double_	math.h	135;"	d
+_POSIX_	math.h	/^  _POSIX_,$/;"	e	enum:__anon9
+_SVID_	math.h	/^  _SVID_,	\/* According to System V, release 4.  *\/$/;"	e	enum:__anon9
+_SVID_SOURCE	test-matherr.c	1;"	d	file:
+_SVID_SOURCE	test-matherr.c	2;"	d	file:
+_TGMATH_H	tgmath.h	25;"	d
+_XOPEN_	math.h	/^  _XOPEN_,	\/* Nowadays also Unix98.  *\/$/;"	e	enum:__anon9
+__MATHCALL	complex.h	112;"	d
+__MATHCALL	complex.h	57;"	d
+__MATHCALL	math.h	156;"	d
+__MATHCALL	math.h	54;"	d
+__MATHCALLX	math.h	59;"	d
+__MATHDECL	complex.h	111;"	d
+__MATHDECL	complex.h	59;"	d
+__MATHDECL	math.h	155;"	d
+__MATHDECL	math.h	56;"	d
+__MATHDECLX	math.h	61;"	d
+__MATHDECL_1	complex.h	110;"	d
+__MATHDECL_1	complex.h	62;"	d
+__MATHDECL_1	complex.h	92;"	d
+__MATHDECL_1	complex.h	93;"	d
+__MATHDECL_1	math.h	124;"	d
+__MATHDECL_1	math.h	128;"	d
+__MATHDECL_1	math.h	154;"	d
+__MATHDECL_1	math.h	64;"	d
+__MATHDECL_2	math.h	125;"	d
+__MATH_PRECNAME	complex.h	102;"	d
+__MATH_PRECNAME	complex.h	109;"	d
+__MATH_PRECNAME	complex.h	66;"	d
+__MATH_PRECNAME	complex.h	69;"	d
+__MATH_PRECNAME	complex.h	77;"	d
+__MATH_PRECNAME	complex.h	83;"	d
+__MATH_PRECNAME	math.h	139;"	d
+__MATH_PRECNAME	math.h	141;"	d
+__MATH_PRECNAME	math.h	149;"	d
+__MATH_PRECNAME	math.h	68;"	d
+__MATH_PRECNAME	math.h	75;"	d
+__MATH_PRECNAME	math.h	88;"	d
+__MATH_PRECNAME	math.h	98;"	d
+__NO_MATH_INLINES	math.h	400;"	d
+__NO_MATH_INLINES	test-double.c	31;"	d	file:
+__NO_MATH_INLINES	test-float.c	31;"	d	file:
+__NO_MATH_INLINES	test-idouble.c	32;"	d	file:
+__NO_MATH_INLINES	test-ifloat.c	32;"	d	file:
+__NO_MATH_INLINES	test-ildoubl.c	32;"	d	file:
+__NO_MATH_INLINES	test-ldouble.c	31;"	d	file:
+__NO_MATH_INLINES	test-tgmath.c	23;"	d	file:
+__NO_MATH_INLINES	test-tgmath.c	24;"	d	file:
+__NO_MATH_INLINES	test-tgmath2.c	22;"	d	file:
+__NO_MATH_INLINES	test-tgmath2.c	23;"	d	file:
+__TGMATH_BINARY_FIRST_REAL_ONLY	tgmath.h	91;"	d
+__TGMATH_BINARY_REAL_IMAG	tgmath.h	211;"	d
+__TGMATH_BINARY_REAL_ONLY	tgmath.h	99;"	d
+__TGMATH_TERNARY_FIRST_SECOND_REAL_ONLY	tgmath.h	117;"	d
+__TGMATH_TERNARY_REAL_ONLY	tgmath.h	135;"	d
+__TGMATH_UNARY_IMAG	tgmath.h	176;"	d
+__TGMATH_UNARY_REAL_IMAG	tgmath.h	162;"	d
+__TGMATH_UNARY_REAL_IMAG_RET_REAL	tgmath.h	189;"	d
+__TGMATH_UNARY_REAL_ONLY	tgmath.h	75;"	d
+__TGMATH_UNARY_REAL_RET_ONLY	tgmath.h	83;"	d
+__acos	w_acos.c	/^	double __acos(double x)		\/* wrapper acos *\/$/;"	f
+__acosf	w_acosf.c	/^	float __acosf(float x)		\/* wrapper acosf *\/$/;"	f
+__acosh	w_acosh.c	/^	double __acosh(double x)		\/* wrapper acosh *\/$/;"	f
+__acoshf	w_acoshf.c	/^	float __acoshf(float x)		\/* wrapper acoshf *\/$/;"	f
+__acoshl	w_acoshl.c	/^	long double __acoshl(long double x)	\/* wrapper acosh *\/$/;"	f
+__acosl	w_acosl.c	/^	long double __acosl(long double x)	\/* wrapper acos *\/$/;"	f
+__asin	w_asin.c	/^	double __asin(double x)		\/* wrapper asin *\/$/;"	f
+__asinf	w_asinf.c	/^	float __asinf(float x)		\/* wrapper asinf *\/$/;"	f
+__asinhl	s_asinhl.c	/^__asinhl(long double x)$/;"	f
+__asinl	w_asinl.c	/^	long double __asinl(long double x)	\/* wrapper asinl *\/$/;"	f
+__atan2	w_atan2.c	/^	double __atan2(double y, double x)	\/* wrapper atan2 *\/$/;"	f
+__atan2f	w_atan2f.c	/^	float __atan2f(float y, float x)		\/* wrapper atan2f *\/$/;"	f
+__atan2l	w_atan2l.c	/^	long double __atan2l(long double y, long double x) \/* wrapper atan2l *\/$/;"	f
+__atanh	w_atanh.c	/^	double __atanh(double x)		\/* wrapper atanh *\/$/;"	f
+__atanhf	w_atanhf.c	/^	float __atanhf(float x)		\/* wrapper atanhf *\/$/;"	f
+__atanhl	w_atanhl.c	/^	long double __atanhl(long double x)	\/* wrapper atanhl *\/$/;"	f
+__atanl	s_atanl.c	/^__atanl (long double x)$/;"	f
+__cabs	cabs.c	/^__cabs (double _Complex z)$/;"	f
+__cabsf	cabsf.c	/^__cabsf (float _Complex z)$/;"	f
+__cabsl	cabsl.c	/^__cabsl (long double _Complex z)$/;"	f
+__cacos	s_cacos.c	/^__cacos (__complex__ double x)$/;"	f
+__cacosf	s_cacosf.c	/^__cacosf (__complex__ float x)$/;"	f
+__cacosh	s_cacosh.c	/^__cacosh (__complex__ double x)$/;"	f
+__cacoshf	s_cacoshf.c	/^__cacoshf (__complex__ float x)$/;"	f
+__cacoshl	s_cacoshl.c	/^__cacoshl (__complex__ long double x)$/;"	f
+__cacosl	s_cacosl.c	/^__cacosl (__complex__ long double x)$/;"	f
+__carg	carg.c	/^__carg (__complex__ double x)$/;"	f
+__cargf	cargf.c	/^__cargf (__complex__ float x)$/;"	f
+__cargl	cargl.c	/^__cargl (__complex__ long double x)$/;"	f
+__casin	s_casin.c	/^__casin (__complex__ double x)$/;"	f
+__casinf	s_casinf.c	/^__casinf (__complex__ float x)$/;"	f
+__casinh	s_casinh.c	/^__casinh (__complex__ double x)$/;"	f
+__casinhf	s_casinhf.c	/^__casinhf (__complex__ float x)$/;"	f
+__casinhl	s_casinhl.c	/^__casinhl (__complex__ long double x)$/;"	f
+__casinl	s_casinl.c	/^__casinl (__complex__ long double x)$/;"	f
+__catan	s_catan.c	/^__catan (__complex__ double x)$/;"	f
+__catanf	s_catanf.c	/^__catanf (__complex__ float x)$/;"	f
+__catanh	s_catanh.c	/^__catanh (__complex__ double x)$/;"	f
+__catanhf	s_catanhf.c	/^__catanhf (__complex__ float x)$/;"	f
+__catanhl	s_catanhl.c	/^__catanhl (__complex__ long double x)$/;"	f
+__catanl	s_catanl.c	/^__catanl (__complex__ long double x)$/;"	f
+__cbrtl	s_cbrtl.c	/^__cbrtl(long double x)$/;"	f
+__ccos	s_ccos.c	/^__ccos (__complex__ double x)$/;"	f
+__ccosf	s_ccosf.c	/^__ccosf (__complex__ float x)$/;"	f
+__ccosh	s_ccosh.c	/^__ccosh (__complex__ double x)$/;"	f
+__ccoshf	s_ccoshf.c	/^__ccoshf (__complex__ float x)$/;"	f
+__ccoshl	s_ccoshl.c	/^__ccoshl (__complex__ long double x)$/;"	f
+__ccosl	s_ccosl.c	/^__ccosl (__complex__ long double x)$/;"	f
+__cexp	s_cexp.c	/^__cexp (__complex__ double x)$/;"	f
+__cexpf	s_cexpf.c	/^__cexpf (__complex__ float x)$/;"	f
+__cexpl	s_cexpl.c	/^__cexpl (__complex__ long double x)$/;"	f
+__cimag	cimag.c	/^__cimag (double _Complex z)$/;"	f
+__cimagf	cimagf.c	/^__cimagf (float _Complex z)$/;"	f
+__cimagl	cimagl.c	/^__cimagl (long double _Complex z)$/;"	f
+__clog	s_clog.c	/^__clog (__complex__ double x)$/;"	f
+__clog10	s_clog10.c	/^__clog10 (__complex__ double x)$/;"	f
+__clog10f	s_clog10f.c	/^__clog10f (__complex__ float x)$/;"	f
+__clog10l	s_clog10l.c	/^__clog10l (__complex__ long double x)$/;"	f
+__clogf	s_clogf.c	/^__clogf (__complex__ float x)$/;"	f
+__clogl	s_clogl.c	/^__clogl (__complex__ long double x)$/;"	f
+__conj	conj.c	/^__conj (double _Complex z)$/;"	f
+__conjf	conjf.c	/^__conjf (float _Complex z)$/;"	f
+__conjl	conjl.c	/^__conjl (long double _Complex z)$/;"	f
+__copysign	math_private.h	/^extern inline double __copysign (double x, double y)$/;"	f
+__copysignf	math_private.h	/^extern inline float __copysignf (float x, float y)$/;"	f
+__copysignl	math_private.h	/^extern inline long double __copysignl (long double x, long double y)$/;"	f
+__cosh	w_cosh.c	/^	double __cosh(double x)		\/* wrapper cosh *\/$/;"	f
+__coshf	w_coshf.c	/^	float __coshf(float x)		\/* wrapper coshf *\/$/;"	f
+__coshl	w_coshl.c	/^	long double __coshl(long double x)	\/* wrapper coshl *\/$/;"	f
+__cpow	s_cpow.c	/^__cpow (__complex__ double x, __complex__ double c)$/;"	f
+__cpowf	s_cpowf.c	/^__cpowf (__complex__ float x, __complex__ float c)$/;"	f
+__cpowl	s_cpowl.c	/^__cpowl (__complex__ long double x, __complex__ long double c)$/;"	f
+__cproj	s_cproj.c	/^__cproj (__complex__ double x)$/;"	f
+__cprojf	s_cprojf.c	/^__cprojf (__complex__ float x)$/;"	f
+__cprojl	s_cprojl.c	/^__cprojl (__complex__ long double x)$/;"	f
+__creal	creal.c	/^__creal (double _Complex z)$/;"	f
+__crealf	crealf.c	/^__crealf (float _Complex z)$/;"	f
+__creall	creall.c	/^__creall (long double _Complex z)$/;"	f
+__csin	s_csin.c	/^__csin (__complex__ double x)$/;"	f
+__csinf	s_csinf.c	/^__csinf (__complex__ float x)$/;"	f
+__csinh	s_csinh.c	/^__csinh (__complex__ double x)$/;"	f
+__csinhf	s_csinhf.c	/^__csinhf (__complex__ float x)$/;"	f
+__csinhl	s_csinhl.c	/^__csinhl (__complex__ long double x)$/;"	f
+__csinl	s_csinl.c	/^__csinl (__complex__ long double x)$/;"	f
+__csqrt	s_csqrt.c	/^__csqrt (__complex__ double x)$/;"	f
+__csqrtf	s_csqrtf.c	/^__csqrtf (__complex__ float x)$/;"	f
+__csqrtl	s_csqrtl.c	/^__csqrtl (__complex__ long double x)$/;"	f
+__ctan	s_ctan.c	/^__ctan (__complex__ double x)$/;"	f
+__ctanf	s_ctanf.c	/^__ctanf (__complex__ float x)$/;"	f
+__ctanh	s_ctanh.c	/^__ctanh (__complex__ double x)$/;"	f
+__ctanhf	s_ctanhf.c	/^__ctanhf (__complex__ float x)$/;"	f
+__ctanhl	s_ctanhl.c	/^__ctanhl (__complex__ long double x)$/;"	f
+__ctanl	s_ctanl.c	/^__ctanl (__complex__ long double x)$/;"	f
+__divtc3	divtc3.c	/^__divtc3 (long double a, long double b, long double c, long double d)$/;"	f
+__drem	w_drem.c	/^__drem(x, y)$/;"	f
+__dremf	w_dremf.c	/^__dremf(x, y)$/;"	f
+__dreml	w_dreml.c	/^__dreml(x, y)$/;"	f
+__erfl	s_erfl.c	/^__erfl (long double x)$/;"	f
+__exception	math.h	/^struct __exception$/;"	s
+__exp10	w_exp10.c	/^	double __exp10(double x)		\/* wrapper exp10 *\/$/;"	f
+__exp10f	w_exp10f.c	/^	float __exp10f(float x)		\/* wrapper exp10f *\/$/;"	f
+__exp10l	w_exp10l.c	/^	long double __exp10l(long double x)	\/* wrapper exp10 *\/$/;"	f
+__exp2	w_exp2.c	/^__exp2 (double x)		\/* wrapper exp2 *\/$/;"	f
+__exp2f	w_exp2f.c	/^__exp2f (float x)		\/* wrapper exp2f *\/$/;"	f
+__exp2l	w_exp2l.c	/^__exp2l (long double x)			\/* wrapper exp2l *\/$/;"	f
+__expl	w_expl.c	/^__expl(long double x)$/;"	f
+__expm1l	s_expm1l.c	/^__expm1l (long double x)$/;"	f
+__fdim	s_fdim.c	/^__fdim (double x, double y)$/;"	f
+__fdimf	s_fdimf.c	/^__fdimf (float x, float y)$/;"	f
+__fdiml	s_fdiml.c	/^__fdiml (long double x, long double y)$/;"	f
+__feclearexcept	fclrexcpt.c	/^__feclearexcept (int excepts)$/;"	f
+__fegetenv	fegetenv.c	/^__fegetenv (fenv_t *envp)$/;"	f
+__fegetexceptflag	fgetexcptflg.c	/^__fegetexceptflag (fexcept_t *flagp, int excepts)$/;"	f
+__feraiseexcept	fraiseexcpt.c	/^__feraiseexcept (int excepts)$/;"	f
+__fesetenv	fesetenv.c	/^__fesetenv (const fenv_t *envp)$/;"	f
+__fesetexceptflag	fsetexcptflg.c	/^__fesetexceptflag (const fexcept_t *flagp, int excepts)$/;"	f
+__feupdateenv	feupdateenv.c	/^__feupdateenv (const fenv_t *envp)$/;"	f
+__floating_type	tgmath.h	52;"	d
+__floating_type	tgmath.h	57;"	d
+__fma	s_fma.c	/^__fma (double x, double y, double z)$/;"	f
+__fmaf	s_fmaf.c	/^__fmaf (float x, float y, float z)$/;"	f
+__fmal	s_fmal.c	/^__fmal (long double x, long double y, long double z)$/;"	f
+__fmax	s_fmax.c	/^__fmax (double x, double y)$/;"	f
+__fmaxf	s_fmaxf.c	/^__fmaxf (float x, float y)$/;"	f
+__fmaxl	s_fmaxl.c	/^__fmaxl (long double x, long double y)$/;"	f
+__fmin	s_fmin.c	/^__fmin (double x, double y)$/;"	f
+__fminf	s_fminf.c	/^__fminf (float x, float y)$/;"	f
+__fminl	s_fminl.c	/^__fminl (long double x, long double y)$/;"	f
+__fmod	w_fmod.c	/^	double __fmod(double x, double y)	\/* wrapper fmod *\/$/;"	f
+__fmodf	w_fmodf.c	/^	float __fmodf(float x, float y)	\/* wrapper fmodf *\/$/;"	f
+__fmodl	w_fmodl.c	/^	long double __fmodl(long double x, long double y)\/* wrapper fmodl *\/$/;"	f
+__fpu_control	fpu_control.c	/^fpu_control_t __fpu_control = _FPU_DEFAULT;$/;"	v
+__hypot	w_hypot.c	/^	double __hypot(double x, double y)\/* wrapper hypot *\/$/;"	f
+__hypotf	w_hypotf.c	/^	float __hypotf(float x, float y)	\/* wrapper hypotf *\/$/;"	f
+__hypotl	w_hypotl.c	/^	long double __hypotl(long double x, long double y)\/* wrapper hypotl *\/$/;"	f
+__ieee754_acoshl	e_acoshl.c	/^__ieee754_acoshl (long double x)$/;"	f
+__ieee754_acosl	e_acosl.c	/^__ieee754_acosl (long double x)$/;"	f
+__ieee754_asinl	e_asinl.c	/^__ieee754_asinl (long double x)$/;"	f
+__ieee754_atan2l	e_atan2l.c	/^__ieee754_atan2l (long double x, long double y)$/;"	f
+__ieee754_atanhl	e_atanhl.c	/^__ieee754_atanhl (long double x)$/;"	f
+__ieee754_coshl	e_coshl.c	/^__ieee754_coshl (long double x)$/;"	f
+__ieee754_exp10	e_exp10.c	/^__ieee754_exp10 (double arg)$/;"	f
+__ieee754_exp10f	e_exp10f.c	/^__ieee754_exp10f (float arg)$/;"	f
+__ieee754_exp10l	e_exp10l.c	/^__ieee754_exp10l (long double arg)$/;"	f
+__ieee754_exp2l	e_exp2l.c	/^__ieee754_exp2l (long double x)$/;"	f
+__ieee754_expl	e_expl.c	/^__ieee754_expl (long double x)$/;"	f
+__ieee754_fmodl	e_fmodl.c	/^__ieee754_fmodl (long double x, long double y)$/;"	f
+__ieee754_gammal_r	e_gammal_r.c	/^__ieee754_gammal_r (long double x, int *signgamp)$/;"	f
+__ieee754_hypotl	e_hypotl.c	/^__ieee754_hypotl (long double x, long double y)$/;"	f
+__ieee754_j0l	e_j0l.c	/^__ieee754_j0l (long double x)$/;"	f
+__ieee754_j1l	e_j1l.c	/^__ieee754_j1l (long double x)$/;"	f
+__ieee754_jnl	e_jnl.c	/^__ieee754_jnl (int n, long double x)$/;"	f
+__ieee754_lgammal_r	e_lgammal_r.c	/^__ieee754_lgammal_r (long double x, int *signgamp)$/;"	f
+__ieee754_log10l	e_log10l.c	/^__ieee754_log10l (long double x)$/;"	f
+__ieee754_log2l	e_log2l.c	/^__ieee754_log2l (long double x)$/;"	f
+__ieee754_logl	e_logl.c	/^__ieee754_logl (long double x)$/;"	f
+__ieee754_powl	e_powl.c	/^__ieee754_powl (long double x, long double y)$/;"	f
+__ieee754_rem_pio2l	e_rem_pio2l.c	/^__ieee754_rem_pio2l (long double x, long double *y)$/;"	f
+__ieee754_scalb	e_scalb.c	/^	double __ieee754_scalb(double x, int fn)$/;"	f
+__ieee754_scalbf	e_scalbf.c	/^	float __ieee754_scalbf(float x, int fn)$/;"	f
+__ieee754_scalbl	e_scalbl.c	/^	long double __ieee754_scalbl(long double x, int fn)$/;"	f
+__ieee754_sinhl	e_sinhl.c	/^__ieee754_sinhl (long double x)$/;"	f
+__ieee754_sqrtl	e_sqrtl.c	/^__ieee754_sqrtl (long double x)$/;"	f
+__j0l	w_j0l.c	/^	long double __j0l(long double x)		\/* wrapper j0l *\/$/;"	f
+__j1l	w_j1l.c	/^	long double __j1l(long double x)	\/* wrapper j1l *\/$/;"	f
+__jnl	w_jnl.c	/^	long double __jnl(int n, long double x)	\/* wrapper jnl *\/$/;"	f
+__kernel_cosl	k_cosl.c	/^__kernel_cosl (long double x, long double y)$/;"	f
+__kernel_rem_pio2l	k_rem_pio2l.c	/^__kernel_rem_pio2l (long double *x, long double *y, int e0, int nx, int prec,$/;"	f
+__kernel_sinl	k_sinl.c	/^__kernel_sinl (long double x, long double y, int iy)$/;"	f
+__kernel_tanl	k_tanl.c	/^__kernel_tanl (long double x, long double y, int iy)$/;"	f
+__ldexp	s_ldexp.c	/^	double __ldexp(double value, int exp)$/;"	f
+__ldexpf	s_ldexpf.c	/^	float __ldexpf(float value, int exp)$/;"	f
+__ldexpl	s_ldexpl.c	/^	long double __ldexpl(long double value, int exp)$/;"	f
+__lgamma	w_lgamma.c	/^	double __lgamma(double x)$/;"	f
+__lgamma_r	w_lgamma_r.c	/^	double __lgamma_r(double x, int *signgamp) \/* wrapper lgamma_r *\/$/;"	f
+__lgammaf	w_lgammaf.c	/^	float __lgammaf(float x)$/;"	f
+__lgammaf_r	w_lgammaf_r.c	/^	float __lgammaf_r(float x, int *signgamp) \/* wrapper lgammaf_r *\/$/;"	f
+__lgammal	w_lgammal.c	/^	long double __lgammal(long double x)$/;"	f
+__lgammal_r	w_lgammal_r.c	/^	long double __lgammal_r(long double x, int *signgamp)$/;"	f
+__log	w_log.c	/^	double __log(double x)		\/* wrapper log *\/$/;"	f
+__log10	w_log10.c	/^	double __log10(double x)		\/* wrapper log10 *\/$/;"	f
+__log10f	w_log10f.c	/^	float __log10f(float x)		\/* wrapper log10f *\/$/;"	f
+__log10l	w_log10l.c	/^	long double __log10l(long double x)	\/* wrapper log10l *\/$/;"	f
+__log1pl	s_log1pl.c	/^__log1pl (long double x)$/;"	f
+__log2	w_log2.c	/^__log2 (double x)	\/* wrapper log2 *\/$/;"	f
+__log2f	w_log2f.c	/^__log2f (float x)	\/* wrapper log2f *\/$/;"	f
+__log2l	w_log2l.c	/^__log2l (long double x)	\/* wrapper log2l *\/$/;"	f
+__logf	w_logf.c	/^	float __logf(float x)		\/* wrapper logf *\/$/;"	f
+__logl	w_logl.c	/^	long double __logl(long double x)	\/* wrapper logl *\/$/;"	f
+__multc3	multc3.c	/^__multc3 (long double a, long double b, long double c, long double d)$/;"	f
+__nan	s_nan.c	/^__nan (const char *tagp)$/;"	f
+__nanf	s_nanf.c	/^__nanf (const char *tagp)$/;"	f
+__nanl	s_nanl.c	/^__nanl (const char *tagp)$/;"	f
+__nextafter	s_nextafter.c	/^	double __nextafter(double x, double y)$/;"	f
+__nexttoward	s_nextafter.c	25;"	d	file:
+__nexttoward	s_nextafter.c	96;"	d	file:
+__nexttowardf	s_nexttowardf.c	/^	float __nexttowardf(float x, long double y)$/;"	f
+__pow	w_pow.c	/^	double __pow(double x, double y)	\/* wrapper pow *\/$/;"	f
+__powf	w_powf.c	/^	float __powf(float x, float y)	\/* wrapper powf *\/$/;"	f
+__powl	w_powl.c	/^	long double __powl(long double x, long double y)\/* wrapper powl *\/$/;"	f
+__remainder	w_remainder.c	/^	double __remainder(double x, double y)	\/* wrapper remainder *\/$/;"	f
+__remainderf	w_remainderf.c	/^	float __remainderf(float x, float y)	\/* wrapper remainder *\/$/;"	f
+__remainderl	w_remainderl.c	/^	long double __remainderl(long double x, long double y)$/;"	f
+__scalb	w_scalb.c	/^	double __scalb(double x, int fn)		\/* wrapper scalb *\/$/;"	f
+__scalbf	w_scalbf.c	/^	float __scalbf(float x, int fn)		\/* wrapper scalbf *\/$/;"	f
+__scalbl	w_scalbl.c	/^	long double __scalbl(long double x, int fn)	\/* wrapper scalbl *\/$/;"	f
+__setfpucw	setfpucw.c	/^__setfpucw (fpu_control_t set)$/;"	f
+__significand	s_significand.c	/^	double __significand(double x)$/;"	f
+__significandf	s_significandf.c	/^	float __significandf(float x)$/;"	f
+__significandl	s_significandl.c	/^	long double __significandl(long double x)$/;"	f
+__sinh	w_sinh.c	/^	double __sinh(double x)		\/* wrapper sinh *\/$/;"	f
+__sinhf	w_sinhf.c	/^	float __sinhf(float x)		\/* wrapper sinhf *\/$/;"	f
+__sinhl	w_sinhl.c	/^	long double __sinhl(long double x)	\/* wrapper sinhl *\/$/;"	f
+__sqrt	w_sqrt.c	/^	double __sqrt(double x)		\/* wrapper sqrt *\/$/;"	f
+__sqrtf	w_sqrtf.c	/^	float __sqrtf(float x)		\/* wrapper sqrtf *\/$/;"	f
+__sqrtl	w_sqrtl.c	/^	long double __sqrtl(long double x)	\/* wrapper sqrtl *\/$/;"	f
+__tanhl	s_tanhl.c	/^__tanhl(long double x)$/;"	f
+__tgamma	w_tgamma.c	/^	double __tgamma(double x)$/;"	f
+__tgammaf	w_tgammaf.c	/^	float __tgammaf(float x)$/;"	f
+__tgammal	w_tgammal.c	/^	long double __tgammal(long double x)$/;"	f
+__tgmath_real_type	tgmath.h	67;"	d
+__tgmath_real_type_sub	tgmath.h	62;"	d
+__tgml	tgmath.h	41;"	d
+__tgml	tgmath.h	43;"	d
+acos	tgmath.h	255;"	d
+acosh	tgmath.h	274;"	d
+add_shift_mulh	atest-sincos.c	124;"	d	file:
+add_shift_mulh	atest-sincos.c	82;"	d	file:
+arg1	math.h	/^    double arg1;$/;"	m	struct:__exception
+arg2	math.h	/^    double arg2;$/;"	m	struct:__exception
+asin	tgmath.h	257;"	d
+asinh	tgmath.h	276;"	d
+atan	tgmath.h	259;"	d
+atan2	tgmath.h	261;"	d
+atanh	tgmath.h	278;"	d
+aux	Makefile	/^aux		:= setfpucw fpu_control$/;"	m
+beautify	gen-libm-test.pl	/^sub beautify {$/;"	s
+build_complex_beautify	gen-libm-test.pl	/^sub build_complex_beautify {$/;"	s
+calls	Makefile	/^calls = s_isinf s_isnan s_finite s_copysign s_modf s_scalbn s_frexp s_ldexp \\$/;"	m
+carg	tgmath.h	439;"	d
+cbrt	tgmath.h	337;"	d
+ccount	test-tgmath.c	1036;"	d	file:
+ccount	test-tgmath.c	191;"	d	file:
+ccount	test-tgmath.c	200;"	d	file:
+ccount	test-tgmath.c	210;"	d	file:
+cdouble	test-tgmath2.c	/^typedef complex double cdouble;$/;"	t	file:
+ceil	tgmath.h	343;"	d
+cfloat	test-tgmath2.c	/^typedef complex float cfloat;$/;"	t	file:
+check	basic-test.c	/^check (const char *testname, int result)$/;"	f	file:
+cimag	tgmath.h	451;"	d
+cldouble	test-tgmath2.c	/^typedef complex double cldouble;$/;"	t	file:
+cldouble	test-tgmath2.c	/^typedef complex long double cldouble;$/;"	t	file:
+clean_up_number	gen-libm-test.pl	/^sub clean_up_number {$/;"	s
+compile_test	test-tgmath.c	/^F(compile_test) (void)$/;"	f	file:
+complex	complex.h	40;"	d
+conj	tgmath.h	442;"	d
+copysign	tgmath.h	384;"	d
+cos	tgmath.h	264;"	d
+cos1	atest-sincos.c	/^static const char cos1[101] =$/;"	v	file:
+cosh	tgmath.h	281;"	d
+count	test-tgmath.c	1035;"	d	file:
+count	test-tgmath.c	190;"	d	file:
+count	test-tgmath.c	199;"	d	file:
+count	test-tgmath.c	209;"	d	file:
+count	test-tgmath2.c	/^int count;$/;"	v
+count_cdouble	test-tgmath.c	/^int count_cdouble;$/;"	v
+count_cfloat	test-tgmath.c	/^int count_cfloat;$/;"	v
+count_cldouble	test-tgmath.c	/^int count_cldouble;$/;"	v
+count_double	test-tgmath.c	/^int count_double;$/;"	v
+count_errors	test-fenv.c	/^static int count_errors;$/;"	v	file:
+count_float	test-tgmath.c	/^int count_float;$/;"	v
+count_ldouble	test-tgmath.c	/^int count_ldouble;$/;"	v
+counts	test-tgmath2.c	/^int counts[Tlast][C_last];$/;"	v
+cproj	tgmath.h	445;"	d
+creal	tgmath.h	454;"	d
+dbl-only-routines	Makefile	/^dbl-only-routines := branred doasin dosincos halfulp mpa mpatan2	\\$/;"	m
+distribute	Makefile	/^distribute	:= math_ldbl.h math_private.h machine\/asm.h$/;"	m
+do_test	basic-test.c	/^do_test (void)$/;"	f
+do_test	test-tgmath-int.c	/^do_test (void)$/;"	f	file:
+do_test	test-tgmath-ret.c	/^do_test (void)$/;"	f	file:
+dx	test-tgmath-ret.c	/^static double dx;$/;"	v	file:
+dx	test-tgmath.c	/^double dx;$/;"	v
+dy	test-tgmath.c	/^const double dy = 1.25;$/;"	v
+dz	test-tgmath.c	/^complex double dz;$/;"	v
+erf	tgmath.h	387;"	d
+erfc	tgmath.h	388;"	d
+errors	basic-test.c	/^static int errors = 0;$/;"	v	file:
+errors	test-tgmath-int.c	/^static int errors = 0;$/;"	v	file:
+errors	test-tgmath-ret.c	/^static int errors = 0;$/;"	v	file:
+exp	tgmath.h	291;"	d
+exp1	atest-exp.c	/^static const char exp1[102] = "2" \/* point *\/$/;"	v	file:
+exp1	atest-exp2.c	/^static const char exp1[102] = "2" \/* point *\/$/;"	v	file:
+exp2	tgmath.h	319;"	d
+exp2_mpn	atest-exp2.c	/^exp2_mpn (mp1 ex, mp1 x)$/;"	f	file:
+exp_m1	atest-exp2.c	/^static const char exp_m1[102] = "0" \/* point *\/$/;"	v	file:
+exp_mpn	atest-exp.c	/^exp_mpn (mp1 ex, mp1 x)$/;"	f	file:
+exp_mpn	atest-exp2.c	/^exp_mpn (mp1 ex, mp1 x)$/;"	f	file:
+expm1	tgmath.h	310;"	d
+fabs	tgmath.h	346;"	d
+fail	test-matherr.c	/^static int fail = 1;$/;"	v	file:
+fdim	tgmath.h	422;"	d
+fe_single_test	test-fenv.c	/^fe_single_test (const char *flag_name, int fe_exc)$/;"	f	file:
+fe_tests	test-fenv.c	/^fe_tests (void)$/;"	f	file:
+fedisableexcept	fedisblxcpt.c	/^fedisableexcept (int excepts)$/;"	f
+feenable_test	test-fenv.c	/^feenable_test (const char *flag_name, int fe_exc)$/;"	f	file:
+feenableexcept	feenablxcpt.c	/^feenableexcept (int excepts)$/;"	f
+feenv_mask_test	test-fenv.c	/^feenv_mask_test (const char *flag_name, int fe_exc)$/;"	f	file:
+feenv_nomask_test	test-fenv.c	/^feenv_nomask_test (const char *flag_name, int fe_exc)$/;"	f	file:
+feenv_tests	test-fenv.c	/^feenv_tests (void)$/;"	f	file:
+feexcp_mask_test	test-fenv.c	/^feexcp_mask_test (const char *flag_name, int fe_exc)$/;"	f	file:
+feexcp_nomask_test	test-fenv.c	/^feexcp_nomask_test (const char *flag_name, int fe_exc)$/;"	f	file:
+fegetexcept	fegetexcept.c	/^fegetexcept (void)$/;"	f
+fegetround	fegetround.c	/^fegetround (void)$/;"	f
+feholdexcept	feholdexcpt.c	/^feholdexcept (fenv_t *envp)$/;"	f
+feholdexcept_tests	test-fenv.c	/^feholdexcept_tests (void)$/;"	f	file:
+fesetround	fesetround.c	/^fesetround (int round)$/;"	f
+fetestexcept	ftestexcept.c	/^fetestexcept (int excepts)$/;"	f
+floor	tgmath.h	349;"	d
+fma	tgmath.h	432;"	d
+fmax	tgmath.h	425;"	d
+fmin	tgmath.h	428;"	d
+fmod	tgmath.h	352;"	d
+fpclassify	math.h	218;"	d
+fpclassify	math.h	221;"	d
+frexp	tgmath.h	294;"	d
+fx	test-tgmath-ret.c	/^static float fx;$/;"	v	file:
+fx	test-tgmath.c	/^float fx;$/;"	v
+fy	test-tgmath.c	/^const float fy = 1.25;$/;"	v
+fz	test-tgmath.c	/^complex float fz;$/;"	v
+generate_testfile	gen-libm-test.pl	/^sub generate_testfile {$/;"	s
+get_failure	gen-libm-test.pl	/^sub get_failure {$/;"	s
+get_log2	atest-exp2.c	/^get_log2(void)$/;"	f	file:
+get_ulps	gen-libm-test.pl	/^sub get_ulps {$/;"	s
+get_variable	gen-libm-test.pl	/^sub get_variable {$/;"	s
+gmp-objs	Makefile	/^gmp-objs = $(patsubst %,$(common-objpfx)stdlib\/%$o,\\$/;"	m
+headers	Makefile	/^headers		:= math.h bits\/mathcalls.h bits\/mathinline.h bits\/huge_val.h \\$/;"	m
+hexdig	atest-exp.c	/^static const char hexdig[] = "0123456789abcdef";$/;"	v	file:
+hexdig	atest-exp2.c	/^static const char hexdig[] = "0123456789abcdef";$/;"	v	file:
+hexdig	atest-sincos.c	/^static const char hexdig[] = "0123456789abcdef";$/;"	v	file:
+hypot	tgmath.h	334;"	d
+ieee_double_shape_type	math_private.h	/^} ieee_double_shape_type;$/;"	t	typeref:union:__anon1
+ieee_double_shape_type	math_private.h	/^} ieee_double_shape_type;$/;"	t	typeref:union:__anon3
+ieee_float_shape_type	math_private.h	/^} ieee_float_shape_type;$/;"	t	typeref:union:__anon5
+ilogb	tgmath.h	418;"	d
+inf	bug-nextafter.c	/^float inf = INFINITY;$/;"	v
+inf	bug-nexttoward.c	/^float inf = INFINITY;$/;"	v
+initial_tests	test-fenv.c	/^initial_tests (void)$/;"	f	file:
+isfinite	math.h	242;"	d
+isfinite	math.h	245;"	d
+isgreater	math.h	410;"	d
+isgreater	math.h	428;"	d
+isgreaterequal	math.h	411;"	d
+isgreaterequal	math.h	436;"	d
+isinf	math.h	270;"	d
+isinf	math.h	273;"	d
+isless	math.h	412;"	d
+isless	math.h	444;"	d
+islessequal	math.h	413;"	d
+islessequal	math.h	452;"	d
+islessgreater	math.h	414;"	d
+islessgreater	math.h	460;"	d
+isnan	math.h	258;"	d
+isnan	math.h	261;"	d
+isnormal	math.h	253;"	d
+isunordered	math.h	415;"	d
+isunordered	math.h	468;"	d
+j0	w_j0.c	/^	double j0(double x)		\/* wrapper j0 *\/$/;"	f
+j0f	w_j0f.c	/^	float j0f(float x)		\/* wrapper j0f *\/$/;"	f
+j1	w_j1.c	/^	double j1(double x)		\/* wrapper j1 *\/$/;"	f
+j1f	w_j1f.c	/^	float j1f(float x)		\/* wrapper j1f *\/$/;"	f
+jn	w_jn.c	/^	double jn(int n, double x)	\/* wrapper jn *\/$/;"	f
+jnf	w_jnf.c	/^	float jnf(int n, float x)	\/* wrapper jnf *\/$/;"	f
+ldexp	tgmath.h	297;"	d
+ldouble	test-tgmath2.c	/^typedef double ldouble;$/;"	t	file:
+ldouble	test-tgmath2.c	/^typedef long double ldouble;$/;"	t	file:
+lgamma	tgmath.h	390;"	d
+libm-calls	Makefile	/^libm-calls = e_acos e_acosh e_asin e_atan2 e_atanh e_cosh e_exp e_fmod	\\$/;"	m
+libm-routines	Makefile	/^libm-routines = $(strip $(libm-support) $(libm-calls) \\$/;"	m
+libm-support	Makefile	/^libm-support = k_standard s_lib_version s_matherr s_signgam		\\$/;"	m
+libm-tests	Makefile	/^libm-tests = test-float test-double $(test-longdouble-$(long-double-fcts)) \\$/;"	m
+libm-tests-generated	Makefile	/^libm-tests-generated = libm-test-ulps.h libm-test.c$/;"	m
+libm-tests.o	Makefile	/^libm-tests.o = $(addsuffix .o,$(libm-tests))$/;"	m
+llrint	tgmath.h	375;"	d
+llround	tgmath.h	380;"	d
+log	tgmath.h	300;"	d
+log10	tgmath.h	304;"	d
+log10	tgmath.h	306;"	d
+log1p	tgmath.h	313;"	d
+log2	tgmath.h	322;"	d
+logb	tgmath.h	316;"	d
+long-c-yes	Makefile	/^long-c-yes = $(calls:=l)$/;"	m
+long-m-routines	Makefile	/^long-m-routines = $(patsubst %_rl,%l_r,$(libm-calls:=l))$/;"	m
+long-m-support	Makefile	/^long-m-support = t_sincosl k_sincosl$/;"	m
+long-m-yes	Makefile	/^long-m-yes = $(long-m-routines) $(long-m-support)$/;"	m
+lrint	tgmath.h	374;"	d
+lround	tgmath.h	379;"	d
+lsw	math_private.h	/^    u_int32_t lsw;$/;"	m	struct:__anon1::__anon2
+lsw	math_private.h	/^    u_int32_t lsw;$/;"	m	struct:__anon3::__anon4
+lx	test-tgmath-ret.c	/^static long double lx;$/;"	v	file:
+lx	test-tgmath.c	/^long double lx;$/;"	v
+ly	test-tgmath.c	/^const long double ly = 1.25;$/;"	v
+lz	test-tgmath.c	/^complex long double lz;$/;"	v
+main	atest-exp.c	/^main (void)$/;"	f
+main	atest-exp2.c	/^main (void)$/;"	f
+main	atest-sincos.c	/^main (void)$/;"	f
+main	bug-nextafter.c	/^main (void)$/;"	f
+main	bug-nexttoward.c	/^main (void)$/;"	f
+main	bug-tgmath1.c	/^main (void)$/;"	f
+main	test-fenv.c	/^main (void)$/;"	f
+main	test-fpucw.c	/^main (void)$/;"	f
+main	test-matherr.c	/^main (void)$/;"	f
+main	test-misc.c	/^main (void)$/;"	f
+main	test-tgmath.c	/^main (void)$/;"	f
+main	test-tgmath2.c	/^main (void)$/;"	f
+main	tst-definitions.c	/^main (void)$/;"	f
+math_errhandling	math.h	288;"	d
+math_force_eval	math_private.h	357;"	d
+math_opt_barrier	math_private.h	355;"	d
+matherr	test-matherr.c	/^matherr (struct exception *s)$/;"	f
+mp1	atest-exp.c	/^typedef mp_limb_t mp1[SZ], mp2[SZ * 2];$/;"	t	file:
+mp1	atest-exp2.c	/^typedef mp_limb_t mp1[SZ], mp2[SZ * 2];$/;"	t	file:
+mp1	atest-sincos.c	/^typedef mp_limb_t mp1[SZ], mp2[SZ * 2];$/;"	t	file:
+mp2	atest-exp.c	/^typedef mp_limb_t mp1[SZ], mp2[SZ * 2];$/;"	t	file:
+mp2	atest-exp2.c	/^typedef mp_limb_t mp1[SZ], mp2[SZ * 2];$/;"	t	file:
+mp2	atest-sincos.c	/^typedef mp_limb_t mp1[SZ], mp2[SZ * 2];$/;"	t	file:
+mpbpl	atest-exp.c	33;"	d	file:
+mpbpl	atest-exp2.c	34;"	d	file:
+mpbpl	atest-sincos.c	33;"	d	file:
+mpn_bitsize	atest-exp.c	/^mpn_bitsize(const mp_limb_t *SRC_PTR, mp_size_t SIZE)$/;"	f	file:
+mpn_bitsize	atest-exp2.c	/^mpn_bitsize(const mp_limb_t *SRC_PTR, mp_size_t SIZE)$/;"	f	file:
+mpn_bitsize	atest-sincos.c	/^mpn_bitsize (const mp_limb_t *SRC_PTR, mp_size_t SIZE)$/;"	f	file:
+msw	math_private.h	/^    u_int32_t msw;$/;"	m	struct:__anon1::__anon2
+msw	math_private.h	/^    u_int32_t msw;$/;"	m	struct:__anon3::__anon4
+my_fma	test-tgmath2.c	321;"	d	file:
+my_fma	test-tgmath2.c	323;"	d	file:
+my_fma	test-tgmath2.c	324;"	d	file:
+my_fma	test-tgmath2.c	326;"	d	file:
+my_fma	test-tgmath2.c	327;"	d	file:
+my_fma	test-tgmath2.c	329;"	d	file:
+my_remquo	test-tgmath2.c	313;"	d	file:
+my_remquo	test-tgmath2.c	315;"	d	file:
+name	math.h	/^    char *name;$/;"	m	struct:__exception
+nearbyint	tgmath.h	356;"	d
+new_test	gen-libm-test.pl	/^sub new_test {$/;"	s
+nextafter	tgmath.h	398;"	d
+nexttoward	s_nextafter.c	26;"	d	file:
+nexttoward	s_nextafter.c	98;"	d	file:
+nexttoward	tgmath.h	399;"	d
+o	Makefile	/^o = .o$/;"	m
+o	Makefile	/^o = .os$/;"	m
+o-iterator-doit	Makefile	/^define o-iterator-doit$/;"	m
+o_threshold	w_exp2.c	/^static const double o_threshold= (double) DBL_MAX_EXP;$/;"	v	file:
+o_threshold	w_exp2f.c	/^static const float o_threshold= (float) FLT_MAX_EXP;$/;"	v	file:
+o_threshold	w_exp2l.c	/^static const long double o_threshold = (long double) LDBL_MAX_EXP;$/;"	v	file:
+object-suffixes-left	Makefile	/^object-suffixes-left := $(all-object-suffixes)$/;"	m
+our_error	test-tgmath-int.c	/^our_error (const char *c)$/;"	f	file:
+our_error	test-tgmath-ret.c	/^our_error (const char *c)$/;"	f	file:
+output_test	gen-libm-test.pl	/^sub output_test {$/;"	s
+output_ulps	gen-libm-test.pl	/^sub output_ulps {$/;"	s
+parse_args	gen-libm-test.pl	/^sub parse_args {$/;"	s
+parse_ulps	gen-libm-test.pl	/^sub parse_ulps {$/;"	s
+parts	math_private.h	/^  } parts;$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2
+parts	math_private.h	/^  } parts;$/;"	m	union:__anon3	typeref:struct:__anon3::__anon4
+pow	tgmath.h	328;"	d
+print_mpn_fp	atest-exp2.c	/^print_mpn_fp (const mp_limb_t *x, unsigned int dp, unsigned int base)$/;"	f	file:
+print_mpn_hex	atest-exp.c	/^print_mpn_hex (const mp_limb_t *x, unsigned size)$/;"	f	file:
+print_mpn_hex	atest-sincos.c	/^print_mpn_hex (const mp_limb_t *x, unsigned size)$/;"	f	file:
+print_rounding	test-fenv.c	/^print_rounding (int rounding)$/;"	f	file:
+print_ulps_file	gen-libm-test.pl	/^sub print_ulps_file {$/;"	s
+rcsid	e_scalb.c	/^static char rcsid[] = "$NetBSD: e_scalb.c,v 1.6 1995\/05\/10 20:46:09 jtc Exp $";$/;"	v	file:
+rcsid	e_scalbf.c	/^static char rcsid[] = "$NetBSD: e_scalbf.c,v 1.3 1995\/05\/10 20:46:12 jtc Exp $";$/;"	v	file:
+rcsid	e_scalbl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	s_ldexp.c	/^static char rcsid[] = "$NetBSD: s_ldexp.c,v 1.6 1995\/05\/10 20:47:40 jtc Exp $";$/;"	v	file:
+rcsid	s_ldexpf.c	/^static char rcsid[] = "$NetBSD: s_ldexpf.c,v 1.3 1995\/05\/10 20:47:42 jtc Exp $";$/;"	v	file:
+rcsid	s_ldexpl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	s_nextafter.c	/^static char rcsid[] = "$NetBSD: s_nextafter.c,v 1.8 1995\/05\/10 20:47:58 jtc Exp $";$/;"	v	file:
+rcsid	s_significand.c	/^static char rcsid[] = "$NetBSD: s_significand.c,v 1.6 1995\/05\/10 20:48:11 jtc Exp $";$/;"	v	file:
+rcsid	s_significandf.c	/^static char rcsid[] = "$NetBSD: s_significandf.c,v 1.3 1995\/05\/10 20:48:13 jtc Exp $";$/;"	v	file:
+rcsid	s_significandl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_acos.c	/^static char rcsid[] = "$NetBSD: w_acos.c,v 1.6 1995\/05\/10 20:48:26 jtc Exp $";$/;"	v	file:
+rcsid	w_acosf.c	/^static char rcsid[] = "$NetBSD: w_acosf.c,v 1.3 1995\/05\/10 20:48:29 jtc Exp $";$/;"	v	file:
+rcsid	w_acosh.c	/^static char rcsid[] = "$NetBSD: w_acosh.c,v 1.6 1995\/05\/10 20:48:31 jtc Exp $";$/;"	v	file:
+rcsid	w_acoshf.c	/^static char rcsid[] = "$NetBSD: w_acoshf.c,v 1.3 1995\/05\/10 20:48:33 jtc Exp $";$/;"	v	file:
+rcsid	w_acoshl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_acosl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_asin.c	/^static char rcsid[] = "$NetBSD: w_asin.c,v 1.6 1995\/05\/10 20:48:35 jtc Exp $";$/;"	v	file:
+rcsid	w_asinf.c	/^static char rcsid[] = "$NetBSD: w_asinf.c,v 1.3 1995\/05\/10 20:48:37 jtc Exp $";$/;"	v	file:
+rcsid	w_asinl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_atan2.c	/^static char rcsid[] = "$NetBSD: w_atan2.c,v 1.6 1995\/05\/10 20:48:39 jtc Exp $";$/;"	v	file:
+rcsid	w_atan2f.c	/^static char rcsid[] = "$NetBSD: w_atan2f.c,v 1.3 1995\/05\/10 20:48:42 jtc Exp $";$/;"	v	file:
+rcsid	w_atan2l.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_atanh.c	/^static char rcsid[] = "$NetBSD: w_atanh.c,v 1.6 1995\/05\/10 20:48:43 jtc Exp $";$/;"	v	file:
+rcsid	w_atanhf.c	/^static char rcsid[] = "$NetBSD: w_atanhf.c,v 1.3 1995\/05\/10 20:48:45 jtc Exp $";$/;"	v	file:
+rcsid	w_atanhl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_cosh.c	/^static char rcsid[] = "$NetBSD: w_cosh.c,v 1.6 1995\/05\/10 20:48:47 jtc Exp $";$/;"	v	file:
+rcsid	w_coshf.c	/^static char rcsid[] = "$NetBSD: w_coshf.c,v 1.3 1995\/05\/10 20:48:49 jtc Exp $";$/;"	v	file:
+rcsid	w_coshl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_fmod.c	/^static char rcsid[] = "$NetBSD: w_fmod.c,v 1.6 1995\/05\/10 20:48:55 jtc Exp $";$/;"	v	file:
+rcsid	w_fmodf.c	/^static char rcsid[] = "$NetBSD: w_fmodf.c,v 1.3 1995\/05\/10 20:48:57 jtc Exp $";$/;"	v	file:
+rcsid	w_fmodl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_hypot.c	/^static char rcsid[] = "$NetBSD: w_hypot.c,v 1.6 1995\/05\/10 20:49:07 jtc Exp $";$/;"	v	file:
+rcsid	w_hypotf.c	/^static char rcsid[] = "$NetBSD: w_hypotf.c,v 1.3 1995\/05\/10 20:49:09 jtc Exp $";$/;"	v	file:
+rcsid	w_hypotl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_j0.c	/^static char rcsid[] = "$NetBSD: w_j0.c,v 1.6 1995\/05\/10 20:49:11 jtc Exp $";$/;"	v	file:
+rcsid	w_j0f.c	/^static char rcsid[] = "$NetBSD: w_j0f.c,v 1.3 1995\/05\/10 20:49:13 jtc Exp $";$/;"	v	file:
+rcsid	w_j0l.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_j1.c	/^static char rcsid[] = "$NetBSD: w_j1.c,v 1.6 1995\/05\/10 20:49:15 jtc Exp $";$/;"	v	file:
+rcsid	w_j1f.c	/^static char rcsid[] = "$NetBSD: w_j1f.c,v 1.3 1995\/05\/10 20:49:17 jtc Exp $";$/;"	v	file:
+rcsid	w_j1l.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_jn.c	/^static char rcsid[] = "$NetBSD: w_jn.c,v 1.6 1995\/05\/10 20:49:19 jtc Exp $";$/;"	v	file:
+rcsid	w_jnf.c	/^static char rcsid[] = "$NetBSD: w_jnf.c,v 1.3 1995\/05\/10 20:49:21 jtc Exp $";$/;"	v	file:
+rcsid	w_jnl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_lgamma.c	/^static char rcsid[] = "$NetBSD: w_lgamma.c,v 1.6 1995\/05\/10 20:49:24 jtc Exp $";$/;"	v	file:
+rcsid	w_lgamma_r.c	/^static char rcsid[] = "$NetBSD: w_lgamma_r.c,v 1.6 1995\/05\/10 20:49:27 jtc Exp $";$/;"	v	file:
+rcsid	w_lgammaf.c	/^static char rcsid[] = "$NetBSD: w_lgammaf.c,v 1.3 1995\/05\/10 20:49:30 jtc Exp $";$/;"	v	file:
+rcsid	w_lgammaf_r.c	/^static char rcsid[] = "$NetBSD: w_lgammaf_r.c,v 1.3 1995\/05\/10 20:49:32 jtc Exp $";$/;"	v	file:
+rcsid	w_lgammal.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_lgammal_r.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_log.c	/^static char rcsid[] = "$NetBSD: w_log.c,v 1.6 1995\/05\/10 20:49:33 jtc Exp $";$/;"	v	file:
+rcsid	w_log10.c	/^static char rcsid[] = "$NetBSD: w_log10.c,v 1.6 1995\/05\/10 20:49:35 jtc Exp $";$/;"	v	file:
+rcsid	w_log10f.c	/^static char rcsid[] = "$NetBSD: w_log10f.c,v 1.3 1995\/05\/10 20:49:37 jtc Exp $";$/;"	v	file:
+rcsid	w_log10l.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_logf.c	/^static char rcsid[] = "$NetBSD: w_logf.c,v 1.3 1995\/05\/10 20:49:40 jtc Exp $";$/;"	v	file:
+rcsid	w_logl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_powf.c	/^static char rcsid[] = "$NetBSD: w_powf.c,v 1.3 1995\/05\/10 20:49:41 jtc Exp $";$/;"	v	file:
+rcsid	w_remainder.c	/^static char rcsid[] = "$NetBSD: w_remainder.c,v 1.6 1995\/05\/10 20:49:44 jtc Exp $";$/;"	v	file:
+rcsid	w_remainderf.c	/^static char rcsid[] = "$NetBSD: w_remainderf.c,v 1.3 1995\/05\/10 20:49:46 jtc Exp $";$/;"	v	file:
+rcsid	w_remainderl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_scalb.c	/^static char rcsid[] = "$NetBSD: w_scalb.c,v 1.6 1995\/05\/10 20:49:48 jtc Exp $";$/;"	v	file:
+rcsid	w_scalbf.c	/^static char rcsid[] = "$NetBSD: w_scalbf.c,v 1.3 1995\/05\/10 20:49:50 jtc Exp $";$/;"	v	file:
+rcsid	w_scalbl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_sinh.c	/^static char rcsid[] = "$NetBSD: w_sinh.c,v 1.6 1995\/05\/10 20:49:51 jtc Exp $";$/;"	v	file:
+rcsid	w_sinhf.c	/^static char rcsid[] = "$NetBSD: w_sinhf.c,v 1.3 1995\/05\/10 20:49:54 jtc Exp $";$/;"	v	file:
+rcsid	w_sinhl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_sqrt.c	/^static char rcsid[] = "$NetBSD: w_sqrt.c,v 1.6 1995\/05\/10 20:49:55 jtc Exp $";$/;"	v	file:
+rcsid	w_sqrtf.c	/^static char rcsid[] = "$NetBSD: w_sqrtf.c,v 1.3 1995\/05\/10 20:49:59 jtc Exp $";$/;"	v	file:
+rcsid	w_sqrtl.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+rcsid	w_tgamma.c	/^static char rcsid[] = "$NetBSD: w_gamma.c,v 1.7 1995\/11\/20 22:06:43 jtc Exp $";$/;"	v	file:
+rcsid	w_tgammaf.c	/^static char rcsid[] = "$NetBSD: w_gammaf.c,v 1.4 1995\/11\/20 22:06:48 jtc Exp $";$/;"	v	file:
+rcsid	w_tgammal.c	/^static char rcsid[] = "$NetBSD: $";$/;"	v	file:
+read_mpn_hex	atest-exp2.c	/^read_mpn_hex(mp_limb_t *x, const char *str)$/;"	f	file:
+remainder	tgmath.h	403;"	d
+remquo	tgmath.h	369;"	d
+retval	math.h	/^    double retval;$/;"	m	struct:__exception
+rint	tgmath.h	395;"	d
+round	tgmath.h	360;"	d
+routines	Makefile	/^routines = $(calls) $(calls:=f) $(long-c-$(long-double-fcts))$/;"	m
+scalb	tgmath.h	407;"	d
+scalbln	tgmath.h	414;"	d
+scalbn	tgmath.h	411;"	d
+set_single_exc	test-fenv.c	/^set_single_exc (const char *test_name, int fe_exc, fexcept_t exception)$/;"	f	file:
+signbit	math.h	230;"	d
+signbit	math.h	233;"	d
+sin	tgmath.h	266;"	d
+sin1	atest-sincos.c	/^static const char sin1[101] =$/;"	v	file:
+sincosx_mpn	atest-sincos.c	/^sincosx_mpn (mp1 si, mp1 co, mp1 xx, mp1 ix)$/;"	f	file:
+sinh	tgmath.h	283;"	d
+special_functions	gen-libm-test.pl	/^sub special_functions {$/;"	s
+sqrt	tgmath.h	331;"	d
+strong_alias	w_j0.c	/^strong_alias (j0, j0l)$/;"	f
+strong_alias	w_j1.c	/^strong_alias (j1, j1l)$/;"	f
+strong_alias	w_jn.c	/^strong_alias (jn, jnl)$/;"	f
+stub_warning	e_j0l.c	/^stub_warning (j0l)$/;"	f
+stub_warning	e_j1l.c	/^stub_warning (j1l)$/;"	f
+stub_warning	e_jnl.c	/^stub_warning (jnl)$/;"	f
+subdir	Makefile	/^subdir		:= math$/;"	m
+summ	atest-sincos.c	100;"	d	file:
+summ	atest-sincos.c	125;"	d	file:
+tan	tgmath.h	268;"	d
+tanh	tgmath.h	285;"	d
+test	test-tgmath2.c	/^test (const int Vint4, const long long int Vllong4)$/;"	f
+test-longdouble-yes	Makefile	/^test-longdouble-yes = test-ldouble test-ildoubl$/;"	m
+test_exceptions	test-fenv.c	/^test_exceptions (const char *test_name, short int exception,$/;"	f	file:
+test_rounding	test-fenv.c	/^test_rounding (const char *test_name, int rounding_mode)$/;"	f	file:
+test_single_exception	test-fenv.c	/^test_single_exception (short int exception,$/;"	f	file:
+tests	Makefile	/^tests = test-matherr test-fenv atest-exp atest-sincos atest-exp2 basic-test \\$/;"	m
+tgamma	tgmath.h	389;"	d
+trunc	tgmath.h	364;"	d
+type	math.h	/^    int type;$/;"	m	struct:__exception
+u_threshold	w_exp2.c	/^static const double u_threshold= (double) (DBL_MIN_EXP - DBL_MANT_DIG - 1);$/;"	v	file:
+u_threshold	w_exp2f.c	/^static const float u_threshold= (float) (FLT_MIN_EXP - FLT_MANT_DIG - 1);$/;"	v	file:
+u_threshold	w_exp2l.c	/^static const long double u_threshold$/;"	v	file:
+ulps-file	Makefile	/^ulps-file = $(firstword $(wildcard $(sysdirs:%=%\/libm-test-ulps)))$/;"	m
+value	math_private.h	/^  double value;$/;"	m	union:__anon1
+value	math_private.h	/^  double value;$/;"	m	union:__anon3
+value	math_private.h	/^  float value;$/;"	m	union:__anon5
+vcdouble1	test-tgmath2.c	/^cdouble vcdouble1, vcdouble2, vcdouble3;$/;"	v
+vcdouble2	test-tgmath2.c	/^cdouble vcdouble1, vcdouble2, vcdouble3;$/;"	v
+vcdouble3	test-tgmath2.c	/^cdouble vcdouble1, vcdouble2, vcdouble3;$/;"	v
+vcfloat1	test-tgmath2.c	/^cfloat vcfloat1, vcfloat2, vcfloat3;$/;"	v
+vcfloat2	test-tgmath2.c	/^cfloat vcfloat1, vcfloat2, vcfloat3;$/;"	v
+vcfloat3	test-tgmath2.c	/^cfloat vcfloat1, vcfloat2, vcfloat3;$/;"	v
+vcldouble1	test-tgmath2.c	/^cldouble vcldouble1, vcldouble2, vcldouble4;$/;"	v
+vcldouble2	test-tgmath2.c	/^cldouble vcldouble1, vcldouble2, vcldouble4;$/;"	v
+vcldouble4	test-tgmath2.c	/^cldouble vcldouble1, vcldouble2, vcldouble4;$/;"	v
+vdouble1	test-tgmath2.c	/^double vdouble1, vdouble2, vdouble3;$/;"	v
+vdouble2	test-tgmath2.c	/^double vdouble1, vdouble2, vdouble3;$/;"	v
+vdouble3	test-tgmath2.c	/^double vdouble1, vdouble2, vdouble3;$/;"	v
+vfloat1	test-tgmath2.c	/^float vfloat1, vfloat2, vfloat3;$/;"	v
+vfloat2	test-tgmath2.c	/^float vfloat1, vfloat2, vfloat3;$/;"	v
+vfloat3	test-tgmath2.c	/^float vfloat1, vfloat2, vfloat3;$/;"	v
+vint1	test-tgmath2.c	/^int vint1, vint2, vint3;$/;"	v
+vint2	test-tgmath2.c	/^int vint1, vint2, vint3;$/;"	v
+vint3	test-tgmath2.c	/^int vint1, vint2, vint3;$/;"	v
+vldouble1	test-tgmath2.c	/^ldouble vldouble1, vldouble2, vldouble3;$/;"	v
+vldouble2	test-tgmath2.c	/^ldouble vldouble1, vldouble2, vldouble3;$/;"	v
+vldouble3	test-tgmath2.c	/^ldouble vldouble1, vldouble2, vldouble3;$/;"	v
+vllong1	test-tgmath2.c	/^long long int vllong1, vllong2, vllong3;$/;"	v
+vllong2	test-tgmath2.c	/^long long int vllong1, vllong2, vllong3;$/;"	v
+vllong3	test-tgmath2.c	/^long long int vllong1, vllong2, vllong3;$/;"	v
+vlong1	test-tgmath2.c	/^long int vlong1, vlong2, vlong3;$/;"	v
+vlong2	test-tgmath2.c	/^long int vlong1, vlong2, vlong3;$/;"	v
+vlong3	test-tgmath2.c	/^long int vlong1, vlong2, vlong3;$/;"	v
+weak_alias	s_erfl.c	/^weak_alias (__erfl, erfl)$/;"	f
+weak_alias	w_j0l.c	/^weak_alias (__j0l, j0l)$/;"	f
+weak_alias	w_j1l.c	/^weak_alias (__j1l, j1l)$/;"	f
+weak_alias	w_jnl.c	/^weak_alias (__jnl, jnl)$/;"	f
+word	math_private.h	/^  u_int32_t word;$/;"	m	union:__anon5
+word	math_private.h	/^  uint64_t word;$/;"	m	union:__anon1
+word	math_private.h	/^  uint64_t word;$/;"	m	union:__anon3
+x	test-tgmath.c	187;"	d	file:
+x	test-tgmath.c	196;"	d	file:
+x	test-tgmath.c	206;"	d	file:
+x	test-tgmath.c	412;"	d	file:
+y	test-tgmath.c	188;"	d	file:
+y	test-tgmath.c	197;"	d	file:
+y	test-tgmath.c	207;"	d	file:
+y	test-tgmath.c	413;"	d	file:
+y0f	w_j0f.c	/^	float y0f(float x)		\/* wrapper y0f *\/$/;"	f
+y1f	w_j1f.c	/^	float y1f(float x)		\/* wrapper y1f *\/$/;"	f
+ynf	w_jnf.c	/^	float ynf(int n, float x)	\/* wrapper ynf *\/$/;"	f
+z	test-tgmath.c	189;"	d	file:
+z	test-tgmath.c	198;"	d	file:
+z	test-tgmath.c	208;"	d	file:
+z	test-tgmath.c	414;"	d	file:
+zero	bug-nextafter.c	/^float zero = 0.0;$/;"	v
+zero	bug-nexttoward.c	/^float zero = 0.0;$/;"	v
