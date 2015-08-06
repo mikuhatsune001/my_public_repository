@@ -1,0 +1,181 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-pc-linux-gnu
+Reading makefiles...
+Reading makefile `Makefile'...
+Reading makefile `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile' (search path) (no ~ expansion)...
+Updating goal targets....
+Considering target file `s5pv210_defconfig'.
+ File `s5pv210_defconfig' does not exist.
+  Considering target file `scripts_basic'.
+   File `scripts_basic' does not exist.
+   Finished prerequisites of target file `scripts_basic'.
+  Must remake target `scripts_basic'.
+make: Entering directory `/home/miku/linux-2.6.35-farsight'
+make -f scripts/Makefile.build obj=scripts/basic
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-pc-linux-gnu
+Reading makefiles...
+Reading makefile `scripts/Makefile.build'...
+Reading makefile `include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile `scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile `/home/miku/linux-2.6.35-farsight/scripts/basic/Makefile' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.host' (search path) (no ~ expansion)...
+Updating goal targets....
+Considering target file `__build'.
+ File `__build' does not exist.
+  Considering target file `scripts/basic/fixdep'.
+   File `scripts/basic/fixdep' does not exist.
+    Considering target file `scripts/basic/fixdep.c'.
+     Finished prerequisites of target file `scripts/basic/fixdep.c'.
+    No need to remake target `scripts/basic/fixdep.c'.
+    Considering target file `FORCE'.
+     File `FORCE' does not exist.
+     Finished prerequisites of target file `FORCE'.
+    Must remake target `FORCE'.
+    Successfully remade target file `FORCE'.
+   Finished prerequisites of target file `scripts/basic/fixdep'.
+  Must remake target `scripts/basic/fixdep'.
+set -e;  echo '  HOSTCC  scripts/basic/fixdep'; gcc -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/fixdep scripts/basic/fixdep.c  ; scripts/basic/fixdep scripts/basic/.fixdep.d scripts/basic/fixdep 'gcc -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/fixdep scripts/basic/fixdep.c  ' > scripts/basic/.fixdep.tmp; rm -f scripts/basic/.fixdep.d; mv -f scripts/basic/.fixdep.tmp scripts/basic/.fixdep.cmd
+  Successfully remade target file `scripts/basic/fixdep'.
+  Considering target file `scripts/basic/docproc'.
+   File `scripts/basic/docproc' does not exist.
+    Considering target file `scripts/basic/docproc.c'.
+     Finished prerequisites of target file `scripts/basic/docproc.c'.
+    No need to remake target `scripts/basic/docproc.c'.
+    Pruning file `FORCE'.
+    Pruning file `scripts/basic/fixdep'.
+   Finished prerequisites of target file `scripts/basic/docproc'.
+  Must remake target `scripts/basic/docproc'.
+set -e;  echo '  HOSTCC  scripts/basic/docproc'; gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  ; scripts/basic/fixdep scripts/basic/.docproc.d scripts/basic/docproc 'gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  ' > scripts/basic/.docproc.tmp; rm -f scripts/basic/.docproc.d; mv -f scripts/basic/.docproc.tmp scripts/basic/.docproc.cmd
+  Successfully remade target file `scripts/basic/docproc'.
+  Considering target file `scripts/basic/hash'.
+   File `scripts/basic/hash' does not exist.
+    Considering target file `scripts/basic/hash.c'.
+     Finished prerequisites of target file `scripts/basic/hash.c'.
+    No need to remake target `scripts/basic/hash.c'.
+    Pruning file `FORCE'.
+    Pruning file `scripts/basic/fixdep'.
+   Finished prerequisites of target file `scripts/basic/hash'.
+  Must remake target `scripts/basic/hash'.
+set -e;  echo '  HOSTCC  scripts/basic/hash'; gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  ; scripts/basic/fixdep scripts/basic/.hash.d scripts/basic/hash 'gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  ' > scripts/basic/.hash.tmp; rm -f scripts/basic/.hash.d; mv -f scripts/basic/.hash.tmp scripts/basic/.hash.cmd
+  Successfully remade target file `scripts/basic/hash'.
+ Finished prerequisites of target file `__build'.
+Must remake target `__build'.
+:
+Successfully remade target file `__build'.
+rm -f .tmp_quiet_recordmcount
+  Successfully remade target file `scripts_basic'.
+  Considering target file `outputmakefile'.
+   File `outputmakefile' does not exist.
+   Finished prerequisites of target file `outputmakefile'.
+  Must remake target `outputmakefile'.
+  Successfully remade target file `outputmakefile'.
+  Considering target file `FORCE'.
+   File `FORCE' does not exist.
+   Finished prerequisites of target file `FORCE'.
+  Must remake target `FORCE'.
+  Successfully remade target file `FORCE'.
+ Finished prerequisites of target file `s5pv210_defconfig'.
+Must remake target `s5pv210_defconfig'.
+mkdir -p include/linux include/config
+make -f scripts/Makefile.build obj=scripts/kconfig s5pv210_defconfig
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-pc-linux-gnu
+Reading makefiles...
+Reading makefile `scripts/Makefile.build'...
+Reading makefile `include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile `scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile `/home/miku/linux-2.6.35-farsight/scripts/kconfig/Makefile' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.host' (search path) (no ~ expansion)...
+Updating goal targets....
+Considering target file `s5pv210_defconfig'.
+ File `s5pv210_defconfig' does not exist.
+  Considering target file `scripts/kconfig/conf'.
+   File `scripts/kconfig/conf' does not exist.
+    Considering target file `scripts/kconfig/conf.o'.
+     File `scripts/kconfig/conf.o' does not exist.
+      Considering target file `scripts/kconfig/conf.c'.
+       Finished prerequisites of target file `scripts/kconfig/conf.c'.
+      No need to remake target `scripts/kconfig/conf.c'.
+      Considering target file `FORCE'.
+       File `FORCE' does not exist.
+       Finished prerequisites of target file `FORCE'.
+      Must remake target `FORCE'.
+      Successfully remade target file `FORCE'.
+     Finished prerequisites of target file `scripts/kconfig/conf.o'.
+    Must remake target `scripts/kconfig/conf.o'.
+set -e;  echo '  HOSTCC  scripts/kconfig/conf.o'; gcc -Wp,-MD,scripts/kconfig/.conf.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/conf.o scripts/kconfig/conf.c; scripts/basic/fixdep scripts/kconfig/.conf.o.d scripts/kconfig/conf.o 'gcc -Wp,-MD,scripts/kconfig/.conf.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/conf.o scripts/kconfig/conf.c' > scripts/kconfig/.conf.o.tmp; rm -f scripts/kconfig/.conf.o.d; mv -f scripts/kconfig/.conf.o.tmp scripts/kconfig/.conf.o.cmd
+    Successfully remade target file `scripts/kconfig/conf.o'.
+    Considering target file `scripts/kconfig/kxgettext.o'.
+     File `scripts/kconfig/kxgettext.o' does not exist.
+      Considering target file `scripts/kconfig/kxgettext.c'.
+       Finished prerequisites of target file `scripts/kconfig/kxgettext.c'.
+      No need to remake target `scripts/kconfig/kxgettext.c'.
+      Pruning file `FORCE'.
+     Finished prerequisites of target file `scripts/kconfig/kxgettext.o'.
+    Must remake target `scripts/kconfig/kxgettext.o'.
+set -e;  echo '  HOSTCC  scripts/kconfig/kxgettext.o'; gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c; scripts/basic/fixdep scripts/kconfig/.kxgettext.o.d scripts/kconfig/kxgettext.o 'gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c' > scripts/kconfig/.kxgettext.o.tmp; rm -f scripts/kconfig/.kxgettext.o.d; mv -f scripts/kconfig/.kxgettext.o.tmp scripts/kconfig/.kxgettext.o.cmd
+    Successfully remade target file `scripts/kconfig/kxgettext.o'.
+    Considering target file `scripts/kconfig/zconf.tab.o'.
+     File `scripts/kconfig/zconf.tab.o' does not exist.
+      Considering target file `scripts/kconfig/zconf.tab.c'.
+       File `scripts/kconfig/zconf.tab.c' does not exist.
+        Considering target file `scripts/kconfig/zconf.tab.c_shipped'.
+         Finished prerequisites of target file `scripts/kconfig/zconf.tab.c_shipped'.
+        No need to remake target `scripts/kconfig/zconf.tab.c_shipped'.
+       Finished prerequisites of target file `scripts/kconfig/zconf.tab.c'.
+      Must remake target `scripts/kconfig/zconf.tab.c'.
+echo '  SHIPPED scripts/kconfig/zconf.tab.c'; cat scripts/kconfig/zconf.tab.c_shipped > scripts/kconfig/zconf.tab.c
+      Successfully remade target file `scripts/kconfig/zconf.tab.c'.
+      Pruning file `FORCE'.
+      Considering target file `scripts/kconfig/lex.zconf.c'.
+       File `scripts/kconfig/lex.zconf.c' does not exist.
+        Considering target file `scripts/kconfig/lex.zconf.c_shipped'.
+         Finished prerequisites of target file `scripts/kconfig/lex.zconf.c_shipped'.
+        No need to remake target `scripts/kconfig/lex.zconf.c_shipped'.
+       Finished prerequisites of target file `scripts/kconfig/lex.zconf.c'.
+      Must remake target `scripts/kconfig/lex.zconf.c'.
+echo '  SHIPPED scripts/kconfig/lex.zconf.c'; cat scripts/kconfig/lex.zconf.c_shipped > scripts/kconfig/lex.zconf.c
+      Successfully remade target file `scripts/kconfig/lex.zconf.c'.
+      Considering target file `scripts/kconfig/zconf.hash.c'.
+       File `scripts/kconfig/zconf.hash.c' does not exist.
+        Considering target file `scripts/kconfig/zconf.hash.c_shipped'.
+         Finished prerequisites of target file `scripts/kconfig/zconf.hash.c_shipped'.
+        No need to remake target `scripts/kconfig/zconf.hash.c_shipped'.
+       Finished prerequisites of target file `scripts/kconfig/zconf.hash.c'.
+      Must remake target `scripts/kconfig/zconf.hash.c'.
+echo '  SHIPPED scripts/kconfig/zconf.hash.c'; cat scripts/kconfig/zconf.hash.c_shipped > scripts/kconfig/zconf.hash.c
+      Successfully remade target file `scripts/kconfig/zconf.hash.c'.
+     Finished prerequisites of target file `scripts/kconfig/zconf.tab.o'.
+    Must remake target `scripts/kconfig/zconf.tab.o'.
+set -e;  echo '  HOSTCC  scripts/kconfig/zconf.tab.o'; gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE  -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c; scripts/basic/fixdep scripts/kconfig/.zconf.tab.o.d scripts/kconfig/zconf.tab.o 'gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE  -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c' > scripts/kconfig/.zconf.tab.o.tmp; rm -f scripts/kconfig/.zconf.tab.o.d; mv -f scripts/kconfig/.zconf.tab.o.tmp scripts/kconfig/.zconf.tab.o.cmd
+    Successfully remade target file `scripts/kconfig/zconf.tab.o'.
+    Pruning file `FORCE'.
+   Finished prerequisites of target file `scripts/kconfig/conf'.
+  Must remake target `scripts/kconfig/conf'.
+set -e;  echo '  HOSTLD  scripts/kconfig/conf'; gcc  -o scripts/kconfig/conf scripts/kconfig/conf.o scripts/kconfig/zconf.tab.o -lncurses ; echo 'cmd_scripts/kconfig/conf := gcc  -o scripts/kconfig/conf scripts/kconfig/conf.o scripts/kconfig/zconf.tab.o -lncurses ' > scripts/kconfig/.conf.cmd
+  Successfully remade target file `scripts/kconfig/conf'.
+ Finished prerequisites of target file `s5pv210_defconfig'.
+Must remake target `s5pv210_defconfig'.
+scripts/kconfig/conf -D arch/arm/configs/s5pv210_defconfig arch/arm/Kconfig
+Successfully remade target file `s5pv210_defconfig'.
+Successfully remade target file `s5pv210_defconfig'.
+make: Leaving directory `/home/miku/linux-2.6.35-farsight'
