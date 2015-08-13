@@ -1,0 +1,4024 @@
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for x86_64-pc-linux-gnu
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for x86_64-pc-linux-gnu
+
+# Make data base, printed on Wed Jul 22 07:44:13 2015
+
+# Variables
+
+# makefile (from `include/config/auto.conf', line 241)
+CONFIG_LEGACY_PTY_COUNT = 256
+# makefile (from `include/config/auto.conf', line 104)
+CONFIG_SCSI_PROC_FS = y
+# environment
+quiet = quiet_
+# makefile (from `include/config/auto.conf', line 169)
+CONFIG_SERIAL_SAMSUNG_UARTS = 4
+# automatic
+?F = $(notdir $?)
+# makefile (from `include/config/auto.conf', line 95)
+CONFIG_NLS_ASCII = y
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from `include/config/auto.conf', line 250)
+CONFIG_SCSI_LOWLEVEL = y
+# environment
+DESKTOP_SESSION = gnome
+# makefile (from `include/config/auto.conf', line 142)
+CONFIG_CPU_ABRT_EV7 = y
+# environment
+AFLAGS_KERNEL = 
+# makefile (from `include/config/auto.conf', line 242)
+CONFIG_CPU_32v6K = y
+# makefile (from `include/config/auto.conf', line 163)
+CONFIG_HAVE_KPROBES = y
+# makefile (from `include/config/auto.conf', line 291)
+CONFIG_DEBUG_INFO = y
+# makefile (from `include/config/auto.conf', line 23)
+CONFIG_UEVENT_HELPER_PATH = "/sbin/hotplug"
+# makefile (from `include/config/auto.conf', line 222)
+CONFIG_FAT_DEFAULT_IOCHARSET = "iso8859-1"
+# makefile (from `scripts/Makefile.build', line 119)
+quiet_modtag := $(subst ,,   )
+# environment
+PATCHLEVEL = 6
+# makefile (from `scripts/Makefile.lib', line 80)
+lib-y := 
+# makefile (from `include/config/auto.conf', line 64)
+CONFIG_CPU_CACHE_VIPT = y
+# makefile (from `include/config/auto.conf', line 128)
+CONFIG_VFAT_FS = y
+# makefile (from `scripts/Makefile.lib', line 84)
+single-used-m := 
+# makefile (from `scripts/Makefile.build', line 216)
+rule_cc_o_c = 	$(call echo-cmd,checksrc) $(cmd_checksrc) $(call echo-cmd,cc_o_c) $(cmd_cc_o_c); $(cmd_modversions) $(call echo-cmd,record_mcount) $(cmd_record_mcount) scripts/basic/fixdep $(depfile) $@ '$(call make-cmd,cc_o_c)' > $(dot-target).tmp; rm -f $(depfile); mv -f $(dot-target).tmp $(dot-target).cmd
+# makefile (from `include/config/auto.conf', line 214)
+CONFIG_ARCH_SPARSEMEM_DEFAULT = y
+# makefile (from `scripts/Makefile.lib', line 231)
+quiet_cmd_bzip2 = BZIP2   $@
+# makefile (from `scripts/Kbuild.include', line 49)
+filechk = 	$(Q)set -e; $(kecho) '  CHK     $@'; mkdir -p $(dir $@); $(filechk_$(1)) < $< > $@.tmp; if [ -r $@ ] && cmp -s $@ $@.tmp; then rm -f $@.tmp; else $(kecho) '  UPD     $@'; mv -f $@.tmp $@; fi
+# makefile (from `scripts/Kbuild.include', line 141)
+ld-option = $(call try-run, $(CC) /dev/null -c -o "$$TMPO" ; $(LD) $(1) "$$TMPO" -o "$$TMP",$(1),$(2))
+# makefile (from `include/config/auto.conf', line 231)
+CONFIG_INPUT_TOUCHSCREEN = y
+# makefile (from `scripts/Makefile.host', line 123)
+cmd_host-cmulti = $(HOSTCC) $(HOSTLDFLAGS) -o $@ $(addprefix $(obj)/,$($(@F)-objs)) $(HOST_LOADLIBES) $(HOSTLOADLIBES_$(@F))
+# makefile (from `scripts/basic/.docproc.cmd', line 1)
+cmd_scripts/basic/docproc := gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  
+# makefile (from `include/config/auto.conf', line 227)
+CONFIG_SERIAL_8250_NR_UARTS = 4
+# makefile (from `scripts/Makefile.lib', line 81)
+subdir-obj-y := 
+# makefile (from `scripts/Makefile.host', line 84)
+host-cshlib := 
+# makefile (from `scripts/Makefile.host', line 138)
+quiet_cmd_host-cxxmulti = HOSTLD  $@
+# makefile (from `include/config/auto.conf', line 180)
+CONFIG_CPU_V7 = y
+# makefile (from `include/config/auto.conf', line 198)
+CONFIG_ALIGNMENT_TRAP = y
+# environment
+OBJCOPY = arm-cortex_a8-linux-gnueabi-objcopy
+# makefile (from `scripts/Makefile.lib', line 78)
+obj-y := 
+# makefile (from `include/config/auto.conf', line 32)
+CONFIG_HAVE_PROC_CPU = y
+# makefile (from `include/config/auto.conf', line 246)
+CONFIG_EARLY_PRINTK = y
+# makefile (from `include/config/auto.conf', line 67)
+CONFIG_ENABLE_WARN_DEPRECATED = y
+# makefile (from `scripts/Makefile.build', line 179)
+cmd_cc_o_c = $(CC) $(c_flags) -c -o $@ $<
+# makefile (from `include/config/auto.conf', line 281)
+CONFIG_RCU_FANOUT = 32
+# makefile (from `include/config/auto.conf', line 53)
+CONFIG_STANDALONE = y
+# makefile (from `include/config/auto.conf', line 54)
+CONFIG_BLOCK = y
+# makefile (from `scripts/Makefile.build', line 31)
+subdir-ccflags-y := 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /var/run/gdm/auth-for-miku-HhKOie/database
+# environment
+GDMSESSION = gnome
+# environment
+XMODIFIERS = @im=ibus
+# makefile (from `include/config/auto.conf', line 113)
+CONFIG_ARCH_REQUIRE_GPIOLIB = y
+# makefile
+CURDIR := /home/miku/linux-2.6.35-farsight
+# makefile
+SHELL = /bin/sh
+# environment
+NM = arm-cortex_a8-linux-gnueabi-nm
+# environment
+GDM_LANG = en_US.utf8
+# environment
+Q = @
+# makefile (from `include/config/auto.conf', line 173)
+CONFIG_DEBUG_SPINLOCK = y
+# makefile (from `include/config/auto.conf', line 30)
+CONFIG_MSDOS_FS = y
+# makefile (from `scripts/Kbuild.include', line 30)
+quiet_kecho := echo
+# makefile (from `include/config/auto.conf', line 118)
+CONFIG_SLUB_DEBUG = y
+# makefile (from `scripts/Makefile.build', line 371)
+PHONY := __build  FORCE
+# environment
+MODVERDIR = .tmp_versions
+# makefile (from `include/config/auto.conf', line 171)
+CONFIG_ARM_VIC = y
+# makefile (from `include/config/auto.conf', line 134)
+CONFIG_CPU_PABRT_V7 = y
+# environment
+_ = /usr/bin/make
+# makefile (from `include/config/auto.conf', line 108)
+CONFIG_SLABINFO = y
+# makefile (from `scripts/Makefile.build', line 344)
+quiet_cmd_link_multi-m = LD [M]  $@
+# makefile (from `scripts/Makefile.lib', line 41)
+subdir-m := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 208)
+CONFIG_ARCH_USES_GETTIMEOFFSET = y
+# makefile (from `scripts/Makefile.build', line 30)
+subdir-asflags-y := 
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `include/config/auto.conf', line 258)
+CONFIG_FAT_DEFAULT_CODEPAGE = 437
+# makefile (from `include/config/auto.conf', line 181)
+CONFIG_HAS_TLS_REG = y
+# makefile (from `scripts/Kbuild.include', line 127)
+cc-fullversion = $(shell $(CONFIG_SHELL) $(srctree)/scripts/gcc-version.sh -p $(CC))
+# makefile (from `include/config/auto.conf', line 120)
+CONFIG_CPU_HAS_ASID = y
+# makefile (from `include/config/auto.conf', line 212)
+CONFIG_ARM_L1_CACHE_SHIFT_6 = y
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-gnome:/etc/xdg
+# makefile (from `scripts/Makefile.lib', line 216)
+size_append = printf $(shell dec_size=0; for F in $1; do fsize=$$(stat -c "%s" $$F); dec_size=$$(expr $$dec_size + $$fsize); done; printf "%08x\n" $$dec_size | sed 's/\(..\)/\1 /g' | { read ch0 ch1 ch2 ch3; for ch in $$ch3 $$ch2 $$ch1 $$ch0; do printf '%s%03o' '\\' $$((0x$$ch)); done; } )
+# makefile (from `include/config/auto.conf', line 154)
+CONFIG_EPOLL = y
+# makefile (from `include/config/auto.conf', line 6)
+CONFIG_SCSI_DMA = y
+# makefile (from `scripts/Makefile.lib', line 193)
+quiet_cmd_ld = LD      $@
+# makefile (from `include/config/auto.conf', line 59)
+CONFIG_BUG = y
+# makefile (from `scripts/basic/.hash.cmd', line 1)
+MAKEFILE_LIST :=  scripts/Makefile.build include/config/auto.conf scripts/Kbuild.include /home/miku/linux-2.6.35-farsight/scripts/basic/Makefile scripts/Makefile.lib scripts/Makefile.host scripts/basic/.docproc.cmd scripts/basic/.fixdep.cmd scripts/basic/.hash.cmd
+# environment
+CHECKFLAGS = -D__linux__ -Dlinux -D__STDC__ -Dunix -D__unix__ -Wbitwise -Wno-return-void  -D__arm__
+# automatic
+@F = $(notdir $@)
+# makefile (from `include/config/auto.conf', line 191)
+CONFIG_GENERIC_ACL = y
+# makefile (from `scripts/Makefile.host', line 83)
+host-cxxobjs := 
+# environment
+CFLAGS_KERNEL = 
+# makefile (from `include/config/auto.conf', line 49)
+CONFIG_STACKTRACE_SUPPORT = y
+# makefile (from `include/config/auto.conf', line 101)
+CONFIG_DEBUG_USER = y
+# makefile (from `include/config/auto.conf', line 78)
+CONFIG_PROC_PAGE_MONITOR = y
+# makefile (from `scripts/Makefile.host', line 86)
+host-objdirs := 
+# makefile (from `include/config/auto.conf', line 168)
+CONFIG_LOCKDEP_SUPPORT = y
+# makefile (from `include/config/auto.conf', line 223)
+CONFIG_FRAME_WARN = 1024
+# environment
+USERNAME = miku
+# makefile (from `scripts/Makefile.lib', line 83)
+real-objs-m := 
+# makefile (from `include/config/auto.conf', line 117)
+CONFIG_SERIAL_CORE_CONSOLE = y
+# environment
+srctree = /home/miku/linux-2.6.35-farsight
+# makefile (from `include/config/auto.conf', line 237)
+CONFIG_HAVE_S3C2410_WATCHDOG = y
+# environment
+HOSTCC = gcc
+# environment
+KBUILD_BUILDHOST = x86_64
+# environment
+MANDATORY_PATH = /usr/share/gconf/gnome.mandatory.path
+# makefile (from `scripts/Makefile.host', line 81)
+host-cobjs := 
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share/:/usr/share/
+# makefile (from `scripts/Kbuild.include', line 123)
+cc-version = $(shell $(CONFIG_SHELL) $(srctree)/scripts/gcc-version.sh $(CC))
+# makefile (from `include/config/auto.conf', line 127)
+CONFIG_VIRT_TO_BUS = y
+# makefile (from `include/config/auto.conf', line 123)
+CONFIG_RD_BZIP2 = y
+# makefile (from `include/config/auto.conf', line 143)
+CONFIG_VM_EVENT_COUNTERS = y
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-deybKPOpnP,guid=8ae485ecc3450b7d4e43524e551f7e57
+# environment
+VERSION = 2
+# makefile (from `include/config/auto.conf', line 133)
+CONFIG_PLAT_SAMSUNG = y
+# makefile (from `include/config/auto.conf', line 240)
+CONFIG_MACH_SMDKV210 = y
+# environment
+CC = arm-cortex_a8-linux-gnueabi-gcc
+# makefile (from `include/config/auto.conf', line 274)
+CONFIG_DECOMPRESS_LZO = y
+# makefile (from `include/config/auto.conf', line 266)
+CONFIG_PL330 = y
+# makefile (from `scripts/Makefile.build', line 118)
+modkern_cflags = $(if $(part-of-module), $(CFLAGS_MODULE), $(CFLAGS_KERNEL))
+# makefile (from `scripts/Kbuild.include', line 210)
+if_changed_dep = $(if $(strip $(any-prereq) $(arg-check) ), @set -e; $(echo-cmd) $(cmd_$(1)); scripts/basic/fixdep $(depfile) $@ '$(make-cmd)' > $(dot-target).tmp; rm -f $(depfile); mv -f $(dot-target).tmp $(dot-target).cmd)
+# makefile (from `include/config/auto.conf', line 61)
+CONFIG_BOOTPARAM_HUNG_TASK_PANIC_VALUE = 0
+# makefile (from `include/config/auto.conf', line 211)
+CONFIG_FTRACE = y
+# makefile (from `include/config/auto.conf', line 105)
+CONFIG_HOTPLUG = y
+# makefile (from `scripts/Makefile.lib', line 153)
+c_flags = -Wp,-MD,$(depfile) $(NOSTDINC_FLAGS) $(LINUXINCLUDE) $(__c_flags) $(modkern_cflags) -D"KBUILD_STR(s)=#s" $(basename_flags) $(modname_flags) $(debug_flags)
+# makefile (from `scripts/Makefile.lib', line 201)
+cmd_objcopy = $(OBJCOPY) $(OBJCOPYFLAGS) $(OBJCOPYFLAGS_$(@F)) $< $@
+# environment
+LC_COLLATE = C
+# makefile (from `scripts/Makefile.lib', line 206)
+quiet_cmd_gzip = GZIP    $@
+# environment
+INSTALLKERNEL = installkernel
+# makefile (from `scripts/Makefile.host', line 80)
+host-cmulti := 
+# environment
+AWK = awk
+# makefile (from `include/config/auto.conf', line 51)
+CONFIG_ARM_L1_CACHE_SHIFT = 6
+# environment
+KBUILD_AFLAGS = -D__ASSEMBLY__ -mabi=apcs-gnu -mno-thumb-interwork    -include asm/unified.h -msoft-float
+# makefile (from `scripts/Makefile.build', line 262)
+quiet_cmd_as_o_S = AS $(quiet_modtag)  $@
+# makefile (from `scripts/Kbuild.include', line 12)
+dot-target = $(dir $@).$(notdir $@)
+# makefile (from `scripts/Makefile.lib', line 85)
+multi-used-y := 
+# makefile (from `include/config/auto.conf', line 178)
+CONFIG_PAGE_OFFSET = 0x80000000
+# makefile (from `include/config/auto.conf', line 161)
+CONFIG_PREVENT_FIRMWARE_BUILD = y
+# makefile (from `scripts/Makefile.host', line 99)
+__hostc_flags = $(_hostc_flags)
+# makefile (from `scripts/Kbuild.include', line 220)
+if_changed_rule = $(if $(strip $(any-prereq) $(arg-check) ), @set -e; $(rule_$(1)))
+# makefile (from `scripts/Kbuild.include', line 6)
+squote := '
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from `scripts/Makefile.lib', line 101)
+modname_flags = $(if $(filter 1,$(words $(modname))), -D"KBUILD_MODNAME=KBUILD_STR($(call name-fix,$(modname)))")
+# makefile (from `include/config/auto.conf', line 209)
+CONFIG_LOCALVERSION_AUTO = y
+# makefile (from `scripts/Makefile.host', line 107)
+hostcxx_flags = -Wp,-MD,$(depfile) $(__hostcxx_flags)
+# makefile (from `scripts/Makefile.lib', line 9)
+KBUILD_SUBDIR_ASFLAGS := $(subst ,, )
+# environment
+CPP = arm-cortex_a8-linux-gnueabi-gcc -E
+# makefile (from `include/config/auto.conf', line 151)
+CONFIG_CPU_S5PV210 = y
+# makefile (from `include/config/auto.conf', line 213)
+CONFIG_DECOMPRESS_BZIP2 = y
+# makefile (from `scripts/Makefile.host', line 147)
+quiet_cmd_host-cxxobjs = HOSTCXX $@
+# environment
+ORBIT_SOCKETDIR = /tmp/orbit-miku
+# makefile (from `scripts/Kbuild.include', line 17)
+depfile = $(subst $(comma),_,$(dot-target).d)
+# makefile (from `include/config/auto.conf', line 103)
+CONFIG_BINFMT_ELF = y
+# makefile (from `scripts/Kbuild.include', line 113)
+cc-option-yn = $(call try-run, $(CC) $(KBUILD_CPPFLAGS) $(KBUILD_CFLAGS) $(1) -c -xc /dev/null -o "$$TMP",y,n)
+# environment
+KBUILD_BUILTIN = 1
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/miku/toolchain/bin
+# makefile (from `include/config/auto.conf', line 10)
+CONFIG_VFP = y
+# makefile (from `include/config/auto.conf', line 139)
+CONFIG_NO_IOPORT = y
+# makefile (from `scripts/Makefile.host', line 161)
+quiet_cmd_host-cshlib = HOSTLLD -shared $@
+# makefile (from `scripts/Makefile.lib', line 86)
+multi-used-m := 
+# makefile (from `scripts/Kbuild.include', line 164)
+flags = $(foreach o,$($(1)),$(if $(filter -I%,$(o)),$(call addtree,$(o)),$(o)))
+# environment
+LD = arm-cortex_a8-linux-gnueabi-ld -EL
+# makefile (from `scripts/Makefile.host', line 95)
+_hostcxx_flags = $(HOSTCXXFLAGS) $(HOST_EXTRACXXFLAGS) $(HOSTCXXFLAGS_$(basetarget).o)
+# makefile (from `scripts/Makefile.lib', line 139)
+__c_flags = $(_c_flags)
+# makefile (from `scripts/Makefile.lib', line 109)
+debug_flags = 
+# makefile (from `include/config/auto.conf', line 29)
+CONFIG_LEGACY_PTYS = y
+# makefile (from `include/config/auto.conf', line 45)
+CONFIG_SERIO = y
+# makefile (from `include/config/auto.conf', line 261)
+CONFIG_UNIX98_PTYS = y
+# makefile (from `scripts/Makefile.build', line 21)
+EXTRA_AFLAGS := 
+# makefile (from `scripts/Makefile.lib', line 100)
+basename_flags = -D"KBUILD_BASENAME=KBUILD_STR($(call name-fix,$(basetarget)))"
+# makefile (from `include/config/auto.conf', line 79)
+CONFIG_CC_OPTIMIZE_FOR_SIZE = y
+# environment
+SESSION_MANAGER = local/miku:@/tmp/.ICE-unix/1768,unix/miku:/tmp/.ICE-unix/1768
+# makefile (from `scripts/Kbuild.include', line 172)
+cmd = @$(echo-cmd) $(cmd_$(1))
+# makefile (from `include/config/auto.conf', line 153)
+CONFIG_CONSTRUCTORS = y
+# makefile (from `scripts/Kbuild.include', line 8)
+space := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 238)
+CONFIG_HAVE_ARCH_KGDB = y
+# makefile (from `include/config/auto.conf', line 156)
+CONFIG_S3C_GPIO_TRACK = y
+# makefile (from `include/config/auto.conf', line 111)
+CONFIG_CPU_HAS_PMU = y
+# makefile (from `scripts/Makefile.lib', line 75)
+always := scripts/basic/fixdep scripts/basic/docproc scripts/basic/hash
+# makefile (from `include/config/auto.conf', line 92)
+CONFIG_CPU_CP15_MMU = y
+# makefile (from `include/config/auto.conf', line 164)
+CONFIG_GPIOLIB = y
+# makefile (from `include/config/auto.conf', line 89)
+CONFIG_ROMFS_FS = y
+# makefile (from `include/config/auto.conf', line 135)
+CONFIG_SERIAL_8250_RUNTIME_UARTS = 4
+# makefile (from `scripts/Makefile.host', line 122)
+quiet_cmd_host-cmulti = HOSTLD  $@
+# makefile (from `scripts/Kbuild.include', line 84)
+try-run = $(shell set -e; TMP="$(TMPOUT).$$$$.tmp"; TMPO="$(TMPOUT).$$$$.o"; if ($(1)) >/dev/null 2>&1; then echo "$(2)"; else echo "$(3)"; fi; rm -f "$$TMP" "$$TMPO")
+# makefile (from `include/config/auto.conf', line 148)
+CONFIG_SIGNALFD = y
+# environment
+WINDOWID = 67439917
+# makefile (from `include/config/auto.conf', line 236)
+CONFIG_HAVE_GENERIC_DMA_COHERENT = y
+# makefile (from `scripts/Makefile.build', line 341)
+quiet_cmd_link_multi-y = LD      $@
+# makefile (from `scripts/Makefile.build', line 345)
+cmd_link_multi-m = $(cmd_link_multi-y)
+# makefile (from `include/config/auto.conf', line 233)
+CONFIG_CPU_32v7 = y
+# makefile (from `scripts/Kbuild.include', line 5)
+comma := ,
+# makefile (from `scripts/Kbuild.include', line 200)
+any-prereq = $(filter-out $(PHONY),$?) $(filter-out $(PHONY) $(wildcard $^),$^)
+# makefile (from `include/config/auto.conf', line 273)
+CONFIG_DECOMPRESS_GZIP = y
+# makefile (from `include/config/auto.conf', line 80)
+CONFIG_RD_LZO = y
+# makefile (from `scripts/Makefile.lib', line 140)
+__a_flags = $(_a_flags)
+# makefile (from `include/config/auto.conf', line 129)
+CONFIG_S3C_GPIO_CFG_S3C64XX = y
+# makefile (from `include/config/auto.conf', line 114)
+CONFIG_TMPFS = y
+# environment
+VPATH = /home/miku/linux-2.6.35-farsight
+# makefile (from `include/config/auto.conf', line 131)
+CONFIG_GENERIC_TIME = y
+# makefile (from `include/config/auto.conf', line 121)
+CONFIG_S3C_BOOT_UART_FORCE_FIFO = y
+# makefile (from `include/config/auto.conf', line 25)
+CONFIG_S3C_GPIO_CFG_S3C24XX = y
+# makefile (from `include/config/auto.conf', line 146)
+CONFIG_FW_LOADER = y
+# makefile (from `scripts/Kbuild.include', line 7)
+empty := 
+# environment
+AR = arm-cortex_a8-linux-gnueabi-ar
+# makefile (from `include/config/auto.conf', line 167)
+CONFIG_BLK_DEV_RAM_COUNT = 16
+# makefile (from `scripts/basic/.fixdep.cmd', line 1)
+cmd_scripts/basic/fixdep := gcc -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/fixdep scripts/basic/fixdep.c  
+# makefile (from `scripts/Makefile.build', line 274)
+cmd_cpp_lds_S = $(CPP) $(cpp_flags) -P -C -U$(ARCH) -D__ASSEMBLY__ -DLINKER_SCRIPT -o $@ $<
+# environment
+LC_NUMERIC = C
+# makefile (from `include/config/auto.conf', line 137)
+CONFIG_HAVE_FUNCTION_TRACER = y
+# environment
+LDFLAGS = 
+# makefile (from `scripts/Kbuild.include', line 150)
+build := -f scripts/Makefile.build obj
+# makefile (from `include/config/auto.conf', line 195)
+CONFIG_SCHED_DEBUG = y
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `include/config/auto.conf', line 119)
+CONFIG_MODULES = y
+# makefile (from `scripts/Makefile.build', line 240)
+quiet_cmd_cc_lst_c = MKLST   $@
+# makefile (from `scripts/Makefile.build', line 164)
+cmd_cc_symtypes_c = set -e; $(call cmd_gensymtypes, true) >/dev/null; test -s $@ || rm -f $@
+# environment
+objtree = /home/miku/linux-2.6.35-farsight
+# makefile (from `include/config/auto.conf', line 41)
+CONFIG_DNOTIFY = y
+# makefile (from `include/config/auto.conf', line 62)
+CONFIG_VT = y
+# makefile (from `scripts/Makefile.host', line 115)
+cmd_host-csingle = $(HOSTCC) $(hostc_flags) -o $@ $< $(HOST_LOADLIBES) $(HOSTLOADLIBES_$(@F))
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:hl=44;37:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+# makefile (from `include/config/auto.conf', line 33)
+CONFIG_LZO_DECOMPRESS = y
+# makefile (from `include/config/auto.conf', line 18)
+CONFIG_FSNOTIFY = y
+# makefile (from `include/config/auto.conf', line 210)
+CONFIG_MISC_FILESYSTEMS = y
+# makefile (from `include/config/auto.conf', line 36)
+CONFIG_BRANCH_PROFILE_NONE = y
+# makefile (from `include/config/auto.conf', line 7)
+CONFIG_KERNEL_GZIP = y
+# environment
+SUBLEVEL = 35
+# environment
+SSH_AUTH_SOCK = /tmp/keyring-io1IZx/ssh
+# makefile (from `include/config/auto.conf', line 259)
+CONFIG_BLK_DEV = y
+# makefile (from `include/config/auto.conf', line 31)
+CONFIG_SERIAL_8250 = y
+# makefile (from `scripts/Makefile.build', line 157)
+cmd_gensymtypes = $(CPP) -D__GENKSYMS__ $(c_flags) $< | $(GENKSYMS) -T $@ -a $(ARCH) $(if $(KBUILD_PRESERVE),-p) $(if $(1),-r $(firstword $(wildcard $(@:.symtypes=.symref) /dev/null)))
+# makefile (from `include/config/auto.conf', line 150)
+CONFIG_HAS_IOMEM = y
+# automatic
+%F = $(notdir $%)
+# makefile (from `include/config/auto.conf', line 257)
+CONFIG_S3C_GPIO_SPACE = 0
+# makefile (from `include/config/auto.conf', line 295)
+CONFIG_PROC_SYSCTL = y
+# makefile (from `include/config/auto.conf', line 170)
+CONFIG_GENERIC_HARDIRQS_NO__DO_IRQ = y
+# makefile (from `scripts/Makefile.host', line 155)
+cmd_host-cshobjs = $(HOSTCC) $(hostc_flags) -fPIC -c -o $@ $<
+# environment
+DISPLAY = :0.0
+# makefile (from `include/config/auto.conf', line 99)
+CONFIG_TREE_RCU = y
+# makefile (from `scripts/Makefile.lib', line 10)
+KBUILD_SUBDIR_CCFLAGS := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 265)
+CONFIG_INOTIFY = y
+# makefile (from `include/config/auto.conf', line 155)
+CONFIG_PARTITION_ADVANCED = y
+# makefile (from `include/config/auto.conf', line 57)
+CONFIG_GENERIC_GPIO = y
+# makefile (from `include/config/auto.conf', line 194)
+CONFIG_LOCALVERSION = ""
+# makefile (from `scripts/Makefile.lib', line 161)
+cpp_flags = -Wp,-MD,$(depfile) $(NOSTDINC_FLAGS) $(LINUXINCLUDE) $(__cpp_flags)
+# environment
+KBUILD_MODULES = 
+# makefile (from `include/config/auto.conf', line 278)
+CONFIG_BLK_DEV_SD = y
+# makefile (from `include/config/auto.conf', line 264)
+CONFIG_ELF_CORE = y
+# makefile (from `include/config/auto.conf', line 282)
+CONFIG_BITREVERSE = y
+# makefile (from `include/config/auto.conf', line 60)
+CONFIG_DEVKMEM = y
+# makefile (from `include/config/auto.conf', line 215)
+CONFIG_CHR_DEV_SG = y
+# environment
+HOSTCXX = g++
+# makefile (from `include/config/auto.conf', line 235)
+CONFIG_HAVE_OPROFILE = y
+# environment
+GTK_IM_MODULE = ibus
+# makefile (from `include/config/auto.conf', line 288)
+CONFIG_SYSCTL_SYSCALL_CHECK = y
+# makefile (from `include/config/auto.conf', line 116)
+CONFIG_FUTEX = y
+# makefile (from `scripts/Makefile.host', line 139)
+cmd_host-cxxmulti = $(HOSTCXX) $(HOSTLDFLAGS) -o $@ $(foreach o,objs cxxobjs, $(addprefix $(obj)/,$($(@F)-$(o)))) $(HOST_LOADLIBES) $(HOSTLOADLIBES_$(@F))
+# makefile (from `include/config/auto.conf', line 8)
+CONFIG_CRC32 = y
+# makefile (from `scripts/Makefile.build', line 308)
+modorder-cmds = $(foreach m, $(modorder), $(if $(filter %/modules.order, $m), cat $m;, echo kernel/$m;))
+# makefile (from `include/config/auto.conf', line 77)
+CONFIG_DEFCONFIG_LIST = "/lib/modules/$UNAME_RELEASE/.config"
+# makefile (from `scripts/Makefile.lib', line 74)
+extra-y := 
+# makefile (from `include/config/auto.conf', line 224)
+CONFIG_GENERIC_HWEIGHT = y
+# makefile (from `include/config/auto.conf', line 86)
+CONFIG_DEFAULT_CFQ = y
+# makefile (from `include/config/auto.conf', line 174)
+CONFIG_SYSCTL_SYSCALL = y
+# makefile (from `scripts/Makefile.lib', line 173)
+quiet_cmd_shipped = SHIPPED $@
+# environment
+PWD = /home/miku/linux-2.6.35-farsight
+# makefile (from `scripts/Kbuild.include', line 136)
+cc-ldoption = $(call try-run, $(CC) $(1) -nostdlib -xc /dev/null -o "$$TMP",$(1),$(2))
+# makefile (from `include/config/auto.conf', line 201)
+CONFIG_SERIAL_CORE = y
+# makefile (from `include/config/auto.conf', line 140)
+CONFIG_CPU_CACHE_V7 = y
+# makefile (from `include/config/auto.conf', line 177)
+CONFIG_NEED_DMA_MAP_STATE = y
+# makefile (from `scripts/Makefile.build', line 145)
+quiet_cmd_cc_s_c = CC $(quiet_modtag)  $@
+# environment
+OBJCOPYFLAGS = -O binary -R .note -R .note.gnu.build-id -R .comment -S
+# makefile (from `scripts/Makefile.build', line 5)
+src := scripts/basic
+# makefile (from `scripts/basic/.docproc.cmd', line 3)
+deps_scripts/basic/docproc := scripts/basic/docproc.c /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/bits/string3.h /usr/include/ctype.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/sys/wait.h /usr/include/signal.h /usr/include/bits/signum.h /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h /usr/include/bits/sigthread.h /usr/include/sys/resource.h /usr/include/bits/resource.h /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h 
+# makefile (from `include/config/auto.conf', line 284)
+CONFIG_FILE_LOCKING = y
+# makefile (from `scripts/Makefile.lib', line 244)
+quiet_cmd_lzo = LZO     $@
+# makefile (from `include/config/auto.conf', line 38)
+CONFIG_TIMERFD = y
+# environment
+SSH_AGENT_PID = 1803
+# makefile (from `include/config/auto.conf', line 132)
+CONFIG_BLK_DEV_LOOP = y
+# makefile (from `include/config/auto.conf', line 197)
+CONFIG_CMDLINE = "root=/dev/ram0 rw ramdisk=8192 initrd=0x20800000,8M console=ttySAC1,115200 init=/linuxrc"
+# makefile (from `include/config/auto.conf', line 220)
+CONFIG_VMSPLIT_2G = y
+# makefile (from `scripts/Makefile.build', line 134)
+modname = $(basetarget)
+# makefile (from `include/config/auto.conf', line 122)
+CONFIG_HAVE_CLK = y
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/basic/Makefile', line 12)
+hostprogs-y := fixdep docproc hash
+# environment
+KERNELRELEASE = 2.6.35
+# makefile (from `scripts/Makefile.build', line 24)
+EXTRA_LDFLAGS := 
+# makefile (from `scripts/Makefile.lib', line 88)
+multi-objs-m := 
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+CFLAGS_GCOV = -fprofile-arcs -ftest-coverage
+# makefile (from `scripts/Makefile.lib', line 59)
+multi-objs := $(subst ,, )
+# makefile (from `scripts/Makefile.build', line 263)
+cmd_as_o_S = $(CC) $(a_flags) -c -o $@ $<
+# makefile (from `scripts/Makefile.lib', line 115)
+_a_flags = $(KBUILD_CPPFLAGS) $(KBUILD_AFLAGS) $(KBUILD_SUBDIR_ASFLAGS) $(asflags-y) $(AFLAGS_$(basetarget).o)
+# makefile (from `include/config/auto.conf', line 43)
+CONFIG_ENABLE_MUST_CHECK = y
+# makefile (from `scripts/Makefile.lib', line 87)
+multi-objs-y := 
+# environment
+HOME = /home/miku
+# environment
+GNOME_KEYRING_CONTROL = /tmp/keyring-io1IZx
+# makefile (from `scripts/Kbuild.include', line 175)
+objectify = $(foreach o,$(1),$(if $(filter /%,$(o)),$(o),$(obj)/$(o)))
+# makefile (from `scripts/Kbuild.include', line 102)
+as-instr = $(call try-run, /bin/echo -e "$(1)" | $(CC) $(KBUILD_AFLAGS) -c -xassembler -o "$$TMP" -,$(2),$(3))
+# makefile (from `include/config/auto.conf', line 102)
+CONFIG_OABI_COMPAT = y
+# makefile (from `scripts/Kbuild.include', line 156)
+modbuiltin := -f scripts/Makefile.modbuiltin obj
+# makefile (from `include/config/auto.conf', line 206)
+CONFIG_SCSI = y
+# makefile (from `include/config/auto.conf', line 294)
+CONFIG_INPUT = y
+# makefile (from `include/config/auto.conf', line 159)
+CONFIG_EXT2_FS = y
+# makefile (from `scripts/Makefile.lib', line 194)
+cmd_ld = $(LD) $(LDFLAGS) $(ldflags-y) $(LDFLAGS_$(@F)) $(filter-out FORCE,$^) -o $@ 
+# environment
+XDG_SESSION_COOKIE = 9db2a930f918e0865bef673f52c949f9-1428127316.789727-1300292473
+# makefile (from `scripts/Makefile.host', line 106)
+hostc_flags = -Wp,-MD,$(depfile) $(__hostc_flags)
+# makefile (from `scripts/Makefile.lib', line 112)
+orig_c_flags = $(KBUILD_CPPFLAGS) $(KBUILD_CFLAGS) $(KBUILD_SUBDIR_CCFLAGS) $(ccflags-y) $(CFLAGS_$(basetarget).o)
+# makefile (from `include/config/auto.conf', line 83)
+CONFIG_CPU_COPY_V6 = y
+# makefile (from `scripts/Kbuild.include', line 168)
+echo-cmd = $(if $($(quiet)cmd_$(1)), echo '  $(call escsq,$($(quiet)cmd_$(1)))$(echo-why)';)
+# makefile (from `include/config/auto.conf', line 186)
+CONFIG_KALLSYMS_ALL = y
+# makefile (from `scripts/Makefile.lib', line 245)
+cmd_lzo = (cat $(filter-out FORCE,$^) | lzop -9 && $(call size_append, $(filter-out FORCE,$^))) > $@ || (rm -f $@ ; false)
+# automatic
+-*-command-variables-*- := obj=scripts/basic
+# makefile (from `scripts/Makefile.host', line 162)
+cmd_host-cshlib = $(HOSTCC) $(HOSTLDFLAGS) -shared -o $@ $(addprefix $(obj)/,$($(@F:.so=-objs))) $(HOST_LOADLIBES) $(HOSTLOADLIBES_$(@F))
+# makefile (from `scripts/Makefile.lib', line 38)
+__subdir-y := 
+# makefile (from `include/config/auto.conf', line 40)
+CONFIG_DECOMPRESS_LZMA = y
+# environment
+LOGNAME = miku
+# makefile (from `scripts/basic/.hash.cmd', line 1)
+cmd_scripts/basic/hash := gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  
+# makefile (from `include/config/auto.conf', line 229)
+CONFIG_FIRMWARE_IN_KERNEL = y
+# makefile (from `include/config/auto.conf', line 138)
+CONFIG_SERIAL_SAMSUNG_UARTS_4 = y
+# makefile (from `include/config/auto.conf', line 141)
+CONFIG_SLUB = y
+# makefile (from `include/config/auto.conf', line 50)
+CONFIG_ARM = y
+# makefile (from `scripts/Makefile.build', line 16)
+lib-m := 
+# environment
+GDM_KEYBOARD_LAYOUT = us
+# makefile (from `scripts/Makefile.build', line 251)
+modkern_aflags := 
+# makefile (from `include/config/auto.conf', line 297)
+CONFIG_PLAT_S5P = y
+# makefile (from `include/config/auto.conf', line 24)
+CONFIG_ARCH_SPARSEMEM_ENABLE = y
+# makefile (from `include/config/auto.conf', line 58)
+CONFIG_TMPFS_POSIX_ACL = y
+# makefile (from `scripts/Makefile.host', line 131)
+quiet_cmd_host-cobjs = HOSTCC  $@
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from `include/config/auto.conf', line 275)
+CONFIG_CROSS_COMPILE = ""
+# makefile (from `scripts/Makefile.build', line 43)
+kbuild-file := /home/miku/linux-2.6.35-farsight/scripts/basic/Makefile
+# makefile (from `include/config/auto.conf', line 271)
+CONFIG_PREEMPT = y
+# makefile (from `scripts/Makefile.host', line 154)
+quiet_cmd_host-cshobjs = HOSTCC  -fPIC $@
+# environment
+GZFLAGS = -9
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+KBUILD_VERBOSE = 0
+# command line
+obj = scripts/basic
+# makefile (from `include/config/auto.conf', line 232)
+CONFIG_ARM_THUMB = y
+# makefile (from `scripts/Makefile.lib', line 79)
+obj-m := 
+# makefile (from `scripts/Makefile.lib', line 232)
+cmd_bzip2 = (cat $(filter-out FORCE,$^) | bzip2 -9 && $(call size_append, $(filter-out FORCE,$^))) > $@ || (rm -f $@ ; false)
+# makefile (from `include/config/auto.conf', line 289)
+CONFIG_SAMSUNG_IRQ_VIC_TIMER = y
+# makefile (from `include/config/auto.conf', line 187)
+CONFIG_HW_CONSOLE = y
+# makefile (from `include/config/auto.conf', line 256)
+CONFIG_SYS_SUPPORTS_APM_EMULATION = y
+# makefile (from `include/config/auto.conf', line 107)
+CONFIG_DEBUG_MUTEXES = y
+# makefile (from `include/config/auto.conf', line 204)
+CONFIG_SAMSUNG_IRQ_UART = y
+# makefile (from `scripts/Makefile.host', line 88)
+obj-dirs := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 157)
+CONFIG_INPUT_EVDEV = y
+# makefile (from `scripts/Makefile.lib', line 167)
+modname-multi = $(sort $(foreach m,$(multi-used), $(if $(filter $(subst $(obj)/,,$*.o), $($(m:.o=-objs)) $($(m:.o=-y))),$(m:.o=))))
+# makefile (from `include/config/auto.conf', line 253)
+CONFIG_HAVE_PERF_EVENTS = y
+# makefile (from `include/config/auto.conf', line 152)
+CONFIG_GENERIC_IRQ_PROBE = y
+# makefile (from `include/config/auto.conf', line 26)
+CONFIG_NAMESPACES = y
+# makefile (from `scripts/Makefile.build', line 152)
+cmd_cc_i_c = $(CPP) $(c_flags)   -o $@ $<
+# environment
+COLORTERM = gnome-terminal
+# environment
+MAKE = make
+# makefile (from `scripts/Makefile.build', line 89)
+modorder-target := scripts/basic/modules.order
+# makefile (from `include/config/auto.conf', line 280)
+CONFIG_SAMSUNG_GPIOLIB_4BIT = y
+# environment
+QT_IM_MODULE = xim
+# makefile (from `include/config/auto.conf', line 248)
+CONFIG_BASE_SMALL = 0
+# makefile (from `include/config/auto.conf', line 75)
+CONFIG_SAMSUNG_DEV_ADC = y
+# makefile (from `include/config/auto.conf', line 136)
+CONFIG_HAVE_LATENCYTOP_SUPPORT = y
+# makefile (from `include/config/auto.conf', line 183)
+CONFIG_ZBOOT_ROM_BSS = 0
+# environment
+SHLVL = 1
+# makefile (from `include/config/auto.conf', line 244)
+CONFIG_HW_RANDOM = y
+# makefile (from `scripts/Makefile.build', line 273)
+quiet_cmd_cpp_lds_S = LDS     $@
+# makefile (from `include/config/auto.conf', line 15)
+CONFIG_ARCH_SUSPEND_POSSIBLE = y
+# makefile (from `include/config/auto.conf', line 96)
+CONFIG_TRACE_IRQFLAGS_SUPPORT = y
+# makefile (from `scripts/Makefile.lib', line 77)
+modorder := 
+# environment
+KBUILD_DEFCONFIG = versatile_defconfig
+# makefile (from `include/config/auto.conf', line 44)
+CONFIG_NLS_CODEPAGE_437 = y
+# makefile (from `scripts/Makefile.lib', line 174)
+cmd_shipped = cat $< > $@
+# makefile (from `include/config/auto.conf', line 158)
+CONFIG_S5P_GPIO_DRVSTR = y
+# makefile (from `scripts/Kbuild.include', line 31)
+silent_kecho := :
+# makefile (from `scripts/Makefile.build', line 151)
+quiet_cmd_cc_i_c = CPP $(quiet_modtag) $@
+# makefile (from `include/config/auto.conf', line 249)
+CONFIG_PROC_FS = y
+# environment
+AS = arm-cortex_a8-linux-gnueabi-as -EL
+# makefile (from `include/config/auto.conf', line 100)
+CONFIG_LBDAF = y
+# makefile (from `include/config/auto.conf', line 34)
+CONFIG_ROMFS_BACKED_BY_BLOCK = y
+# makefile (from `scripts/Makefile.host', line 148)
+cmd_host-cxxobjs = $(HOSTCXX) $(hostcxx_flags) -c -o $@ $<
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# makefile (from `include/config/auto.conf', line 74)
+CONFIG_EVENTFD = y
+# makefile (from `scripts/Makefile.lib', line 89)
+subdir-ym := 
+# makefile (from `include/config/auto.conf', line 189)
+CONFIG_SAMSUNG_CLKSRC = y
+# makefile (from `include/config/auto.conf', line 196)
+CONFIG_DEFAULT_MMAP_MIN_ADDR = 4096
+# makefile (from `scripts/Makefile.lib', line 251)
+quote := "
+# makefile (from `include/config/auto.conf', line 254)
+CONFIG_CRAMFS = y
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = miku
+# makefile (from `include/config/auto.conf', line 70)
+CONFIG_DEBUG_PI_LIST = y
+# makefile (from `include/config/auto.conf', line 46)
+CONFIG_BLK_DEV_INITRD = y
+# makefile (from `scripts/Makefile.lib', line 39)
+subdir-y := $(subst ,, )
+# environment
+CHECK = sparse
+# makefile
+.DEFAULT_GOAL := __build
+# makefile (from `include/config/auto.conf', line 87)
+CONFIG_DEBUG_BUGVERBOSE = y
+# makefile (from `include/config/auto.conf', line 292)
+CONFIG_BOOTPARAM_SOFTLOCKUP_PANIC_VALUE = 0
+# makefile (from `include/config/auto.conf', line 296)
+CONFIG_MMU = y
+# makefile (from `include/config/auto.conf', line 52)
+CONFIG_S3C_PL330_DMA = y
+# makefile (from `include/config/auto.conf', line 185)
+CONFIG_HAVE_KERNEL_GZIP = y
+# makefile (from `include/config/auto.conf', line 226)
+CONFIG_HZ = 200
+# makefile (from `include/config/auto.conf', line 279)
+CONFIG_MODULE_UNLOAD = y
+# makefile (from `include/config/auto.conf', line 205)
+CONFIG_HAS_DMA = y
+# environment
+RCS_TAR_IGNORE = --exclude SCCS --exclude BitKeeper --exclude .svn --exclude CVS --exclude .pc --exclude .hg --exclude .git
+# makefile (from `include/config/auto.conf', line 98)
+CONFIG_RD_GZIP = y
+# makefile (from `include/config/auto.conf', line 218)
+CONFIG_RT_MUTEXES = y
+# makefile (from `include/config/auto.conf', line 91)
+CONFIG_GENERIC_FIND_LAST_BIT = y
+# makefile (from `scripts/Kbuild.include', line 118)
+cc-option-align = $(subst -functions=0,, $(call cc-option,-falign-functions=0,-malign-functions=0))
+# makefile (from `scripts/Makefile.lib', line 82)
+real-objs-y := 
+# makefile (from `include/config/auto.conf', line 48)
+CONFIG_DEBUG_LL = y
+# makefile (from `scripts/Makefile.build', line 42)
+kbuild-dir := /home/miku/linux-2.6.35-farsight/scripts/basic
+# makefile (from `include/config/auto.conf', line 255)
+CONFIG_DEBUG_MEMORY_INIT = y
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GNOME_KEYRING_PID = 1750
+# makefile (from `include/config/auto.conf', line 162)
+CONFIG_RTC_LIB = y
+# makefile (from `scripts/Makefile.build', line 241)
+cmd_cc_lst_c = $(CC) $(c_flags) -g -c -o $*.o $< && $(CONFIG_SHELL) $(srctree)/scripts/makelst $*.o System.map $(OBJDUMP) > $@
+# makefile (from `include/config/auto.conf', line 228)
+CONFIG_DEFAULT_IOSCHED = "cfq"
+# makefile (from `include/config/auto.conf', line 88)
+CONFIG_FAT_FS = y
+# makefile (from `include/config/auto.conf', line 268)
+CONFIG_ARM_VIC_NR = 2
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile (from `include/config/auto.conf', line 272)
+CONFIG_S3C_LOWLEVEL_UART_PORT = 1
+# makefile (from `include/config/auto.conf', line 13)
+CONFIG_SERIAL_S5PV210 = y
+# makefile (from `include/config/auto.conf', line 115)
+CONFIG_ANON_INODES = y
+# environment
+HOSTCFLAGS = -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer
+# makefile (from `include/config/auto.conf', line 82)
+CONFIG_SELECT_MEMORY_MODEL = y
+# makefile (from `scripts/Makefile.build', line 380)
+targets := scripts/basic/docproc scripts/basic/fixdep scripts/basic/hash
+# default
+MAKE_COMMAND := make
+# makefile (from `include/config/auto.conf', line 65)
+CONFIG_NLS = y
+# makefile (from `include/config/auto.conf', line 11)
+CONFIG_AEABI = y
+# makefile (from `include/config/auto.conf', line 27)
+CONFIG_SERIAL_SAMSUNG = y
+# makefile (from `include/config/auto.conf', line 69)
+CONFIG_SYSFS_DEPRECATED = y
+# environment
+OLDPWD = /home/miku/linux-2.6.35-farsight/virt
+# environment
+NOSTDINC_FLAGS = 
+# makefile (from `scripts/Makefile.lib', line 52)
+multi-used := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 179)
+CONFIG_DEBUG_SPINLOCK_SLEEP = y
+# makefile (from `include/config/auto.conf', line 276)
+CONFIG_SWAP = y
+# default
+.VARIABLES := 
+# makefile (from `scripts/Makefile.build', line 176)
+quiet_cmd_cc_o_c = CC $(quiet_modtag)  $@
+# makefile (from `include/config/auto.conf', line 192)
+CONFIG_DEBUG_KERNEL = y
+# environment
+AFLAGS_MODULE = -DMODULE
+# automatic
+*F = $(notdir $*)
+# makefile (from `include/config/auto.conf', line 193)
+CONFIG_COMPAT_BRK = y
+# makefile (from `include/config/auto.conf', line 81)
+CONFIG_SCSI_WAIT_SCAN = m
+# makefile (from `scripts/Makefile.lib', line 5)
+ldflags-y := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 37)
+CONFIG_PRINTK = y
+# environment
+KBUILD_KCONFIG = 
+# makefile (from `include/config/auto.conf', line 184)
+CONFIG_SPARSEMEM_MANUAL = y
+# makefile (from `scripts/Makefile.lib', line 2)
+asflags-y := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 9)
+CONFIG_HAVE_AOUT = y
+# makefile (from `include/config/auto.conf', line 160)
+CONFIG_VFPv3 = y
+# makefile (from `include/config/auto.conf', line 252)
+CONFIG_SYSCTL = y
+# makefile (from `scripts/Kbuild.include', line 196)
+make-cmd = $(subst #,\#,$(subst $$,$$$$,$(call escsq,$(cmd_$(1)))))
+# makefile (from `include/config/auto.conf', line 285)
+CONFIG_S3C_DEV_WDT = y
+# environment
+LINUXINCLUDE = -I/home/miku/linux-2.6.35-farsight/arch/arm/include -Iinclude  -include include/generated/autoconf.h
+# makefile (from `include/config/auto.conf', line 76)
+CONFIG_FS_POSIX_ACL = y
+# environment
+ARCH = arm
+# makefile
+MAKEFLAGS =  --no-print-directory -RrqpI /home/miku/linux-2.6.35-farsight -- $(MAKEOVERRIDES)
+# makefile (from `include/config/auto.conf', line 267)
+CONFIG_VT_CONSOLE = y
+# makefile (from `scripts/Makefile.lib', line 3)
+ccflags-y := $(subst ,, )
+# environment
+MFLAGS = - --no-print-directory -RrqpI /home/miku/linux-2.6.35-farsight
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `scripts/Kbuild.include', line 96)
+as-option = $(call try-run, $(CC) $(KBUILD_CFLAGS) $(1) -c -xassembler /dev/null -o "$$TMP",$(1),$(2))
+# environment
+HOSTCXXFLAGS = -O2
+# makefile (from `include/config/auto.conf', line 42)
+CONFIG_INPUT_MOUSEDEV = y
+# makefile (from `scripts/basic/.fixdep.cmd', line 3)
+deps_scripts/basic/fixdep := scripts/basic/fixdep.c      /usr/include/sys/types.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/sys/mman.h /usr/include/bits/mman.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/fcntl2.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/ctype.h /usr/include/arpa/inet.h /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h /usr/include/bits/socket.h /usr/include/bits/sockaddr.h /usr/include/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/bits/socket2.h /usr/include/bits/in.h 
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `scripts/Kbuild.include', line 108)
+cc-option = $(call try-run, $(CC) $(KBUILD_CPPFLAGS) $(KBUILD_CFLAGS) $(1) -c -xc /dev/null -o "$$TMP",$(1),$(2))
+# makefile (from `scripts/Makefile.build', line 163)
+quiet_cmd_cc_symtypes_c = SYM $(quiet_modtag) $@
+# makefile (from `include/config/auto.conf', line 182)
+CONFIG_LOCK_KERNEL = y
+# environment
+OBJDUMP = arm-cortex_a8-linux-gnueabi-objdump
+# makefile (from `include/config/auto.conf', line 172)
+CONFIG_ARCH_S5PV210 = y
+# makefile (from `scripts/Makefile.lib', line 141)
+__cpp_flags = $(_cpp_flags)
+# makefile (from `scripts/Makefile.host', line 79)
+host-csingle := scripts/basic/docproc scripts/basic/fixdep scripts/basic/hash
+# makefile (from `include/config/auto.conf', line 230)
+CONFIG_SYSFS = y
+# automatic
++F = $(notdir $+)
+# makefile (from `include/config/auto.conf', line 20)
+CONFIG_HAVE_MEMORY_PRESENT = y
+# makefile (from `include/config/auto.conf', line 165)
+CONFIG_DEBUG_ERRORS = y
+# makefile (from `include/config/auto.conf', line 239)
+CONFIG_ZONE_DMA_FLAG = 0
+# makefile (from `include/config/auto.conf', line 286)
+CONFIG_AIO = y
+# makefile (from `scripts/Makefile.build', line 39)
+save-cflags := 
+# makefile (from `scripts/Makefile.build', line 257)
+cmd_as_s_S = $(CPP) $(a_flags)   -o $@ $< 
+# makefile (from `include/config/auto.conf', line 263)
+CONFIG_HAVE_KERNEL_LZO = y
+# environment
+MMUEXT = -nommu
+# makefile (from `include/config/auto.conf', line 293)
+CONFIG_ZBOOT_ROM_TEXT = 0
+# environment
+STRIP = arm-cortex_a8-linux-gnueabi-strip
+# makefile (from `include/config/auto.conf', line 270)
+CONFIG_BSD_DISKLABEL = y
+# makefile (from `include/config/auto.conf', line 245)
+CONFIG_RWSEM_GENERIC_SPINLOCK = y
+# makefile (from `include/config/auto.conf', line 175)
+CONFIG_S5P_EXT_INT = y
+# makefile (from `include/config/auto.conf', line 93)
+CONFIG_CONSOLE_TRANSLATIONS = y
+# environment
+DEFAULTS_PATH = /usr/share/gconf/gnome.default.path
+# makefile (from `include/config/auto.conf', line 14)
+CONFIG_EXPERIMENTAL = y
+# environment
+CROSS_COMPILE = arm-cortex_a8-linux-gnueabi-
+# makefile (from `scripts/Makefile.build', line 336)
+link_multi_deps = $(filter $(addprefix $(obj)/, $($(subst $(obj)/,,$(@:.o=-objs))) $($(subst $(obj)/,,$(@:.o=-y)))), $^)
+# makefile (from `include/config/auto.conf', line 247)
+CONFIG_DEBUG_S3C_UART = 1
+# makefile (from `scripts/Kbuild.include', line 132)
+cc-ifversion = $(shell [ $(call cc-version, $(CC)) $(1) $(2) ] && echo $(3))
+# makefile (from `include/config/auto.conf', line 130)
+CONFIG_ROMFS_ON_BLOCK = y
+# makefile (from `include/config/auto.conf', line 85)
+CONFIG_DETECT_SOFTLOCKUP = y
+# makefile (from `scripts/Kbuild.include', line 25)
+escsq = $(subst $(squote),'\$(squote)',$1)
+# makefile (from `scripts/Makefile.host', line 100)
+__hostcxx_flags = $(_hostcxx_flags)
+# makefile (from `scripts/Makefile.build', line 146)
+cmd_cc_s_c = $(CC) $(c_flags) -fverbose-asm -S -o $@ $<
+# makefile (from `include/config/auto.conf', line 144)
+CONFIG_BASE_FULL = y
+# default
+MAKEFILES := 
+# makefile (from `scripts/Makefile.host', line 93)
+_hostc_flags = $(HOSTCFLAGS)   $(HOST_EXTRACFLAGS) $(HOSTCFLAGS_$(basetarget).o)
+# makefile (from `include/config/auto.conf', line 243)
+CONFIG_DEFAULT_SECURITY = ""
+# makefile (from `scripts/Makefile.build', line 342)
+cmd_link_multi-y = $(LD) $(ld_flags) -r -o $@ $(link_multi_deps) $(cmd_secanalysis)
+# environment
+SRCARCH = arm
+# makefile (from `include/config/auto.conf', line 66)
+CONFIG_MFD_SUPPORT = y
+# makefile (from `scripts/Makefile.lib', line 207)
+cmd_gzip = (cat $(filter-out FORCE,$^) | gzip -f -9 > $@) || (rm -f $@ ; false)
+# environment
+KBUILD_SRC = 
+# environment
+CONFIG_SHELL = /bin/bash
+# environment
+CFLAGS_MODULE = -DMODULE
+# automatic
+<F = $(notdir $<)
+# environment
+LIBGL_ALWAYS_INDIRECT = 1
+# makefile (from `include/config/auto.conf', line 71)
+CONFIG_NLS_ISO8859_1 = y
+# makefile (from `scripts/Makefile.lib', line 200)
+quiet_cmd_objcopy = OBJCOPY $@
+# makefile (from `scripts/Makefile.lib', line 239)
+quiet_cmd_lzma = LZMA    $@
+# makefile (from `include/config/auto.conf', line 219)
+CONFIG_VECTORS_BASE = 0xffff0000
+# makefile (from `include/config/auto.conf', line 73)
+CONFIG_CPU_TLB_V7 = y
+# makefile (from `include/config/auto.conf', line 68)
+CONFIG_SPARSEMEM_EXTREME = y
+# makefile (from `include/config/auto.conf', line 225)
+CONFIG_INITRAMFS_SOURCE = ""
+# makefile (from `scripts/Makefile.lib', line 114)
+_c_flags = $(filter-out $(CFLAGS_REMOVE_$(basetarget).o), $(orig_c_flags))
+# environment
+PS1 = \u@\h\[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\]\$ 
+# environment
+KBUILD_CPPFLAGS = -D__KERNEL__ -mlittle-endian 
+# makefile (from `scripts/Makefile.lib', line 40)
+__subdir-m := 
+# makefile (from `scripts/Makefile.host', line 132)
+cmd_host-cobjs = $(HOSTCC) $(hostc_flags) -c -o $@ $<
+# environment
+PERL = perl
+# makefile (from `scripts/Makefile.build', line 256)
+quiet_cmd_as_s_S = CPP $(quiet_modtag) $@
+# makefile (from `include/config/auto.conf', line 84)
+CONFIG_MAGIC_SYSRQ = y
+# makefile (from `scripts/Makefile.lib', line 164)
+ld_flags = $(LDFLAGS) $(ldflags-y)
+# makefile (from `include/config/auto.conf', line 125)
+CONFIG_LOG_BUF_SHIFT = 17
+# makefile (from `include/config/auto.conf', line 190)
+CONFIG_NEON = y
+# makefile (from `include/config/auto.conf', line 176)
+CONFIG_INPUT_MOUSEDEV_SCREEN_X = 1024
+# makefile (from `include/config/auto.conf', line 106)
+CONFIG_CPU_CP15 = y
+# makefile (from `include/config/auto.conf', line 202)
+CONFIG_UID16 = y
+# environment
+TEXT_OFFSET = 0x00008000
+# makefile (from `include/config/auto.conf', line 35)
+CONFIG_RD_LZMA = y
+# makefile (from `include/config/auto.conf', line 112)
+CONFIG_BROKEN_ON_SMP = y
+# makefile (from `include/config/auto.conf', line 17)
+CONFIG_SSB_POSSIBLE = y
+# makefile (from `scripts/Makefile.lib', line 117)
+_cpp_flags = $(KBUILD_CPPFLAGS) $(cppflags-y) $(CPPFLAGS_$(@F))
+# makefile (from `include/config/auto.conf', line 12)
+CONFIG_INOTIFY_USER = y
+# makefile (from `scripts/Kbuild.include', line 188)
+arg-check = $(strip $(filter-out $(cmd_$(1)), $(cmd_$@)) $(filter-out $(cmd_$@),   $(cmd_$(1))) )
+# makefile (from `include/config/auto.conf', line 47)
+CONFIG_ZLIB_INFLATE = y
+# makefile (from `include/config/auto.conf', line 97)
+CONFIG_DETECT_HUNG_TASK = y
+# makefile (from `scripts/Makefile.lib', line 99)
+name-fix = $(subst $(comma),_,$(subst -,_,$1))
+# environment
+KBUILD_CFLAGS = -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -marm -mabi=apcs-gnu -mno-thumb-interwork     -msoft-float -Uarm
+# makefile (from `include/config/auto.conf', line 28)
+CONFIG_DEBUG_RT_MUTEXES = y
+# makefile (from `scripts/Makefile.host', line 114)
+quiet_cmd_host-csingle = HOSTCC  $@
+# makefile (from `scripts/Kbuild.include', line 21)
+basetarget = $(basename $(notdir $@))
+# automatic
+^F = $(notdir $^)
+# makefile (from `include/config/auto.conf', line 234)
+CONFIG_MSDOS_PARTITION = y
+# makefile (from `include/config/auto.conf', line 22)
+CONFIG_INPUT_MOUSEDEV_PSAUX = y
+# makefile (from `include/config/auto.conf', line 56)
+CONFIG_INIT_ENV_ARG_LIMIT = 32
+# environment
+UTS_MACHINE = arm
+# makefile (from `include/config/auto.conf', line 260)
+CONFIG_TRACING_SUPPORT = y
+# makefile (from `scripts/basic/.hash.cmd', line 3)
+deps_scripts/basic/hash := scripts/basic/hash.c /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/bits/string3.h 
+# default
+SUFFIXES := 
+# makefile (from `scripts/Kbuild.include', line 204)
+if_changed = $(if $(strip $(any-prereq) $(arg-check)), @set -e; $(echo-cmd) $(cmd_$(1)); echo 'cmd_$@ := $(make-cmd)' > $(dot-target).cmd)
+# makefile (from `include/config/auto.conf', line 94)
+CONFIG_DUMMY_CONSOLE = y
+# makefile (from `include/config/auto.conf', line 269)
+CONFIG_BLK_DEV_RAM = y
+# makefile (from `include/config/auto.conf', line 19)
+CONFIG_HAVE_KERNEL_LZMA = y
+# makefile (from `scripts/Makefile.build', line 23)
+EXTRA_CPPFLAGS := 
+# makefile (from `include/config/auto.conf', line 21)
+CONFIG_DEFAULT_SECURITY_DAC = y
+# makefile (from `include/config/auto.conf', line 262)
+CONFIG_INPUT_MOUSEDEV_SCREEN_Y = 768
+# makefile (from `scripts/Kbuild.include', line 160)
+addtree = $(if $(patsubst -I%,%,$(1)), $(if $(filter-out -I/%,$(1)),$(patsubst -I%,-I$(srctree)/%,$(1))) $(1))
+# makefile (from `scripts/Makefile.host', line 85)
+host-cshobjs := 
+# makefile (from `include/config/auto.conf', line 149)
+CONFIG_ARM_DMA_MEM_BUFFERABLE = y
+# environment
+SPEECHD_PORT = 7560
+# makefile (from `scripts/Makefile.build', line 381)
+cmd_files := scripts/basic/.docproc.cmd scripts/basic/.fixdep.cmd scripts/basic/.hash.cmd
+# makefile (from `scripts/Makefile.lib', line 158)
+a_flags = -Wp,-MD,$(depfile) $(NOSTDINC_FLAGS) $(LINUXINCLUDE) $(__a_flags) $(modkern_aflags)
+# makefile (from `include/config/auto.conf', line 147)
+CONFIG_KALLSYMS = y
+# makefile (from `include/config/auto.conf', line 200)
+CONFIG_SERIAL_SAMSUNG_CONSOLE = y
+# makefile (from `include/config/auto.conf', line 55)
+CONFIG_HAVE_IDE = y
+# default
+.INCLUDE_DIRS = /home/miku/linux-2.6.35-farsight /usr/include /usr/local/include /usr/include
+# makefile (from `include/config/auto.conf', line 110)
+CONFIG_GENERIC_CALIBRATE_DELAY = y
+# makefile (from `include/config/auto.conf', line 126)
+CONFIG_EXTRA_FIRMWARE = ""
+# makefile (from `include/config/auto.conf', line 124)
+CONFIG_SYSFS_DEPRECATED_V2 = y
+# environment
+KBUILD_EXTMOD = 
+# makefile (from `include/config/auto.conf', line 207)
+CONFIG_SAMSUNG_GPIO_EXTRA = 0
+# environment
+KBUILD_CHECKSRC = 0
+# makefile (from `include/config/auto.conf', line 72)
+CONFIG_IOSCHED_DEADLINE = y
+# environment
+MAKELEVEL := 1
+# makefile (from `include/config/auto.conf', line 16)
+CONFIG_ARM_UNWIND = y
+# makefile (from `include/config/auto.conf', line 277)
+CONFIG_CRC_CCITT = y
+# makefile (from `include/config/auto.conf', line 283)
+CONFIG_BLK_DEV_RAM_SIZE = 8192
+# makefile (from `include/config/auto.conf', line 217)
+CONFIG_SPARSEMEM = y
+# makefile (from `scripts/Makefile.build', line 22)
+EXTRA_CFLAGS := 
+# makefile (from `include/config/auto.conf', line 290)
+CONFIG_NLS_DEFAULT = "iso8859-1"
+# makefile (from `scripts/Kbuild.include', line 78)
+TMPOUT := 
+# makefile (from `include/config/auto.conf', line 287)
+CONFIG_GENERIC_HARDIRQS = y
+# makefile (from `include/config/auto.conf', line 203)
+CONFIG_HAVE_KRETPROBES = y
+# makefile (from `scripts/Makefile.host', line 82)
+host-cxxmulti := 
+# makefile (from `include/config/auto.conf', line 166)
+CONFIG_SERIO_SERPORT = y
+# makefile (from `scripts/Makefile.lib', line 4)
+cppflags-y := $(subst ,, )
+# makefile (from `include/config/auto.conf', line 145)
+CONFIG_SOLARIS_X86_PARTITION = y
+# makefile (from `include/config/auto.conf', line 251)
+CONFIG_S3C_GPIO_PULL_UPDOWN = y
+# environment
+LANG = en_US.utf8
+# environment
+TERM = xterm
+# makefile (from `include/config/auto.conf', line 109)
+CONFIG_HARDIRQS_SW_RESEND = y
+# makefile (from `include/config/auto.conf', line 39)
+CONFIG_SHMEM = y
+# environment
+KERNELVERSION = 2.6.35
+# makefile (from `include/config/auto.conf', line 63)
+CONFIG_SPLIT_PTLOCK_CPUS = 999999
+# makefile (from `include/config/auto.conf', line 199)
+CONFIG_SCSI_MOD = y
+# makefile (from `scripts/Makefile.lib', line 240)
+cmd_lzma = (cat $(filter-out FORCE,$^) | lzma -9 && $(call size_append, $(filter-out FORCE,$^))) > $@ || (rm -f $@ ; false)
+# makefile (from `scripts/Makefile.host', line 78)
+__hostprogs := scripts/basic/docproc scripts/basic/fixdep scripts/basic/hash
+# environment
+LDFLAGS_MODULE = -T /home/miku/linux-2.6.35-farsight/scripts/module-common.lds
+# makefile (from `include/config/auto.conf', line 221)
+CONFIG_PERF_USE_VMALLOC = y
+# environment
+GENKSYMS = scripts/genksyms/genksyms
+# makefile (from `include/config/auto.conf', line 90)
+CONFIG_IOSCHED_CFQ = y
+# makefile (from `scripts/Kbuild.include', line 32)
+kecho := echo
+# makefile (from `scripts/Kbuild.include', line 70)
+cc-cross-prefix = $(word 1, $(foreach c,$(1), $(shell set -e; if (which $(strip $(c))$(CC)) > /dev/null 2>&1 ; then echo $(c); fi)))
+# makefile (from `include/config/auto.conf', line 216)
+CONFIG_SAMSUNG_DEV_TS = y
+# makefile (from `include/config/auto.conf', line 188)
+CONFIG_IOSCHED_NOOP = y
+# variable set hash-table stats:
+# Load=606/1024=59%, Rehash=0, Collisions=636/1116=57%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2055, inode 1183605): 62 files, no impossibilities.
+# /usr/include/linux (device 2049, inode 130126): 86 files, no impossibilities so far.
+# /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include (device 2049, inode 132509): 8 files, no impossibilities so far.
+# /home/miku/linux-2.6.35-farsight (device 2055, inode 1183605): 62 files, no impossibilities.
+# scripts/basic (device 2055, inode 1446320): 14 files, no impossibilities.
+# /usr/include/bits (device 2049, inode 130121): 105 files, no impossibilities so far.
+# /usr/include (device 2049, inode 6533): 171 files, no impossibilities so far.
+# include/config (device 2055, inode 1318154): 226 files, no impossibilities.
+# /usr/include/netinet (device 2049, inode 130134): 6 files, no impossibilities so far.
+# /usr/include/arpa (device 2049, inode 130118): 8 files, no impossibilities so far.
+# include/config/my: could not be stat'd.
+# /home/miku/linux-2.6.35-farsight/scripts/basic (device 2055, inode 1446320): 14 files, no impossibilities.
+# /usr/include/sys (device 2049, inode 130148): 76 files, no impossibilities so far.
+# /usr/include/gnu (device 2049, inode 130125): 6 files, no impossibilities so far.
+# /usr/include/asm-generic (device 2049, inode 130120): 36 files, no impossibilities.
+# /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed (device 2049, inode 132510): 3 files, no impossibilities so far.
+# /usr/include/asm (device 2049, inode 130119): 56 files, no impossibilities.
+# include/config/his: could not be stat'd.
+
+# 939 files, no impossibilities in 18 directories.
+
+# Implicit Rules
+
+scripts/basic/%:: scripts/basic/%_shipped
+#  commands to execute (from `scripts/Makefile.lib', line 177):
+	$(call cmd,shipped)
+	
+
+scripts/basic/%.s: scripts/basic/%.c FORCE
+#  commands to execute (from `scripts/Makefile.build', line 149):
+	$(call if_changed_dep,cc_s_c)
+	
+
+scripts/basic/%.i: scripts/basic/%.c FORCE
+#  commands to execute (from `scripts/Makefile.build', line 155):
+	$(call if_changed_dep,cc_i_c)
+	
+
+scripts/basic/%.symtypes: scripts/basic/%.c FORCE
+#  commands to execute (from `scripts/Makefile.build', line 170):
+	$(call cmd,cc_symtypes_c)
+	
+
+scripts/basic/%.o: scripts/basic/%.c FORCE
+#  commands to execute (from `scripts/Makefile.build', line 230):
+	$(call cmd,force_checksrc)
+	$(call if_changed_rule,cc_o_c)
+	
+
+scripts/basic/%.lst: scripts/basic/%.c FORCE
+#  commands to execute (from `scripts/Makefile.build', line 246):
+	$(call if_changed_dep,cc_lst_c)
+	
+
+scripts/basic/%.s: scripts/basic/%.S FORCE
+#  commands to execute (from `scripts/Makefile.build', line 260):
+	$(call if_changed_dep,as_s_S)
+	
+
+scripts/basic/%.o: scripts/basic/%.S FORCE
+#  commands to execute (from `scripts/Makefile.build', line 266):
+	$(call if_changed_dep,as_o_S)
+	
+
+scripts/basic/%.lds: scripts/basic/%.lds.S FORCE
+#  commands to execute (from `scripts/Makefile.build', line 278):
+	$(call if_changed_dep,cpp_lds_S)
+	
+
+# 9 implicit rules, 1 (11.1%) terminal.
+
+# Files
+
+/usr/include/bits/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-03-09 06:33:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/unistd.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/string3.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/wordsize.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/byteswap.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/sigcontext.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+scripts/basic/hash: scripts/basic/hash.c FORCE scripts/basic/fixdep scripts/basic/hash.c /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/bits/string3.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `hash'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/Makefile.host', line 118):
+	$(call if_changed_dep,host-csingle)
+	
+
+/usr/include/bits/mman.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/asm-generic/sockios.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-01-04 20:46:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/cdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/waitstatus.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/sys_errlist.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/typesizes.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/stdio.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/gnu/stubs-64.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+FORCE:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/miku/linux-2.6.35-farsight/scripts/basic/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/uio.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/asm/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-01-04 20:46:02
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: __build FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/bits/sigthread.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/mman.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/stat.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-03-09 06:03:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/limits.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:42:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/wait.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/string.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/stdlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+scripts/basic/fixdep.c:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/endian.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/wchar.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/bits/stdio2.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/alloca.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/signum.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/resource.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/pthreadtypes.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/fcntl.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/xlocale.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:42:47
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/signal.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/sigaction.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/in.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:26
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+scripts/basic/modules.order: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/Makefile.build', line 314):
+	$(Q)(cat /dev/null; $(modorder-cmds)) > $@
+	
+
+/usr/include/bits/posix_opt.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-03-09 06:33:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/features.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:42:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+scripts/basic/hash.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/bits/sigstack.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/arpa/inet.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:26
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/gnu/stubs.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:42:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/socket2.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/time.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/string.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/waitflags.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/Makefile.host:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/stdlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/endian.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/select.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/libio.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-03-09 06:33:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/asm/sockios.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-01-04 20:46:02
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/fcntl.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+scripts/basic/docproc: scripts/basic/docproc.c FORCE scripts/basic/fixdep /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/bits/string3.h /usr/include/ctype.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/sys/wait.h /usr/include/signal.h /usr/include/bits/signum.h /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h /usr/include/bits/sigthread.h /usr/include/sys/resource.h /usr/include/bits/resource.h /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `docproc'
+#  Last modified 2015-03-22 19:55:40.632885394
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := scripts/basic/docproc
+# automatic
+# % := 
+# automatic
+# * := docproc
+# automatic
+# + := scripts/basic/docproc.c FORCE scripts/basic/fixdep scripts/basic/docproc.c /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/bits/string3.h /usr/include/ctype.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/sys/wait.h /usr/include/signal.h /usr/include/bits/signum.h /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h /usr/include/bits/sigthread.h /usr/include/sys/resource.h /usr/include/bits/resource.h /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+# automatic
+# | := 
+# automatic
+# < := scripts/basic/docproc.c
+# automatic
+# ^ := scripts/basic/docproc.c FORCE scripts/basic/fixdep /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/bits/string3.h /usr/include/ctype.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/sys/wait.h /usr/include/signal.h /usr/include/bits/signum.h /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h /usr/include/bits/sigthread.h /usr/include/sys/resource.h /usr/include/bits/resource.h /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+# automatic
+# ? := scripts/basic/fixdep
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=41/144=28%
+#  commands to execute (from `scripts/Makefile.host', line 118):
+	$(call if_changed_dep,host-csingle)
+	
+
+/usr/include/bits/stdio.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/select.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/string2.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/asm-generic/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-01-04 20:46:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/basic/.docproc.cmd:
+#  Implicit rule search has been done.
+#  Last modified 2015-03-22 19:55:40.642492913
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/getopt.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/netinet/in.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:26
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/ctype.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/resource.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/predefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:42:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/confname.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+__build: scripts/basic/fixdep scripts/basic/docproc scripts/basic/hash
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/134=0%
+#  commands to execute (from `scripts/Makefile.build', line 96):
+	@:
+	
+
+/usr/include/bits/fcntl2.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/Makefile.lib:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/_G_config.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/posix1_lim.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/unistd.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/Makefile.build:
+#  Implicit rule search has been done.
+#  Last modified 2012-01-11 09:54:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/stat.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/sockaddr.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/siginfo.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/stdint.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/sigset.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/stdio_lim.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+include/config/auto.conf:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2015-03-28 11:12:26.789501474
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/linux/limits.h:
+#  Implicit rule search has been done.
+#  Last modified 2012-01-04 20:46:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/basic/.hash.cmd:
+#  Implicit rule search has been done.
+#  Last modified 2015-03-22 19:55:40.962468566
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/Kbuild.include:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/basic/.fixdep.cmd:
+#  Implicit rule search has been done.
+#  Last modified 2015-03-22 19:55:39.882499243
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+scripts/basic/fixdep: scripts/basic/fixdep.c FORCE /usr/include/sys/types.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/sys/mman.h /usr/include/bits/mman.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/fcntl2.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/ctype.h /usr/include/arpa/inet.h /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h /usr/include/bits/socket.h /usr/include/bits/sockaddr.h /usr/include/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/bits/socket2.h /usr/include/bits/in.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `fixdep'
+#  Last modified 2514-05-30 09:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := scripts/basic/fixdep
+# automatic
+# % := 
+# automatic
+# * := fixdep
+# automatic
+# + := scripts/basic/fixdep.c FORCE scripts/basic/fixdep.c /usr/include/sys/types.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/sys/mman.h /usr/include/bits/mman.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/fcntl2.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/ctype.h /usr/include/arpa/inet.h /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h /usr/include/bits/socket.h /usr/include/bits/sockaddr.h /usr/include/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/bits/socket2.h /usr/include/bits/in.h
+# automatic
+# | := 
+# automatic
+# < := scripts/basic/fixdep.c
+# automatic
+# ^ := scripts/basic/fixdep.c FORCE /usr/include/sys/types.h /usr/include/features.h /usr/include/bits/predefs.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h /usr/include/bits/types.h /usr/include/bits/typesizes.h /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h /usr/include/sys/select.h /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/bits/time.h /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/sys/mman.h /usr/include/bits/mman.h /usr/include/unistd.h /usr/include/bits/posix_opt.h /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/bits/unistd.h /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/fcntl2.h /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h /usr/include/bits/stdio2.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h /usr/include/limits.h /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h /usr/include/ctype.h /usr/include/arpa/inet.h /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h /usr/include/bits/socket.h /usr/include/bits/sockaddr.h /usr/include/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/bits/socket2.h /usr/include/bits/in.h
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=17/65=26%
+#  commands to execute (from `scripts/Makefile.host', line 118):
+	$(call if_changed_dep,host-csingle)
+	
+
+/usr/include/sys/uio.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/local_lim.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+scripts/basic/docproc.c:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/sys/sysmacros.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/posix2_lim.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/wchar.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/time.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/include/bits/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2013-10-02 10:43:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=105/1024=10%, Rehash=0, Collisions=28/420=7%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# General (`VPATH' variable) search path:
+# /home/miku/linux-2.6.35-farsight
+
+# # of strings in strcache: 9
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3849 / max = 3849 / min = 3849 / avg = 3849
+
+# Finished Make data base on Wed Jul 22 07:44:13 2015
+
+make: *** [scripts_basic] Error 1
+
+# Make data base, printed on Wed Jul 22 07:44:13 2015
+
+# Variables
+
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 70)
+cc-cross-prefix = $(word 1, $(foreach c,$(1), $(shell set -e; if (which $(strip $(c))$(CC)) > /dev/null 2>&1 ; then echo $(c); fi)))
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 13)
+LDFLAGS_vmlinux := -p --no-undefined -X
+# environment
+DESKTOP_SESSION = gnome
+# makefile (from `Makefile', line 340)
+AFLAGS_KERNEL = 
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 49)
+filechk = 	$(Q)set -e; $(kecho) '  CHK     $@'; mkdir -p $(dir $@); $(filechk_$(1)) < $< > $@.tmp; if [ -r $@ ] && cmp -s $@ $@.tmp; then rm -f $@.tmp; else $(kecho) '  UPD     $@'; mv -f $@.tmp $@; fi
+# makefile (from `Makefile', line 239)
+KBUILD_MODULES := 
+# makefile (from `Makefile', line 2)
+PATCHLEVEL = 6
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 244)
+core- = arch/arm/nwfpe/ $(FASTFPE_OBJ) arch/arm/vfp/
+# default
+CWEAVE = cweave
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `..tmp_vmlinux1.cmd', line 1)
+cmd_.tmp_vmlinux1 := arm-cortex_a8-linux-gnueabi-ld -EL  -p --no-undefined -X --build-id -o .tmp_vmlinux1 -T arch/arm/kernel/vmlinux.lds arch/arm/kernel/head.o arch/arm/kernel/init_task.o  init/built-in.o --start-group  usr/built-in.o  arch/arm/kernel/built-in.o  arch/arm/mm/built-in.o  arch/arm/common/built-in.o  arch/arm/mach-s5pv210/built-in.o  arch/arm/plat-s5p/built-in.o  arch/arm/plat-samsung/built-in.o  arch/arm/vfp/built-in.o  kernel/built-in.o  mm/built-in.o  fs/built-in.o  ipc/built-in.o  security/built-in.o  crypto/built-in.o  block/built-in.o  arch/arm/lib/lib.a  lib/lib.a  arch/arm/lib/built-in.o  lib/built-in.o  drivers/built-in.o  sound/built-in.o  firmware/built-in.o  net/built-in.o --end-group 
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 63)
+arch- := -D__LINUX_ARM_ARCH__=3 -march=armv3
+# makefile (from `Makefile', line 331)
+CHECK = sparse
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /var/run/gdm/auth-for-miku-HhKOie/database
+# environment
+GDMSESSION = gnome
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/miku/linux-2.6.35-farsight
+# makefile
+SHELL = /bin/sh
+# default
+RM = rm -f
+# environment
+GDM_LANG = en_US.utf8
+# makefile (from `Makefile', line 294)
+Q = @
+# makefile (from `Makefile', line 1498)
+PHONY := _all all scripts_basic outputmakefile checkstack kernelrelease kernelversion FORCE
+# makefile (from `Makefile', line 376)
+MODVERDIR := .tmp_versions
+# environment
+_ = /usr/bin/make
+# default
+PREPROCESS.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -F
+# makefile (from `Makefile', line 1474)
+a_flags = -Wp,-MD,$(depfile) $(KBUILD_AFLAGS) $(AFLAGS_KERNEL) $(NOSTDINC_FLAGS) $(LINUXINCLUDE) $(KBUILD_CPPFLAGS) $(modkern_aflags) $(EXTRA_AFLAGS) $(AFLAGS_$(basetarget).o)
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 111)
+textofs-y := 0x00008000
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 127)
+cc-fullversion = $(shell $(CONFIG_SHELL) $(srctree)/scripts/gcc-version.sh -p $(CC))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 254)
+KBUILD_IMAGE := zImage
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 84)
+tune- := -mtune=arm1136j-s
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-gnome:/etc/xdg
+# default
+OUTPUT_OPTION = -o $@
+# default
+COMPILE.cpp = $(COMPILE.cc)
+# makefile (from `.vmlinux.o.cmd', line 1)
+MAKEFILE_LIST :=  Makefile /home/miku/linux-2.6.35-farsight/scripts/Kbuild.include /home/miku/linux-2.6.35-farsight/arch/arm/Makefile ..tmp_kallsyms1.o.cmd ..tmp_kallsyms2.o.cmd ..tmp_vmlinux1.cmd ..tmp_vmlinux2.cmd .vmlinux.cmd .vmlinux.o.cmd
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 107)
+CHECKFLAGS := -D__linux__ -Dlinux -D__STDC__ -Dunix -D__unix__ -Wbitwise -Wno-return-void  -D__arm__
+# automatic
+@F = $(notdir $@)
+# makefile (from `Makefile', line 339)
+CFLAGS_KERNEL = 
+# makefile (from `Makefile', line 1478)
+quiet_cmd_as_o_S = AS      $@
+# environment
+USERNAME = miku
+# default
+LINK.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# makefile (from `Makefile', line 148)
+srctree := /home/miku/linux-2.6.35-farsight
+# makefile (from `Makefile', line 231)
+HOSTCC = gcc
+# makefile (from `Makefile', line 190)
+KBUILD_BUILDHOST := x86_64
+# environment
+MANDATORY_PATH = /usr/share/gconf/gnome.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share/:/usr/share/
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 104)
+KBUILD_CFLAGS := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -marm -mabi=apcs-gnu -mno-thumb-interwork     -msoft-float -Uarm
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 123)
+cc-version = $(shell $(CONFIG_SHELL) $(srctree)/scripts/gcc-version.sh $(CC))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 110)
+head-y := arch/arm/kernel/head-nommu.o arch/arm/kernel/init_task.o
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-deybKPOpnP,guid=8ae485ecc3450b7d4e43524e551f7e57
+# makefile (from `Makefile', line 1)
+VERSION = 2
+# makefile (from `Makefile', line 318)
+CC = $(CROSS_COMPILE)gcc
+# makefile (from `Makefile', line 421)
+dot-config := 1
+# makefile (from `Makefile', line 1455)
+cmd_rmdirs = rm -rf $(rm-dirs)
+# makefile (from `Makefile', line 21)
+LC_COLLATE = C
+# makefile (from `Makefile', line 327)
+INSTALLKERNEL := installkernel
+# makefile (from `Makefile', line 325)
+AWK = awk
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 105)
+KBUILD_AFLAGS := -D__ASSEMBLY__ -mabi=apcs-gnu -mno-thumb-interwork    -include asm/unified.h -msoft-float
+# default
+CHECKOUT,v = +$(if $(wildcard $@),,$(CO) $(COFLAGS) $< $@)
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 188)
+machine- := spear6xx
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 12)
+dot-target = $(dir $@).$(notdir $@)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 220)
+if_changed_rule = $(if $(strip $(any-prereq) $(arg-check) ), @set -e; $(rule_$(1)))
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 6)
+squote := '
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from `Makefile', line 319)
+CPP = $(CC) -E
+# makefile (from `Makefile', line 218)
+hdr-arch := arm
+# environment
+ORBIT_SOCKETDIR = /tmp/orbit-miku
+# default
+LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+LEX = lex
+# makefile (from `Makefile', line 240)
+KBUILD_BUILTIN := 1
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/miku/toolchain/bin
+# makefile (from `Makefile', line 1462)
+cmd_depmod = if [ -r System.map -a -x $(DEPMOD) ]; then $(DEPMOD) -ae -F System.map $(if $(strip $(INSTALL_MOD_PATH)), -b $(INSTALL_MOD_PATH) ) $(KERNELRELEASE); fi
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 164)
+flags = $(foreach o,$($(1)),$(if $(filter -I%,$(o)),$(call addtree,$(o)),$(o)))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 44)
+LD = $(CROSS_COMPILE)ld -EL
+# makefile (from `Makefile', line 1494)
+clean := -f scripts/Makefile.clean obj
+# default
+TEXI2DVI = texi2dvi
+# makefile (from `..tmp_kallsyms1.o.cmd', line 1)
+cmd_.tmp_kallsyms1.o := arm-cortex_a8-linux-gnueabi-gcc -Wp,-MD,./..tmp_kallsyms1.o.d -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float -gdwarf-2   -nostdinc -isystem /home/miku/toolchain/bin/../lib/gcc/arm-cortex_a8-linux-gnueabi/4.4.6/include -I/home/miku/linux-2.6.35-farsight/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s5pv210/include -Iarch/arm/plat-s5p/include -Iarch/arm/plat-samsung/include    -c -o .tmp_kallsyms1.o .tmp_kallsyms1.S
+# default
+YACC = yacc
+# environment
+SESSION_MANAGER = local/miku:@/tmp/.ICE-unix/1768,unix/miku:/tmp/.ICE-unix/1768
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 8)
+space := $(subst ,, )
+# default
+COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
+# default
+ARFLAGS = rv
+# default
+LINK.r = $(FC) $(FFLAGS) $(RFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 84)
+try-run = $(shell set -e; TMP="$(TMPOUT).$$$$.tmp"; TMPO="$(TMPOUT).$$$$.o"; if ($(1)) >/dev/null 2>&1; then echo "$(2)"; else echo "$(3)"; fi; rm -f "$$TMP" "$$TMPO")
+# environment
+WINDOWID = 67439917
+# default
+COMPILE.f = $(FC) $(FFLAGS) $(TARGET_ARCH) -c
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 47)
+comma = ,
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 200)
+any-prereq = $(filter-out $(PHONY),$?) $(filter-out $(PHONY) $(wildcard $^),$^)
+# default
+LINT.c = $(LINT) $(LINTFLAGS) $(CPPFLAGS) $(TARGET_ARCH)
+# default
+LINT = lint
+# makefile (from `Makefile', line 1458)
+cmd_rmfiles = rm -f $(rm-files)
+# default
+YACC.y = $(YACC) $(YFLAGS)
+# makefile (from `Makefile', line 153)
+VPATH := /home/miku/linux-2.6.35-farsight
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 7)
+empty := 
+# makefile (from `Makefile', line 320)
+AR = $(CROSS_COMPILE)ar
+# makefile (from `Makefile', line 1483)
+targets := 
+# makefile (from `Makefile', line 22)
+LC_NUMERIC = C
+# makefile (from `Makefile', line 369)
+LDFLAGS := 
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 150)
+build := -f scripts/Makefile.build obj
+# makefile (from `Makefile', line 4)
+EXTRAVERSION = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# default
+TANGLE = tangle
+# makefile (from `Makefile', line 149)
+objtree := /home/miku/linux-2.6.35-farsight
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:hl=44;37:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+# makefile (from `Makefile', line 431)
+config-targets := 1
+# makefile (from `Makefile', line 3)
+SUBLEVEL = 35
+# environment
+SSH_AUTH_SOCK = /tmp/keyring-io1IZx/ssh
+# default
+GET = get
+# makefile (from `Makefile', line 1471)
+cmd_crmodverdir = $(Q)mkdir -p $(MODVERDIR) $(if $(KBUILD_MODULES),; rm -f $(MODVERDIR)/*)
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0.0
+# default
+COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# makefile (from `Makefile', line 224)
+KCONFIG_CONFIG = .config
+# makefile (from `Makefile', line 414)
+no-dot-config-targets := clean mrproper distclean cscope TAGS tags help %docs check% include/linux/version.h headers_% kernelrelease kernelversion
+# default
+CTANGLE = ctangle
+# makefile (from `Makefile', line 232)
+HOSTCXX = g++
+# environment
+GTK_IM_MODULE = ibus
+# default
+.LIBPATTERNS = lib%.so lib%.a
+# default
+LINK.C = $(LINK.cc)
+# environment
+PWD = /home/miku/linux-2.6.35-farsight
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 136)
+cc-ldoption = $(call try-run, $(CC) $(1) -nostdlib -xc /dev/null -o "$$TMP",$(1),$(2))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 18)
+OBJCOPYFLAGS := -O binary -R .note -R .note.gnu.build-id -R .comment -S
+# makefile (from `Makefile', line 150)
+src := /home/miku/linux-2.6.35-farsight
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 19)
+GZFLAGS := -9
+# default
+LINK.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# default
+PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
+# makefile (from `.vmlinux.cmd', line 1)
+cmd_vmlinux := arm-cortex_a8-linux-gnueabi-ld -EL  -p --no-undefined -X --build-id -o vmlinux -T arch/arm/kernel/vmlinux.lds arch/arm/kernel/head.o arch/arm/kernel/init_task.o  init/built-in.o --start-group  usr/built-in.o  arch/arm/kernel/built-in.o  arch/arm/mm/built-in.o  arch/arm/common/built-in.o  arch/arm/mach-s5pv210/built-in.o  arch/arm/plat-s5p/built-in.o  arch/arm/plat-samsung/built-in.o  arch/arm/vfp/built-in.o  kernel/built-in.o  mm/built-in.o  fs/built-in.o  ipc/built-in.o  security/built-in.o  crypto/built-in.o  block/built-in.o  arch/arm/lib/lib.a  lib/lib.a  arch/arm/lib/built-in.o  lib/built-in.o  drivers/built-in.o  sound/built-in.o  firmware/built-in.o  net/built-in.o --end-group .tmp_kallsyms2.o
+# environment
+SSH_AGENT_PID = 1803
+# makefile (from `Makefile', line 420)
+mixed-targets := 0
+# default
+LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# makefile (from `Makefile', line 360)
+KERNELRELEASE = $(shell cat include/config/kernel.release 2> /dev/null)
+# environment
+GTK_MODULES = canberra-gtk-module
+# makefile (from `Makefile', line 341)
+CFLAGS_GCOV = -fprofile-arcs -ftest-coverage
+# makefile (from `Makefile', line 1479)
+cmd_as_o_S = $(CC) $(a_flags) -c -o $@ $<
+# default
+LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# environment
+HOME = /home/miku
+# makefile (from `Makefile', line 1413)
+build-dir = $(patsubst %/,%,$(dir $@))
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 102)
+as-instr = $(call try-run, /bin/echo -e "$(1)" | $(CC) $(KBUILD_AFLAGS) -c -xassembler -o "$$TMP" -,$(2),$(3))
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 156)
+modbuiltin := -f scripts/Makefile.modbuiltin obj
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 282)
+define archhelp
+  echo  '* zImage        - Compressed kernel image (arch/$(ARCH)/boot/zImage)'
+  echo  '  Image         - Uncompressed kernel image (arch/$(ARCH)/boot/Image)'
+  echo  '* xipImage      - XIP kernel image, if configured (arch/$(ARCH)/boot/xipImage)'
+  echo  '  uImage        - U-Boot wrapped zImage'
+  echo  '  bootpImage    - Combined zImage and initial RAM disk' 
+  echo  '                  (supply initrd image via make variable INITRD=<path>)'
+  echo  '  install       - Install uncompressed kernel'
+  echo  '  zinstall      - Install compressed kernel'
+  echo  '                  Install using (your) ~/bin/$(INSTALLKERNEL) or'
+  echo  '                  (distribution) /sbin/$(INSTALLKERNEL) or'
+  echo  '                  install to $$(INSTALL_PATH) and run lilo'
+endef
+# environment
+XDG_SESSION_COOKIE = 9db2a930f918e0865bef673f52c949f9-1428127316.789727-1300292473
+# makefile (from `..tmp_kallsyms2.o.cmd', line 1)
+cmd_.tmp_kallsyms2.o := arm-cortex_a8-linux-gnueabi-gcc -Wp,-MD,./..tmp_kallsyms2.o.d -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float -gdwarf-2   -nostdinc -isystem /home/miku/toolchain/bin/../lib/gcc/arm-cortex_a8-linux-gnueabi/4.4.6/include -I/home/miku/linux-2.6.35-farsight/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s5pv210/include -Iarch/arm/plat-s5p/include -Iarch/arm/plat-samsung/include    -c -o .tmp_kallsyms2.o .tmp_kallsyms2.S
+# makefile (from `Makefile', line 328)
+DEPMOD = /sbin/depmod
+# environment
+LOGNAME = miku
+# makefile (from `Makefile', line 335)
+MODFLAGS = -DMODULE
+# environment
+GDM_KEYBOARD_LAYOUT = us
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 89)
+CFLAGS_ABI := -mabi=apcs-gnu -mno-thumb-interwork
+# makefile (from `..tmp_vmlinux2.cmd', line 1)
+cmd_.tmp_vmlinux2 := arm-cortex_a8-linux-gnueabi-ld -EL  -p --no-undefined -X --build-id -o .tmp_vmlinux2 -T arch/arm/kernel/vmlinux.lds arch/arm/kernel/head.o arch/arm/kernel/init_task.o  init/built-in.o --start-group  usr/built-in.o  arch/arm/kernel/built-in.o  arch/arm/mm/built-in.o  arch/arm/common/built-in.o  arch/arm/mach-s5pv210/built-in.o  arch/arm/plat-s5p/built-in.o  arch/arm/plat-samsung/built-in.o  arch/arm/vfp/built-in.o  kernel/built-in.o  mm/built-in.o  fs/built-in.o  ipc/built-in.o  security/built-in.o  crypto/built-in.o  block/built-in.o  arch/arm/lib/lib.a  lib/lib.a  arch/arm/lib/built-in.o  lib/built-in.o  drivers/built-in.o  sound/built-in.o  firmware/built-in.o  net/built-in.o --end-group .tmp_kallsyms1.o
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 114)
+textofs- := 0x00108000
+# default
+CO = co
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 48)
+KBUILD_VERBOSE = 0
+# makefile (from `Makefile', line 151)
+obj := /home/miku/linux-2.6.35-farsight
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 246)
+drivers- = arch/arm/oprofile/
+# environment
+COLORTERM = gnome-terminal
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := menuconfig
+# environment
+QT_IM_MODULE = xim
+# environment
+SHLVL = 1
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 26)
+KBUILD_DEFCONFIG := versatile_defconfig
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 31)
+silent_kecho := :
+# makefile (from `Makefile', line 321)
+NM = $(CROSS_COMPILE)nm
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 43)
+AS = $(CROSS_COMPILE)as -EL
+# default
+PREPROCESS.S = $(CC) -E $(CPPFLAGS)
+# default
+COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = miku
+# default
+FC = f77
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 241)
+core-y = arch/arm/kernel/ arch/arm/mm/ arch/arm/common/ $(machdirs) $(platdirs)
+# makefile
+.DEFAULT_GOAL := _all
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 210)
+if_changed_dep = $(if $(strip $(any-prereq) $(arg-check) ), @set -e; $(echo-cmd) $(cmd_$(1)); scripts/basic/fixdep $(depfile) $@ '$(make-cmd)' > $(dot-target).tmp; rm -f $(depfile); mv -f $(dot-target).tmp $(dot-target).cmd)
+# makefile (from `Makefile', line 5)
+NAME = Sheep on Meth
+# makefile (from `Makefile', line 381)
+RCS_TAR_IGNORE := --exclude SCCS --exclude BitKeeper --exclude .svn --exclude CVS --exclude .pc --exclude .hg --exclude .git
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GNOME_KEYRING_PID = 1750
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 141)
+ld-option = $(call try-run, $(CC) /dev/null -c -o "$$TMPO" ; $(LD) $(1) "$$TMPO" -o "$$TMP",$(1),$(2))
+# makefile (from `..tmp_kallsyms1.o.cmd', line 3)
+deps_.tmp_kallsyms1.o := .tmp_kallsyms1.S /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/unified.h   /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/types.h include/asm-generic/int-ll64.h /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/bitsperlong.h include/asm-generic/bitsperlong.h  
+# makefile (from `Makefile', line 233)
+HOSTCFLAGS = -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer
+# default
+WEAVE = weave
+# default
+MAKE_COMMAND := make
+# default
+LINK.cpp = $(LINK.cc)
+# default
+F77 = $(FC)
+# environment
+OLDPWD = /home/miku/linux-2.6.35-farsight/virt
+# makefile (from `Makefile', line 369)
+NOSTDINC_FLAGS := 
+# default
+.VARIABLES := 
+# default
+PC = pc
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 168)
+echo-cmd = $(if $($(quiet)cmd_$(1)), echo '  $(call escsq,$($(quiet)cmd_$(1)))$(echo-why)';)
+# makefile (from `Makefile', line 337)
+AFLAGS_MODULE = $(MODFLAGS)
+# automatic
+*F = $(notdir $*)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 17)
+depfile = $(subst $(comma),_,$(dot-target).d)
+# makefile (from `Makefile', line 456)
+KBUILD_KCONFIG := 
+# default
+COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 196)
+make-cmd = $(subst #,\#,$(subst $$,$$$$,$(call escsq,$(cmd_$(1)))))
+# environment
+GNOME_KEYRING_CONTROL = /tmp/keyring-io1IZx
+# makefile (from `Makefile', line 191)
+ARCH = arm
+# makefile
+MAKEFLAGS =  --no-print-directory -RrqpI /home/miku/linux-2.6.35-farsight
+# environment
+MFLAGS = - --no-print-directory -RrqpI /home/miku/linux-2.6.35-farsight
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 96)
+as-option = $(call try-run, $(CC) $(KBUILD_CFLAGS) $(1) -c -xassembler /dev/null -o "$$TMP",$(1),$(2))
+# makefile (from `Makefile', line 234)
+HOSTCXXFLAGS = -O2
+# default
+LEX.l = $(LEX) $(LFLAGS) -t
+# makefile (from `Makefile', line 293)
+quiet = quiet_
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 108)
+cc-option = $(call try-run, $(CC) $(KBUILD_CPPFLAGS) $(KBUILD_CFLAGS) $(1) -c -xc /dev/null -o "$$TMP",$(1),$(2))
+# default
+COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
+# makefile (from `Makefile', line 324)
+OBJDUMP = $(CROSS_COMPILE)objdump
+# makefile (from `.vmlinux.o.cmd', line 1)
+cmd_vmlinux.o := arm-cortex_a8-linux-gnueabi-ld -EL  -r -o vmlinux.o arch/arm/kernel/head.o arch/arm/kernel/init_task.o  init/built-in.o --start-group  usr/built-in.o  arch/arm/kernel/built-in.o  arch/arm/mm/built-in.o  arch/arm/common/built-in.o  arch/arm/mach-s5pv210/built-in.o  arch/arm/plat-s5p/built-in.o  arch/arm/plat-samsung/built-in.o  arch/arm/vfp/built-in.o  kernel/built-in.o  mm/built-in.o  fs/built-in.o  ipc/built-in.o  security/built-in.o  crypto/built-in.o  block/built-in.o  arch/arm/lib/lib.a  lib/lib.a  arch/arm/lib/built-in.o  lib/built-in.o  drivers/built-in.o  sound/built-in.o  firmware/built-in.o  net/built-in.o --end-group 
+# makefile (from `Makefile', line 346)
+LINUXINCLUDE := -I/home/miku/linux-2.6.35-farsight/arch/arm/include -Iinclude  -include include/generated/autoconf.h
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 30)
+MMUEXT := -nommu
+# automatic
++F = $(notdir $+)
+# default
+M2C = m2c
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 222)
+machdirs := 
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 175)
+objectify = $(foreach o,$(1),$(if $(filter /%,$(o)),$(o),$(obj)/$(o)))
+# makefile (from `Makefile', line 164)
+SUBARCH := x86_64
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 203)
+plat- := versatile
+# makefile (from `Makefile', line 322)
+STRIP = $(CROSS_COMPILE)strip
+# environment
+DEFAULTS_PATH = /usr/share/gconf/gnome.default.path
+# makefile (from `Makefile', line 192)
+CROSS_COMPILE = arm-cortex_a8-linux-gnueabi-
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 132)
+cc-ifversion = $(shell [ $(call cc-version, $(CC)) $(1) $(2) ] && echo $(3))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 248)
+libs-y := arch/arm/lib/ 
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 25)
+escsq = $(subst $(squote),'\$(squote)',$1)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 172)
+cmd = @$(echo-cmd) $(cmd_$(1))
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 197)
+SRCARCH := arm
+# default
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# makefile (from `Makefile', line 264)
+KBUILD_SRC := 
+# makefile (from `Makefile', line 227)
+CONFIG_SHELL := /bin/bash
+# makefile (from `Makefile', line 336)
+CFLAGS_MODULE = $(MODFLAGS)
+# automatic
+<F = $(notdir $<)
+# environment
+LIBGL_ALWAYS_INDIRECT = 1
+# makefile (from `Makefile', line 1454)
+quiet_cmd_rmdirs = $(if $(wildcard $(rm-dirs)),CLEAN   $(wildcard $(rm-dirs)))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 234)
+FASTFPE := arch/arm/fastfpe
+# environment
+PS1 = \u@\h\[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\]\$ 
+# default
+CXX = g++
+# makefile (from `Makefile', line 1457)
+quiet_cmd_rmfiles = $(if $(wildcard $(rm-files)),CLEAN   $(wildcard $(rm-files)))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 226)
+KBUILD_CPPFLAGS := -D__KERNEL__ -mlittle-endian 
+# makefile (from `Makefile', line 330)
+PERL = perl
+# default
+COFLAGS = 
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 259)
+boot := arch/arm/boot
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 223)
+platdirs := 
+# makefile (from `Makefile', line 20)
+LC_ALL := 
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 213)
+TEXT_OFFSET := 0x00008000
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 188)
+arg-check = $(strip $(filter-out $(cmd_$(1)), $(cmd_$@)) $(filter-out $(cmd_$@),   $(cmd_$(1))) )
+# default
+COMPILE.C = $(COMPILE.cc)
+# makefile (from `Makefile', line 1461)
+quiet_cmd_depmod = DEPMOD  $(KERNELRELEASE)
+# makefile (from `Makefile', line 1414)
+target-dir = $(dir $@)
+# makefile (from `Makefile', line 361)
+KERNELVERSION = $(VERSION).$(PATCHLEVEL).$(SUBLEVEL)$(EXTRAVERSION)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 30)
+quiet_kecho := echo
+# makefile (from `Makefile', line 380)
+RCS_FIND_IGNORE := \( -name SCCS -o -name BitKeeper -o -name .svn -o -name CVS -o -name .pc -o -name .hg -o -name .git \) -prune -o
+# makefile (from `..tmp_kallsyms2.o.cmd', line 3)
+deps_.tmp_kallsyms2.o := .tmp_kallsyms2.S /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/unified.h   /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/types.h include/asm-generic/int-ll64.h /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/bitsperlong.h include/asm-generic/bitsperlong.h  
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 21)
+basetarget = $(basename $(notdir $@))
+# automatic
+^F = $(notdir $^)
+# default
+COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
+# makefile (from `Makefile', line 323)
+OBJCOPY = $(CROSS_COMPILE)objcopy
+# default
+LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# makefile (from `Makefile', line 196)
+UTS_MACHINE := arm
+# default
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .r .y .l .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 204)
+if_changed = $(if $(strip $(any-prereq) $(arg-check)), @set -e; $(echo-cmd) $(cmd_$(1)); echo 'cmd_$@ := $(make-cmd)' > $(dot-target).cmd)
+# default
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 113)
+cc-option-yn = $(call try-run, $(CC) $(KBUILD_CPPFLAGS) $(KBUILD_CFLAGS) $(1) -c -xc /dev/null -o "$$TMP",y,n)
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 160)
+addtree = $(if $(patsubst -I%,%,$(1)), $(if $(filter-out -I/%,$(1)),$(patsubst -I%,-I$(srctree)/%,$(1))) $(1))
+# makefile (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 219)
+MACHINE := 
+# environment
+SPEECHD_PORT = 7560
+# makefile (from `Makefile', line 1484)
+cmd_files := ..tmp_kallsyms1.o.cmd ..tmp_kallsyms2.o.cmd ..tmp_vmlinux1.cmd ..tmp_vmlinux2.cmd .vmlinux.cmd .vmlinux.o.cmd
+# default
+COMPILE.s = $(AS) $(ASFLAGS) $(TARGET_MACH)
+# makefile (from `Makefile', line 329)
+KALLSYMS = scripts/kallsyms
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from `Makefile', line 264)
+KBUILD_EXTMOD := 
+# makefile (from `Makefile', line 65)
+KBUILD_CHECKSRC = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKEINFO = makeinfo
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 118)
+cc-option-align = $(subst -functions=0,, $(call cc-option,-falign-functions=0,-malign-functions=0))
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 78)
+TMPOUT := 
+# default
+LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+TEX = tex
+# environment
+LANG = en_US.utf8
+# environment
+TERM = xterm
+# default
+F77FLAGS = $(FFLAGS)
+# default
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+# makefile (from `Makefile', line 338)
+LDFLAGS_MODULE = -T $(srctree)/scripts/module-common.lds
+# makefile (from `Makefile', line 326)
+GENKSYMS = scripts/genksyms/genksyms
+# makefile (from `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include', line 32)
+kecho := echo
+# makefile (from `Makefile', line 1390)
+CHECKSTACK_ARCH := arm
+# variable set hash-table stats:
+# Load=287/1024=28%, Rehash=0, Collisions=159/950=17%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2055, inode 1183605): 62 files, no impossibilities.
+# /home/miku/linux-2.6.35-farsight (device 2055, inode 1183605): 62 files, no impossibilities.
+# arch/arm (device 2055, inode 1573434): 97 files, 17 impossibilities.
+# include/config/thumb2: could not be stat'd.
+# include/config (device 2055, inode 1318154): 226 files, no impossibilities.
+# /home/miku/linux-2.6.35-farsight/arch/arm (device 2055, inode 1573434): 97 files, 17 impossibilities.
+# include/config/arm/asm: could not be stat'd.
+
+# 544 files, 34 impossibilities in 7 directories.
+
+# Implicit Rules
+
+scripts/basic/%: scripts_basic
+#  commands to execute (from `Makefile', line 393):
+	
+
+%config: scripts_basic outputmakefile FORCE
+#  commands to execute (from `Makefile', line 463):
+	$(Q)mkdir -p include/linux include/config
+	$(Q)$(MAKE) $(build)=scripts/kconfig $@
+	
+
+%.s: %.c prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1422):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%.i: %.c prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1424):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%.o: %.c prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1426):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%.lst: %.c prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1428):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%.s: %.S prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1430):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%.o: %.S prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1432):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%.symtypes: %.c prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1434):
+	$(Q)$(MAKE) $(build)=$(build-dir) $(target-dir)$(notdir $@)
+	
+
+%/: prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1442):
+	$(cmd_crmodverdir)
+	$(Q)$(MAKE) KBUILD_MODULES=$(if $(CONFIG_MODULES),1) \
+	$(build)=$(build-dir)
+	
+
+%.ko: prepare scripts FORCE
+#  commands to execute (from `Makefile', line 1446):
+	$(cmd_crmodverdir)
+	$(Q)$(MAKE) KBUILD_MODULES=$(if $(CONFIG_MODULES),1)   \
+	$(build)=$(build-dir) $(@:.ko=.o)
+	$(Q)$(MAKE) -f $(srctree)/scripts/Makefile.modpost
+	
+
+%.out:
+
+%.a:
+
+%.ln:
+
+%.o:
+
+%: %.o
+#  commands to execute (built-in):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.c:
+
+%: %.c
+#  commands to execute (built-in):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.ln: %.c
+#  commands to execute (built-in):
+	$(LINT.c) -C$* $<
+
+%.o: %.c
+#  commands to execute (built-in):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+%.cc:
+
+%: %.cc
+#  commands to execute (built-in):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.cc
+#  commands to execute (built-in):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+%.C:
+
+%: %.C
+#  commands to execute (built-in):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.C
+#  commands to execute (built-in):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+%.cpp:
+
+%: %.cpp
+#  commands to execute (built-in):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.cpp
+#  commands to execute (built-in):
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+%.p:
+
+%: %.p
+#  commands to execute (built-in):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.p
+#  commands to execute (built-in):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+%.f:
+
+%: %.f
+#  commands to execute (built-in):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.f
+#  commands to execute (built-in):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+%.F:
+
+%: %.F
+#  commands to execute (built-in):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.F
+#  commands to execute (built-in):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+%.f: %.F
+#  commands to execute (built-in):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+%.r:
+
+%: %.r
+#  commands to execute (built-in):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.r
+#  commands to execute (built-in):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+%.f: %.r
+#  commands to execute (built-in):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+%.y:
+
+%.ln: %.y
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	$(LINT.c) -C$* y.tab.c 
+	$(RM) y.tab.c
+
+%.c: %.y
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	mv -f y.tab.c $@
+
+%.l:
+
+%.ln: %.l
+#  commands to execute (built-in):
+	@$(RM) $*.c
+	$(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	$(RM) $*.c
+
+%.c: %.l
+#  commands to execute (built-in):
+	@$(RM) $@ 
+	$(LEX.l) $< > $@
+
+%.r: %.l
+#  commands to execute (built-in):
+	$(LEX.l) $< > $@ 
+	mv -f lex.yy.r $@
+
+%.s:
+
+%: %.s
+#  commands to execute (built-in):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.s
+#  commands to execute (built-in):
+	$(COMPILE.s) -o $@ $<
+
+%.S:
+
+%: %.S
+#  commands to execute (built-in):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.S
+#  commands to execute (built-in):
+	$(COMPILE.S) -o $@ $<
+
+%.s: %.S
+#  commands to execute (built-in):
+	$(PREPROCESS.S) $< > $@
+
+%.mod:
+
+%: %.mod
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+%.o: %.mod
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ $<
+
+%.sym:
+
+%.def:
+
+%.sym: %.def
+#  commands to execute (built-in):
+	$(COMPILE.def) -o $@ $<
+
+%.h:
+
+%.info:
+
+%.dvi:
+
+%.tex:
+
+%.dvi: %.tex
+#  commands to execute (built-in):
+	$(TEX) $<
+
+%.texinfo:
+
+%.info: %.texinfo
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texinfo
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.texi:
+
+%.info: %.texi
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texi
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.txinfo:
+
+%.info: %.txinfo
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.txinfo
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.w:
+
+%.c: %.w
+#  commands to execute (built-in):
+	$(CTANGLE) $< - $@
+
+%.tex: %.w
+#  commands to execute (built-in):
+	$(CWEAVE) $< - $@
+
+%.ch:
+
+%.web:
+
+%.p: %.web
+#  commands to execute (built-in):
+	$(TANGLE) $<
+
+%.tex: %.web
+#  commands to execute (built-in):
+	$(WEAVE) $<
+
+%.sh:
+
+%: %.sh
+#  commands to execute (built-in):
+	cat $< >$@ 
+	chmod a+x $@
+
+%.elc:
+
+%.el:
+
+# 88 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+.web.p:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TANGLE) $<
+
+/: prepare scripts FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 1438):
+	$(cmd_crmodverdir)
+	$(Q)$(MAKE) KBUILD_MODULES=$(if $(CONFIG_MODULES),1) \
+	$(build)=$(build-dir)
+	
+
+# Not a target:
+.l.r:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LEX.l) $< > $@ 
+	mv -f lex.yy.r $@
+
+# Not a target:
+.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+..tmp_vmlinux2.cmd:
+#  Implicit rule search has not been done.
+#  Last modified 2015-03-28 15:13:19.117119528
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 1487):
+	# Do not try to update included dependency files
+	
+
+outputmakefile:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.F.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+config: scripts_basic outputmakefile FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 459):
+	$(Q)mkdir -p include/linux include/config
+	$(Q)$(MAKE) $(build)=scripts/kconfig $@
+	
+
+i:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 279):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $@
+	
+
+all: zImage
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.y.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	$(LINT.c) -C$* y.tab.c 
+	$(RM) y.tab.c
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+FORCE:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.y:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.tmp_kallsyms2.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.def.sym:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.def) -o $@ $<
+
+.PHONY: _all all scripts_basic outputmakefile checkstack kernelrelease kernelversion FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.p.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.p:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+uImage: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 268):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $(boot)/$@
+	
+
+# Not a target:
+scripts:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.txinfo.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+/home/miku/linux-2.6.35-farsight/arch/arm/include/asm/bitsperlong.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+kernelrelease:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 1397):
+	$(if $(wildcard include/config/kernel.release), $(Q)echo $(KERNELRELEASE), \
+	$(error kernelrelease not valid - run 'make prepare' to update it))
+	
+
+# Not a target:
+.a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.l.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	@$(RM) $*.c
+	$(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	$(RM) $*.c
+
+bp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 278):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $(boot)/bootpImage
+	
+
+# Not a target:
+.w.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(CTANGLE) $< - $@
+
+# Not a target:
+.texi.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Not a target:
+.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	cat $< >$@ 
+	chmod a+x $@
+
+/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include:
+#  Implicit rule search has not been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 311):
+	
+
+# Not a target:
+.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.cc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+/home/miku/linux-2.6.35-farsight/Makefile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 110):
+	
+
+# Not a target:
+.def:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES: .out .a .ln .o .c .cc .C .cpp .p .f .F .r .y .l .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+Makefile:
+#  Implicit rule search has not been done.
+#  Last modified 2015-03-28 11:14:34.479270381
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 110):
+	
+
+# Not a target:
+.r.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.r:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+prepare:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.elc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.l.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	@$(RM) $@ 
+	$(LEX.l) $< > $@
+
+# Not a target:
+.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.C:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.r.f:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+zi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 279):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $@
+	
+
+# Not a target:
+.texinfo.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.w.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(CWEAVE) $< - $@
+
+# Not a target:
+.c.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINT.c) -C$* $<
+
+# Not a target:
+.s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.s) -o $@ $<
+
+# Not a target:
+.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+archprepare:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 262):
+	$(Q)$(MAKE) $(build)=arch/arm/tools include/generated/mach-types.h
+	
+
+bootpImage: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 268):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $(boot)/$@
+	
+
+kernelversion:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 1400):
+	@echo $(KERNELVERSION)
+	
+
+checkstack:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 1393):
+	$(OBJDUMP) -d vmlinux $$(find . -name '*.ko') | \
+	$(PERL) $(src)/scripts/checkstack.pl $(CHECKSTACK_ARCH)
+	
+
+archclean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 275):
+	$(Q)$(MAKE) $(clean)=$(boot)
+	
+
+# Not a target:
+.texinfo.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Not a target:
+.el:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.texinfo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.tmp_kallsyms1.o: .tmp_kallsyms1.S /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/unified.h /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/types.h include/asm-generic/int-ll64.h /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/bitsperlong.h include/asm-generic/bitsperlong.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.y.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	mv -f y.tab.c $@
+
+# Not a target:
+.web.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(WEAVE) $<
+
+# Not a target:
+.texi.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+/home/miku/linux-2.6.35-farsight/arch/arm/include/asm/types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/miku/linux-2.6.35-farsight/arch/arm/include/asm/unified.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Image: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 268):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $(boot)/$@
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+..tmp_kallsyms1.o.cmd:
+#  Implicit rule search has not been done.
+#  Last modified 2015-03-28 15:13:16.306910737
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 1487):
+	# Do not try to update included dependency files
+	
+
+include/asm-generic/bitsperlong.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bzImage: zImage
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.tex.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEX) $<
+
+# Not a target:
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.C.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.texi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.txinfo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.vmlinux.cmd:
+#  Implicit rule search has not been done.
+#  Last modified 2015-03-28 15:13:24.047060929
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 1487):
+	# Do not try to update included dependency files
+	
+
+# Not a target:
+.txinfo.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+install: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 271):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $@
+	
+
+.vmlinux.o.cmd:
+#  Implicit rule search has not been done.
+#  Last modified 2015-07-22 07:24:45.671679023
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 1487):
+	# Do not try to update included dependency files
+	
+
+xipImage: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 268):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $(boot)/$@
+	
+
+# Not a target:
+.ch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+scripts_basic:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := scripts_basic
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/35=14%
+#  commands to execute (from `Makefile', line 389):
+	$(Q)$(MAKE) $(build)=scripts/basic
+	$(Q)rm -f .tmp_quiet_recordmcount
+	
+
+_all: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.tmp_kallsyms2.o: .tmp_kallsyms2.S /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/unified.h /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/types.h include/asm-generic/int-ll64.h /home/miku/linux-2.6.35-farsight/arch/arm/include/asm/bitsperlong.h include/asm-generic/bitsperlong.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+vmlinux:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+zImage: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 268):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $(boot)/$@
+	
+
+# Not a target:
+.S.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(PREPROCESS.S) $< > $@
+
+# Not a target:
+.mod:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+# Not a target:
+/home/miku/linux-2.6.35-farsight/arch/arm/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2010-08-02 06:11:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+..tmp_kallsyms2.o.cmd:
+#  Implicit rule search has not been done.
+#  Last modified 2015-03-28 15:13:20.486898974
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 1487):
+	# Do not try to update included dependency files
+	
+
+# Not a target:
+.mod.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ $<
+
+..tmp_vmlinux1.cmd:
+#  Implicit rule search has not been done.
+#  Last modified 2015-07-22 07:24:48.71172173
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 1487):
+	# Do not try to update included dependency files
+	
+
+# Not a target:
+.F.f:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+menuconfig: scripts_basic outputmakefile FORCE
+#  Command-line target.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `menu'
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/27=0%
+#  commands to execute (from `Makefile', line 463):
+	$(Q)mkdir -p include/linux include/config
+	$(Q)$(MAKE) $(build)=scripts/kconfig $@
+	
+
+# Not a target:
+.w:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.S.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.S) -o $@ $<
+
+.tmp_kallsyms1.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.l:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.F:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+include/asm-generic/int-ll64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.web:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.sym:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.f:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.f.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+zinstall: vmlinux
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile', line 271):
+	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $@
+	
+
+# files hash-table stats:
+# Load=113/1024=11%, Rehash=0, Collisions=315/1259=25%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# General (`VPATH' variable) search path:
+# /home/miku/linux-2.6.35-farsight
+
+# # of strings in strcache: 9
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3870 / max = 3870 / min = 3870 / avg = 3870
+
+# Finished Make data base on Wed Jul 22 07:44:13 2015
+
