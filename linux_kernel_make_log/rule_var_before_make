@@ -1,0 +1,2334 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-pc-linux-gnu
+Reading makefiles...
+Reading makefile `Makefile'...
+Reading makefile `/home/miku/linux-2.6.35-farsight/scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile `/home/miku/linux-2.6.35-farsight/arch/arm/Makefile' (search path) (no ~ expansion)...
+Reading makefile `..tmp_kallsyms1.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `..tmp_kallsyms2.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `..tmp_vmlinux1.cmd' (search path) (no ~ expansion)...
+Reading makefile `..tmp_vmlinux2.cmd' (search path) (no ~ expansion)...
+Reading makefile `.vmlinux.cmd' (search path) (no ~ expansion)...
+Reading makefile `.vmlinux.o.cmd' (search path) (no ~ expansion)...
+Updating goal targets....
+Considering target file `menuconfig'.
+ File `menuconfig' does not exist.
+  Considering target file `scripts_basic'.
+   File `scripts_basic' does not exist.
+   Finished prerequisites of target file `scripts_basic'.
+  Must remake target `scripts_basic'.
+make: Entering directory `/home/miku/linux-2.6.35-farsight'
+make -f scripts/Makefile.build obj=scripts/basic
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-pc-linux-gnu
+Reading makefiles...
+Reading makefile `scripts/Makefile.build'...
+Reading makefile `include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile `scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile `/home/miku/linux-2.6.35-farsight/scripts/basic/Makefile' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.host' (search path) (no ~ expansion)...
+Reading makefile `scripts/basic/.docproc.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/basic/.fixdep.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/basic/.hash.cmd' (search path) (no ~ expansion)...
+Updating goal targets....
+Considering target file `__build'.
+ File `__build' does not exist.
+  Considering target file `scripts/basic/fixdep'.
+    Considering target file `scripts/basic/fixdep.c'.
+     Finished prerequisites of target file `scripts/basic/fixdep.c'.
+    No commands for `scripts/basic/fixdep.c' and no prerequisites actually changed.
+    No need to remake target `scripts/basic/fixdep.c'.
+    Considering target file `FORCE'.
+     File `FORCE' does not exist.
+     Finished prerequisites of target file `FORCE'.
+    Must remake target `FORCE'.
+    Successfully remade target file `FORCE'.
+    Pruning file `scripts/basic/fixdep.c'.
+    Considering target file `/usr/include/sys/types.h'.
+     Finished prerequisites of target file `/usr/include/sys/types.h'.
+    No commands for `/usr/include/sys/types.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/types.h'.
+    Considering target file `/usr/include/features.h'.
+     Finished prerequisites of target file `/usr/include/features.h'.
+    No commands for `/usr/include/features.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/features.h'.
+    Considering target file `/usr/include/bits/predefs.h'.
+     Finished prerequisites of target file `/usr/include/bits/predefs.h'.
+    No commands for `/usr/include/bits/predefs.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/predefs.h'.
+    Considering target file `/usr/include/sys/cdefs.h'.
+     Finished prerequisites of target file `/usr/include/sys/cdefs.h'.
+    No commands for `/usr/include/sys/cdefs.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/cdefs.h'.
+    Considering target file `/usr/include/bits/wordsize.h'.
+     Finished prerequisites of target file `/usr/include/bits/wordsize.h'.
+    No commands for `/usr/include/bits/wordsize.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/wordsize.h'.
+    Considering target file `/usr/include/gnu/stubs.h'.
+     Finished prerequisites of target file `/usr/include/gnu/stubs.h'.
+    No commands for `/usr/include/gnu/stubs.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/gnu/stubs.h'.
+    Considering target file `/usr/include/gnu/stubs-64.h'.
+     Finished prerequisites of target file `/usr/include/gnu/stubs-64.h'.
+    No commands for `/usr/include/gnu/stubs-64.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/gnu/stubs-64.h'.
+    Considering target file `/usr/include/bits/types.h'.
+     Finished prerequisites of target file `/usr/include/bits/types.h'.
+    No commands for `/usr/include/bits/types.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/types.h'.
+    Considering target file `/usr/include/bits/typesizes.h'.
+     Finished prerequisites of target file `/usr/include/bits/typesizes.h'.
+    No commands for `/usr/include/bits/typesizes.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/typesizes.h'.
+    Considering target file `/usr/include/time.h'.
+     Finished prerequisites of target file `/usr/include/time.h'.
+    No commands for `/usr/include/time.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/time.h'.
+    Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+     Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+    No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' and no prerequisites actually changed.
+    No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+    Considering target file `/usr/include/endian.h'.
+     Finished prerequisites of target file `/usr/include/endian.h'.
+    No commands for `/usr/include/endian.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/endian.h'.
+    Considering target file `/usr/include/bits/endian.h'.
+     Finished prerequisites of target file `/usr/include/bits/endian.h'.
+    No commands for `/usr/include/bits/endian.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/endian.h'.
+    Considering target file `/usr/include/bits/byteswap.h'.
+     Finished prerequisites of target file `/usr/include/bits/byteswap.h'.
+    No commands for `/usr/include/bits/byteswap.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/byteswap.h'.
+    Considering target file `/usr/include/sys/select.h'.
+     Finished prerequisites of target file `/usr/include/sys/select.h'.
+    No commands for `/usr/include/sys/select.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/select.h'.
+    Considering target file `/usr/include/bits/select.h'.
+     Finished prerequisites of target file `/usr/include/bits/select.h'.
+    No commands for `/usr/include/bits/select.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/select.h'.
+    Considering target file `/usr/include/bits/sigset.h'.
+     Finished prerequisites of target file `/usr/include/bits/sigset.h'.
+    No commands for `/usr/include/bits/sigset.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sigset.h'.
+    Considering target file `/usr/include/bits/time.h'.
+     Finished prerequisites of target file `/usr/include/bits/time.h'.
+    No commands for `/usr/include/bits/time.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/time.h'.
+    Considering target file `/usr/include/sys/sysmacros.h'.
+     Finished prerequisites of target file `/usr/include/sys/sysmacros.h'.
+    No commands for `/usr/include/sys/sysmacros.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/sysmacros.h'.
+    Considering target file `/usr/include/bits/pthreadtypes.h'.
+     Finished prerequisites of target file `/usr/include/bits/pthreadtypes.h'.
+    No commands for `/usr/include/bits/pthreadtypes.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/pthreadtypes.h'.
+    Considering target file `/usr/include/sys/stat.h'.
+     Finished prerequisites of target file `/usr/include/sys/stat.h'.
+    No commands for `/usr/include/sys/stat.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/stat.h'.
+    Considering target file `/usr/include/bits/stat.h'.
+     Finished prerequisites of target file `/usr/include/bits/stat.h'.
+    No commands for `/usr/include/bits/stat.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/stat.h'.
+    Considering target file `/usr/include/sys/mman.h'.
+     Finished prerequisites of target file `/usr/include/sys/mman.h'.
+    No commands for `/usr/include/sys/mman.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/mman.h'.
+    Considering target file `/usr/include/bits/mman.h'.
+     Finished prerequisites of target file `/usr/include/bits/mman.h'.
+    No commands for `/usr/include/bits/mman.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/mman.h'.
+    Considering target file `/usr/include/unistd.h'.
+     Finished prerequisites of target file `/usr/include/unistd.h'.
+    No commands for `/usr/include/unistd.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/unistd.h'.
+    Considering target file `/usr/include/bits/posix_opt.h'.
+     Finished prerequisites of target file `/usr/include/bits/posix_opt.h'.
+    No commands for `/usr/include/bits/posix_opt.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/posix_opt.h'.
+    Considering target file `/usr/include/bits/confname.h'.
+     Finished prerequisites of target file `/usr/include/bits/confname.h'.
+    No commands for `/usr/include/bits/confname.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/confname.h'.
+    Considering target file `/usr/include/getopt.h'.
+     Finished prerequisites of target file `/usr/include/getopt.h'.
+    No commands for `/usr/include/getopt.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/getopt.h'.
+    Considering target file `/usr/include/bits/unistd.h'.
+     Finished prerequisites of target file `/usr/include/bits/unistd.h'.
+    No commands for `/usr/include/bits/unistd.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/unistd.h'.
+    Considering target file `/usr/include/fcntl.h'.
+     Finished prerequisites of target file `/usr/include/fcntl.h'.
+    No commands for `/usr/include/fcntl.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/fcntl.h'.
+    Considering target file `/usr/include/bits/fcntl.h'.
+     Finished prerequisites of target file `/usr/include/bits/fcntl.h'.
+    No commands for `/usr/include/bits/fcntl.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/fcntl.h'.
+    Considering target file `/usr/include/bits/fcntl2.h'.
+     Finished prerequisites of target file `/usr/include/bits/fcntl2.h'.
+    No commands for `/usr/include/bits/fcntl2.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/fcntl2.h'.
+    Considering target file `/usr/include/string.h'.
+     Finished prerequisites of target file `/usr/include/string.h'.
+    No commands for `/usr/include/string.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/string.h'.
+    Considering target file `/usr/include/xlocale.h'.
+     Finished prerequisites of target file `/usr/include/xlocale.h'.
+    No commands for `/usr/include/xlocale.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/xlocale.h'.
+    Considering target file `/usr/include/bits/string.h'.
+     Finished prerequisites of target file `/usr/include/bits/string.h'.
+    No commands for `/usr/include/bits/string.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/string.h'.
+    Considering target file `/usr/include/bits/string2.h'.
+     Finished prerequisites of target file `/usr/include/bits/string2.h'.
+    No commands for `/usr/include/bits/string2.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/string2.h'.
+    Considering target file `/usr/include/stdlib.h'.
+     Finished prerequisites of target file `/usr/include/stdlib.h'.
+    No commands for `/usr/include/stdlib.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/stdlib.h'.
+    Considering target file `/usr/include/bits/string3.h'.
+     Finished prerequisites of target file `/usr/include/bits/string3.h'.
+    No commands for `/usr/include/bits/string3.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/string3.h'.
+    Considering target file `/usr/include/alloca.h'.
+     Finished prerequisites of target file `/usr/include/alloca.h'.
+    No commands for `/usr/include/alloca.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/alloca.h'.
+    Considering target file `/usr/include/bits/stdlib.h'.
+     Finished prerequisites of target file `/usr/include/bits/stdlib.h'.
+    No commands for `/usr/include/bits/stdlib.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/stdlib.h'.
+    Considering target file `/usr/include/stdio.h'.
+     Finished prerequisites of target file `/usr/include/stdio.h'.
+    No commands for `/usr/include/stdio.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/stdio.h'.
+    Considering target file `/usr/include/libio.h'.
+     Finished prerequisites of target file `/usr/include/libio.h'.
+    No commands for `/usr/include/libio.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/libio.h'.
+    Considering target file `/usr/include/_G_config.h'.
+     Finished prerequisites of target file `/usr/include/_G_config.h'.
+    No commands for `/usr/include/_G_config.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/_G_config.h'.
+    Considering target file `/usr/include/wchar.h'.
+     Finished prerequisites of target file `/usr/include/wchar.h'.
+    No commands for `/usr/include/wchar.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/wchar.h'.
+    Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+     Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+    No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' and no prerequisites actually changed.
+    No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+    Considering target file `/usr/include/bits/stdio_lim.h'.
+     Finished prerequisites of target file `/usr/include/bits/stdio_lim.h'.
+    No commands for `/usr/include/bits/stdio_lim.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/stdio_lim.h'.
+    Considering target file `/usr/include/bits/sys_errlist.h'.
+     Finished prerequisites of target file `/usr/include/bits/sys_errlist.h'.
+    No commands for `/usr/include/bits/sys_errlist.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sys_errlist.h'.
+    Considering target file `/usr/include/bits/stdio.h'.
+     Finished prerequisites of target file `/usr/include/bits/stdio.h'.
+    No commands for `/usr/include/bits/stdio.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/stdio.h'.
+    Considering target file `/usr/include/bits/stdio2.h'.
+     Finished prerequisites of target file `/usr/include/bits/stdio2.h'.
+    No commands for `/usr/include/bits/stdio2.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/stdio2.h'.
+    Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+     Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+    No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h' and no prerequisites actually changed.
+    No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+    Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+     Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+    No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h' and no prerequisites actually changed.
+    No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+    Considering target file `/usr/include/limits.h'.
+     Finished prerequisites of target file `/usr/include/limits.h'.
+    No commands for `/usr/include/limits.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/limits.h'.
+    Considering target file `/usr/include/bits/posix1_lim.h'.
+     Finished prerequisites of target file `/usr/include/bits/posix1_lim.h'.
+    No commands for `/usr/include/bits/posix1_lim.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/posix1_lim.h'.
+    Considering target file `/usr/include/bits/local_lim.h'.
+     Finished prerequisites of target file `/usr/include/bits/local_lim.h'.
+    No commands for `/usr/include/bits/local_lim.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/local_lim.h'.
+    Considering target file `/usr/include/linux/limits.h'.
+     Finished prerequisites of target file `/usr/include/linux/limits.h'.
+    No commands for `/usr/include/linux/limits.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/linux/limits.h'.
+    Considering target file `/usr/include/bits/posix2_lim.h'.
+     Finished prerequisites of target file `/usr/include/bits/posix2_lim.h'.
+    No commands for `/usr/include/bits/posix2_lim.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/posix2_lim.h'.
+    Considering target file `/usr/include/ctype.h'.
+     Finished prerequisites of target file `/usr/include/ctype.h'.
+    No commands for `/usr/include/ctype.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/ctype.h'.
+    Considering target file `/usr/include/arpa/inet.h'.
+     Finished prerequisites of target file `/usr/include/arpa/inet.h'.
+    No commands for `/usr/include/arpa/inet.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/arpa/inet.h'.
+    Considering target file `/usr/include/netinet/in.h'.
+     Finished prerequisites of target file `/usr/include/netinet/in.h'.
+    No commands for `/usr/include/netinet/in.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/netinet/in.h'.
+    Considering target file `/usr/include/stdint.h'.
+     Finished prerequisites of target file `/usr/include/stdint.h'.
+    No commands for `/usr/include/stdint.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/stdint.h'.
+    Considering target file `/usr/include/bits/wchar.h'.
+     Finished prerequisites of target file `/usr/include/bits/wchar.h'.
+    No commands for `/usr/include/bits/wchar.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/wchar.h'.
+    Considering target file `/usr/include/sys/socket.h'.
+     Finished prerequisites of target file `/usr/include/sys/socket.h'.
+    No commands for `/usr/include/sys/socket.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/socket.h'.
+    Considering target file `/usr/include/sys/uio.h'.
+     Finished prerequisites of target file `/usr/include/sys/uio.h'.
+    No commands for `/usr/include/sys/uio.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/uio.h'.
+    Considering target file `/usr/include/bits/uio.h'.
+     Finished prerequisites of target file `/usr/include/bits/uio.h'.
+    No commands for `/usr/include/bits/uio.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/uio.h'.
+    Considering target file `/usr/include/bits/socket.h'.
+     Finished prerequisites of target file `/usr/include/bits/socket.h'.
+    No commands for `/usr/include/bits/socket.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/socket.h'.
+    Considering target file `/usr/include/bits/sockaddr.h'.
+     Finished prerequisites of target file `/usr/include/bits/sockaddr.h'.
+    No commands for `/usr/include/bits/sockaddr.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sockaddr.h'.
+    Considering target file `/usr/include/asm/socket.h'.
+     Finished prerequisites of target file `/usr/include/asm/socket.h'.
+    No commands for `/usr/include/asm/socket.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/asm/socket.h'.
+    Considering target file `/usr/include/asm-generic/socket.h'.
+     Finished prerequisites of target file `/usr/include/asm-generic/socket.h'.
+    No commands for `/usr/include/asm-generic/socket.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/asm-generic/socket.h'.
+    Considering target file `/usr/include/asm/sockios.h'.
+     Finished prerequisites of target file `/usr/include/asm/sockios.h'.
+    No commands for `/usr/include/asm/sockios.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/asm/sockios.h'.
+    Considering target file `/usr/include/asm-generic/sockios.h'.
+     Finished prerequisites of target file `/usr/include/asm-generic/sockios.h'.
+    No commands for `/usr/include/asm-generic/sockios.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/asm-generic/sockios.h'.
+    Considering target file `/usr/include/bits/socket2.h'.
+     Finished prerequisites of target file `/usr/include/bits/socket2.h'.
+    No commands for `/usr/include/bits/socket2.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/socket2.h'.
+    Considering target file `/usr/include/bits/in.h'.
+     Finished prerequisites of target file `/usr/include/bits/in.h'.
+    No commands for `/usr/include/bits/in.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/in.h'.
+   Finished prerequisites of target file `scripts/basic/fixdep'.
+   Prerequisite `scripts/basic/fixdep.c' is older than target `scripts/basic/fixdep'.
+   Prerequisite `FORCE' of target `scripts/basic/fixdep' does not exist.
+   Prerequisite `scripts/basic/fixdep.c' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/types.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/features.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/types.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/time.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/endian.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/select.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/select.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/time.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/stat.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/stat.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/mman.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/mman.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/unistd.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/getopt.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/fcntl.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/string.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/xlocale.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/string.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/stdlib.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/alloca.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/stdio.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/libio.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/_G_config.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/wchar.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/limits.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/posix1_lim.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/local_lim.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/linux/limits.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/posix2_lim.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/ctype.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/arpa/inet.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/netinet/in.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/stdint.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/wchar.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/socket.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/sys/uio.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/uio.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/socket.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/sockaddr.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/asm/socket.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/asm-generic/socket.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/asm/sockios.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/asm-generic/sockios.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/socket2.h' is older than target `scripts/basic/fixdep'.
+   Prerequisite `/usr/include/bits/in.h' is older than target `scripts/basic/fixdep'.
+  Must remake target `scripts/basic/fixdep'.
+  Successfully remade target file `scripts/basic/fixdep'.
+  Considering target file `scripts/basic/docproc'.
+    Considering target file `scripts/basic/docproc.c'.
+     Finished prerequisites of target file `scripts/basic/docproc.c'.
+    No commands for `scripts/basic/docproc.c' and no prerequisites actually changed.
+    No need to remake target `scripts/basic/docproc.c'.
+    Pruning file `FORCE'.
+    Pruning file `scripts/basic/fixdep'.
+    Pruning file `scripts/basic/docproc.c'.
+    Pruning file `/usr/include/stdio.h'.
+    Pruning file `/usr/include/features.h'.
+    Pruning file `/usr/include/bits/predefs.h'.
+    Pruning file `/usr/include/sys/cdefs.h'.
+    Pruning file `/usr/include/bits/wordsize.h'.
+    Pruning file `/usr/include/gnu/stubs.h'.
+    Pruning file `/usr/include/gnu/stubs-64.h'.
+    Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+    Pruning file `/usr/include/bits/types.h'.
+    Pruning file `/usr/include/bits/typesizes.h'.
+    Pruning file `/usr/include/libio.h'.
+    Pruning file `/usr/include/_G_config.h'.
+    Pruning file `/usr/include/wchar.h'.
+    Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+    Pruning file `/usr/include/bits/stdio_lim.h'.
+    Pruning file `/usr/include/bits/sys_errlist.h'.
+    Pruning file `/usr/include/bits/stdio.h'.
+    Pruning file `/usr/include/bits/stdio2.h'.
+    Pruning file `/usr/include/stdlib.h'.
+    Pruning file `/usr/include/sys/types.h'.
+    Pruning file `/usr/include/time.h'.
+    Pruning file `/usr/include/endian.h'.
+    Pruning file `/usr/include/bits/endian.h'.
+    Pruning file `/usr/include/bits/byteswap.h'.
+    Pruning file `/usr/include/sys/select.h'.
+    Pruning file `/usr/include/bits/select.h'.
+    Pruning file `/usr/include/bits/sigset.h'.
+    Pruning file `/usr/include/bits/time.h'.
+    Pruning file `/usr/include/sys/sysmacros.h'.
+    Pruning file `/usr/include/bits/pthreadtypes.h'.
+    Pruning file `/usr/include/alloca.h'.
+    Pruning file `/usr/include/bits/stdlib.h'.
+    Pruning file `/usr/include/string.h'.
+    Pruning file `/usr/include/xlocale.h'.
+    Pruning file `/usr/include/bits/string.h'.
+    Pruning file `/usr/include/bits/string2.h'.
+    Pruning file `/usr/include/bits/string3.h'.
+    Pruning file `/usr/include/ctype.h'.
+    Pruning file `/usr/include/unistd.h'.
+    Pruning file `/usr/include/bits/posix_opt.h'.
+    Pruning file `/usr/include/bits/confname.h'.
+    Pruning file `/usr/include/getopt.h'.
+    Pruning file `/usr/include/bits/unistd.h'.
+    Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+    Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+    Pruning file `/usr/include/limits.h'.
+    Pruning file `/usr/include/bits/posix1_lim.h'.
+    Pruning file `/usr/include/bits/local_lim.h'.
+    Pruning file `/usr/include/linux/limits.h'.
+    Pruning file `/usr/include/bits/posix2_lim.h'.
+    Considering target file `/usr/include/sys/wait.h'.
+     Finished prerequisites of target file `/usr/include/sys/wait.h'.
+    No commands for `/usr/include/sys/wait.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/wait.h'.
+    Considering target file `/usr/include/signal.h'.
+     Finished prerequisites of target file `/usr/include/signal.h'.
+    No commands for `/usr/include/signal.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/signal.h'.
+    Considering target file `/usr/include/bits/signum.h'.
+     Finished prerequisites of target file `/usr/include/bits/signum.h'.
+    No commands for `/usr/include/bits/signum.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/signum.h'.
+    Considering target file `/usr/include/bits/siginfo.h'.
+     Finished prerequisites of target file `/usr/include/bits/siginfo.h'.
+    No commands for `/usr/include/bits/siginfo.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/siginfo.h'.
+    Considering target file `/usr/include/bits/sigaction.h'.
+     Finished prerequisites of target file `/usr/include/bits/sigaction.h'.
+    No commands for `/usr/include/bits/sigaction.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sigaction.h'.
+    Considering target file `/usr/include/bits/sigcontext.h'.
+     Finished prerequisites of target file `/usr/include/bits/sigcontext.h'.
+    No commands for `/usr/include/bits/sigcontext.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sigcontext.h'.
+    Considering target file `/usr/include/bits/sigstack.h'.
+     Finished prerequisites of target file `/usr/include/bits/sigstack.h'.
+    No commands for `/usr/include/bits/sigstack.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sigstack.h'.
+    Considering target file `/usr/include/bits/sigthread.h'.
+     Finished prerequisites of target file `/usr/include/bits/sigthread.h'.
+    No commands for `/usr/include/bits/sigthread.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/sigthread.h'.
+    Considering target file `/usr/include/sys/resource.h'.
+     Finished prerequisites of target file `/usr/include/sys/resource.h'.
+    No commands for `/usr/include/sys/resource.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/sys/resource.h'.
+    Considering target file `/usr/include/bits/resource.h'.
+     Finished prerequisites of target file `/usr/include/bits/resource.h'.
+    No commands for `/usr/include/bits/resource.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/resource.h'.
+    Considering target file `/usr/include/bits/waitflags.h'.
+     Finished prerequisites of target file `/usr/include/bits/waitflags.h'.
+    No commands for `/usr/include/bits/waitflags.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/waitflags.h'.
+    Considering target file `/usr/include/bits/waitstatus.h'.
+     Finished prerequisites of target file `/usr/include/bits/waitstatus.h'.
+    No commands for `/usr/include/bits/waitstatus.h' and no prerequisites actually changed.
+    No need to remake target `/usr/include/bits/waitstatus.h'.
+   Finished prerequisites of target file `scripts/basic/docproc'.
+   Prerequisite `scripts/basic/docproc.c' is older than target `scripts/basic/docproc'.
+   Prerequisite `FORCE' of target `scripts/basic/docproc' does not exist.
+   Prerequisite `scripts/basic/fixdep' is newer than target `scripts/basic/docproc'.
+   Prerequisite `scripts/basic/docproc.c' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/stdio.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/features.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/types.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/libio.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/_G_config.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/wchar.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/stdlib.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/sys/types.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/time.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/endian.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/sys/select.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/select.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/time.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/alloca.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/string.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/xlocale.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/string.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/ctype.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/unistd.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/getopt.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/limits.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/posix1_lim.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/local_lim.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/linux/limits.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/posix2_lim.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/sys/wait.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/signal.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/signum.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/siginfo.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/sigaction.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/sigcontext.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/sigstack.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/sigthread.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/sys/resource.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/resource.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/waitflags.h' is older than target `scripts/basic/docproc'.
+   Prerequisite `/usr/include/bits/waitstatus.h' is older than target `scripts/basic/docproc'.
+  Must remake target `scripts/basic/docproc'.
+set -e;  echo '  HOSTCC  scripts/basic/docproc'; gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  ; scripts/basic/fixdep scripts/basic/.docproc.d scripts/basic/docproc 'gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  ' > scripts/basic/.docproc.tmp; rm -f scripts/basic/.docproc.d; mv -f scripts/basic/.docproc.tmp scripts/basic/.docproc.cmd
+  Successfully remade target file `scripts/basic/docproc'.
+  Considering target file `scripts/basic/hash'.
+    Considering target file `scripts/basic/hash.c'.
+     Finished prerequisites of target file `scripts/basic/hash.c'.
+    No commands for `scripts/basic/hash.c' and no prerequisites actually changed.
+    No need to remake target `scripts/basic/hash.c'.
+    Pruning file `FORCE'.
+    Pruning file `scripts/basic/fixdep'.
+    Pruning file `scripts/basic/hash.c'.
+    Pruning file `/usr/include/stdio.h'.
+    Pruning file `/usr/include/features.h'.
+    Pruning file `/usr/include/bits/predefs.h'.
+    Pruning file `/usr/include/sys/cdefs.h'.
+    Pruning file `/usr/include/bits/wordsize.h'.
+    Pruning file `/usr/include/gnu/stubs.h'.
+    Pruning file `/usr/include/gnu/stubs-64.h'.
+    Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+    Pruning file `/usr/include/bits/types.h'.
+    Pruning file `/usr/include/bits/typesizes.h'.
+    Pruning file `/usr/include/libio.h'.
+    Pruning file `/usr/include/_G_config.h'.
+    Pruning file `/usr/include/wchar.h'.
+    Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+    Pruning file `/usr/include/bits/stdio_lim.h'.
+    Pruning file `/usr/include/bits/sys_errlist.h'.
+    Pruning file `/usr/include/bits/stdio.h'.
+    Pruning file `/usr/include/bits/stdio2.h'.
+    Pruning file `/usr/include/stdlib.h'.
+    Pruning file `/usr/include/sys/types.h'.
+    Pruning file `/usr/include/time.h'.
+    Pruning file `/usr/include/endian.h'.
+    Pruning file `/usr/include/bits/endian.h'.
+    Pruning file `/usr/include/bits/byteswap.h'.
+    Pruning file `/usr/include/sys/select.h'.
+    Pruning file `/usr/include/bits/select.h'.
+    Pruning file `/usr/include/bits/sigset.h'.
+    Pruning file `/usr/include/bits/time.h'.
+    Pruning file `/usr/include/sys/sysmacros.h'.
+    Pruning file `/usr/include/bits/pthreadtypes.h'.
+    Pruning file `/usr/include/alloca.h'.
+    Pruning file `/usr/include/bits/stdlib.h'.
+    Pruning file `/usr/include/string.h'.
+    Pruning file `/usr/include/xlocale.h'.
+    Pruning file `/usr/include/bits/string.h'.
+    Pruning file `/usr/include/bits/string2.h'.
+    Pruning file `/usr/include/bits/string3.h'.
+   Finished prerequisites of target file `scripts/basic/hash'.
+   Prerequisite `scripts/basic/hash.c' is older than target `scripts/basic/hash'.
+   Prerequisite `FORCE' of target `scripts/basic/hash' does not exist.
+   Prerequisite `scripts/basic/fixdep' is newer than target `scripts/basic/hash'.
+   Prerequisite `scripts/basic/hash.c' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/stdio.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/features.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/types.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/libio.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/_G_config.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/wchar.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/stdlib.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/sys/types.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/time.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/endian.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/sys/select.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/select.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/time.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/alloca.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/string.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/xlocale.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/string.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/basic/hash'.
+   Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/basic/hash'.
+  Must remake target `scripts/basic/hash'.
+set -e;  echo '  HOSTCC  scripts/basic/hash'; gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  ; scripts/basic/fixdep scripts/basic/.hash.d scripts/basic/hash 'gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  ' > scripts/basic/.hash.tmp; rm -f scripts/basic/.hash.d; mv -f scripts/basic/.hash.tmp scripts/basic/.hash.cmd
+  Successfully remade target file `scripts/basic/hash'.
+ Finished prerequisites of target file `__build'.
+Must remake target `__build'.
+:
+Successfully remade target file `__build'.
+rm -f .tmp_quiet_recordmcount
+  Successfully remade target file `scripts_basic'.
+  Considering target file `outputmakefile'.
+   File `outputmakefile' does not exist.
+   Finished prerequisites of target file `outputmakefile'.
+  Must remake target `outputmakefile'.
+  Successfully remade target file `outputmakefile'.
+  Considering target file `FORCE'.
+   File `FORCE' does not exist.
+   Finished prerequisites of target file `FORCE'.
+  Must remake target `FORCE'.
+  Successfully remade target file `FORCE'.
+ Finished prerequisites of target file `menuconfig'.
+Must remake target `menuconfig'.
+mkdir -p include/linux include/config
+make -f scripts/Makefile.build obj=scripts/kconfig menuconfig
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-pc-linux-gnu
+Reading makefiles...
+Reading makefile `scripts/Makefile.build'...
+Reading makefile `include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile `scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile `/home/miku/linux-2.6.35-farsight/scripts/kconfig/Makefile' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile `scripts/Makefile.host' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/.conf.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/.conf.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/.kxgettext.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/lxdialog/.checklist.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/lxdialog/.inputbox.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/lxdialog/.menubox.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/lxdialog/.textbox.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/lxdialog/.util.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/lxdialog/.yesno.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/.mconf.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/.mconf.o.cmd' (search path) (no ~ expansion)...
+Reading makefile `scripts/kconfig/.zconf.tab.o.cmd' (search path) (no ~ expansion)...
+Updating goal targets....
+Considering target file `menuconfig'.
+ File `menuconfig' does not exist.
+  Considering target file `scripts/kconfig/mconf'.
+    Considering target file `scripts/kconfig/conf.o'.
+      Considering target file `scripts/kconfig/conf.c'.
+       Finished prerequisites of target file `scripts/kconfig/conf.c'.
+      No commands for `scripts/kconfig/conf.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/conf.c'.
+      Considering target file `FORCE'.
+       File `FORCE' does not exist.
+       Finished prerequisites of target file `FORCE'.
+      Must remake target `FORCE'.
+      Successfully remade target file `FORCE'.
+      Pruning file `scripts/kconfig/conf.c'.
+      Considering target file `/usr/include/locale.h'.
+       Finished prerequisites of target file `/usr/include/locale.h'.
+      No commands for `/usr/include/locale.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/locale.h'.
+      Considering target file `/usr/include/features.h'.
+       Finished prerequisites of target file `/usr/include/features.h'.
+      No commands for `/usr/include/features.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/features.h'.
+      Considering target file `/usr/include/bits/predefs.h'.
+       Finished prerequisites of target file `/usr/include/bits/predefs.h'.
+      No commands for `/usr/include/bits/predefs.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/predefs.h'.
+      Considering target file `/usr/include/sys/cdefs.h'.
+       Finished prerequisites of target file `/usr/include/sys/cdefs.h'.
+      No commands for `/usr/include/sys/cdefs.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/cdefs.h'.
+      Considering target file `/usr/include/bits/wordsize.h'.
+       Finished prerequisites of target file `/usr/include/bits/wordsize.h'.
+      No commands for `/usr/include/bits/wordsize.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/wordsize.h'.
+      Considering target file `/usr/include/gnu/stubs.h'.
+       Finished prerequisites of target file `/usr/include/gnu/stubs.h'.
+      No commands for `/usr/include/gnu/stubs.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/gnu/stubs.h'.
+      Considering target file `/usr/include/gnu/stubs-64.h'.
+       Finished prerequisites of target file `/usr/include/gnu/stubs-64.h'.
+      No commands for `/usr/include/gnu/stubs-64.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/gnu/stubs-64.h'.
+      Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+       Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' and no prerequisites actually changed.
+      No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Considering target file `/usr/include/bits/locale.h'.
+       Finished prerequisites of target file `/usr/include/bits/locale.h'.
+      No commands for `/usr/include/bits/locale.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/locale.h'.
+      Considering target file `/usr/include/xlocale.h'.
+       Finished prerequisites of target file `/usr/include/xlocale.h'.
+      No commands for `/usr/include/xlocale.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/xlocale.h'.
+      Considering target file `/usr/include/ctype.h'.
+       Finished prerequisites of target file `/usr/include/ctype.h'.
+      No commands for `/usr/include/ctype.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/ctype.h'.
+      Considering target file `/usr/include/bits/types.h'.
+       Finished prerequisites of target file `/usr/include/bits/types.h'.
+      No commands for `/usr/include/bits/types.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/types.h'.
+      Considering target file `/usr/include/bits/typesizes.h'.
+       Finished prerequisites of target file `/usr/include/bits/typesizes.h'.
+      No commands for `/usr/include/bits/typesizes.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/typesizes.h'.
+      Considering target file `/usr/include/endian.h'.
+       Finished prerequisites of target file `/usr/include/endian.h'.
+      No commands for `/usr/include/endian.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/endian.h'.
+      Considering target file `/usr/include/bits/endian.h'.
+       Finished prerequisites of target file `/usr/include/bits/endian.h'.
+      No commands for `/usr/include/bits/endian.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/endian.h'.
+      Considering target file `/usr/include/bits/byteswap.h'.
+       Finished prerequisites of target file `/usr/include/bits/byteswap.h'.
+      No commands for `/usr/include/bits/byteswap.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/byteswap.h'.
+      Considering target file `/usr/include/stdio.h'.
+       Finished prerequisites of target file `/usr/include/stdio.h'.
+      No commands for `/usr/include/stdio.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/stdio.h'.
+      Considering target file `/usr/include/libio.h'.
+       Finished prerequisites of target file `/usr/include/libio.h'.
+      No commands for `/usr/include/libio.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/libio.h'.
+      Considering target file `/usr/include/_G_config.h'.
+       Finished prerequisites of target file `/usr/include/_G_config.h'.
+      No commands for `/usr/include/_G_config.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/_G_config.h'.
+      Considering target file `/usr/include/wchar.h'.
+       Finished prerequisites of target file `/usr/include/wchar.h'.
+      No commands for `/usr/include/wchar.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/wchar.h'.
+      Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+       Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' and no prerequisites actually changed.
+      No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Considering target file `/usr/include/bits/stdio_lim.h'.
+       Finished prerequisites of target file `/usr/include/bits/stdio_lim.h'.
+      No commands for `/usr/include/bits/stdio_lim.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/stdio_lim.h'.
+      Considering target file `/usr/include/bits/sys_errlist.h'.
+       Finished prerequisites of target file `/usr/include/bits/sys_errlist.h'.
+      No commands for `/usr/include/bits/sys_errlist.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/sys_errlist.h'.
+      Considering target file `/usr/include/bits/stdio.h'.
+       Finished prerequisites of target file `/usr/include/bits/stdio.h'.
+      No commands for `/usr/include/bits/stdio.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/stdio.h'.
+      Considering target file `/usr/include/bits/stdio2.h'.
+       Finished prerequisites of target file `/usr/include/bits/stdio2.h'.
+      No commands for `/usr/include/bits/stdio2.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/stdio2.h'.
+      Considering target file `/usr/include/stdlib.h'.
+       Finished prerequisites of target file `/usr/include/stdlib.h'.
+      No commands for `/usr/include/stdlib.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/stdlib.h'.
+      Considering target file `/usr/include/sys/types.h'.
+       Finished prerequisites of target file `/usr/include/sys/types.h'.
+      No commands for `/usr/include/sys/types.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/types.h'.
+      Considering target file `/usr/include/time.h'.
+       Finished prerequisites of target file `/usr/include/time.h'.
+      No commands for `/usr/include/time.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/time.h'.
+      Considering target file `/usr/include/sys/select.h'.
+       Finished prerequisites of target file `/usr/include/sys/select.h'.
+      No commands for `/usr/include/sys/select.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/select.h'.
+      Considering target file `/usr/include/bits/select.h'.
+       Finished prerequisites of target file `/usr/include/bits/select.h'.
+      No commands for `/usr/include/bits/select.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/select.h'.
+      Considering target file `/usr/include/bits/sigset.h'.
+       Finished prerequisites of target file `/usr/include/bits/sigset.h'.
+      No commands for `/usr/include/bits/sigset.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/sigset.h'.
+      Considering target file `/usr/include/bits/time.h'.
+       Finished prerequisites of target file `/usr/include/bits/time.h'.
+      No commands for `/usr/include/bits/time.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/time.h'.
+      Considering target file `/usr/include/sys/sysmacros.h'.
+       Finished prerequisites of target file `/usr/include/sys/sysmacros.h'.
+      No commands for `/usr/include/sys/sysmacros.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/sysmacros.h'.
+      Considering target file `/usr/include/bits/pthreadtypes.h'.
+       Finished prerequisites of target file `/usr/include/bits/pthreadtypes.h'.
+      No commands for `/usr/include/bits/pthreadtypes.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/pthreadtypes.h'.
+      Considering target file `/usr/include/alloca.h'.
+       Finished prerequisites of target file `/usr/include/alloca.h'.
+      No commands for `/usr/include/alloca.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/alloca.h'.
+      Considering target file `/usr/include/bits/stdlib.h'.
+       Finished prerequisites of target file `/usr/include/bits/stdlib.h'.
+      No commands for `/usr/include/bits/stdlib.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/stdlib.h'.
+      Considering target file `/usr/include/string.h'.
+       Finished prerequisites of target file `/usr/include/string.h'.
+      No commands for `/usr/include/string.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/string.h'.
+      Considering target file `/usr/include/bits/string.h'.
+       Finished prerequisites of target file `/usr/include/bits/string.h'.
+      No commands for `/usr/include/bits/string.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/string.h'.
+      Considering target file `/usr/include/bits/string2.h'.
+       Finished prerequisites of target file `/usr/include/bits/string2.h'.
+      No commands for `/usr/include/bits/string2.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/string2.h'.
+      Considering target file `/usr/include/bits/string3.h'.
+       Finished prerequisites of target file `/usr/include/bits/string3.h'.
+      No commands for `/usr/include/bits/string3.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/string3.h'.
+      Considering target file `/usr/include/unistd.h'.
+       Finished prerequisites of target file `/usr/include/unistd.h'.
+      No commands for `/usr/include/unistd.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/unistd.h'.
+      Considering target file `/usr/include/bits/posix_opt.h'.
+       Finished prerequisites of target file `/usr/include/bits/posix_opt.h'.
+      No commands for `/usr/include/bits/posix_opt.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/posix_opt.h'.
+      Considering target file `/usr/include/bits/confname.h'.
+       Finished prerequisites of target file `/usr/include/bits/confname.h'.
+      No commands for `/usr/include/bits/confname.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/confname.h'.
+      Considering target file `/usr/include/getopt.h'.
+       Finished prerequisites of target file `/usr/include/getopt.h'.
+      No commands for `/usr/include/getopt.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/getopt.h'.
+      Considering target file `/usr/include/bits/unistd.h'.
+       Finished prerequisites of target file `/usr/include/bits/unistd.h'.
+      No commands for `/usr/include/bits/unistd.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/unistd.h'.
+      Considering target file `/usr/include/sys/stat.h'.
+       Finished prerequisites of target file `/usr/include/sys/stat.h'.
+      No commands for `/usr/include/sys/stat.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/stat.h'.
+      Considering target file `/usr/include/bits/stat.h'.
+       Finished prerequisites of target file `/usr/include/bits/stat.h'.
+      No commands for `/usr/include/bits/stat.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/stat.h'.
+      Considering target file `/usr/include/sys/time.h'.
+       Finished prerequisites of target file `/usr/include/sys/time.h'.
+      No commands for `/usr/include/sys/time.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/time.h'.
+      Considering target file `scripts/kconfig/lkc.h'.
+       Finished prerequisites of target file `scripts/kconfig/lkc.h'.
+      No commands for `scripts/kconfig/lkc.h' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lkc.h'.
+      Considering target file `scripts/kconfig/expr.h'.
+       Finished prerequisites of target file `scripts/kconfig/expr.h'.
+      No commands for `scripts/kconfig/expr.h' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/expr.h'.
+      Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+       Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' and no prerequisites actually changed.
+      No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Considering target file `/usr/include/libintl.h'.
+       Finished prerequisites of target file `/usr/include/libintl.h'.
+      No commands for `/usr/include/libintl.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/libintl.h'.
+      Considering target file `scripts/kconfig/lkc_proto.h'.
+       Finished prerequisites of target file `scripts/kconfig/lkc_proto.h'.
+      No commands for `scripts/kconfig/lkc_proto.h' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lkc_proto.h'.
+     Finished prerequisites of target file `scripts/kconfig/conf.o'.
+     Prerequisite `scripts/kconfig/conf.c' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/conf.o' does not exist.
+     Prerequisite `scripts/kconfig/conf.c' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/sys/stat.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/bits/stat.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/sys/time.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `scripts/kconfig/lkc.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `scripts/kconfig/expr.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/conf.o'.
+     Prerequisite `scripts/kconfig/lkc_proto.h' is older than target `scripts/kconfig/conf.o'.
+    Must remake target `scripts/kconfig/conf.o'.
+    Successfully remade target file `scripts/kconfig/conf.o'.
+    Considering target file `scripts/kconfig/kxgettext.o'.
+      Considering target file `scripts/kconfig/kxgettext.c'.
+       Finished prerequisites of target file `scripts/kconfig/kxgettext.c'.
+      No commands for `scripts/kconfig/kxgettext.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/kxgettext.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/kxgettext.c'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `scripts/kconfig/lkc.h'.
+      Pruning file `scripts/kconfig/expr.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `scripts/kconfig/lkc_proto.h'.
+     Finished prerequisites of target file `scripts/kconfig/kxgettext.o'.
+     Prerequisite `scripts/kconfig/kxgettext.c' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/kxgettext.o' does not exist.
+     Prerequisite `scripts/kconfig/kxgettext.c' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `scripts/kconfig/lkc.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `scripts/kconfig/expr.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/kxgettext.o'.
+     Prerequisite `scripts/kconfig/lkc_proto.h' is older than target `scripts/kconfig/kxgettext.o'.
+    Must remake target `scripts/kconfig/kxgettext.o'.
+    Successfully remade target file `scripts/kconfig/kxgettext.o'.
+    Considering target file `scripts/kconfig/lxdialog/checklist.o'.
+      Considering target file `scripts/kconfig/lxdialog/checklist.c'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/checklist.c'.
+      No commands for `scripts/kconfig/lxdialog/checklist.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/checklist.c'.
+      Pruning file `FORCE'.
+      Considering target file `scripts/kconfig/dochecklxdialog'.
+       File `scripts/kconfig/dochecklxdialog' does not exist.
+       Finished prerequisites of target file `scripts/kconfig/dochecklxdialog'.
+      Must remake target `scripts/kconfig/dochecklxdialog'.
+/bin/bash /home/miku/linux-2.6.35-farsight/scripts/kconfig/lxdialog/check-lxdialog.sh -check gcc -DCURSES_LOC="<ncurses.h>" -DLOCALE  -lncurses
+      Successfully remade target file `scripts/kconfig/dochecklxdialog'.
+      Pruning file `scripts/kconfig/lxdialog/checklist.c'.
+      Considering target file `scripts/kconfig/lxdialog/dialog.h'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/dialog.h'.
+      No commands for `scripts/kconfig/lxdialog/dialog.h' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Considering target file `/usr/include/fcntl.h'.
+       Finished prerequisites of target file `/usr/include/fcntl.h'.
+      No commands for `/usr/include/fcntl.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/fcntl.h'.
+      Considering target file `/usr/include/bits/fcntl.h'.
+       Finished prerequisites of target file `/usr/include/bits/fcntl.h'.
+      No commands for `/usr/include/bits/fcntl.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/fcntl.h'.
+      Considering target file `/usr/include/bits/fcntl2.h'.
+       Finished prerequisites of target file `/usr/include/bits/fcntl2.h'.
+      No commands for `/usr/include/bits/fcntl2.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/fcntl2.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Considering target file `/usr/include/ncurses.h'.
+       Finished prerequisites of target file `/usr/include/ncurses.h'.
+      No commands for `/usr/include/ncurses.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/ncurses.h'.
+      Considering target file `/usr/include/ncurses_dll.h'.
+       Finished prerequisites of target file `/usr/include/ncurses_dll.h'.
+      No commands for `/usr/include/ncurses_dll.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Considering target file `/usr/include/unctrl.h'.
+       Finished prerequisites of target file `/usr/include/unctrl.h'.
+      No commands for `/usr/include/unctrl.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/unctrl.h'.
+      Considering target file `/usr/include/curses.h'.
+       Finished prerequisites of target file `/usr/include/curses.h'.
+      No commands for `/usr/include/curses.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `scripts/kconfig/lxdialog/checklist.c' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/lxdialog/checklist.o' does not exist.
+     Prerequisite `scripts/kconfig/dochecklxdialog' of target `scripts/kconfig/lxdialog/checklist.o' does not exist.
+     Prerequisite `scripts/kconfig/lxdialog/checklist.c' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/lxdialog/checklist.o'.
+    Must remake target `scripts/kconfig/lxdialog/checklist.o'.
+    Successfully remade target file `scripts/kconfig/lxdialog/checklist.o'.
+    Considering target file `scripts/kconfig/lxdialog/inputbox.o'.
+      Considering target file `scripts/kconfig/lxdialog/inputbox.c'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/inputbox.c'.
+      No commands for `scripts/kconfig/lxdialog/inputbox.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/inputbox.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/dochecklxdialog'.
+      Pruning file `scripts/kconfig/lxdialog/inputbox.c'.
+      Pruning file `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `/usr/include/ncurses.h'.
+      Pruning file `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/include/unctrl.h'.
+      Pruning file `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `scripts/kconfig/lxdialog/inputbox.c' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/lxdialog/inputbox.o' does not exist.
+     Prerequisite `scripts/kconfig/dochecklxdialog' of target `scripts/kconfig/lxdialog/inputbox.o' does not exist.
+     Prerequisite `scripts/kconfig/lxdialog/inputbox.c' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/lxdialog/inputbox.o'.
+    Must remake target `scripts/kconfig/lxdialog/inputbox.o'.
+    Successfully remade target file `scripts/kconfig/lxdialog/inputbox.o'.
+    Considering target file `scripts/kconfig/lxdialog/menubox.o'.
+      Considering target file `scripts/kconfig/lxdialog/menubox.c'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/menubox.c'.
+      No commands for `scripts/kconfig/lxdialog/menubox.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/menubox.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/dochecklxdialog'.
+      Pruning file `scripts/kconfig/lxdialog/menubox.c'.
+      Pruning file `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `/usr/include/ncurses.h'.
+      Pruning file `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/include/unctrl.h'.
+      Pruning file `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `scripts/kconfig/lxdialog/menubox.c' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/lxdialog/menubox.o' does not exist.
+     Prerequisite `scripts/kconfig/dochecklxdialog' of target `scripts/kconfig/lxdialog/menubox.o' does not exist.
+     Prerequisite `scripts/kconfig/lxdialog/menubox.c' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/lxdialog/menubox.o'.
+    Must remake target `scripts/kconfig/lxdialog/menubox.o'.
+    Successfully remade target file `scripts/kconfig/lxdialog/menubox.o'.
+    Considering target file `scripts/kconfig/lxdialog/textbox.o'.
+      Considering target file `scripts/kconfig/lxdialog/textbox.c'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/textbox.c'.
+      No commands for `scripts/kconfig/lxdialog/textbox.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/textbox.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/dochecklxdialog'.
+      Pruning file `scripts/kconfig/lxdialog/textbox.c'.
+      Pruning file `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `/usr/include/ncurses.h'.
+      Pruning file `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/include/unctrl.h'.
+      Pruning file `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `scripts/kconfig/lxdialog/textbox.c' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/lxdialog/textbox.o' does not exist.
+     Prerequisite `scripts/kconfig/dochecklxdialog' of target `scripts/kconfig/lxdialog/textbox.o' does not exist.
+     Prerequisite `scripts/kconfig/lxdialog/textbox.c' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/lxdialog/textbox.o'.
+    Must remake target `scripts/kconfig/lxdialog/textbox.o'.
+    Successfully remade target file `scripts/kconfig/lxdialog/textbox.o'.
+    Considering target file `scripts/kconfig/lxdialog/util.o'.
+      Considering target file `scripts/kconfig/lxdialog/util.c'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/util.c'.
+      No commands for `scripts/kconfig/lxdialog/util.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/util.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/dochecklxdialog'.
+      Pruning file `scripts/kconfig/lxdialog/util.c'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `/usr/include/ncurses.h'.
+      Pruning file `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/include/unctrl.h'.
+      Pruning file `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `scripts/kconfig/lxdialog/util.c' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/lxdialog/util.o' does not exist.
+     Prerequisite `scripts/kconfig/dochecklxdialog' of target `scripts/kconfig/lxdialog/util.o' does not exist.
+     Prerequisite `scripts/kconfig/lxdialog/util.c' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/lxdialog/util.o'.
+    Must remake target `scripts/kconfig/lxdialog/util.o'.
+    Successfully remade target file `scripts/kconfig/lxdialog/util.o'.
+    Considering target file `scripts/kconfig/lxdialog/yesno.o'.
+      Considering target file `scripts/kconfig/lxdialog/yesno.c'.
+       Finished prerequisites of target file `scripts/kconfig/lxdialog/yesno.c'.
+      No commands for `scripts/kconfig/lxdialog/yesno.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/lxdialog/yesno.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/dochecklxdialog'.
+      Pruning file `scripts/kconfig/lxdialog/yesno.c'.
+      Pruning file `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `/usr/include/ncurses.h'.
+      Pruning file `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/include/unctrl.h'.
+      Pruning file `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `scripts/kconfig/lxdialog/yesno.c' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/lxdialog/yesno.o' does not exist.
+     Prerequisite `scripts/kconfig/dochecklxdialog' of target `scripts/kconfig/lxdialog/yesno.o' does not exist.
+     Prerequisite `scripts/kconfig/lxdialog/yesno.c' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/lxdialog/yesno.o'.
+    Must remake target `scripts/kconfig/lxdialog/yesno.o'.
+    Successfully remade target file `scripts/kconfig/lxdialog/yesno.o'.
+    Considering target file `scripts/kconfig/mconf.o'.
+      Considering target file `scripts/kconfig/mconf.c'.
+       Finished prerequisites of target file `scripts/kconfig/mconf.c'.
+      No commands for `scripts/kconfig/mconf.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/mconf.c'.
+      Pruning file `FORCE'.
+      Pruning file `scripts/kconfig/mconf.c'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Considering target file `/usr/include/errno.h'.
+       Finished prerequisites of target file `/usr/include/errno.h'.
+      No commands for `/usr/include/errno.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/errno.h'.
+      Considering target file `/usr/include/bits/errno.h'.
+       Finished prerequisites of target file `/usr/include/bits/errno.h'.
+      No commands for `/usr/include/bits/errno.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/errno.h'.
+      Considering target file `/usr/include/linux/errno.h'.
+       Finished prerequisites of target file `/usr/include/linux/errno.h'.
+      No commands for `/usr/include/linux/errno.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/linux/errno.h'.
+      Considering target file `/usr/include/asm/errno.h'.
+       Finished prerequisites of target file `/usr/include/asm/errno.h'.
+      No commands for `/usr/include/asm/errno.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/asm/errno.h'.
+      Considering target file `/usr/include/asm-generic/errno.h'.
+       Finished prerequisites of target file `/usr/include/asm-generic/errno.h'.
+      No commands for `/usr/include/asm-generic/errno.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/asm-generic/errno.h'.
+      Considering target file `/usr/include/asm-generic/errno-base.h'.
+       Finished prerequisites of target file `/usr/include/asm-generic/errno-base.h'.
+      No commands for `/usr/include/asm-generic/errno-base.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/asm-generic/errno-base.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+       Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+      No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h' and no prerequisites actually changed.
+      No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+      Considering target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+       Finished prerequisites of target file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+      No commands for `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h' and no prerequisites actually changed.
+      No need to remake target `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+      Considering target file `/usr/include/limits.h'.
+       Finished prerequisites of target file `/usr/include/limits.h'.
+      No commands for `/usr/include/limits.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/limits.h'.
+      Considering target file `/usr/include/bits/posix1_lim.h'.
+       Finished prerequisites of target file `/usr/include/bits/posix1_lim.h'.
+      No commands for `/usr/include/bits/posix1_lim.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/posix1_lim.h'.
+      Considering target file `/usr/include/bits/local_lim.h'.
+       Finished prerequisites of target file `/usr/include/bits/local_lim.h'.
+      No commands for `/usr/include/bits/local_lim.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/local_lim.h'.
+      Considering target file `/usr/include/linux/limits.h'.
+       Finished prerequisites of target file `/usr/include/linux/limits.h'.
+      No commands for `/usr/include/linux/limits.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/linux/limits.h'.
+      Considering target file `/usr/include/bits/posix2_lim.h'.
+       Finished prerequisites of target file `/usr/include/bits/posix2_lim.h'.
+      No commands for `/usr/include/bits/posix2_lim.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/posix2_lim.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `scripts/kconfig/lkc.h'.
+      Pruning file `scripts/kconfig/expr.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `scripts/kconfig/lkc_proto.h'.
+      Pruning file `scripts/kconfig/lxdialog/dialog.h'.
+      Pruning file `/usr/include/ncurses.h'.
+      Pruning file `/usr/include/ncurses_dll.h'.
+      Pruning file `/usr/include/unctrl.h'.
+      Pruning file `/usr/include/curses.h'.
+     Finished prerequisites of target file `scripts/kconfig/mconf.o'.
+     Prerequisite `scripts/kconfig/mconf.c' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/mconf.o' does not exist.
+     Prerequisite `scripts/kconfig/mconf.c' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/errno.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/errno.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/linux/errno.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/asm/errno.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/asm-generic/errno.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/asm-generic/errno-base.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/limits.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/posix1_lim.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/local_lim.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/linux/limits.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/posix2_lim.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `scripts/kconfig/lkc.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `scripts/kconfig/expr.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `scripts/kconfig/lkc_proto.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `scripts/kconfig/lxdialog/dialog.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/ncurses.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/ncurses_dll.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/unctrl.h' is older than target `scripts/kconfig/mconf.o'.
+     Prerequisite `/usr/include/curses.h' is older than target `scripts/kconfig/mconf.o'.
+    Must remake target `scripts/kconfig/mconf.o'.
+    Successfully remade target file `scripts/kconfig/mconf.o'.
+    Considering target file `scripts/kconfig/zconf.tab.o'.
+      Considering target file `scripts/kconfig/zconf.tab.c'.
+        Considering target file `scripts/kconfig/zconf.tab.c_shipped'.
+         Finished prerequisites of target file `scripts/kconfig/zconf.tab.c_shipped'.
+        No need to remake target `scripts/kconfig/zconf.tab.c_shipped'.
+       Finished prerequisites of target file `scripts/kconfig/zconf.tab.c'.
+       Prerequisite `scripts/kconfig/zconf.tab.c_shipped' is older than target `scripts/kconfig/zconf.tab.c'.
+      No need to remake target `scripts/kconfig/zconf.tab.c'.
+      Pruning file `FORCE'.
+      Considering target file `scripts/kconfig/lex.zconf.c'.
+        Considering target file `scripts/kconfig/lex.zconf.c_shipped'.
+         Finished prerequisites of target file `scripts/kconfig/lex.zconf.c_shipped'.
+        No need to remake target `scripts/kconfig/lex.zconf.c_shipped'.
+       Finished prerequisites of target file `scripts/kconfig/lex.zconf.c'.
+       Prerequisite `scripts/kconfig/lex.zconf.c_shipped' is older than target `scripts/kconfig/lex.zconf.c'.
+      No need to remake target `scripts/kconfig/lex.zconf.c'.
+      Considering target file `scripts/kconfig/zconf.hash.c'.
+        Considering target file `scripts/kconfig/zconf.hash.c_shipped'.
+         Finished prerequisites of target file `scripts/kconfig/zconf.hash.c_shipped'.
+        No need to remake target `scripts/kconfig/zconf.hash.c_shipped'.
+       Finished prerequisites of target file `scripts/kconfig/zconf.hash.c'.
+       Prerequisite `scripts/kconfig/zconf.hash.c_shipped' is older than target `scripts/kconfig/zconf.hash.c'.
+      No need to remake target `scripts/kconfig/zconf.hash.c'.
+      Pruning file `scripts/kconfig/zconf.tab.c'.
+      Pruning file `/usr/include/ctype.h'.
+      Pruning file `/usr/include/features.h'.
+      Pruning file `/usr/include/bits/predefs.h'.
+      Pruning file `/usr/include/sys/cdefs.h'.
+      Pruning file `/usr/include/bits/wordsize.h'.
+      Pruning file `/usr/include/gnu/stubs.h'.
+      Pruning file `/usr/include/gnu/stubs-64.h'.
+      Pruning file `/usr/include/bits/types.h'.
+      Pruning file `/usr/include/bits/typesizes.h'.
+      Pruning file `/usr/include/endian.h'.
+      Pruning file `/usr/include/bits/endian.h'.
+      Pruning file `/usr/include/bits/byteswap.h'.
+      Pruning file `/usr/include/xlocale.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h'.
+      Pruning file `/usr/include/stdio.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h'.
+      Pruning file `/usr/include/libio.h'.
+      Pruning file `/usr/include/_G_config.h'.
+      Pruning file `/usr/include/wchar.h'.
+      Pruning file `/usr/include/bits/stdio_lim.h'.
+      Pruning file `/usr/include/bits/sys_errlist.h'.
+      Pruning file `/usr/include/bits/stdio.h'.
+      Pruning file `/usr/include/bits/stdio2.h'.
+      Pruning file `/usr/include/stdlib.h'.
+      Pruning file `/usr/include/sys/types.h'.
+      Pruning file `/usr/include/time.h'.
+      Pruning file `/usr/include/sys/select.h'.
+      Pruning file `/usr/include/bits/select.h'.
+      Pruning file `/usr/include/bits/sigset.h'.
+      Pruning file `/usr/include/bits/time.h'.
+      Pruning file `/usr/include/sys/sysmacros.h'.
+      Pruning file `/usr/include/bits/pthreadtypes.h'.
+      Pruning file `/usr/include/alloca.h'.
+      Pruning file `/usr/include/bits/stdlib.h'.
+      Pruning file `/usr/include/string.h'.
+      Pruning file `/usr/include/bits/string.h'.
+      Pruning file `/usr/include/bits/string2.h'.
+      Pruning file `/usr/include/bits/string3.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h'.
+      Pruning file `scripts/kconfig/lkc.h'.
+      Pruning file `scripts/kconfig/expr.h'.
+      Pruning file `/usr/include/libintl.h'.
+      Pruning file `/usr/include/locale.h'.
+      Pruning file `/usr/include/bits/locale.h'.
+      Pruning file `scripts/kconfig/lkc_proto.h'.
+      Pruning file `scripts/kconfig/zconf.hash.c'.
+      Pruning file `scripts/kconfig/lex.zconf.c'.
+      Pruning file `/usr/include/errno.h'.
+      Pruning file `/usr/include/bits/errno.h'.
+      Pruning file `/usr/include/linux/errno.h'.
+      Pruning file `/usr/include/asm/errno.h'.
+      Pruning file `/usr/include/asm-generic/errno.h'.
+      Pruning file `/usr/include/asm-generic/errno-base.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h'.
+      Pruning file `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h'.
+      Pruning file `/usr/include/limits.h'.
+      Pruning file `/usr/include/bits/posix1_lim.h'.
+      Pruning file `/usr/include/bits/local_lim.h'.
+      Pruning file `/usr/include/linux/limits.h'.
+      Pruning file `/usr/include/bits/posix2_lim.h'.
+      Pruning file `/usr/include/unistd.h'.
+      Pruning file `/usr/include/bits/posix_opt.h'.
+      Pruning file `/usr/include/bits/confname.h'.
+      Pruning file `/usr/include/getopt.h'.
+      Pruning file `/usr/include/bits/unistd.h'.
+      Considering target file `scripts/kconfig/util.c'.
+       Finished prerequisites of target file `scripts/kconfig/util.c'.
+      No commands for `scripts/kconfig/util.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/util.c'.
+      Considering target file `scripts/kconfig/confdata.c'.
+       Finished prerequisites of target file `scripts/kconfig/confdata.c'.
+      No commands for `scripts/kconfig/confdata.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/confdata.c'.
+      Pruning file `/usr/include/sys/stat.h'.
+      Pruning file `/usr/include/bits/stat.h'.
+      Pruning file `/usr/include/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl.h'.
+      Pruning file `/usr/include/bits/fcntl2.h'.
+      Considering target file `scripts/kconfig/expr.c'.
+       Finished prerequisites of target file `scripts/kconfig/expr.c'.
+      No commands for `scripts/kconfig/expr.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/expr.c'.
+      Considering target file `scripts/kconfig/symbol.c'.
+       Finished prerequisites of target file `scripts/kconfig/symbol.c'.
+      No commands for `scripts/kconfig/symbol.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/symbol.c'.
+      Considering target file `/usr/include/regex.h'.
+       Finished prerequisites of target file `/usr/include/regex.h'.
+      No commands for `/usr/include/regex.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/regex.h'.
+      Considering target file `/usr/include/gnu/option-groups.h'.
+       Finished prerequisites of target file `/usr/include/gnu/option-groups.h'.
+      No commands for `/usr/include/gnu/option-groups.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/gnu/option-groups.h'.
+      Considering target file `/usr/include/sys/utsname.h'.
+       Finished prerequisites of target file `/usr/include/sys/utsname.h'.
+      No commands for `/usr/include/sys/utsname.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/sys/utsname.h'.
+      Considering target file `/usr/include/bits/utsname.h'.
+       Finished prerequisites of target file `/usr/include/bits/utsname.h'.
+      No commands for `/usr/include/bits/utsname.h' and no prerequisites actually changed.
+      No need to remake target `/usr/include/bits/utsname.h'.
+      Considering target file `scripts/kconfig/menu.c'.
+       Finished prerequisites of target file `scripts/kconfig/menu.c'.
+      No commands for `scripts/kconfig/menu.c' and no prerequisites actually changed.
+      No need to remake target `scripts/kconfig/menu.c'.
+     Finished prerequisites of target file `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/zconf.tab.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `FORCE' of target `scripts/kconfig/zconf.tab.o' does not exist.
+     Prerequisite `scripts/kconfig/lex.zconf.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/zconf.hash.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/zconf.tab.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/ctype.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/features.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/predefs.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/gnu/stubs-64.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/stdio.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/stdio2.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/time.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/stdlib.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/string.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/string.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/string2.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/string3.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdbool.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/lkc.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/expr.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/libintl.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/locale.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/locale.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/lkc_proto.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/zconf.hash.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/lex.zconf.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/errno.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/errno.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/linux/errno.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/asm/errno.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/asm-generic/errno.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/asm-generic/errno-base.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/limits.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed/syslimits.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/limits.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/posix1_lim.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/local_lim.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/linux/limits.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/posix2_lim.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/unistd.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/util.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/confdata.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/sys/stat.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/stat.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/fcntl.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/fcntl.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/fcntl2.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/expr.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/symbol.c' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/regex.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/gnu/option-groups.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/sys/utsname.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `/usr/include/bits/utsname.h' is older than target `scripts/kconfig/zconf.tab.o'.
+     Prerequisite `scripts/kconfig/menu.c' is older than target `scripts/kconfig/zconf.tab.o'.
+    Must remake target `scripts/kconfig/zconf.tab.o'.
+    Successfully remade target file `scripts/kconfig/zconf.tab.o'.
+    Pruning file `FORCE'.
+   Finished prerequisites of target file `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/conf.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/kxgettext.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/lxdialog/checklist.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/lxdialog/inputbox.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/lxdialog/menubox.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/lxdialog/textbox.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/lxdialog/util.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/lxdialog/yesno.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/mconf.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `scripts/kconfig/zconf.tab.o' is newer than target `scripts/kconfig/mconf'.
+   Prerequisite `FORCE' of target `scripts/kconfig/mconf' does not exist.
+  Must remake target `scripts/kconfig/mconf'.
+set -e;  echo '  HOSTLD  scripts/kconfig/mconf'; gcc  -o scripts/kconfig/mconf scripts/kconfig/mconf.o scripts/kconfig/zconf.tab.o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/menubox.o -lncurses ; echo 'cmd_scripts/kconfig/mconf := gcc  -o scripts/kconfig/mconf scripts/kconfig/mconf.o scripts/kconfig/zconf.tab.o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/menubox.o -lncurses ' > scripts/kconfig/.mconf.cmd
+  Successfully remade target file `scripts/kconfig/mconf'.
+ Finished prerequisites of target file `menuconfig'.
+Must remake target `menuconfig'.
+scripts/kconfig/mconf arch/arm/Kconfig
+Successfully remade target file `menuconfig'.
+Successfully remade target file `menuconfig'.
+make: Leaving directory `/home/miku/linux-2.6.35-farsight'
